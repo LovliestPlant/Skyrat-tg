@@ -23,6 +23,11 @@ map tinystation
 	maxplayers 10
 endmap
 
+map plasmalake
+	votable
+	minplayers 5
+endmap
+
 #map metastation
 #	minplayers 25
 #	#voteweight 0.5

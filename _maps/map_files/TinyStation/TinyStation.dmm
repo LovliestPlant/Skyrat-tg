@@ -105,6 +105,14 @@
 /area/station/science/research{
 	has_gravity = 1
 	})
+"aS" = (
+/obj/machinery/atmospherics/components/unary/thermomachine/freezer/on{
+	dir = 1
+	},
+/turf/open/floor/engine,
+/area/misc/survivalpod{
+	name = "\improper Supermatter in a Box"
+	})
 "aX" = (
 /obj/machinery/griddle,
 /obj/machinery/light_switch/directional/west,
@@ -131,6 +139,28 @@
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/turret_protected/ai{
 	has_gravity = 1
+	})
+"bm" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 8;
+	scrubbing = 0;
+	widenet = 1;
+	piping_layer = 1
+	},
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple/layer2{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
+	dir = 5
+	},
+/turf/open/floor/engine/proto_nitrate{
+	initial_gas_mix = "proto_nitrate=1000;TEMP=73"
+	},
+/area/misc/survivalpod{
+	name = "\improper Supermatter in a Box"
 	})
 "bo" = (
 /obj/effect/landmark/navigate_destination/hydro,
@@ -412,12 +442,34 @@
 /area/station/medical/medbay/lobby{
 	has_gravity = 1
 	})
+"et" = (
+/obj/machinery/atmospherics/components/trinary/filter/atmos/o2{
+	dir = 8;
+	piping_layer = 2
+	},
+/turf/closed/wall/r_wall,
+/area/misc/survivalpod{
+	name = "\improper Atmosia in a Box"
+	})
+"ew" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible/layer1,
+/turf/closed/wall/r_wall,
+/area/misc/survivalpod{
+	name = "\improper Supermatter in a Box"
+	})
 "eQ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/white,
 /area/station/science/research{
 	has_gravity = 1
+	})
+"eR" = (
+/obj/machinery/atmospherics/components/unary/outlet_injector/monitored/air_input,
+/obj/effect/turf_decal/trimline/white/filled/end,
+/turf/open/floor/engine/air,
+/area/misc/survivalpod{
+	name = "\improper Atmosia in a Box"
 	})
 "eW" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -477,6 +529,14 @@
 /turf/open/floor/engine,
 /area/station/engineering/supermatter/room{
 	has_gravity = 1
+	})
+"fS" = (
+/obj/machinery/power/energy_accumulator/tesla_coil/anchored,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible/layer1,
+/obj/structure/cable,
+/turf/open/floor/engine,
+/area/misc/survivalpod{
+	name = "\improper Supermatter in a Box"
 	})
 "fU" = (
 /obj/structure/table/wood/fancy/blue,
@@ -903,6 +963,11 @@
 /area/station/engineering/supermatter/room{
 	has_gravity = 1
 	})
+"jU" = (
+/turf/open/floor/plating/airless,
+/area/misc/survivalpod{
+	name = "\improper Atmosia in a Box"
+	})
 "km" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
@@ -1130,6 +1195,15 @@
 /area/station/engineering/supermatter{
 	has_gravity = 1
 	})
+"mt" = (
+/obj/machinery/atmospherics/components/unary/passive_vent{
+	dir = 1;
+	piping_layer = 1
+	},
+/turf/open/floor/plating/airless,
+/area/misc/survivalpod{
+	name = "\improper Supermatter in a Box"
+	})
 "mC" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
@@ -1254,6 +1328,17 @@
 /area/station/hallway/primary/fore{
 	has_gravity = 1
 	})
+"nB" = (
+/obj/machinery/door/airlock/engineering/glass/critical{
+	heat_proof = 1;
+	name = "Supermatter Chamber"
+	},
+/obj/structure/fans/tiny,
+/obj/machinery/door/firedoor,
+/turf/open/floor/plating,
+/area/misc/survivalpod{
+	name = "\improper Supermatter in a Box"
+	})
 "nF" = (
 /obj/machinery/airalarm/directional/south,
 /obj/structure/cable,
@@ -1319,6 +1404,7 @@
 	heat_proof = 1;
 	name = "Supermatter Chamber"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/station/engineering/supermatter/room{
 	has_gravity = 1
@@ -1389,6 +1475,21 @@
 /turf/open/floor/iron,
 /area/station/service/hydroponics{
 	has_gravity = 1
+	})
+"oF" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/engine,
+/area/misc/survivalpod{
+	name = "\improper Atmosia in a Box"
 	})
 "oJ" = (
 /turf/closed/wall/r_wall,
@@ -1522,6 +1623,13 @@
 /area/station/commons/dorms{
 	has_gravity = 1
 	})
+"qf" = (
+/obj/machinery/atmospherics/pipe/layer_manifold/visible,
+/obj/structure/cable,
+/turf/open/floor/engine,
+/area/misc/survivalpod{
+	name = "\improper Supermatter in a Box"
+	})
 "qn" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
@@ -1554,6 +1662,15 @@
 /turf/open/floor/engine,
 /area/station/engineering/atmos{
 	has_gravity = 1
+	})
+"qE" = (
+/obj/machinery/portable_atmospherics/canister/plasma,
+/obj/machinery/atmospherics/components/unary/portables_connector/visible{
+	dir = 8
+	},
+/turf/open/floor/engine,
+/area/misc/survivalpod{
+	name = "\improper Supermatter in a Box"
 	})
 "qG" = (
 /obj/machinery/telecomms/processor/preset_two,
@@ -1781,10 +1898,47 @@
 /obj/machinery/newscaster/directional/west,
 /turf/open/floor/iron,
 /area/station/hallway/secondary/entry)
+"tg" = (
+/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible{
+	dir = 10
+	},
+/obj/machinery/atmospherics/components/unary/thermomachine{
+	piping_layer = 4;
+	on = 1
+	},
+/obj/machinery/airalarm/directional/north,
+/obj/machinery/firealarm/directional/east,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/end{
+	dir = 4
+	},
+/turf/open/floor/engine,
+/area/misc/survivalpod{
+	name = "\improper Atmosia in a Box"
+	})
 "th" = (
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/turret_protected{
 	has_gravity = 1
+	})
+"ti" = (
+/obj/structure/window/reinforced/plasma{
+	dir = 4
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/siphon/monitored/nitrogen_output{
+	dir = 1
+	},
+/obj/structure/window/reinforced/plasma{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/dark_red/filled/end{
+	dir = 1
+	},
+/turf/open/floor/engine/n2,
+/area/misc/survivalpod{
+	name = "\improper Atmosia in a Box"
 	})
 "tj" = (
 /turf/closed/wall,
@@ -1822,6 +1976,12 @@
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/iron,
 /area/station/hallway/secondary/entry)
+"tQ" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/closed/wall/r_wall,
+/area/misc/survivalpod{
+	name = "\improper Atmosia in a Box"
+	})
 "ue" = (
 /obj/structure/table,
 /obj/item/aicard,
@@ -2025,6 +2185,17 @@
 /area/station/engineering/supermatter/room{
 	has_gravity = 1
 	})
+"vV" = (
+/obj/machinery/power/energy_accumulator/grounding_rod/anchored,
+/obj/structure/window/reinforced/plasma{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible/layer1,
+/obj/structure/cable,
+/turf/open/floor/engine,
+/area/misc/survivalpod{
+	name = "\improper Supermatter in a Box"
+	})
 "vY" = (
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 6
@@ -2069,6 +2240,37 @@
 /turf/open/floor/iron/white,
 /area/station/hallway/primary/fore{
 	has_gravity = 1
+	})
+"wz" = (
+/obj/machinery/power/smes/engineering,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/turf/open/floor/engine,
+/area/misc/survivalpod{
+	name = "\improper Supermatter in a Box"
+	})
+"wA" = (
+/obj/machinery/atmospherics/components/unary/outlet_injector/on{
+	dir = 4;
+	volume_rate = 200;
+	piping_layer = 1
+	},
+/obj/machinery/power/supermatter_crystal/shard/engine,
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple/layer2{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple/layer4{
+	dir = 9
+	},
+/turf/open/floor/engine/proto_nitrate{
+	initial_gas_mix = "proto_nitrate=1000;TEMP=73"
+	},
+/area/misc/survivalpod{
+	name = "\improper Supermatter in a Box"
 	})
 "wE" = (
 /obj/effect/landmark/navigate_destination/kitchen,
@@ -2174,6 +2376,15 @@
 /area/station/tcommsat/server{
 	has_gravity = 1
 	})
+"xF" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/general/visible,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/engine,
+/area/misc/survivalpod{
+	name = "\improper Supermatter in a Box"
+	})
 "xG" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -2233,6 +2444,23 @@
 /area/station/service/bar/atrium{
 	has_gravity = 1
 	})
+"yh" = (
+/obj/machinery/power/energy_accumulator/tesla_coil/anchored,
+/obj/structure/window/reinforced/plasma,
+/obj/machinery/atmospherics/pipe/heat_exchanging/manifold/layer2{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/heat_exchanging/manifold/layer4{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/heat_exchanging/manifold{
+	dir = 8
+	},
+/obj/structure/cable,
+/turf/open/floor/engine,
+/area/misc/survivalpod{
+	name = "\improper Supermatter in a Box"
+	})
 "yk" = (
 /obj/structure/cable,
 /obj/machinery/airalarm/directional/north,
@@ -2289,6 +2517,24 @@
 	has_gravity = 1;
 	name = "\improper Lower Dorms"
 	})
+"yM" = (
+/obj/machinery/atmospherics/components/binary/pump/on{
+	dir = 8
+	},
+/obj/machinery/firealarm/directional/north{
+	pixel_x = 6
+	},
+/obj/machinery/button/door/directional/north{
+	id = "engsm_small";
+	name = "Radiation Shutters Control";
+	req_access = list("atmospherics");
+	pixel_x = -8
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/engine,
+/area/misc/survivalpod{
+	name = "\improper Supermatter in a Box"
+	})
 "yO" = (
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/iron,
@@ -2343,6 +2589,15 @@
 /area/station/engineering/supermatter{
 	has_gravity = 1
 	})
+"za" = (
+/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/closed/wall/r_wall,
+/area/misc/survivalpod{
+	name = "\improper Atmosia in a Box"
+	})
 "zc" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/stripes/line{
@@ -2370,6 +2625,21 @@
 /turf/open/floor/iron,
 /area/station/service/bar/atrium{
 	has_gravity = 1
+	})
+"zq" = (
+/obj/machinery/atmospherics/components/unary/passive_vent/layer2,
+/turf/open/floor/plating/airless,
+/area/misc/survivalpod{
+	name = "\improper Atmosia in a Box"
+	})
+"zr" = (
+/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/closed/wall/r_wall,
+/area/misc/survivalpod{
+	name = "\improper Atmosia in a Box"
 	})
 "zw" = (
 /obj/effect/landmark/start/research_director,
@@ -2441,6 +2711,58 @@
 /area/station/cargo/storage{
 	has_gravity = 1
 	})
+"Af" = (
+/obj/structure/window/reinforced/plasma{
+	dir = 8
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/siphon/monitored/oxygen_output{
+	dir = 1
+	},
+/obj/structure/window/reinforced/plasma{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/blue/filled/end{
+	dir = 1
+	},
+/turf/open/floor/engine/o2,
+/area/misc/survivalpod{
+	name = "\improper Atmosia in a Box"
+	})
+"Al" = (
+/obj/structure/window/reinforced/plasma{
+	dir = 4
+	},
+/obj/machinery/atmospherics/components/unary/outlet_injector/monitored/nitrogen_input{
+	piping_layer = 2
+	},
+/obj/effect/turf_decal/trimline/dark_red/filled/end,
+/turf/open/floor/engine/n2,
+/area/misc/survivalpod{
+	name = "\improper Atmosia in a Box"
+	})
+"Am" = (
+/obj/structure/cable,
+/obj/machinery/power/terminal{
+	dir = 4
+	},
+/obj/machinery/airalarm/engine{
+	pixel_y = -22
+	},
+/obj/structure/table,
+/obj/item/storage/belt/utility/full,
+/obj/item/tank/internals/emergency_oxygen/engi{
+	pixel_y = 5;
+	pixel_x = 4
+	},
+/obj/item/clothing/head/utility/welding{
+	pixel_x = -6;
+	pixel_y = 7
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/engine,
+/area/misc/survivalpod{
+	name = "\improper Supermatter in a Box"
+	})
 "Ao" = (
 /obj/machinery/atmospherics/pipe/smart/simple/violet/visible{
 	dir = 4
@@ -2485,6 +2807,22 @@
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/station/tcommsat/server{
 	has_gravity = 1
+	})
+"AZ" = (
+/obj/machinery/power/energy_accumulator/tesla_coil/anchored,
+/obj/structure/window/reinforced/plasma{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible/layer1,
+/obj/structure/cable,
+/turf/open/floor/engine,
+/area/misc/survivalpod{
+	name = "\improper Supermatter in a Box"
+	})
+"Ba" = (
+/turf/open/floor/plating/airless,
+/area/misc/survivalpod{
+	name = "\improper Supermatter in a Box"
 	})
 "Bk" = (
 /obj/effect/spawner/structure/window/reinforced,
@@ -2597,7 +2935,6 @@
 	name = "Server Room"
 	},
 /obj/structure/fans/tiny,
-/obj/machinery/door/firedoor,
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/station/tcommsat/server{
@@ -2653,6 +2990,26 @@
 /turf/open/floor/iron,
 /area/station/command/bridge{
 	has_gravity = 1
+	})
+"Dn" = (
+/obj/machinery/atmospherics/components/trinary/filter/atmos{
+	filter_type = list(/datum/gas/proto_nitrate,/datum/gas/nitrogen)
+	},
+/turf/closed/wall/r_wall,
+/area/misc/survivalpod{
+	name = "\improper Supermatter in a Box"
+	})
+"Dq" = (
+/obj/structure/window/reinforced/plasma{
+	dir = 8
+	},
+/obj/machinery/atmospherics/components/unary/outlet_injector/monitored/oxygen_input{
+	piping_layer = 2
+	},
+/obj/effect/turf_decal/trimline/blue/filled/end,
+/turf/open/floor/engine/o2,
+/area/misc/survivalpod{
+	name = "\improper Atmosia in a Box"
 	})
 "Dv" = (
 /obj/machinery/door/airlock/external{
@@ -2774,6 +3131,20 @@
 /area/station/science/research{
 	has_gravity = 1
 	})
+"EF" = (
+/turf/closed/wall/r_wall,
+/area/misc/survivalpod{
+	name = "\improper Supermatter in a Box"
+	})
+"EG" = (
+/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/closed/wall/r_wall,
+/area/misc/survivalpod{
+	name = "\improper Atmosia in a Box"
+	})
 "EH" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /obj/structure/closet/secure_closet/medical2,
@@ -2841,11 +3212,39 @@
 /area/station/cargo/storage{
 	has_gravity = 1
 	})
+"Fm" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/door/airlock/atmos{
+	name = "Atmospherics"
+	},
+/obj/structure/fans/tiny,
+/obj/machinery/door/firedoor,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/misc/survivalpod{
+	name = "\improper Atmosia in a Box"
+	})
 "Fr" = (
 /obj/machinery/suit_storage_unit/hos,
 /turf/open/floor/iron,
 /area/station/command/bridge{
 	has_gravity = 1
+	})
+"Fw" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/high_volume/siphon/monitored/air_output{
+	dir = 1;
+	piping_layer = 4
+	},
+/obj/structure/window/reinforced/plasma{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/white/filled/end{
+	dir = 1
+	},
+/turf/open/floor/engine/air,
+/area/misc/survivalpod{
+	name = "\improper Atmosia in a Box"
 	})
 "FC" = (
 /obj/vehicle/ridden/janicart,
@@ -2926,7 +3325,6 @@
 	has_gravity = 1
 	})
 "Gg" = (
-/obj/machinery/firealarm/directional/east,
 /obj/machinery/light_switch/directional/east,
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/station/tcommsat/server{
@@ -3179,6 +3577,23 @@
 /area/station/service/kitchen{
 	has_gravity = 1
 	})
+"Iz" = (
+/obj/machinery/power/energy_accumulator/tesla_coil/anchored,
+/obj/structure/window/reinforced/plasma,
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple/layer4{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple/layer2{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
+	dir = 10
+	},
+/obj/structure/cable,
+/turf/open/floor/engine,
+/area/misc/survivalpod{
+	name = "\improper Supermatter in a Box"
+	})
 "IB" = (
 /obj/effect/turf_decal/trimline/blue/filled/arrow_ccw{
 	dir = 1
@@ -3331,6 +3746,11 @@
 /turf/open/floor/iron,
 /area/station/tcommsat/computer{
 	has_gravity = 1
+	})
+"JV" = (
+/turf/closed/wall/r_wall,
+/area/misc/survivalpod{
+	name = "\improper Atmosia in a Box"
 	})
 "JX" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
@@ -3574,6 +3994,13 @@
 /area/station/ai_monitored/turret_protected{
 	has_gravity = 1
 	})
+"MF" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/components/unary/thermomachine/freezer/on,
+/turf/open/floor/engine,
+/area/misc/survivalpod{
+	name = "\improper Supermatter in a Box"
+	})
 "MP" = (
 /obj/machinery/atmospherics/components/trinary/mixer/airmix/flipped{
 	dir = 4
@@ -3652,6 +4079,31 @@
 /turf/open/floor/iron/white,
 /area/station/medical/morgue{
 	has_gravity = 1
+	})
+"Nx" = (
+/obj/structure/cable,
+/obj/structure/fans/tiny,
+/obj/machinery/door/airlock/engineering{
+	name = "Engine Room"
+	},
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/plating,
+/area/misc/survivalpod{
+	name = "\improper Supermatter in a Box"
+	})
+"NF" = (
+/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible{
+	dir = 4
+	},
+/obj/machinery/atmospherics/components/trinary/filter/atmos/n2{
+	dir = 8;
+	piping_layer = 2
+	},
+/turf/closed/wall/r_wall,
+/area/misc/survivalpod{
+	name = "\improper Atmosia in a Box"
 	})
 "NN" = (
 /obj/structure/closet/emcloset,
@@ -3924,6 +4376,20 @@
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/station/tcommsat/server{
 	has_gravity = 1
+	})
+"QF" = (
+/obj/structure/window/reinforced/plasma{
+	dir = 8
+	},
+/obj/machinery/power/emitter/welded{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible/layer1,
+/obj/structure/cable,
+/obj/structure/fans/tiny,
+/turf/open/floor/engine,
+/area/misc/survivalpod{
+	name = "\improper Supermatter in a Box"
 	})
 "QK" = (
 /obj/structure/sign/departments/science/directional/south,
@@ -4267,6 +4733,13 @@
 /area/station/hallway/primary/fore{
 	has_gravity = 1
 	})
+"Tm" = (
+/obj/machinery/power/energy_accumulator/tesla_coil/anchored,
+/obj/structure/cable,
+/turf/open/floor/engine,
+/area/misc/survivalpod{
+	name = "\improper Supermatter in a Box"
+	})
 "To" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -4285,6 +4758,25 @@
 /turf/closed/wall/r_wall,
 /area/station/engineering/atmos{
 	has_gravity = 1
+	})
+"TA" = (
+/obj/machinery/atmospherics/pipe/heat_exchanging/junction/layer2,
+/obj/machinery/atmospherics/pipe/heat_exchanging/junction/layer4,
+/obj/machinery/atmospherics/pipe/heat_exchanging/junction,
+/obj/structure/cable,
+/obj/structure/fans/tiny,
+/obj/machinery/door/airlock/engineering/glass/critical{
+	heat_proof = 1;
+	name = "Supermatter Chamber"
+	},
+/obj/machinery/door/firedoor,
+/obj/machinery/door/poddoor/shutters/radiation/preopen{
+	id = "engsm_small";
+	name = "Radiation Chamber Shutters"
+	},
+/turf/open/floor/engine,
+/area/misc/survivalpod{
+	name = "\improper Supermatter in a Box"
 	})
 "TG" = (
 /obj/structure/altar_of_gods,
@@ -4706,6 +5198,20 @@
 	has_gravity = 1;
 	name = "\improper Lower Dorms"
 	})
+"XD" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/general/visible,
+/obj/machinery/power/apc/sm_apc/directional/north,
+/obj/structure/cable,
+/obj/machinery/light_switch/directional/west,
+/obj/structure/closet/radiation,
+/obj/item/clothing/glasses/meson/engine,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/turf/open/floor/engine,
+/area/misc/survivalpod{
+	name = "\improper Supermatter in a Box"
+	})
 "XF" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/white,
@@ -4805,6 +5311,24 @@
 /area/station/cargo/storage{
 	has_gravity = 1
 	})
+"YR" = (
+/obj/machinery/atmospherics/components/trinary/mixer/airmix/flipped{
+	dir = 4
+	},
+/obj/machinery/light/warm/directional/west,
+/obj/machinery/power/apc/sm_apc/directional/north,
+/obj/machinery/light_switch/directional/west,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/obj/structure/cable,
+/obj/effect/turf_decal/stripes/end{
+	dir = 8
+	},
+/turf/open/floor/engine,
+/area/misc/survivalpod{
+	name = "\improper Atmosia in a Box"
+	})
 "YX" = (
 /obj/machinery/atmospherics/components/unary/thermomachine/freezer/on{
 	dir = 1
@@ -4837,6 +5361,15 @@
 /turf/open/floor/circuit/red,
 /area/station/ai_monitored/turret_protected/ai{
 	has_gravity = 1
+	})
+"Zr" = (
+/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/closed/wall/r_wall,
+/area/misc/survivalpod{
+	name = "\improper Atmosia in a Box"
 	})
 "Zt" = (
 /obj/machinery/computer/rdconsole,
@@ -7565,15 +8098,15 @@ UH
 UH
 UH
 UH
-UH
-UH
-UH
-UH
-UH
-UH
-UH
-UH
-UH
+EF
+EF
+EF
+EF
+EF
+EF
+EF
+EF
+Ba
 UH
 UH
 UH
@@ -7822,15 +8355,15 @@ UH
 UH
 UH
 UH
-UH
-UH
-UH
-UH
-UH
-UH
-UH
-UH
-UH
+EF
+XD
+aS
+EF
+MF
+vV
+fS
+EF
+Ba
 UH
 UH
 UH
@@ -8079,15 +8612,15 @@ UH
 UH
 UH
 UH
-UH
-UH
-UH
-UH
-UH
-UH
-UH
-UH
-UH
+Nx
+xF
+qf
+TA
+yh
+bm
+AZ
+ew
+Ba
 UH
 UH
 UH
@@ -8336,15 +8869,15 @@ UH
 UH
 UH
 UH
-UH
-UH
-UH
-UH
-UH
-UH
-UH
-UH
-UH
+EF
+yM
+Am
+EF
+Iz
+wA
+AZ
+Dn
+mt
 UH
 UH
 UH
@@ -8584,24 +9117,24 @@ UH
 UH
 UH
 UH
+zq
+tQ
+Zr
+zr
+zr
+za
 UH
 UH
 UH
-UH
-UH
-UH
-UH
-UH
-UH
-UH
-UH
-UH
-UH
-UH
-UH
-UH
-UH
-UH
+EF
+qE
+wz
+EF
+Tm
+QF
+fS
+ew
+Ba
 UH
 UH
 UH
@@ -8841,24 +9374,24 @@ UH
 UH
 UH
 UH
+jU
+JV
+YR
+ti
+Al
+NF
 UH
 UH
 UH
-UH
-UH
-UH
-UH
-UH
-UH
-UH
-UH
-UH
-UH
-UH
-UH
-UH
-UH
-UH
+EF
+EF
+EF
+EF
+EF
+nB
+ew
+Dn
+mt
 UH
 UH
 UH
@@ -9098,12 +9631,12 @@ UH
 UH
 UH
 UH
-UH
-UH
-UH
-UH
-UH
-UH
+jU
+Fm
+oF
+Fw
+eR
+EG
 UH
 UH
 UH
@@ -9355,12 +9888,12 @@ UH
 UH
 UH
 UH
-UH
-UH
-UH
-UH
-UH
-UH
+jU
+tQ
+tg
+Af
+Dq
+et
 UH
 UH
 UH
@@ -9612,12 +10145,12 @@ UH
 UH
 UH
 UH
-UH
-UH
-UH
-UH
-UH
-UH
+jU
+tQ
+tQ
+tQ
+tQ
+tQ
 UH
 UH
 UH
