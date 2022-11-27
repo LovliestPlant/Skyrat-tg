@@ -12,8 +12,21 @@
 	var/internal_type = /obj/item/tank/internals/emergency_oxygen
 	/// What medipen should be present in this box?
 	var/medipen_type = /obj/item/reagent_containers/hypospray/medipen
+	/// Are we crafted?
+	var/crafted = FALSE
+
+/obj/item/storage/box/survival/Initialize(mapload)
+	. = ..()
+	if(crafted || !HAS_TRAIT(SSstation, STATION_TRAIT_PREMIUM_INTERNALS))
+		return
+	atom_storage.max_slots += 2
+	atom_storage.max_total_storage += 4
+	name = "large [name]"
+	transform = transform.Scale(1.25, 1)
 
 /obj/item/storage/box/survival/PopulateContents()
+	if(crafted)
+		return
 	if(!isnull(mask_type))
 		new mask_type(src)
 	//SKYRAT EDIT ADDITION START - VOX INTERNALS - Honestly I dont know if this has a function any more with wardrobe_removal(), but TG still uses the plasmaman one so better safe than sorry
@@ -110,6 +123,12 @@
 /obj/item/storage/box/survival/medical
 	mask_type = /obj/item/clothing/mask/breath/medical
 
+/obj/item/storage/box/survival/crafted
+	crafted = TRUE
+
+/obj/item/storage/box/survival/engineer/crafted
+	crafted = TRUE
+
 //Mime spell boxes
 
 /obj/item/storage/box/mime
@@ -144,8 +163,8 @@
 /obj/item/storage/box/hug/attack_self(mob/user)
 	..()
 	user.changeNext_move(CLICK_CD_MELEE)
-	playsound(loc, SFX_RUSTLE, 50, TRUE, -5)
-	user.visible_message(span_notice("[user] hugs \the [src]."),span_notice("You hug \the [src]."))
+	playsound(loc, SFX_RUSTLE, 50, vary=TRUE, extrarange=-5)
+	user.visible_message(span_notice("[user] hugs [src]."),span_notice("You hug [src]."))
 
 /obj/item/storage/box/hug/black
 	icon_state = "hugbox_black"
@@ -186,35 +205,30 @@
 	new /obj/item/stack/medical/ointment(src)
 	new /obj/item/reagent_containers/hypospray/medipen(src)
 
-// Clown survival box
-/obj/item/storage/box/hug/survival/PopulateContents()
-	new /obj/item/reagent_containers/hypospray/medipen(src)
+//Clown survival box
+/obj/item/storage/box/survival/hug
+	name = "box of hugs"
+	desc = "A special box for sensitive people."
+	icon_state = "hugbox"
+	illustration = "heart"
+	foldable = null
+	mask_type = null
 
-	if(!isplasmaman(loc))
-		new /obj/item/tank/internals/emergency_oxygen(src)
-	else
-		new /obj/item/tank/internals/plasmaman/belt(src)
+//Mime survival box
+/obj/item/storage/box/survival/hug/black
+	icon_state = "hugbox_black"
+	illustration = "heart_black"
 
-	if(HAS_TRAIT(SSstation, STATION_TRAIT_PREMIUM_INTERNALS))
-		new /obj/item/flashlight/flare(src)
-		new /obj/item/radio/off(src)
+//Duplicated suicide/attack self procs, since the survival boxes are a subtype of box/survival
+/obj/item/storage/box/survival/hug/suicide_act(mob/living/user)
+	user.visible_message(span_suicide("[user] clamps the box of hugs on [user.p_their()] jugular! Guess it wasn't such a hugbox after all.."))
+	return BRUTELOSS
 
-/obj/item/storage/box/hug/black/survival/PopulateContents()
-	new /obj/item/reagent_containers/hypospray/medipen(src)
-
-	//SKYRAT EDIT CHANGE BEGIN - CUSTOMIZATION
-	if(isplasmaman(loc))
-		new /obj/item/tank/internals/plasmaman/belt(src)
-	else if(isvox(loc))
-		new /obj/item/tank/internals/nitrogen/belt/emergency(src)
-	else
-		new /obj/item/tank/internals/emergency_oxygen(src)
-	//SKYRAT EDIT END
-	new /obj/item/oxygen_candle(src) //SKYRAT EDIT ADDITION
-
-	if(HAS_TRAIT(SSstation, STATION_TRAIT_PREMIUM_INTERNALS))
-		new /obj/item/flashlight/flare(src)
-		new /obj/item/radio/off(src)
+/obj/item/storage/box/survival/hug/attack_self(mob/user)
+	..()
+	user.changeNext_move(CLICK_CD_MELEE)
+	playsound(loc, SFX_RUSTLE, 50, vary=TRUE, extrarange=-5)
+	user.visible_message(span_notice("[user] hugs [src]."),span_notice("You hug [src]."))
 
 /obj/item/storage/box/hug/plushes
 	name = "tactical cuddle kit"

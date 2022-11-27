@@ -92,7 +92,7 @@
 
 /datum/reagent/toxin/plasma/on_new(data)
 	. = ..()
-	RegisterSignal(holder, COMSIG_REAGENTS_TEMP_CHANGE, .proc/on_temp_change)
+	RegisterSignal(holder, COMSIG_REAGENTS_TEMP_CHANGE, PROC_REF(on_temp_change))
 
 /datum/reagent/toxin/plasma/Destroy()
 	UnregisterSignal(holder, COMSIG_REAGENTS_TEMP_CHANGE)
@@ -175,6 +175,16 @@
 		if(DT_PROB(10, delta_time))
 			C.emote("gasp")
 	..()
+
+/datum/reagent/toxin/lexorin/on_mob_metabolize(mob/living/L)
+	RegisterSignal(L, COMSIG_CARBON_ATTEMPT_BREATHE, PROC_REF(block_breath))
+
+/datum/reagent/toxin/lexorin/on_mob_end_metabolize(mob/living/L)
+	UnregisterSignal(L, COMSIG_CARBON_ATTEMPT_BREATHE, PROC_REF(block_breath))
+
+/datum/reagent/toxin/lexorin/proc/block_breath(mob/living/source)
+	SIGNAL_HANDLER
+	return COMSIG_CARBON_BLOCK_BREATH
 
 /datum/reagent/toxin/slimejelly
 	name = "Slime Jelly"
