@@ -1,4 +1,4 @@
-//#define ENGI_IN_BOX_CARGONIA //uncomment this to allow Cargo to purchase the engineering-in-a-box items.
+#define ENGI_IN_BOX_CARGONIA //uncomment this to allow Cargo to purchase the engineering-in-a-box items.
 
 /area/misc/survivalpod/atmosia_box
 	name = "\improper Atmosia in a Box"
