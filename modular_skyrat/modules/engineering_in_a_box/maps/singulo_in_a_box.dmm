@@ -1,0 +1,398 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/engine,
+/area/misc/survivalpod/singulo_box)
+"b" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/engine,
+/area/misc/survivalpod/singulo_box)
+"c" = (
+/obj/machinery/light/directional/west,
+/turf/open/floor/engine,
+/area/misc/survivalpod/singulo_box)
+"f" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/turf/open/floor/engine,
+/area/misc/survivalpod/singulo_box)
+"g" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/engine,
+/area/misc/survivalpod/singulo_box)
+"h" = (
+/obj/structure/particle_accelerator/fuel_chamber,
+/obj/structure/cable,
+/turf/open/floor/engine,
+/area/misc/survivalpod/singulo_box)
+"j" = (
+/obj/structure/particle_accelerator/power_box,
+/obj/structure/cable,
+/turf/open/floor/engine,
+/area/misc/survivalpod/singulo_box)
+"l" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/light/directional/east,
+/turf/open/floor/engine,
+/area/misc/survivalpod/singulo_box)
+"m" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/engine,
+/area/misc/survivalpod/singulo_box)
+"n" = (
+/obj/machinery/door/airlock/engineering/glass/critical{
+	heat_proof = 1;
+	name = "Singularity Chamber"
+	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/fans/tiny,
+/turf/open/floor/plating/airless,
+/area/misc/survivalpod/singulo_box)
+"o" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
+/turf/open/floor/engine,
+/area/misc/survivalpod/singulo_box)
+"p" = (
+/obj/machinery/power/rad_collector,
+/obj/structure/cable,
+/turf/open/indestructible/dark,
+/area/misc/survivalpod/singulo_box)
+"q" = (
+/turf/open/indestructible/dark,
+/area/misc/survivalpod/singulo_box)
+"r" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/light/directional/west,
+/turf/open/floor/engine,
+/area/misc/survivalpod/singulo_box)
+"s" = (
+/obj/structure/particle_accelerator/end_cap,
+/obj/structure/cable,
+/turf/open/floor/engine,
+/area/misc/survivalpod/singulo_box)
+"t" = (
+/obj/structure/particle_accelerator/particle_emitter/right,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/engine,
+/area/misc/survivalpod/singulo_box)
+"u" = (
+/obj/structure/particle_accelerator/particle_emitter/center,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/engine,
+/area/misc/survivalpod/singulo_box)
+"v" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/light_switch/directional/west,
+/turf/open/floor/engine,
+/area/misc/survivalpod/singulo_box)
+"w" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/engine,
+/area/misc/survivalpod/singulo_box)
+"x" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/obj/structure/cable,
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/turf/open/floor/engine,
+/area/misc/survivalpod/singulo_box)
+"z" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/obj/structure/cable,
+/obj/structure/tank_dispenser/plasma,
+/obj/machinery/power/terminal{
+	dir = 4
+	},
+/turf/open/floor/engine,
+/area/misc/survivalpod/singulo_box)
+"A" = (
+/turf/closed/wall/r_wall,
+/area/misc/survivalpod/singulo_box)
+"B" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/engine,
+/area/misc/survivalpod/singulo_box)
+"C" = (
+/obj/machinery/particle_accelerator/control_box,
+/obj/structure/cable,
+/turf/open/floor/engine,
+/area/misc/survivalpod/singulo_box)
+"D" = (
+/obj/machinery/power/emitter/welded{
+	dir = 4
+	},
+/obj/structure/cable,
+/turf/open/indestructible/dark,
+/area/misc/survivalpod/singulo_box)
+"E" = (
+/obj/structure/cable,
+/obj/machinery/power/emitter/welded{
+	dir = 8
+	},
+/turf/open/indestructible/dark,
+/area/misc/survivalpod/singulo_box)
+"F" = (
+/obj/machinery/light/directional/east,
+/turf/open/floor/engine,
+/area/misc/survivalpod/singulo_box)
+"G" = (
+/obj/structure/cable,
+/obj/machinery/power/rad_collector,
+/turf/open/indestructible/dark,
+/area/misc/survivalpod/singulo_box)
+"H" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/engine,
+/area/misc/survivalpod/singulo_box)
+"I" = (
+/obj/structure/tank_dispenser/plasma,
+/turf/open/floor/engine,
+/area/misc/survivalpod/singulo_box)
+"K" = (
+/obj/machinery/door/airlock/engineering/glass/critical{
+	heat_proof = 1;
+	name = "Singularity Chamber"
+	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/fans/tiny,
+/turf/open/floor/plating/airless,
+/area/misc/survivalpod/singulo_box)
+"L" = (
+/obj/machinery/the_singularitygen,
+/turf/open/indestructible/dark,
+/area/misc/survivalpod/singulo_box)
+"N" = (
+/obj/effect/spawner/structure/window/reinforced/plasma,
+/turf/open/floor/plating/airless,
+/area/misc/survivalpod/singulo_box)
+"O" = (
+/obj/machinery/portable_atmospherics/canister/plasma,
+/turf/open/floor/engine,
+/area/misc/survivalpod/singulo_box)
+"Q" = (
+/obj/machinery/field/generator/anchored,
+/turf/open/indestructible/dark,
+/area/misc/survivalpod/singulo_box)
+"S" = (
+/obj/machinery/power/smes/engineering,
+/obj/structure/cable,
+/turf/open/floor/engine,
+/area/misc/survivalpod/singulo_box)
+"T" = (
+/obj/structure/cable,
+/turf/open/indestructible/dark,
+/area/misc/survivalpod/singulo_box)
+"U" = (
+/obj/structure/particle_accelerator/particle_emitter/left,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/engine,
+/area/misc/survivalpod/singulo_box)
+"W" = (
+/turf/open/floor/engine,
+/area/misc/survivalpod/singulo_box)
+"X" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/engine,
+/area/misc/survivalpod/singulo_box)
+"Y" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/power/apc/sm_apc/directional/west{
+	arc_shielded = 1
+	},
+/turf/open/floor/engine,
+/area/misc/survivalpod/singulo_box)
+"Z" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
+/turf/open/floor/engine,
+/area/misc/survivalpod/singulo_box)
+
+(1,1,1) = {"
+A
+A
+A
+A
+A
+A
+K
+A
+A
+A
+A
+A
+A
+"}
+(2,1,1) = {"
+A
+S
+c
+W
+B
+Y
+X
+v
+a
+a
+r
+Z
+A
+"}
+(3,1,1) = {"
+A
+x
+H
+H
+b
+p
+D
+G
+G
+G
+D
+G
+A
+"}
+(4,1,1) = {"
+A
+W
+W
+W
+w
+T
+Q
+q
+q
+q
+Q
+T
+A
+"}
+(5,1,1) = {"
+A
+O
+C
+W
+U
+T
+q
+q
+q
+q
+q
+T
+N
+"}
+(6,1,1) = {"
+A
+s
+h
+j
+u
+T
+q
+q
+L
+q
+q
+T
+N
+"}
+(7,1,1) = {"
+A
+W
+W
+W
+t
+T
+q
+q
+q
+q
+q
+T
+N
+"}
+(8,1,1) = {"
+A
+I
+W
+W
+w
+T
+Q
+q
+q
+q
+Q
+T
+A
+"}
+(9,1,1) = {"
+A
+z
+g
+g
+b
+G
+E
+G
+G
+G
+E
+G
+A
+"}
+(10,1,1) = {"
+A
+S
+F
+W
+w
+w
+f
+m
+m
+m
+l
+o
+A
+"}
+(11,1,1) = {"
+A
+A
+A
+A
+A
+A
+n
+A
+A
+A
+A
+A
+A
+"}

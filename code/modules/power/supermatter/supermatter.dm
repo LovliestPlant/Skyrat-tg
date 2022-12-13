@@ -28,6 +28,9 @@ GLOBAL_DATUM(main_supermatter_engine, /obj/machinery/power/supermatter_crystal)
 	critical_machine = TRUE
 	base_icon_state = "sm"
 	icon_state = "sm"
+	
+	var/main_color = SUPERMATTER_COLOUR
+	var/pure_color = SUPERMATTER_RED
 
 	///The id of our supermatter
 	var/uid = 1

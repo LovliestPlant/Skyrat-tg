@@ -57,7 +57,6 @@
 	volume_rate = 200;
 	piping_layer = 1
 	},
-/obj/machinery/power/supermatter_crystal/shard/engine,
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 9
 	},
@@ -67,6 +66,7 @@
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple/layer4{
 	dir = 9
 	},
+/obj/machinery/power/supermatter_crystal/shardnaaka/engine,
 /turf/open/floor/engine/proto_nitrate{
 	initial_gas_mix = "proto_nitrate=1000;TEMP=73"
 	},

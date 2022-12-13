@@ -159,6 +159,16 @@
 	if(time_since_act < 2)
 		return
 	time_since_act = 0
+	
+	//radiation_pulse(src, min(5000, (energy*4.5)+1000), RAD_DISTANCE_COEFFICIENT*0.5)
+	
+	radiation_pulse(
+		src,
+		max_range = 12,
+		threshold = min(5000, (energy*4.5)+1000),
+		chance = 0.5 * 100,
+	)
+	
 	if(current_size >= STAGE_TWO)
 		if(prob(event_chance))
 			event()

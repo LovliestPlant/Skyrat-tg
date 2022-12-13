@@ -25,8 +25,8 @@
 * Sort of like photoshop. The loop will continue forever unless an accident happens.
 */
 	if(our_supermatter.internal_energy || our_supermatter.damage)
-		our_supermatter.set_light((initial(our_supermatter.light_range) + our_supermatter.internal_energy/200), initial(our_supermatter.light_power) + our_supermatter.internal_energy/1000, (our_supermatter.gas_heat_power_generation > 0.8 ? SUPERMATTER_RED : SUPERMATTER_COLOUR), TRUE)
-		filters_to_add |= filter(type="rays", size = clamp(our_supermatter.internal_energy/30, 1, 125), color = (our_supermatter.gas_heat_power_generation > 0.8 ? SUPERMATTER_RED : SUPERMATTER_COLOUR), factor = clamp(our_supermatter.damage/600, 1, 10), density = clamp(our_supermatter.damage/10, 12, 100))
+		our_supermatter.set_light((initial(our_supermatter.light_range) + our_supermatter.internal_energy/200), initial(our_supermatter.light_power) + our_supermatter.internal_energy/1000, (our_supermatter.gas_heat_power_generation > 0.8 ? our_supermatter.pure_color : our_supermatter.main_color), TRUE)
+		filters_to_add |= filter(type="rays", size = clamp(our_supermatter.internal_energy/30, 1, 125), color = (our_supermatter.gas_heat_power_generation > 0.8 ? our_supermatter.pure_color : our_supermatter.main_color), factor = clamp(our_supermatter.damage/600, 1, 10), density = clamp(our_supermatter.damage/10, 12, 100))
 
 	switch(check_special_delamination())
 		if(SINGULARITY_DELAMINATION)
@@ -79,7 +79,7 @@
 				list(
 					type = "rays",
 					size = clamp(our_supermatter.internal_energy/30, 0, 125),
-					color = SUPERMATTER_COLOUR,
+					color = our_supermatter.main_color,
 					factor = 0.6,
 					density = 12,
 				)
