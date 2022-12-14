@@ -20,10 +20,11 @@
 		BT.on_death()
 
 /mob/living/carbon/proc/inflate_gib() // Plays an animation that makes mobs appear to inflate before finally gibbing
-	addtimer(CALLBACK(src, PROC_REF(gib), null, null, TRUE, TRUE), 25)
-	var/matrix/M = matrix()
-	M.Scale(1.8, 1.2)
-	animate(src, time = 40, transform = M, easing = SINE_EASING)
+	visible_message(span_danger("[src] looks like they could've burst!  But they didn't.")) //WHAT DO YOU THINK THIS IS, TRIBAL HUNTER
+	//addtimer(CALLBACK(src, PROC_REF(gib), null, null, TRUE, TRUE), 25)
+	//var/matrix/M = matrix()
+	//M.Scale(1.8, 1.2)
+	//animate(src, time = 40, transform = M, easing = SINE_EASING)
 
 /mob/living/carbon/gib(no_brain, no_organs, no_bodyparts, safe_gib = FALSE)
 	add_memory_in_range(src, 7, MEMORY_GIBBED, list(DETAIL_PROTAGONIST = src), STORY_VALUE_AMAZING, MEMORY_FLAG_NOMOOD, memory_flags = MEMORY_CHECK_BLINDNESS)

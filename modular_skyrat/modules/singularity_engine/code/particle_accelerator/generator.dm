@@ -32,6 +32,7 @@
 			var/turf/T = get_turf(src)
 			SSblackbox.record_feedback("tally", "engine_started", 1, type)
 			var/obj/singularity/S = new creation_type(T, 50)
+			S.event_chance = 0
 			transfer_fingerprints_to(S)
 			qdel(src)
 		else

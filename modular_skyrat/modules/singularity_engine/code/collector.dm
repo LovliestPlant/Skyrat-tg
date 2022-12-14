@@ -4,7 +4,6 @@
 	build_path = /obj/machinery/power/rad_collector
 	req_components = list(
 		/obj/item/stack/cable_coil = 5,
-		/obj/item/stock_parts/matter_bin = 1,
 		/obj/item/stack/sheet/plasmarglass = 2,
 		/obj/item/stock_parts/capacitor = 1,
 		/obj/item/stock_parts/manipulator = 1)
@@ -15,7 +14,7 @@
 // stored_energy += (pulse_strength-RAD_COLLECTOR_EFFICIENCY)*RAD_COLLECTOR_COEFFICIENT
 #define RAD_COLLECTOR_EFFICIENCY 80 	// radiation needs to be over this amount to get power
 #define RAD_COLLECTOR_COEFFICIENT 100
-#define RAD_COLLECTOR_STORED_OUT 0.04	// (this*100)% of stored power outputted per tick. Doesn't actualy change output total, lower numbers just means collectors output for longer in absence of a source
+#define RAD_COLLECTOR_STORED_OUT 0.4	// (this*100)% of stored power outputted per tick. Doesn't actualy change output total, lower numbers just means collectors output for longer in absence of a source
 #define RAD_COLLECTOR_MINING_CONVERSION_RATE 0.00001 //This is gonna need a lot of tweaking to get right. This is the number used to calculate the conversion of watts to research points per process()
 #define RAD_COLLECTOR_OUTPUT min(stored_energy, (stored_energy*RAD_COLLECTOR_STORED_OUT)+1000) //Produces at least 1000 watts if it has more than that stored
 
@@ -47,6 +46,9 @@
 	var/bitcoinproduction_drain = 0.15
 	var/bitcoinmining = FALSE
 	var/obj/item/radio/radio
+	
+	var/input_power_multiplier = 1
+	var/input_efficiency_multiplier = 1
 
 /obj/machinery/power/rad_collector/Initialize(mapload)
 	. = ..()
@@ -64,38 +66,45 @@
 	QDEL_NULL(radio)
 	return ..()
 
+/obj/machinery/power/rad_collector/RefreshParts()
+	. = ..()
+	var/power_multiplier = 0
+	var/efficiency_multiplier = 0
+	for(var/obj/item/stock_parts/capacitor/C in component_parts)
+		power_multiplier += C.rating
+	for(var/obj/item/stock_parts/manipulator/C in component_parts)
+		efficiency_multiplier += C.rating
+	input_power_multiplier = power_multiplier
+	input_efficiency_multiplier = efficiency_multiplier
+
 /obj/machinery/power/rad_collector/process(delta_time)
+	var/power_produced = get_power_output()
+	//to_chat(world, "Rad collector processing, could generate [power_produced] this tick from a total of [stored_energy]")
 	if(!loaded_tank)
 		return
-	if(!bitcoinmining)
-		if(loaded_tank.air_contents.gases[GAS_PLASMA][MOLES] < 0.0001)
-			//investigate_log("<font color='red'>out of fuel</font>.", INVESTIGATE_ENGINES)
-			playsound(src, 'sound/machines/ding.ogg', 50, 1)
-			var/msg = "Plasma depleted, recommend replacing tank."
-			radio.talk_into(src, msg, RADIO_CHANNEL_ENGINEERING)
-			eject()
-		else
-			var/gasdrained = min(powerproduction_drain*drainratio*delta_time,loaded_tank.air_contents.gases[GAS_PLASMA][MOLES])
-			loaded_tank.air_contents.remove_specific(GAS_PLASMA, -gasdrained)
-			loaded_tank.air_contents.remove_specific(GAS_TRITIUM, gasdrained)
-			var/power_produced = RAD_COLLECTOR_OUTPUT
-			add_avail(power_produced)
-			stored_energy-=power_produced
-	/*else if(is_station_level(z) && SSresearch.science_tech)
-		if(!loaded_tank.air_contents.gases[GAS_TRITIUM][MOLES] || !loaded_tank.air_contents.gases[GAS_GAS_O2][MOLES])
-			playsound(src, 'sound/machines/ding.ogg', 50, 1)
-			eject()
-		else
-			var/gasdrained = bitcoinproduction_drain*drainratio*delta_time
-			loaded_tank.air_contents.remove_specific(GAS_TRITIUM, -gasdrained)
-			loaded_tank.air_contents.remove_specific(GAS_O2, -gasdrained)
-			loaded_tank.air_contents.remove_specific(GAS_CO2, gasdrained*2)
-			var/bitcoins_mined = RAD_COLLECTOR_OUTPUT
-			var/datum/bank_account/D = SSeconomy.get_budget_account(ACCOUNT_ENG_ID)
-			if(D)
-				D.adjust_money(bitcoins_mined*RAD_COLLECTOR_MINING_CONVERSION_RATE)
-			SSresearch.science_tech.add_point_type(TECHWEB_POINT_TYPE_DEFAULT, bitcoins_mined*RAD_COLLECTOR_MINING_CONVERSION_RATE)
-			stored_energy-=bitcoins_mined*/
+	//to_chat(world, "Rad collector process passed tank check")
+	//to_chat(world, "Rad collector trying to add [power_produced] to grid [powernet]")
+	add_avail(power_produced)
+	stored_energy -= power_produced
+	//to_chat(world, "Rad collector finished processing, stored energy at [stored_energy]")
+	/*if(loaded_tank.air_contents.gases[GAS_PLASMA][MOLES] < 0.0001)
+		//to_chat(world, "Rad collector plasma depleted")
+		//investigate_log("<font color='red'>out of fuel</font>.", INVESTIGATE_ENGINES)
+		playsound(src, 'sound/machines/ding.ogg', 50, 1)
+		var/msg = "Plasma depleted, recommend replacing tank."
+		radio.talk_into(src, msg, RADIO_CHANNEL_ENGINEERING)
+		eject()
+		//to_chat(world, "Rad collector dumped tank")
+	else
+		//to_chat(world, "Rad collector trying to power gen")
+		//var/gasdrained = min(powerproduction_drain*drainratio*delta_time,loaded_tank.air_contents.gases[GAS_PLASMA][MOLES])
+		//loaded_tank.air_contents.remove_specific(GAS_PLASMA, -gasdrained)
+		//loaded_tank.air_contents.remove_specific(GAS_TRITIUM, gasdrained)
+		//var/power_produced = RAD_COLLECTOR_OUTPUT
+		//add_avail(power_produced)
+		//stored_energy-=power_produced
+		//release_energy(power_produced)
+		*/
 
 /obj/machinery/power/rad_collector/interact(mob/user)
 	if(anchored)
@@ -124,6 +133,16 @@
 			connect_to_network()
 		else
 			disconnect_from_network()
+
+/obj/machinery/power/rad_collector/should_have_node()
+	return anchored
+
+/obj/machinery/power/rad_collector/proc/get_stored_joules()
+	return energy_to_joules(stored_energy)
+
+/obj/machinery/power/rad_collector/proc/get_power_output()
+	// Always consume at least 2kJ of energy if we have at least that much stored
+	return min(stored_energy, (stored_energy*RAD_COLLECTOR_STORED_OUT)+joules_to_energy(2000))
 
 /obj/machinery/power/rad_collector/attackby(obj/item/W, mob/user, params)
 	if(istype(W, /obj/item/tank/internals/plasma))
@@ -242,11 +261,11 @@
 /obj/machinery/power/rad_collector/proc/on_pre_potential_irradiation(datum/source, datum/radiation_pulse_information/pulse_information, insulation_to_target)
 	SIGNAL_HANDLER
 	
-	flick("ca_zapped", src)
+	//to_chat(world, "Rad collector zapped!")
 	
-	if(loaded_tank && active && pulse_information.threshold > RAD_COLLECTOR_EFFICIENCY)
-		//flick("ca_zapped", src)
-		stored_energy += (pulse_information.threshold-RAD_COLLECTOR_EFFICIENCY)*RAD_COLLECTOR_COEFFICIENT
+	if(loaded_tank && active && pulse_information.threshold > (RAD_COLLECTOR_EFFICIENCY/input_efficiency_multiplier))
+		flick("ca_zapped", src)
+		stored_energy += (pulse_information.threshold-(RAD_COLLECTOR_EFFICIENCY/input_efficiency_multiplier))*RAD_COLLECTOR_COEFFICIENT*input_power_multiplier
 
 /obj/machinery/power/rad_collector/update_icon()
 	cut_overlays()
@@ -264,10 +283,12 @@
 		icon_state = "ca_on"
 		flick("ca_active", src)
 		RegisterSignal(src, COMSIG_IN_RANGE_OF_IRRADIATION, PROC_REF(on_pre_potential_irradiation))
+		ADD_TRAIT(src, TRAIT_RADIATION_MACHINERY, REF(src))
 	else
 		icon_state = "ca"
 		flick("ca_deactive", src)
 		UnregisterSignal(src, COMSIG_IN_RANGE_OF_IRRADIATION, PROC_REF(on_pre_potential_irradiation))
+		REMOVE_TRAIT(src, TRAIT_RADIATION_MACHINERY, REF(src))
 	update_icon()
 	return
 
