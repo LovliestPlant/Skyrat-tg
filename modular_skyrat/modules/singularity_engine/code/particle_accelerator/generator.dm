@@ -19,7 +19,7 @@
 
 	var/energy = 0
 	var/creation_type = /obj/singularity
-	var/isbingulo = TRUE
+	var/is_bingulo = TRUE
 
 /obj/machinery/the_singularitygen/attackby(obj/item/W, mob/user, params)
 	if(W.tool_behaviour == TOOL_WRENCH)
@@ -33,7 +33,7 @@
 			var/turf/T = get_turf(src)
 			SSblackbox.record_feedback("tally", "engine_started", 1, type)
 			var/obj/singularity/S = new creation_type(T, 50)
-			if(isbingulo)
+			if(is_bingulo == TRUE)
 				S.event_chance = 0
 			transfer_fingerprints_to(S)
 			qdel(src)
@@ -46,7 +46,7 @@
 	icon = 'icons/obj/engine/tesla_generator.dmi'
 	icon_state = "TheSingGen"
 	creation_type = /obj/energy_ball
-	isbingulo = FALSE
+	is_bingulo = FALSE
 
 /obj/machinery/the_singularitygen/tesla/zap_act(power, zap_flags)
 	if(zap_flags & ZAP_MACHINE_EXPLOSIVE)
