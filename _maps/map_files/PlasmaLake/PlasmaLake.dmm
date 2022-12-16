@@ -3373,7 +3373,7 @@
 	})
 "jf" = (
 /obj/machinery/button/door/directional/north{
-	id = Robotics
+	id = Carglob
 	},
 /turf/open/floor/wood,
 /area/station/cargo)
@@ -6090,10 +6090,10 @@
 	name = "Tchiko's Lake Side"
 	})
 "pQ" = (
-/obj/machinery/door/poddoor/shutters{
-	id = Robotics
-	},
 /obj/structure/table/reinforced/rglass,
+/obj/machinery/door/poddoor/shutters{
+	id = Carglob
+	},
 /turf/open/floor/wood,
 /area/station/cargo)
 "pR" = (
