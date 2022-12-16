@@ -84,6 +84,9 @@
 /obj/machinery/light/directional/east,
 /turf/open/floor/vault,
 /area/station/common/cryopods)
+"ao" = (
+/turf/open/lava/plasma/ice_moon,
+/area/icemoon/surface/outdoors/unexplored/rivers/no_monsters)
 "ap" = (
 /obj/structure/bed/double{
 	dir = 1
@@ -182,6 +185,15 @@
 /obj/structure/cable,
 /turf/open/floor/iron/white,
 /area/station/science/research)
+"aH" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/siding/wideplating_new/dark,
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/station/hallway/primary/starboard)
 "aI" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -195,7 +207,9 @@
 /area/station/science/auxlab)
 "aL" = (
 /obj/machinery/light_switch/directional/south,
-/turf/open/floor/wood,
+/turf/open/floor/wood{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/station/medical/coldroom{
 	name = "Hakitachiya's Kitchenette"
 	})
@@ -422,6 +436,15 @@
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/station/hallway/primary/fore)
+"bu" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/siding/wideplating_new/dark/corner,
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/station/hallway/primary/aft)
 "bv" = (
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/wood,
@@ -560,6 +583,11 @@
 "bQ" = (
 /turf/open/floor/wood,
 /area/station/science/breakroom)
+"bS" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/carpet/red,
+/area/station/service/bar)
 "bU" = (
 /obj/structure/table/reinforced/plastitaniumglass,
 /obj/item/knife,
@@ -683,6 +711,18 @@
 "cm" = (
 /turf/open/floor/iron/kitchen/small,
 /area/station/service/kitchen/diner)
+"cn" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/siding/wideplating_new/dark,
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 1
+	},
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/station/hallway/primary/central)
 "co" = (
 /obj/structure/cable,
 /turf/open/floor/vault/rock,
@@ -865,7 +905,9 @@
 	})
 "cP" = (
 /obj/structure/cable,
-/turf/open/floor/wood,
+/turf/open/floor/wood{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/ruin/space/ks13/medical/morgue{
 	name = "Hakitachiya's Bedroom and Bathroom"
 	})
@@ -1084,9 +1126,7 @@
 /turf/open/floor/iron/kitchen/diagonal,
 /area/station/commons/dorms/barracks)
 "du" = (
-/obj/effect/turf_decal/siding/wideplating_new/dark{
-	dir = 7
-	},
+/obj/effect/turf_decal/siding/wideplating_new/dark,
 /turf/open/floor/stone/icemoon{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
@@ -1109,6 +1149,18 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/vault/rock,
 /area/station/maintenance/port/central)
+"dy" = (
+/obj/machinery/power/apc/auto_name/directional/north{
+	arc_shielded = 1
+	},
+/obj/structure/cable,
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 1
+	},
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/station/hallway/primary/fore)
 "dz" = (
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/wood/tile,
@@ -1208,7 +1260,9 @@
 	})
 "dO" = (
 /obj/effect/turf_decal/siding/wood,
-/turf/open/floor/iron/checker,
+/turf/open/floor/iron/checker{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/station/medical/coldroom{
 	name = "Hakitachiya's Kitchenette"
 	})
@@ -1276,7 +1330,9 @@
 /obj/structure/table/wood,
 /obj/item/tank/internals/nitrogen/full,
 /obj/machinery/light/cold/directional/south,
-/turf/open/floor/wood,
+/turf/open/floor/wood{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/ruin/space/ks13/medical/medbay{
 	name = "Hakitachiya's Methshack Entrance"
 	})
@@ -1293,7 +1349,9 @@
 	dir = 10
 	},
 /obj/machinery/chem_mass_spec,
-/turf/open/floor/iron/white,
+/turf/open/floor/iron/white{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/station/medical/chemistry{
 	name = "The Meth Room"
 	})
@@ -1313,6 +1371,12 @@
 /obj/structure/cable,
 /turf/open/floor/iron/white,
 /area/station/medical/cryo)
+"ed" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/station/hallway/primary/fore)
 "ee" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -1348,9 +1412,7 @@
 /area/station/science/research)
 "ej" = (
 /obj/structure/cable,
-/obj/effect/turf_decal/siding/wideplating_new/dark{
-	dir = 7
-	},
+/obj/effect/turf_decal/siding/wideplating_new/dark,
 /turf/open/floor/stone/icemoon{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
@@ -1359,7 +1421,8 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/kitchen/diagonal,
+/obj/effect/spawner/liquids_spawner,
+/turf/open/floor/iron/pool,
 /area/mine/xenoarch/maintenance/east{
 	name = "Tchiko's Castle Restroom"
 	})
@@ -1468,11 +1531,11 @@
 	},
 /area/station/hallway/primary/central)
 "eB" = (
-/obj/machinery/light/cold/directional/west,
+/obj/effect/turf_decal/siding/wideplating_new/dark,
 /turf/open/floor/stone/icemoon{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
-/area/station/hallway/primary/fore)
+/area/station/cargo/miningoffice)
 "eD" = (
 /turf/closed/wall/mineral/stone,
 /area/station/maintenance/port/fore)
@@ -1583,7 +1646,9 @@
 /obj/item/reagent_containers/condiment/yoghurt,
 /obj/item/reagent_containers/condiment/yoghurt,
 /obj/item/reagent_containers/condiment/yoghurt,
-/turf/open/floor/iron/checker,
+/turf/open/floor/iron/checker{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/station/medical/coldroom{
 	name = "Hakitachiya's Kitchenette"
 	})
@@ -1598,6 +1663,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/light/cold/directional/south,
+/obj/structure/sink/kitchen/directional/north,
 /turf/open/floor/iron/kitchen/diagonal,
 /area/mine/xenoarch/maintenance/east{
 	name = "Tchiko's Castle Restroom"
@@ -1736,6 +1802,49 @@
 /obj/structure/cable,
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/qm)
+"fs" = (
+/obj/effect/turf_decal/trimline/blue/filled/line,
+/obj/structure/table/reinforced/rglass,
+/obj/item/gun/syringe{
+	pixel_y = 3
+	},
+/obj/item/gun/syringe{
+	pixel_y = 3
+	},
+/obj/item/reagent_containers/spray/bluespace{
+	icon_state = "sprayer_blu_spt";
+	inhand_icon_state = "sprayer_blu_spt";
+	list_reagents = list(/datum/reagent/space_cleaner=400);
+	current_skin = sprayer_blu_spt;
+	pixel_y = -6;
+	pixel_x = 11
+	},
+/obj/item/reagent_containers/spray/bluespace{
+	icon_state = "sprayer_blu_spt";
+	inhand_icon_state = "sprayer_blu_spt";
+	list_reagents = list(/datum/reagent/space_cleaner=400);
+	current_skin = sprayer_blu_spt;
+	pixel_y = -6;
+	pixel_x = 11
+	},
+/obj/item/reagent_containers/spray/bluespace{
+	icon_state = "sprayer_blu_spt";
+	inhand_icon_state = "sprayer_blu_spt";
+	list_reagents = list(/datum/reagent/space_cleaner=400);
+	current_skin = sprayer_blu_spt;
+	pixel_y = -6;
+	pixel_x = 11
+	},
+/obj/item/reagent_containers/spray/bluespace{
+	icon_state = "sprayer_blu_spt";
+	inhand_icon_state = "sprayer_blu_spt";
+	list_reagents = list(/datum/reagent/space_cleaner=400);
+	current_skin = sprayer_blu_spt;
+	pixel_y = -6;
+	pixel_x = 11
+	},
+/turf/open/floor/iron/white,
+/area/station/medical/storage)
 "ft" = (
 /obj/effect/turf_decal/trimline/purple/filled/line,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
@@ -1790,7 +1899,9 @@
 "fB" = (
 /obj/effect/turf_decal/tile/blue/full,
 /obj/structure/mineral_door/wood,
-/turf/open/floor/iron/white,
+/turf/open/floor/wood{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/station/medical/chemistry{
 	name = "The Meth Room"
 	})
@@ -1804,6 +1915,9 @@
 /turf/open/floor/wood,
 /area/station/cargo/storage)
 "fE" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 1
+	},
 /turf/open/floor/stone/icemoon{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
@@ -1850,6 +1964,15 @@
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/station/hallway/primary/starboard)
+"fL" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 1
+	},
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/station/hallway/primary/starboard)
 "fM" = (
 /obj/effect/turf_decal/trimline/purple/filled/warning,
 /obj/effect/turf_decal/trimline/purple/filled/corner{
@@ -1877,6 +2000,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/turf_decal/stripes/line,
 /obj/structure/cable,
+/obj/effect/turf_decal/siding/wideplating_new/dark,
 /turf/open/floor/stone/icemoon{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
@@ -2047,6 +2171,14 @@
 /obj/structure/cable,
 /turf/open/floor/iron/white,
 /area/station/science/auxlab)
+"gp" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 5
+	},
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/station/common/pool)
 "gq" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -2108,7 +2240,9 @@
 /area/station/medical/storage)
 "gA" = (
 /obj/structure/table/wood,
-/turf/open/floor/carpet/royalblue,
+/turf/open/floor/carpet/royalblue{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/ruin/space/ks13/medical/medbay{
 	name = "Hakitachiya's Methshack Entrance"
 	})
@@ -2164,7 +2298,13 @@
 	})
 "gM" = (
 /obj/structure/flora/bush/fullgrass/style_random,
-/turf/open/misc/grass,
+/obj/effect/light_emitter{
+	set_cap = 1;
+	set_luminosity = 4
+	},
+/turf/open/misc/grass{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/station/medical/exam_room{
 	name = "Hakitachiya's Methshack Lounge"
 	})
@@ -2190,6 +2330,27 @@
 /area/station/medical{
 	name = "Medical Hallway"
 	})
+"gQ" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 1
+	},
+/obj/structure/rack,
+/obj/item/shovel{
+	pixel_x = -5
+	},
+/obj/item/shovel{
+	pixel_x = -5
+	},
+/obj/item/pickaxe{
+	pixel_x = 5
+	},
+/obj/item/pickaxe{
+	pixel_x = 5
+	},
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/station/cargo/miningoffice)
 "gR" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -2203,9 +2364,7 @@
 	has_gravity = 1
 	})
 "gS" = (
-/obj/effect/turf_decal/siding/wideplating_new/dark{
-	dir = 7
-	},
+/obj/effect/turf_decal/siding/wideplating_new/dark,
 /turf/open/floor/stone/icemoon{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
@@ -2515,6 +2674,14 @@
 /area/station/commons/dorms{
 	name = "Dorm."
 	})
+"hM" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 6
+	},
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/station/common/pool)
 "hN" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/effect/turf_decal/siding/wood{
@@ -2586,14 +2753,8 @@
 	name = "Public Garden"
 	})
 "hX" = (
-/obj/machinery/power/apc/auto_name/directional/north{
-	arc_shielded = 1
-	},
-/obj/structure/cable,
-/turf/open/floor/stone/icemoon{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/station/hallway/primary/fore)
+/turf/closed/wall/mineral/stone,
+/area/station/cargo/miningoffice)
 "hY" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 1
@@ -2605,6 +2766,13 @@
 	},
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/lobby)
+"hZ" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark,
+/obj/structure/ore_box,
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/station/cargo/miningoffice)
 "ia" = (
 /obj/machinery/light/cold/directional/north,
 /obj/structure/cable,
@@ -2623,12 +2791,12 @@
 /area/station/commons/dorms/barracks)
 "ic" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
-	dir = 3
+	dir = 4
 	},
 /turf/open/floor/stone/icemoon{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
-/area/station/hallway/primary/aft)
+/area/station/hallway/primary/starboard)
 "id" = (
 /obj/machinery/ntnet_relay,
 /turf/open/floor/circuit,
@@ -2636,9 +2804,11 @@
 	has_gravity = 1
 	})
 "ie" = (
-/obj/machinery/light_switch/directional/west,
-/turf/open/space/basic,
-/area/station/commons/dorms)
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/station/cargo/miningoffice)
 "if" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
 	dir = 8
@@ -2714,6 +2884,14 @@
 /area/station/common/pool{
 	name = "Tchiko's Lake Side"
 	})
+"iq" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 10
+	},
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/station/common/pool)
 "ir" = (
 /obj/effect/mapping_helpers/airlock/access/any/command/captain,
 /obj/machinery/door/airlock/command{
@@ -2846,6 +3024,23 @@
 	})
 "iK" = (
 /obj/effect/turf_decal/trimline/blue/filled/line,
+/obj/structure/table/reinforced/rglass,
+/obj/item/storage/medkit/toxin{
+	pixel_y = -6;
+	pixel_x = -4
+	},
+/obj/item/storage/medkit/toxin{
+	pixel_y = -6;
+	pixel_x = -4
+	},
+/obj/item/storage/medkit/toxin{
+	pixel_y = -6;
+	pixel_x = -4
+	},
+/obj/item/storage/medkit/toxin{
+	pixel_y = -6;
+	pixel_x = -4
+	},
 /turf/open/floor/iron/white,
 /area/station/medical/storage)
 "iL" = (
@@ -2876,7 +3071,9 @@
 	dir = 8
 	},
 /obj/machinery/light/cold/directional/north,
-/turf/open/floor/carpet/royalblue,
+/turf/open/floor/carpet/royalblue{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/ruin/space/ks13/medical/medbay{
 	name = "Hakitachiya's Methshack Entrance"
 	})
@@ -2898,6 +3095,15 @@
 /area/mine/xenoarch/maintenance/west{
 	name = "Tchiko's Castle Jani Closet"
 	})
+"iR" = (
+/obj/effect/turf_decal/tile/blue/full,
+/obj/structure/table/reinforced/rglass,
+/obj/item/stack/medical/suture,
+/obj/item/stack/medical/suture,
+/obj/item/stack/medical/suture,
+/obj/item/stack/medical/suture,
+/turf/open/floor/iron/white/textured_half,
+/area/station/medical/medbay/lobby)
 "iS" = (
 /obj/machinery/chem_master/condimaster,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -2978,7 +3184,7 @@
 	})
 "jf" = (
 /obj/machinery/button/door/directional/north{
-	id = 1
+	id = Carglob
 	},
 /turf/open/floor/wood,
 /area/station/cargo)
@@ -3196,6 +3402,15 @@
 /obj/machinery/light/cold/directional/south,
 /turf/open/floor/wood,
 /area/station/cargo)
+"jJ" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 1
+	},
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/station/hallway/primary/fore)
 "jK" = (
 /turf/open/floor/iron/white,
 /area/station/science/auxlab)
@@ -3223,9 +3438,10 @@
 /turf/open/floor/iron/white,
 /area/station/science)
 "jO" = (
-/obj/structure/lattice/catwalk,
-/obj/machinery/light/cold/directional/east,
-/turf/open/lava/plasma/ice_moon,
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
 /area/icemoon/surface/outdoors/labor_camp)
 "jP" = (
 /obj/effect/turf_decal/stripes/line{
@@ -3343,7 +3559,9 @@
 	},
 /area/station/hallway/primary/central)
 "ke" = (
-/turf/open/floor/iron/checker,
+/turf/open/floor/iron/checker{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/station/medical/coldroom{
 	name = "Hakitachiya's Kitchenette"
 	})
@@ -3396,6 +3614,12 @@
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/station/hallway)
+"ko" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/glass/reinforced/plasma,
+/area/station/hallway/primary/aft)
 "kp" = (
 /obj/machinery/light/directional/east,
 /turf/open/floor/iron/dark,
@@ -3442,6 +3666,13 @@
 "kw" = (
 /turf/open/floor/carpet/red,
 /area/station/service/bar)
+"kx" = (
+/obj/machinery/power/apc/auto_name/directional/south,
+/obj/structure/cable,
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/station/hallway/primary/central)
 "ky" = (
 /obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 9
@@ -3565,6 +3796,27 @@
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 1
 	},
+/obj/structure/table/reinforced/rglass,
+/obj/item/storage/medkit/fire{
+	pixel_y = -6;
+	pixel_x = -8
+	},
+/obj/item/storage/medkit/fire{
+	pixel_y = -6;
+	pixel_x = -8
+	},
+/obj/item/storage/medkit/fire{
+	pixel_y = -6;
+	pixel_x = -8
+	},
+/obj/item/storage/medkit/fire{
+	pixel_y = -6;
+	pixel_x = -8
+	},
+/obj/item/storage/medkit/fire{
+	pixel_y = -6;
+	pixel_x = -8
+	},
 /turf/open/floor/iron/white,
 /area/station/medical/storage)
 "kO" = (
@@ -3603,9 +3855,7 @@
 /turf/open/floor/iron/white,
 /area/station/medical/patients_rooms/room_a)
 "kV" = (
-/obj/effect/turf_decal/siding/wideplating_new/dark{
-	dir = 7
-	},
+/obj/effect/turf_decal/siding/wideplating_new/dark,
 /turf/open/floor/glass/reinforced/plasma,
 /area/station/hallway/primary/central)
 "kW" = (
@@ -3632,6 +3882,9 @@
 	dir = 4
 	},
 /obj/machinery/light/cold/directional/west,
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 8
+	},
 /turf/open/floor/stone/icemoon{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
@@ -3730,7 +3983,9 @@
 	name = "Hakitachiya's Methshack Lounge"
 	})
 "ln" = (
-/turf/open/floor/wood,
+/turf/open/floor/wood{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/ruin/space/ks13/medical/medbay{
 	name = "Hakitachiya's Methshack Entrance"
 	})
@@ -3750,6 +4005,15 @@
 /area/station/tcommsat/server{
 	has_gravity = 1
 	})
+"lr" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 1
+	},
+/turf/open/floor/glass/reinforced/plasma,
+/area/station/hallway/primary/aft)
 "ls" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -3775,7 +4039,9 @@
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 8
 	},
-/turf/open/floor/iron/white,
+/turf/open/floor/iron/white{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/station/medical/chemistry{
 	name = "The Meth Room"
 	})
@@ -3784,9 +4050,6 @@
 	layer = 3.3
 	},
 /obj/structure/window{
-	dir = 1
-	},
-/obj/effect/turf_decal/siding/wideplating_new/dark{
 	dir = 1
 	},
 /turf/open/floor/iron/kitchen/diagonal,
@@ -3839,10 +4102,9 @@
 /turf/open/floor/wood,
 /area/station/commons/fitness/recreation/entertainment)
 "lE" = (
-/turf/open/lava/plasma/ice_moon,
-/area/mine/xenoarch/living{
-	name = "Tchiko's Castle Lounge"
-	})
+/obj/effect/turf_decal/siding/wideplating_new/dark,
+/turf/open/floor/glass/reinforced/plasma,
+/area/station/cargo/miningoffice)
 "lF" = (
 /obj/machinery/door/airlock/command/glass{
 	name = "Gravity Generator Area"
@@ -3864,11 +4126,9 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/turf_decal/siding/wideplating_new/dark{
-	dir = 7
-	},
-/obj/effect/turf_decal/siding/wideplating_new/dark{
 	dir = 1
 	},
+/obj/effect/turf_decal/siding/wideplating_new/dark,
 /turf/open/floor/stone/icemoon{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
@@ -4024,6 +4284,9 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 8
+	},
 /turf/open/floor/stone/icemoon{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
@@ -4092,6 +4355,18 @@
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/station/hallway/primary/fore)
+"mq" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/obj/machinery/light/cold/directional/west,
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 8
+	},
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/station/hallway/primary/starboard)
 "mr" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -4120,11 +4395,14 @@
 	name = "Medical Hallway"
 	})
 "mu" = (
-/obj/machinery/light/cold/directional/east,
-/turf/open/floor/stone/icemoon{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 4
 	},
-/area/station/hallway/primary/fore)
+/obj/machinery/mineral/ore_redemption{
+	dir = 1
+	},
+/turf/open/floor/glass/reinforced/plasma,
+/area/station/cargo/miningoffice)
 "mv" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
@@ -4356,14 +4634,11 @@
 /turf/open/floor/glass/reinforced/plasma,
 /area/station/hallway/primary/port)
 "nb" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 8
-	},
-/obj/machinery/light/cold/directional/east,
+/obj/effect/turf_decal/siding/wideplating_new/dark,
 /turf/open/floor/stone/icemoon{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
-/area/station/hallway/primary/fore)
+/area/station/common/pool)
 "nc" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/misc/dirt/planet,
@@ -4426,6 +4701,14 @@
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/station/hallway/primary/fore)
+"nn" = (
+/obj/effect/turf_decal/tile/blue/full,
+/obj/structure/table/reinforced/rglass,
+/obj/item/stack/medical/mesh,
+/obj/item/stack/medical/mesh,
+/obj/item/stack/medical/mesh,
+/turf/open/floor/iron/white/textured_half,
+/area/station/medical/medbay/lobby)
 "no" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -4453,6 +4736,9 @@
 "nt" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
+	},
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 8
 	},
 /turf/open/floor/stone/icemoon{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
@@ -4562,9 +4848,7 @@
 	})
 "nM" = (
 /obj/structure/cable,
-/obj/effect/turf_decal/siding/wideplating_new/dark{
-	dir = 7
-	},
+/obj/effect/turf_decal/siding/wideplating_new/dark,
 /turf/open/floor/stone/icemoon{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
@@ -4619,7 +4903,9 @@
 /obj/structure/flora/bush/fullgrass/style_random,
 /obj/structure/flora/bush/flowers_br/style_random,
 /obj/structure/flora/rock/pile/jungle/style_random,
-/turf/open/misc/grass,
+/turf/open/misc/grass{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/station/medical/exam_room{
 	name = "Hakitachiya's Methshack Lounge"
 	})
@@ -4684,6 +4970,57 @@
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/station/hallway/primary/fore)
+"of" = (
+/obj/structure/table_frame/abductor,
+/obj/item/serviette_pack{
+	pixel_x = 10;
+	pixel_y = 9
+	},
+/obj/item/clothing/mask/muzzle/ring{
+	pixel_y = 40
+	},
+/obj/item/restraints/handcuffs/alien{
+	pixel_y = 28;
+	pixel_x = 1
+	},
+/obj/item/clothing/sextoy/dildo{
+	pixel_x = 8
+	},
+/obj/item/clothing/sextoy/eggvib/signalvib{
+	pixel_x = -1;
+	pixel_y = -3
+	},
+/obj/item/clothing/sextoy/vibroring{
+	pixel_y = 9;
+	pixel_x = -10
+	},
+/obj/item/clothing/sextoy/magic_wand{
+	pixel_y = 6;
+	pixel_x = 13
+	},
+/obj/item/clothing/sextoy/buttplug{
+	pixel_x = -10
+	},
+/obj/item/assembly/signaler{
+	pixel_y = 16
+	},
+/obj/item/clothing/sextoy/eggvib/signalvib{
+	pixel_x = 3;
+	pixel_y = -5
+	},
+/obj/item/clothing/sextoy/dildo/double_dildo{
+	pixel_y = -9;
+	pixel_x = -1
+	},
+/obj/item/clothing/sextoy/fleshlight{
+	pixel_x = 12;
+	pixel_y = -12
+	},
+/obj/structure/closet/secure_closet/wall{
+	pixel_x = 32
+	},
+/turf/open/floor/vault,
+/area/icemoon/underground/explored)
 "og" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
@@ -4747,7 +5084,11 @@
 	has_gravity = 1
 	})
 "on" = (
-/obj/structure/cable,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
+/obj/machinery/light/cold/directional/south,
+/obj/effect/turf_decal/siding/wideplating_new/dark,
 /turf/open/floor/stone/icemoon{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
@@ -4831,7 +5172,9 @@
 	},
 /area/station/hallway/primary/starboard)
 "oz" = (
-/turf/open/misc/grass,
+/turf/open/misc/grass{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/station/medical/exam_room{
 	name = "Hakitachiya's Methshack Lounge"
 	})
@@ -4849,9 +5192,6 @@
 	name = "Tchiko's Castle Lounge"
 	})
 "oC" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 4
-	},
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
@@ -4936,10 +5276,24 @@
 /area/station/hallway/primary/aft)
 "oM" = (
 /obj/machinery/light/directional/north,
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 1
+	},
 /turf/open/floor/stone/icemoon{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/station/common/pool)
+"oN" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 6
+	},
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/station/hallway/primary/aft)
 "oO" = (
 /obj/structure/rack,
 /obj/item/storage/box/lights/mixed,
@@ -4960,6 +5314,14 @@
 /obj/structure/sign/poster/official/ian,
 /turf/closed/wall/mineral/stone,
 /area/station/service/salon)
+"oR" = (
+/obj/effect/turf_decal/trimline/blue/filled/line,
+/obj/structure/table/reinforced/rglass,
+/obj/item/storage/box/syringes{
+	pixel_y = -8
+	},
+/turf/open/floor/iron/white,
+/area/station/medical/storage)
 "oT" = (
 /obj/machinery/power/terminal,
 /obj/structure/cable,
@@ -4995,6 +5357,18 @@
 /area/station/common/pool{
 	name = "Tchiko's Lake Side"
 	})
+"oZ" = (
+/obj/structure/window/reinforced/tinted{
+	dir = 4
+	},
+/obj/machinery/door/window/tram/left/directional/north{
+	desc = "Sturdy glass sliding door meant to keep the largest of creatures behind them......maybe."
+	},
+/obj/structure/flora/bush/fullgrass,
+/obj/structure/flora/bush/grassy/style_2,
+/obj/structure/flora/bush/flowers_pp,
+/turf/open/misc/grass/jungle,
+/area/icemoon/underground/explored)
 "pb" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -5100,7 +5474,9 @@
 /area/station/medical/morgue)
 "pr" = (
 /obj/machinery/airalarm/directional/west,
-/turf/open/misc/grass,
+/turf/open/misc/grass{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/station/medical/exam_room{
 	name = "Hakitachiya's Methshack Lounge"
 	})
@@ -5131,7 +5507,9 @@
 "pv" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/structure/closet/secure_closet/freezer/meat,
-/turf/open/floor/iron/checker,
+/turf/open/floor/iron/checker{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/station/medical/coldroom{
 	name = "Hakitachiya's Kitchenette"
 	})
@@ -5158,13 +5536,16 @@
 	pixel_y = 15
 	},
 /obj/structure/cable,
-/turf/open/floor/wood,
+/turf/open/floor/wood{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/ruin/space/ks13/medical/morgue{
 	name = "Hakitachiya's Bedroom and Bathroom"
 	})
 "pA" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
 /turf/open/floor/wood/tile,
 /area/station/service/bar)
 "pB" = (
@@ -5319,9 +5700,7 @@
 /area/station/medical/patients_rooms/room_b)
 "pU" = (
 /obj/structure/sign/departments/psychology/directional/south,
-/obj/effect/turf_decal/siding/wideplating_new/dark{
-	dir = 3
-	},
+/obj/effect/turf_decal/siding/wideplating_new/dark,
 /turf/open/floor/stone/icemoon{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
@@ -5362,8 +5741,8 @@
 /obj/structure/fans/tiny,
 /obj/machinery/door/airlock/public/glass,
 /turf/open/misc/dirt/planet,
-/area/station/common/pool{
-	name = "Tchiko's Lake Side"
+/area/station/medical/exam_room{
+	name = "Hakitachiya's Methshack Lounge"
 	})
 "qc" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
@@ -5410,7 +5789,9 @@
 /area/station/science/robotics/lab)
 "qk" = (
 /obj/structure/table/wood,
-/turf/open/floor/wood,
+/turf/open/floor/wood{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/station/medical/coldroom{
 	name = "Hakitachiya's Kitchenette"
 	})
@@ -5556,7 +5937,9 @@
 	pixel_y = -21
 	},
 /obj/machinery/light/cold/directional/south,
-/turf/open/floor/iron/checker,
+/turf/open/floor/iron/checker{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/station/medical/coldroom{
 	name = "Hakitachiya's Kitchenette"
 	})
@@ -5593,11 +5976,12 @@
 	name = "Medical Hallway"
 	})
 "qO" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/carpet/neon/simple/teal/nodots,
-/area/station/hallway/primary/fore)
+/obj/structure/decorative/shelf/soda{
+	name = "";
+	desc = "A sturdy wooden shelf with a bunch of sexual enhancer's on it, as well as some empty ones. Whats inside of this bottle? It's....white?"
+	},
+/turf/closed/wall/mineral/stone,
+/area/icemoon/underground/explored)
 "qP" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -5646,9 +6030,7 @@
 /turf/open/floor/wood,
 /area/station/command)
 "qV" = (
-/obj/effect/turf_decal/siding/wideplating_new/dark{
-	dir = 7
-	},
+/obj/effect/turf_decal/siding/wideplating_new/dark,
 /turf/open/floor/glass/reinforced/plasma,
 /area/station/hallway/primary/port)
 "qW" = (
@@ -5684,6 +6066,12 @@
 /area/mine/xenoarch/living{
 	name = "Tchiko's Castle Lounge"
 	})
+"ra" = (
+/obj/structure/chair/comfy/teal{
+	dir = 4
+	},
+/turf/open/floor/iron/white,
+/area/station/medical/medbay/lobby)
 "rb" = (
 /obj/machinery/door/airlock/external,
 /obj/structure/cable,
@@ -5745,6 +6133,9 @@
 "rj" = (
 /obj/structure/cable,
 /obj/machinery/light_switch/directional/north,
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 9
+	},
 /turf/open/floor/stone/icemoon{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
@@ -5769,14 +6160,23 @@
 /area/station/medical{
 	name = "Medical Hallway"
 	})
+"ro" = (
+/obj/structure/window/reinforced/tinted{
+	dir = 4
+	},
+/turf/open/floor/vault,
+/area/icemoon/underground/explored)
 "rq" = (
 /obj/structure/flora/tree/jungle/style_random,
-/turf/open/misc/grass,
+/turf/open/misc/grass{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/station/medical/exam_room{
 	name = "Hakitachiya's Methshack Lounge"
 	})
 "rr" = (
 /obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/siding/wideplating_new/dark,
 /turf/open/floor/stone/icemoon{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
@@ -6064,7 +6464,9 @@
 "sl" = (
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/directional/north,
-/turf/open/misc/grass,
+/turf/open/misc/grass{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/station/medical/exam_room{
 	name = "Hakitachiya's Methshack Lounge"
 	})
@@ -6184,7 +6586,9 @@
 /obj/machinery/chem_dispenser{
 	layer = 2.7
 	},
-/turf/open/floor/iron/white,
+/turf/open/floor/iron/white{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/station/medical/chemistry{
 	name = "The Meth Room"
 	})
@@ -6563,6 +6967,13 @@
 /area/mine/xenoarch/engineering{
 	name = "Tchiko's Castle Quarters"
 	})
+"tF" = (
+/obj/machinery/light/cold/directional/north,
+/obj/structure/toilet,
+/turf/open/floor/iron/kitchen/diagonal,
+/area/mine/xenoarch/living{
+	name = "Tchiko's Castle Lounge"
+	})
 "tG" = (
 /turf/closed/wall/mineral/stone,
 /area/station/hallway/primary/port)
@@ -6592,7 +7003,9 @@
 "tL" = (
 /obj/structure/flora/tree/jungle/style_random,
 /obj/structure/flora/bush/fullgrass/style_random,
-/turf/open/misc/grass,
+/turf/open/misc/grass{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/station/medical/exam_room{
 	name = "Hakitachiya's Methshack Lounge"
 	})
@@ -6608,6 +7021,25 @@
 /area/station/hallway/secondary/entry{
 	has_gravity = 1
 	})
+"tO" = (
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 1
+	},
+/obj/structure/table/reinforced/rglass,
+/obj/item/storage/medkit/regular{
+	pixel_x = -8;
+	pixel_y = -6
+	},
+/obj/item/storage/medkit/regular{
+	pixel_x = -8;
+	pixel_y = -6
+	},
+/obj/item/storage/medkit/regular{
+	pixel_x = -8;
+	pixel_y = -6
+	},
+/turf/open/floor/iron/white,
+/area/station/medical/storage)
 "tP" = (
 /obj/structure/flora/rock/icy/style_random,
 /obj/structure/flora/bush/fullgrass/style_random,
@@ -6722,7 +7154,9 @@
 "ui" = (
 /obj/machinery/light/cold/directional/north,
 /obj/structure/flora/bush/fullgrass/style_random,
-/turf/open/misc/grass,
+/turf/open/misc/grass{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/station/medical/exam_room{
 	name = "Hakitachiya's Methshack Lounge"
 	})
@@ -6794,11 +7228,13 @@
 /turf/open/floor/wood,
 /area/station/cargo)
 "ur" = (
-/obj/structure/cable,
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 8
+	},
 /turf/open/floor/stone/icemoon{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
-/area/station/hallway/primary/aft)
+/area/station/hallway/primary/starboard)
 "us" = (
 /obj/structure/fence,
 /turf/open/floor/grass/fairy,
@@ -6851,6 +7287,11 @@
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/station/hallway/primary/central)
+"uC" = (
+/obj/item/bdsm_bed_kit,
+/obj/item/clothing/mask/gas/bdsm_mask,
+/turf/open/floor/vault,
+/area/icemoon/underground/explored)
 "uD" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -6979,7 +7420,9 @@
 /obj/item/grenade/chem_grenade,
 /obj/item/grenade/chem_grenade,
 /obj/item/grenade/chem_grenade,
-/turf/open/floor/iron/white,
+/turf/open/floor/iron/white{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/station/medical/chemistry{
 	name = "The Meth Room"
 	})
@@ -7029,7 +7472,9 @@
 /obj/structure/cable,
 /obj/structure/chair/wood,
 /obj/machinery/light/cold/directional/north,
-/turf/open/floor/wood,
+/turf/open/floor/wood{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/station/medical/coldroom{
 	name = "Hakitachiya's Kitchenette"
 	})
@@ -7050,7 +7495,9 @@
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/rd)
 "vm" = (
-/turf/open/misc/dirt/planet,
+/turf/open/misc/dirt/planet{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/station/medical/exam_room{
 	name = "Hakitachiya's Methshack Lounge"
 	})
@@ -7145,9 +7592,6 @@
 /obj/structure/window{
 	dir = 1
 	},
-/obj/effect/turf_decal/siding/wideplating_new/dark{
-	dir = 1
-	},
 /turf/open/floor/iron/kitchen/diagonal,
 /area/mine/xenoarch/living{
 	name = "Tchiko's Castle Lounge"
@@ -7188,11 +7632,26 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/wood/tile,
 /area/station/command/heads_quarters/cmo)
+"vH" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 4
+	},
+/obj/structure/closet/secure_closet/miner,
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/station/cargo/miningoffice)
 "vI" = (
-/turf/open/floor/vault/sandstone,
-/area/station/common/pool{
-	name = "Tchiko's Lake Side"
-	})
+/obj/structure/alien/resin/flower_bud,
+/obj/structure/flora/bush/fullgrass,
+/obj/structure/flora/bush/fullgrass/style_3,
+/obj/structure/flora/bush/grassy/style_2,
+/obj/structure/window/reinforced/spawner/north{
+	name = "containment cell"
+	},
+/obj/structure/flora/bush/flowers_pp/style_2,
+/turf/open/misc/grass/jungle,
+/area/icemoon/underground/explored)
 "vJ" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 6
@@ -7203,6 +7662,18 @@
 /obj/machinery/light_switch/directional/east,
 /turf/open/floor/iron/white,
 /area/station/medical/patients_rooms/room_a)
+"vK" = (
+/obj/structure/drain,
+/obj/machinery/door/window{
+	dir = 8
+	},
+/obj/machinery/shower/directional/west,
+/turf/open/floor/iron/checker{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
+/area/ruin/space/ks13/medical/morgue{
+	name = "Hakitachiya's Bedroom and Bathroom"
+	})
 "vL" = (
 /obj/machinery/door/airlock/external,
 /turf/open/floor/stone/icemoon{
@@ -7211,9 +7682,7 @@
 /area/station/hallway/primary/fore)
 "vM" = (
 /obj/machinery/light/cold/directional/south,
-/obj/effect/turf_decal/siding/wideplating_new/dark{
-	dir = 7
-	},
+/obj/effect/turf_decal/siding/wideplating_new/dark,
 /turf/open/floor/stone/icemoon{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
@@ -7221,6 +7690,31 @@
 "vN" = (
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/captain)
+"vO" = (
+/obj/effect/turf_decal/trimline/blue/filled/line,
+/obj/structure/table/reinforced/rglass,
+/obj/item/storage/medkit/o2{
+	pixel_x = -4;
+	pixel_y = -6
+	},
+/obj/item/storage/medkit/o2{
+	pixel_x = -4;
+	pixel_y = -6
+	},
+/obj/item/storage/medkit/o2{
+	pixel_x = -4;
+	pixel_y = -6
+	},
+/obj/item/storage/medkit/o2{
+	pixel_x = -4;
+	pixel_y = -6
+	},
+/obj/item/storage/medkit/o2{
+	pixel_x = -4;
+	pixel_y = -6
+	},
+/turf/open/floor/iron/white,
+/area/station/medical/storage)
 "vP" = (
 /obj/machinery/light/cold/directional/north,
 /turf/open/floor/iron/kitchen/diagonal,
@@ -7233,6 +7727,15 @@
 	},
 /turf/open/floor/vault,
 /area/icemoon/underground/explored)
+"vR" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 10
+	},
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/station/hallway/primary/starboard)
 "vS" = (
 /obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 6
@@ -7262,7 +7765,7 @@
 	set_cap = 1;
 	set_luminosity = 4
 	},
-/turf/open/floor/vault/sandstone,
+/turf/open/floor/wood,
 /area/station/common/pool{
 	name = "Tchiko's Lake Side"
 	})
@@ -7271,7 +7774,9 @@
 /area/station/maintenance/port/central)
 "vX" = (
 /obj/structure/chair/office/light,
-/turf/open/floor/wood,
+/turf/open/floor/wood{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/ruin/space/ks13/medical/morgue{
 	name = "Hakitachiya's Bedroom and Bathroom"
 	})
@@ -7413,6 +7918,17 @@
 /obj/structure/cable,
 /turf/open/floor/iron/small,
 /area/station/commons/dorms/laundry)
+"wy" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/siding/wideplating_new/dark/corner{
+	dir = 8
+	},
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/station/hallway/primary/aft)
 "wz" = (
 /obj/structure/cable,
 /turf/closed/wall,
@@ -7457,7 +7973,9 @@
 	name = "Tchiko's Castle Quarters"
 	})
 "wF" = (
-/turf/open/floor/wood,
+/turf/open/floor/wood{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/station/medical/coldroom{
 	name = "Hakitachiya's Kitchenette"
 	})
@@ -7705,7 +8223,9 @@
 	pixel_y = 18;
 	pixel_x = -2
 	},
-/turf/open/floor/iron/checker,
+/turf/open/floor/iron/checker{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/station/medical/coldroom{
 	name = "Hakitachiya's Kitchenette"
 	})
@@ -7766,6 +8286,9 @@
 	dir = 1
 	},
 /obj/machinery/light/cold/directional/west,
+/obj/item/bedsheet/medical/double{
+	dir = 1
+	},
 /turf/open/floor/iron/white,
 /area/station/medical/patients_rooms/room_a)
 "xw" = (
@@ -7804,6 +8327,12 @@
 /area/station/medical{
 	name = "Medical Hallway"
 	})
+"xB" = (
+/obj/structure/chair/comfy/teal{
+	dir = 8
+	},
+/turf/open/floor/iron/white,
+/area/station/medical/medbay/lobby)
 "xC" = (
 /obj/structure/chair/comfy/barber_chair,
 /turf/open/floor/wood/tile,
@@ -7906,7 +8435,9 @@
 "xS" = (
 /obj/structure/flora/bush/fullgrass/style_random,
 /obj/structure/flora/bush/flowers_br/style_random,
-/turf/open/misc/grass,
+/turf/open/misc/grass{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/station/medical/exam_room{
 	name = "Hakitachiya's Methshack Lounge"
 	})
@@ -8039,7 +8570,9 @@
 "yp" = (
 /obj/structure/cable,
 /obj/machinery/griddle,
-/turf/open/floor/iron/checker,
+/turf/open/floor/iron/checker{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/station/medical/coldroom{
 	name = "Hakitachiya's Kitchenette"
 	})
@@ -8092,7 +8625,9 @@
 /obj/machinery/power/apc/auto_name/directional/east,
 /obj/structure/cable,
 /obj/machinery/light/cold/directional/east,
-/turf/open/floor/iron/white,
+/turf/open/floor/iron/white{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/station/medical/chemistry{
 	name = "The Meth Room"
 	})
@@ -8181,7 +8716,9 @@
 	name = "Tchiko's Lake Side"
 	})
 "yN" = (
-/turf/open/floor/wood,
+/turf/open/floor/wood{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/ruin/space/ks13/medical/morgue{
 	name = "Hakitachiya's Bedroom and Bathroom"
 	})
@@ -8205,7 +8742,9 @@
 "yR" = (
 /obj/machinery/light_switch/directional/south,
 /obj/machinery/light_switch/directional/east,
-/turf/open/floor/wood,
+/turf/open/floor/wood{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/ruin/space/ks13/medical/morgue{
 	name = "Hakitachiya's Bedroom and Bathroom"
 	})
@@ -8227,6 +8766,9 @@
 /area/station/cargo)
 "yX" = (
 /obj/machinery/light/cold/directional/east,
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 6
+	},
 /turf/open/floor/stone/icemoon{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
@@ -8446,7 +8988,9 @@
 /obj/structure/cable,
 /obj/structure/table/wood,
 /obj/machinery/light/cold/directional/south,
-/turf/open/floor/wood,
+/turf/open/floor/wood{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/ruin/space/ks13/medical/morgue{
 	name = "Hakitachiya's Bedroom and Bathroom"
 	})
@@ -8593,12 +9137,16 @@
 /obj/structure/chair/sofa/bench/left{
 	dir = 8
 	},
-/turf/open/misc/dirt/planet,
+/turf/open/misc/dirt/planet{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/station/medical/exam_room{
 	name = "Hakitachiya's Methshack Lounge"
 	})
 "Ac" = (
-/turf/open/floor/carpet/royalblue,
+/turf/open/floor/carpet/royalblue{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/ruin/space/ks13/medical/medbay{
 	name = "Hakitachiya's Methshack Entrance"
 	})
@@ -8607,7 +9155,9 @@
 	set_cap = 1;
 	set_luminosity = 4
 	},
-/turf/open/misc/dirt/planet,
+/turf/open/misc/dirt/planet{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/station/medical/exam_room{
 	name = "Hakitachiya's Methshack Lounge"
 	})
@@ -8683,6 +9233,9 @@
 	dir = 1
 	},
 /obj/machinery/light/cold/directional/west,
+/obj/item/bedsheet/medical/double{
+	dir = 1
+	},
 /turf/open/floor/iron/white,
 /area/station/medical/patients_rooms/room_b)
 "Ao" = (
@@ -8733,24 +9286,11 @@
 /turf/open/floor/iron/dark,
 /area/station/engineering/gravity_generator)
 "Av" = (
-/obj/structure/stairs/stone,
-/obj/structure/stairs/stone,
-/obj/structure/stairs/stone,
-/obj/structure/stairs/stone,
-/obj/structure/stairs/stone,
-/obj/structure/stairs/stone,
-/obj/structure/stairs/stone,
-/obj/structure/stairs/stone,
-/obj/structure/stairs/stone,
-/obj/structure/stairs/stone,
-/obj/structure/stairs/stone,
-/obj/structure/stairs/stone,
-/obj/structure/stairs/stone,
-/obj/structure/stairs/stone,
-/turf/open/openspace,
-/area/mine/xenoarch/science/cytology{
-	name = "Tchiko's Castle Gardens"
-	})
+/obj/structure/window/reinforced/tinted{
+	dir = 1
+	},
+/turf/open/floor/vault,
+/area/icemoon/underground/explored)
 "Ax" = (
 /obj/machinery/atmospherics/pipe/smart/simple/cyan/visible{
 	dir = 4
@@ -8915,7 +9455,9 @@
 	set_cap = 1;
 	set_luminosity = 4
 	},
-/turf/open/misc/grass,
+/turf/open/misc/grass{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/station/medical/exam_room{
 	name = "Hakitachiya's Methshack Lounge"
 	})
@@ -8983,9 +9525,7 @@
 /turf/open/floor/vault/rock,
 /area/station/command/heads_quarters/ce)
 "Bj" = (
-/obj/effect/turf_decal/siding/wideplating_new/dark{
-	dir = 7
-	},
+/obj/effect/turf_decal/siding/wideplating_new/dark,
 /turf/open/floor/glass/reinforced/plasma,
 /area/station/hallway/primary/fore)
 "Bk" = (
@@ -9137,10 +9677,17 @@
 /turf/open/floor/vault/rock,
 /area/station/engineering/storage)
 "BE" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/cable,
-/turf/open/indestructible/cobble,
-/area/icemoon/surface/outdoors/labor_camp)
+/obj/structure/flora/bush/flowers_br/style_random,
+/obj/effect/light_emitter{
+	set_cap = 1;
+	set_luminosity = 4
+	},
+/turf/open/misc/grass{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
+/area/station/medical/exam_room{
+	name = "Hakitachiya's Methshack Lounge"
+	})
 "BF" = (
 /obj/effect/turf_decal/trimline/blue/filled/warning{
 	dir = 8
@@ -9211,6 +9758,14 @@
 /obj/machinery/door/firedoor,
 /turf/open/floor/glass/reinforced/plasma,
 /area/station/hallway/primary/central)
+"BO" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 4
+	},
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/station/cargo/miningoffice)
 "BP" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -9226,7 +9781,9 @@
 /area/station/hallway)
 "BR" = (
 /obj/item/kirbyplants/random,
-/turf/open/floor/wood,
+/turf/open/floor/wood{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/ruin/space/ks13/medical/medbay{
 	name = "Hakitachiya's Methshack Entrance"
 	})
@@ -9415,6 +9972,15 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
+"Cv" = (
+/obj/machinery/suit_storage_unit/mining,
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 5
+	},
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/station/cargo/miningoffice)
 "Cw" = (
 /obj/structure/table/reinforced/rglass,
 /obj/effect/turf_decal/tile/purple/full,
@@ -9440,6 +10006,13 @@
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/station/hallway/primary/starboard)
+"CB" = (
+/obj/structure/cable,
+/obj/structure/chair/comfy/teal{
+	dir = 4
+	},
+/turf/open/floor/iron/white,
+/area/station/medical/medbay/lobby)
 "CD" = (
 /obj/machinery/airalarm/directional/east,
 /turf/open/floor/wood,
@@ -9486,11 +10059,10 @@
 /turf/open/floor/vault/rock,
 /area/station/engineering/hallway)
 "CK" = (
-/obj/machinery/light/cold/directional/north,
-/turf/open/floor/iron/kitchen/diagonal,
-/area/mine/xenoarch/living{
-	name = "Tchiko's Castle Lounge"
-	})
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/station/cargo/miningoffice)
 "CL" = (
 /turf/open/floor/plating,
 /area/icemoon/surface/outdoors/labor_camp)
@@ -9609,8 +10181,11 @@
 	},
 /area/station/hallway/primary/fore)
 "Df" = (
-/turf/closed/wall/mineral/wood/nonmetal,
-/area/station/commons/dorms)
+/obj/machinery/ore_silo,
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/station/science/server)
 "Dg" = (
 /obj/effect/landmark/start/chemist,
 /turf/open/floor/plating,
@@ -9844,12 +10419,15 @@
 "DR" = (
 /obj/structure/table/wood,
 /obj/item/tank/internals/nitrogen/full,
-/turf/open/floor/wood,
+/turf/open/floor/wood{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/ruin/space/ks13/medical/medbay{
 	name = "Hakitachiya's Methshack Entrance"
 	})
 "DS" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/obj/structure/toilet,
 /turf/open/floor/iron/kitchen/diagonal,
 /area/mine/xenoarch/maintenance/east{
 	name = "Tchiko's Castle Restroom"
@@ -9878,6 +10456,9 @@
 	dir = 8
 	},
 /obj/machinery/light/cold/directional/east,
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 4
+	},
 /turf/open/floor/stone/icemoon{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
@@ -10063,7 +10644,9 @@
 	dir = 1
 	},
 /obj/structure/table,
-/turf/open/floor/iron/checker,
+/turf/open/floor/iron/checker{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/station/medical/coldroom{
 	name = "Hakitachiya's Kitchenette"
 	})
@@ -10139,7 +10722,9 @@
 /area/station/engineering/gravity_generator)
 "EM" = (
 /obj/machinery/airalarm/directional/west,
-/turf/open/floor/wood,
+/turf/open/floor/wood{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/ruin/space/ks13/medical/medbay{
 	name = "Hakitachiya's Methshack Entrance"
 	})
@@ -10158,9 +10743,7 @@
 /turf/open/floor/plating,
 /area/icemoon/surface/outdoors/labor_camp)
 "EP" = (
-/obj/effect/turf_decal/siding/wideplating_new/dark{
-	dir = 3
-	},
+/obj/effect/turf_decal/siding/wideplating_new/dark,
 /turf/open/floor/glass/reinforced/plasma,
 /area/station/hallway/primary/aft)
 "EQ" = (
@@ -10189,7 +10772,9 @@
 /obj/structure/chair/wood{
 	dir = 1
 	},
-/turf/open/floor/wood,
+/turf/open/floor/wood{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/station/medical/coldroom{
 	name = "Hakitachiya's Kitchenette"
 	})
@@ -10341,6 +10926,12 @@
 /obj/structure/cable,
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/qm)
+"Fw" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 6
+	},
+/turf/open/floor/glass/reinforced/plasma,
+/area/station/cargo/miningoffice)
 "Fx" = (
 /obj/structure/chair/sofa/corner{
 	dir = 8
@@ -10357,16 +10948,16 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/turf_decal/siding/wideplating_new/dark{
-	dir = 3
-	},
+/obj/effect/turf_decal/siding/wideplating_new/dark,
 /turf/open/floor/stone/icemoon{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/station/hallway/primary/aft)
 "Fz" = (
 /obj/structure/mineral_door/wood,
-/turf/open/floor/wood,
+/turf/open/floor/wood{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/station/medical/exam_room{
 	name = "Hakitachiya's Methshack Lounge"
 	})
@@ -10395,9 +10986,11 @@
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/lobby)
 "FE" = (
-/obj/structure/flora/bush/fullgrass/style_random,
-/turf/closed/wall/mineral/stone,
-/area/icemoon/surface/outdoors/labor_camp)
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 1
+	},
+/turf/open/floor/glass/reinforced/plasma,
+/area/station/cargo/miningoffice)
 "FG" = (
 /obj/machinery/door/airlock/engineering,
 /obj/structure/cable,
@@ -10424,9 +11017,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/turf_decal/siding/wideplating_new/dark{
-	dir = 7
-	},
+/obj/effect/turf_decal/siding/wideplating_new/dark,
 /turf/open/floor/stone/icemoon{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
@@ -10440,7 +11031,9 @@
 "FM" = (
 /obj/machinery/light_switch/directional/west,
 /obj/structure/flora/bush/grassy,
-/turf/open/misc/grass,
+/turf/open/misc/grass{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/station/medical/exam_room{
 	name = "Hakitachiya's Methshack Lounge"
 	})
@@ -10594,7 +11187,9 @@
 	},
 /obj/machinery/chem_heater/withbuffer,
 /obj/machinery/light_switch/directional/west,
-/turf/open/floor/iron/white,
+/turf/open/floor/iron/white{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/station/medical/chemistry{
 	name = "The Meth Room"
 	})
@@ -10704,7 +11299,9 @@
 /obj/item/bedsheet/cmo/double{
 	dir = 1
 	},
-/turf/open/floor/wood,
+/turf/open/floor/wood{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/ruin/space/ks13/medical/morgue{
 	name = "Hakitachiya's Bedroom and Bathroom"
 	})
@@ -10751,7 +11348,9 @@
 	},
 /obj/machinery/light_switch/directional/south,
 /obj/machinery/light/cold/directional/south,
-/turf/open/floor/wood,
+/turf/open/floor/wood{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/ruin/space/ks13/medical/medbay{
 	name = "Hakitachiya's Methshack Entrance"
 	})
@@ -10802,7 +11401,8 @@
 /area/station/cargo/lobby)
 "GM" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
-/obj/machinery/light_switch/directional/west,
+/obj/structure/rack/shelf,
+/obj/structure/railing,
 /turf/open/floor/iron/kitchen/diagonal,
 /area/mine/xenoarch/maintenance/east{
 	name = "Tchiko's Castle Restroom"
@@ -10939,9 +11539,6 @@
 /obj/structure/window{
 	dir = 1
 	},
-/obj/effect/turf_decal/siding/wideplating_new/dark{
-	dir = 1
-	},
 /turf/open/floor/iron/kitchen/diagonal,
 /area/mine/xenoarch/living{
 	name = "Tchiko's Castle Lounge"
@@ -10978,14 +11575,31 @@
 /turf/closed/wall/mineral/stone,
 /area/station/commons/dorms)
 "Hm" = (
-/obj/structure/fans/tiny,
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/stone/icemoon{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+/obj/structure/table_frame/abductor,
+/obj/item/condom_pack{
+	pixel_y = 7
 	},
-/area/station/common/pool{
-	name = "Tchiko's Lake Side"
-	})
+/obj/item/condom_pack{
+	pixel_x = 10;
+	pixel_y = 7
+	},
+/obj/item/condom_pack{
+	pixel_y = 7;
+	pixel_x = -10
+	},
+/obj/item/condom_pack{
+	pixel_x = -10;
+	pixel_y = -4
+	},
+/obj/item/condom_pack{
+	pixel_y = -4
+	},
+/obj/item/condom_pack{
+	pixel_x = 10;
+	pixel_y = -4
+	},
+/turf/open/floor/vault,
+/area/icemoon/underground/explored)
 "Hn" = (
 /obj/structure/altar_of_gods{
 	dir = 1
@@ -11140,7 +11754,9 @@
 /obj/effect/turf_decal/trimline/blue/filled/line,
 /obj/structure/table/reinforced/rglass,
 /obj/item/reagent_containers/cup/beaker/large,
-/turf/open/floor/iron/white,
+/turf/open/floor/iron/white{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/station/medical/chemistry{
 	name = "The Meth Room"
 	})
@@ -11289,6 +11905,15 @@
 /area/station/service/kitchen{
 	has_gravity = 1
 	})
+"Ii" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wideplating_new/dark,
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/station/hallway/primary/starboard)
 "Ij" = (
 /obj/effect/spawner/structure/window/reinforced/shuttle,
 /turf/open/floor/wood,
@@ -11299,6 +11924,7 @@
 	},
 /obj/structure/bed/double,
 /obj/machinery/light/cold/directional/east,
+/obj/item/bedsheet/medical/double,
 /turf/open/floor/iron/white,
 /area/station/medical/patients_rooms/room_b)
 "Il" = (
@@ -11319,13 +11945,27 @@
 /area/mine/xenoarch/science/cytology{
 	name = "Tchiko's Castle Gardens"
 	})
+"Io" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 1
+	},
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/station/hallway/primary/starboard)
 "Ip" = (
 /obj/machinery/chem_heater,
 /turf/open/floor/vault,
 /area/icemoon/underground/explored)
 "Iq" = (
 /obj/structure/stairs/stone,
-/turf/open/indestructible/cobble,
+/obj/structure/stairs/stone{
+	dir = 1
+	},
+/turf/open/floor/vault,
 /area/icemoon/underground/explored)
 "Ir" = (
 /obj/structure/cable,
@@ -11368,6 +12008,9 @@
 	dir = 8
 	},
 /obj/machinery/light/cold/directional/east,
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 4
+	},
 /turf/open/floor/stone/icemoon{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
@@ -11479,6 +12122,15 @@
 "IN" = (
 /turf/open/floor/glass/reinforced/plasma,
 /area/station/hallway/primary/aft)
+"IO" = (
+/obj/machinery/suit_storage_unit/mining,
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 1
+	},
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/station/cargo/miningoffice)
 "IP" = (
 /obj/structure/flora/bush/grassy/style_random,
 /turf/open/floor/grass,
@@ -11535,7 +12187,9 @@
 /area/station/commons/dorms/barracks)
 "IZ" = (
 /obj/structure/mineral_door/wood,
-/turf/open/floor/wood,
+/turf/open/floor/wood{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/ruin/space/ks13/medical/morgue{
 	name = "Hakitachiya's Bedroom and Bathroom"
 	})
@@ -11566,16 +12220,8 @@
 	},
 /area/station/commons/dorms/laundry)
 "Jg" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 8
-	},
-/obj/effect/turf_decal/siding/wood{
-	dir = 1
-	},
-/turf/open/floor/wood,
-/area/mine/xenoarch/living{
-	name = "Tchiko's Castle Lounge"
-	})
+/turf/open/floor/glass/reinforced/plasma,
+/area/station/cargo/miningoffice)
 "Jh" = (
 /turf/closed/indestructible/rock,
 /area/ruin/space/ks13/medical/morgue{
@@ -11595,6 +12241,11 @@
 /obj/machinery/airalarm/directional/west,
 /turf/open/floor/iron/white,
 /area/station/medical/cryo)
+"Jl" = (
+/obj/machinery/light/cold/directional/north,
+/obj/structure/cable,
+/turf/open/floor/glass/reinforced/plasma,
+/area/station/hallway/primary/central)
 "Jm" = (
 /obj/machinery/light/cold/directional/east,
 /turf/open/floor/glass/reinforced/plasma,
@@ -11777,12 +12428,26 @@
 /obj/structure/cable,
 /turf/open/floor/iron/white,
 /area/station/science/lab)
+"JO" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 1
+	},
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/station/hallway/primary/fore)
 "JP" = (
 /obj/machinery/power/apc/auto_name/directional/west{
 	arc_shielded = 1
 	},
 /obj/structure/cable,
 /obj/machinery/light/cold/directional/west,
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 8
+	},
 /turf/open/floor/stone/icemoon{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
@@ -11797,6 +12462,7 @@
 	},
 /obj/structure/bed/double,
 /obj/machinery/light/cold/directional/east,
+/obj/item/bedsheet/medical/double,
 /turf/open/floor/iron/white,
 /area/station/medical/patients_rooms/room_a)
 "JS" = (
@@ -11807,6 +12473,29 @@
 /area/station/engineering/atmos{
 	has_gravity = 1
 	})
+"JT" = (
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 1
+	},
+/obj/structure/table/reinforced/rglass,
+/obj/item/storage/medkit/brute{
+	pixel_y = -6;
+	pixel_x = -8
+	},
+/obj/item/storage/medkit/brute{
+	pixel_y = -6;
+	pixel_x = -8
+	},
+/obj/item/storage/medkit/brute{
+	pixel_y = -6;
+	pixel_x = -8
+	},
+/obj/item/storage/medkit/brute{
+	pixel_y = -6;
+	pixel_x = -8
+	},
+/turf/open/floor/iron/white,
+/area/station/medical/storage)
 "JU" = (
 /obj/machinery/vending/snack/orange,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
@@ -11858,9 +12547,7 @@
 	name = "Tchiko's Castle Quarters"
 	})
 "Kb" = (
-/obj/effect/turf_decal/siding/wideplating_new/dark{
-	dir = 3
-	},
+/obj/effect/turf_decal/siding/wideplating_new/dark,
 /turf/open/floor/stone/icemoon{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
@@ -11997,6 +12684,11 @@
 	},
 /turf/open/floor/plating,
 /area/icemoon/surface/outdoors/labor_camp)
+"Ks" = (
+/obj/item/reagent_containers/spray/cyborg_lube,
+/obj/structure/table_frame/abductor,
+/turf/open/floor/vault,
+/area/icemoon/underground/explored)
 "Kt" = (
 /obj/structure/bed/double{
 	name = "Nisime's Bed"
@@ -12101,6 +12793,25 @@
 	dir = 1
 	},
 /area/station/service/chapel)
+"KM" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark,
+/obj/structure/rack,
+/obj/item/shovel{
+	pixel_x = -5
+	},
+/obj/item/shovel{
+	pixel_x = -5
+	},
+/obj/item/pickaxe{
+	pixel_x = 5
+	},
+/obj/item/pickaxe{
+	pixel_x = 5
+	},
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/station/cargo/miningoffice)
 "KN" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -12127,7 +12838,9 @@
 /area/station/science/breakroom)
 "KQ" = (
 /obj/structure/chair/wood,
-/turf/open/floor/wood,
+/turf/open/floor/wood{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/station/medical/coldroom{
 	name = "Hakitachiya's Kitchenette"
 	})
@@ -12267,6 +12980,13 @@
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/station/hallway/primary/fore)
+"Lo" = (
+/obj/structure/table/wood/fancy/red,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/floor/carpet/royalblack,
+/area/mine/xenoarch/living{
+	name = "Tchiko's Castle Lounge"
+	})
 "Lq" = (
 /obj/structure/table/reinforced/rglass,
 /obj/effect/turf_decal/tile/purple/full,
@@ -12473,7 +13193,9 @@
 /area/station/maintenance/port/central)
 "LT" = (
 /obj/structure/closet/secure_closet/freezer/kitchen,
-/turf/open/floor/iron/checker,
+/turf/open/floor/iron/checker{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/station/medical/coldroom{
 	name = "Hakitachiya's Kitchenette"
 	})
@@ -12495,6 +13217,15 @@
 "LW" = (
 /turf/open/genturf,
 /area/icemoon/surface/outdoors/nospawn)
+"LX" = (
+/obj/structure/table/wood/fancy/red,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
+/turf/open/floor/carpet/royalblack,
+/area/mine/xenoarch/living{
+	name = "Tchiko's Castle Lounge"
+	})
 "LY" = (
 /obj/machinery/light/cold/directional/east,
 /turf/open/floor/stone/icemoon{
@@ -12691,7 +13422,12 @@
 	has_gravity = 1
 	})
 "ME" = (
-/turf/open/floor/iron/checker,
+/obj/structure/toilet{
+	dir = 8
+	},
+/turf/open/floor/iron/checker{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/ruin/space/ks13/medical/morgue{
 	name = "Hakitachiya's Bedroom and Bathroom"
 	})
@@ -12724,10 +13460,12 @@
 /obj/machinery/power/apc/auto_name/directional/east{
 	arc_shielded = 1
 	},
+/obj/structure/cable,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/lobby)
 "MJ" = (
 /obj/machinery/light/directional/south,
+/obj/effect/turf_decal/siding/wideplating_new/dark,
 /turf/open/floor/stone/icemoon{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
@@ -12749,10 +13487,14 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
 	},
+/obj/structure/cable,
 /turf/open/floor/wood/tile,
 /area/station/medical/psychology)
 "MM" = (
 /obj/machinery/airalarm/directional/west,
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 9
+	},
 /turf/open/floor/stone/icemoon{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
@@ -12803,7 +13545,7 @@
 /obj/effect/turf_decal/siding/wideplating_new/dark{
 	dir = 10
 	},
-/turf/open/floor/carpet/neon/simple/teal/nodots,
+/turf/open/floor/glass/reinforced/plasma,
 /area/station/hallway/primary/central)
 "MX" = (
 /obj/structure/chair/sofa/corp/corner{
@@ -12825,7 +13567,9 @@
 /area/station/science/genetics)
 "MZ" = (
 /obj/structure/table,
-/turf/open/floor/iron/checker,
+/turf/open/floor/iron/checker{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/station/medical/coldroom{
 	name = "Hakitachiya's Kitchenette"
 	})
@@ -12835,6 +13579,12 @@
 	},
 /turf/open/floor/iron/white,
 /area/station/medical/surgery)
+"Nb" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 5
+	},
+/turf/open/floor/glass/reinforced/plasma,
+/area/station/cargo/miningoffice)
 "Nc" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -12847,15 +13597,13 @@
 	has_gravity = 1
 	})
 "Ne" = (
-/obj/structure/cable,
-/obj/machinery/power/apc/auto_name/directional/west{
-	arc_shielded = 1
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 1
 	},
-/obj/machinery/light/cold/directional/west,
 /turf/open/floor/stone/icemoon{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
-/area/station/hallway/primary/aft)
+/area/station/cargo/miningoffice)
 "Nf" = (
 /obj/effect/spawner/random/bioluminescent_plant,
 /turf/open/floor/vault/rock,
@@ -12937,7 +13685,9 @@
 	})
 "Nu" = (
 /obj/structure/table/wood,
-/turf/open/floor/wood,
+/turf/open/floor/wood{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/ruin/space/ks13/medical/morgue{
 	name = "Hakitachiya's Bedroom and Bathroom"
 	})
@@ -13161,6 +13911,9 @@
 	})
 "Oa" = (
 /obj/structure/cable,
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 8
+	},
 /turf/open/floor/stone/icemoon{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
@@ -13208,7 +13961,9 @@
 	dir = 4
 	},
 /obj/structure/cable,
-/turf/open/floor/wood,
+/turf/open/floor/wood{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/ruin/space/ks13/medical/medbay{
 	name = "Hakitachiya's Methshack Entrance"
 	})
@@ -13232,7 +13987,9 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
 	},
-/turf/open/floor/iron/white,
+/turf/open/floor/iron/white{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/station/medical/chemistry{
 	name = "The Meth Room"
 	})
@@ -13490,7 +14247,9 @@
 	})
 "OV" = (
 /obj/structure/flora/rock/pile/jungle/style_random,
-/turf/open/misc/grass,
+/turf/open/misc/grass{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/station/medical/exam_room{
 	name = "Hakitachiya's Methshack Lounge"
 	})
@@ -13743,9 +14502,20 @@
 /area/mine/xenoarch/maintenance/west{
 	name = "Tchiko's Castle Jani Closet"
 	})
+"PJ" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 6
+	},
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/station/hallway/primary/starboard)
 "PK" = (
 /obj/structure/table/wood,
-/turf/open/floor/wood,
+/turf/open/floor/wood{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/ruin/space/ks13/medical/medbay{
 	name = "Hakitachiya's Methshack Entrance"
 	})
@@ -13788,9 +14558,6 @@
 	pixel_x = -2;
 	layer = 3.3
 	},
-/obj/effect/turf_decal/siding/wideplating_new/dark{
-	dir = 1
-	},
 /obj/structure/window{
 	dir = 1
 	},
@@ -13829,7 +14596,9 @@
 /area/station/command/heads_quarters/cmo)
 "PW" = (
 /obj/structure/mineral_door/wood,
-/turf/open/floor/iron/checker,
+/turf/open/floor/iron/checker{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/ruin/space/ks13/medical/morgue{
 	name = "Hakitachiya's Bedroom and Bathroom"
 	})
@@ -13854,6 +14623,15 @@
 	},
 /turf/open/floor/iron/white,
 /area/station/medical/surgery)
+"Qb" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 4
+	},
+/obj/machinery/mineral/equipment_vendor,
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/station/cargo/miningoffice)
 "Qc" = (
 /obj/machinery/door/airlock/research{
 	name = "Research Access"
@@ -13884,6 +14662,13 @@
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/station/hallway/primary/fore)
+"Qh" = (
+/obj/effect/mapping_helpers/airlock/access/all/supply/mining,
+/obj/machinery/door/airlock/mining/glass,
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/station/cargo/miningoffice)
 "Qi" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/turf_decal/siding/wood{
@@ -13906,6 +14691,14 @@
 /obj/structure/cable,
 /turf/open/floor/vault,
 /area/icemoon/underground/explored)
+"Qm" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 8
+	},
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/station/common/pool)
 "Qn" = (
 /obj/structure/table/wood,
 /obj/item/toy/spinningtoy,
@@ -14487,9 +15280,7 @@
 	})
 "RW" = (
 /obj/structure/trash_pile,
-/obj/effect/turf_decal/siding/wideplating_new/dark{
-	dir = 7
-	},
+/obj/effect/turf_decal/siding/wideplating_new/dark,
 /turf/open/floor/stone/icemoon{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
@@ -14622,6 +15413,16 @@
 /obj/structure/cable,
 /turf/open/floor/iron/white,
 /area/station/science/research)
+"Sp" = (
+/obj/structure/window,
+/obj/structure/sink/kitchen/directional/west,
+/obj/structure/mirror/directional/east,
+/turf/open/floor/iron/checker{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
+/area/ruin/space/ks13/medical/morgue{
+	name = "Hakitachiya's Bedroom and Bathroom"
+	})
 "Sq" = (
 /obj/effect/turf_decal/trimline/purple/filled/end{
 	dir = 4
@@ -14887,6 +15688,10 @@
 "Tj" = (
 /obj/structure/cable,
 /obj/machinery/light/cold/directional/west,
+/obj/machinery/power/apc/auto_name/directional/west,
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 8
+	},
 /turf/open/floor/stone/icemoon{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
@@ -15005,12 +15810,12 @@
 /area/station/medical/storage)
 "TB" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
-	dir = 7
+	dir = 4
 	},
 /turf/open/floor/stone/icemoon{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
-/area/station/hallway/primary/fore)
+/area/station/common/pool)
 "TC" = (
 /turf/closed/wall/mineral/wood/nonmetal,
 /area/station/common/pool{
@@ -15037,6 +15842,12 @@
 /obj/structure/cable,
 /turf/closed/wall/mineral/stone,
 /area/station/commons/dorms)
+"TG" = (
+/obj/structure/sink/kitchen/directional/east,
+/turf/open/floor/iron/kitchen/diagonal,
+/area/mine/xenoarch/living{
+	name = "Tchiko's Castle Lounge"
+	})
 "TH" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
@@ -15176,6 +15987,15 @@
 	},
 /turf/open/floor/glass/reinforced/plasma,
 /area/station/hallway/primary/port)
+"Ud" = (
+/obj/machinery/light/cold/directional/east,
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 4
+	},
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/station/hallway/primary/starboard)
 "Ue" = (
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible{
 	dir = 1
@@ -15288,7 +16108,9 @@
 /obj/machinery/light/cold/directional/north,
 /obj/structure/flora/bush/fullgrass/style_random,
 /obj/structure/flora/rock/pile/jungle/style_random,
-/turf/open/misc/grass,
+/turf/open/misc/grass{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/station/medical/exam_room{
 	name = "Hakitachiya's Methshack Lounge"
 	})
@@ -15480,9 +16302,7 @@
 	name = "Tchiko's Lake Side"
 	})
 "UZ" = (
-/obj/effect/turf_decal/siding/wideplating_new/dark{
-	dir = 7
-	},
+/obj/effect/turf_decal/siding/wideplating_new/dark,
 /turf/open/floor/stone/icemoon{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
@@ -15499,7 +16319,9 @@
 	})
 "Vc" = (
 /obj/structure/flora/bush/flowers_br/style_random,
-/turf/open/misc/grass,
+/turf/open/misc/grass{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/station/medical/exam_room{
 	name = "Hakitachiya's Methshack Lounge"
 	})
@@ -15642,6 +16464,13 @@
 "VE" = (
 /turf/open/floor/glass/reinforced/plasma,
 /area/station/hallway/primary/starboard)
+"VG" = (
+/turf/open/floor/iron/checker{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
+/area/ruin/space/ks13/medical/morgue{
+	name = "Hakitachiya's Bedroom and Bathroom"
+	})
 "VH" = (
 /obj/structure/mineral_door/wood,
 /turf/open/floor/wood/tile,
@@ -15700,7 +16529,9 @@
 "VP" = (
 /obj/effect/turf_decal/tile/blue/full,
 /obj/structure/chair/office/light,
-/turf/open/floor/iron/white,
+/turf/open/floor/iron/white{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/station/medical/chemistry{
 	name = "The Meth Room"
 	})
@@ -15789,6 +16620,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/light_switch/directional/south,
 /turf/open/floor/iron/kitchen/diagonal,
 /area/mine/xenoarch/maintenance/east{
 	name = "Tchiko's Castle Restroom"
@@ -15838,8 +16670,36 @@
 /obj/effect/mapping_helpers/airlock/access/any/science/general,
 /turf/open/floor/iron/white,
 /area/station/science/research)
+"Wi" = (
+/obj/effect/turf_decal/trimline/blue/filled/line,
+/obj/structure/table/reinforced/rglass,
+/obj/item/storage/medkit/surgery{
+	pixel_y = 10;
+	pixel_x = -2
+	},
+/obj/item/storage/medkit/surgery{
+	pixel_y = 10;
+	pixel_x = -2
+	},
+/obj/item/storage/medkit/surgery{
+	pixel_y = 10;
+	pixel_x = -2
+	},
+/obj/item/storage/medkit/surgery{
+	pixel_y = 10;
+	pixel_x = -2
+	},
+/obj/item/storage/medkit/surgery{
+	pixel_y = 10;
+	pixel_x = -2
+	},
+/turf/open/floor/iron/white,
+/area/station/medical/storage)
 "Wj" = (
 /obj/machinery/light/cold/directional/west,
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 10
+	},
 /turf/open/floor/stone/icemoon{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
@@ -16001,6 +16861,13 @@
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/station/hallway/primary/fore)
+"WH" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/siding/wideplating_new/dark,
+/turf/open/floor/glass/reinforced/plasma,
+/area/station/hallway/primary/aft)
 "WI" = (
 /obj/structure/table/wood,
 /obj/item/book/manual/wiki/barman_recipes{
@@ -16437,6 +17304,12 @@
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/station/hallway/primary/fore)
+"XY" = (
+/obj/structure/chair/shibari_stand,
+/obj/item/storage/box/shibari_stand,
+/obj/item/stack/shibari_rope/full,
+/turf/open/floor/vault,
+/area/icemoon/underground/explored)
 "XZ" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -16459,9 +17332,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
 	},
-/obj/effect/turf_decal/siding/wideplating_new/dark{
-	dir = 7
-	},
+/obj/effect/turf_decal/siding/wideplating_new/dark,
 /turf/open/floor/stone/icemoon{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
@@ -16580,9 +17451,11 @@
 /area/station/hallway/primary/fore)
 "Yu" = (
 /obj/structure/flora/bush/fullgrass/style_random,
-/turf/open/misc/grass,
-/area/station/common/pool{
-	name = "Tchiko's Lake Side"
+/turf/open/misc/grass{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
+/area/station/medical/exam_room{
+	name = "Hakitachiya's Methshack Lounge"
 	})
 "Yv" = (
 /turf/open/floor/grass/fairy,
@@ -16602,7 +17475,9 @@
 /area/station/service/kitchen/diner)
 "Yx" = (
 /obj/structure/mineral_door/wood,
-/turf/open/floor/wood,
+/turf/open/floor/wood{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/ruin/space/ks13/medical/medbay{
 	name = "Hakitachiya's Methshack Entrance"
 	})
@@ -16610,7 +17485,9 @@
 /obj/structure/chair/comfy{
 	dir = 1
 	},
-/turf/open/floor/carpet/royalblue,
+/turf/open/floor/carpet/royalblue{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/ruin/space/ks13/medical/medbay{
 	name = "Hakitachiya's Methshack Entrance"
 	})
@@ -16670,14 +17547,14 @@
 	name = "Botanical Chem Facility"
 	})
 "YI" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 4
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 6
 	},
-/obj/machinery/light/cold/directional/west,
+/obj/structure/ore_box,
 /turf/open/floor/stone/icemoon{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
-/area/station/hallway/primary/fore)
+/area/station/cargo/miningoffice)
 "YJ" = (
 /obj/machinery/light/cold/directional/south,
 /turf/open/floor/iron/kitchen/diagonal,
@@ -16992,6 +17869,17 @@
 /area/station/medical{
 	name = "Medical Hallway"
 	})
+"ZA" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 10
+	},
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/station/hallway/primary/aft)
 "ZB" = (
 /obj/machinery/light/cold/directional/west,
 /turf/open/floor/glass/reinforced/plasma,
@@ -17006,6 +17894,18 @@
 /obj/machinery/power/shuttle_engine/propulsion/right,
 /turf/open/floor/plating,
 /area/icemoon/surface/outdoors/labor_camp)
+"ZE" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 8
+	},
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/station/hallway/primary/starboard)
 "ZF" = (
 /obj/machinery/hydroponics/soil,
 /obj/effect/light_emitter{
@@ -17054,7 +17954,9 @@
 "ZL" = (
 /obj/structure/flora/bush/flowers_br/style_random,
 /obj/structure/flora/bush/grassy,
-/turf/open/misc/grass,
+/turf/open/misc/grass{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/station/medical/exam_room{
 	name = "Hakitachiya's Methshack Lounge"
 	})
@@ -17110,7 +18012,9 @@
 /obj/structure/chair/sofa/bench/right{
 	dir = 8
 	},
-/turf/open/misc/dirt/planet,
+/turf/open/misc/dirt/planet{
+	initial_gas_mix = "n2=82;TEMP=293.15"
+	},
 /area/station/medical/exam_room{
 	name = "Hakitachiya's Methshack Lounge"
 	})
@@ -29338,12 +30242,12 @@ El
 El
 El
 El
-El
-El
-El
-El
-El
-El
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
 El
 El
 El
@@ -29594,12 +30498,12 @@ El
 El
 El
 El
-El
-El
 Sz
-Sz
-Sz
-Sz
+qO
+Ks
+uC
+JZ
+vI
 Sz
 El
 El
@@ -29851,12 +30755,12 @@ El
 El
 El
 El
-El
 Sz
-Sz
-Ro
-Ro
-Ro
+XY
+ro
+JZ
+JZ
+oZ
 Sz
 El
 El
@@ -30108,11 +31012,11 @@ El
 El
 El
 El
-El
 Sz
-Ro
-Ro
-Ro
+Sz
+Hm
+of
+Av
 Iq
 Sz
 El
@@ -30368,9 +31272,9 @@ El
 El
 Sz
 Sz
-Ro
-Ro
-Ro
+Sz
+Sz
+Sz
 Sz
 El
 El
@@ -88167,8 +89071,8 @@ te
 te
 te
 TC
-vI
-vI
+Rc
+Rc
 TC
 Cy
 Cy
@@ -88424,8 +89328,8 @@ te
 te
 te
 te
-vI
-vI
+Rc
+Rc
 te
 te
 Cy
@@ -88681,8 +89585,8 @@ te
 te
 te
 te
-vI
-vI
+Rc
+Rc
 te
 te
 te
@@ -88938,8 +89842,8 @@ te
 te
 te
 TC
-vI
-vI
+Rc
+Rc
 TC
 te
 te
@@ -89196,7 +90100,7 @@ te
 te
 te
 vV
-vI
+Rc
 te
 te
 te
@@ -89452,8 +90356,8 @@ te
 te
 te
 te
-vI
-vI
+Rc
+Rc
 te
 te
 te
@@ -89709,8 +90613,8 @@ TC
 te
 te
 TC
-vI
-vI
+Rc
+Rc
 TC
 te
 te
@@ -89957,17 +90861,17 @@ Ac
 Ac
 ln
 rM
-vI
-vI
-vI
-vI
-vI
-vI
-vI
-vI
-vI
-vI
-vI
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
 te
 te
 te
@@ -90214,17 +91118,17 @@ Ac
 Ac
 ln
 Pw
-vI
-vI
-vI
-vI
+Rc
+Rc
+Rc
+Rc
 vV
-vI
-vI
-vI
-vI
-vI
-vI
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
 te
 te
 te
@@ -90480,8 +91384,8 @@ TC
 te
 te
 TC
-vI
-vI
+Rc
+Rc
 TC
 te
 te
@@ -90737,8 +91641,8 @@ te
 te
 te
 te
-vI
-vI
+Rc
+Rc
 te
 te
 te
@@ -90971,9 +91875,9 @@ yM
 yM
 yM
 cU
-ME
-ME
-ME
+VG
+VG
+VG
 Lk
 Gh
 lv
@@ -90995,7 +91899,7 @@ te
 te
 te
 vV
-vI
+Rc
 te
 te
 te
@@ -91229,17 +92133,17 @@ yM
 yM
 cU
 ME
-ME
-ME
+Sp
+vK
 Lk
 sC
 VP
 HL
 gW
 gM
-gM
+Yu
 Ad
-gM
+Yu
 EZ
 te
 te
@@ -91251,8 +92155,8 @@ te
 te
 te
 TC
-vI
-vI
+Rc
+Rc
 TC
 te
 te
@@ -91508,8 +92412,8 @@ te
 te
 te
 te
-vI
-vI
+Rc
+Rc
 te
 te
 te
@@ -91753,7 +92657,7 @@ Uy
 Ux
 oz
 vm
-gM
+Yu
 Vg
 te
 te
@@ -91765,8 +92669,8 @@ te
 dV
 te
 te
-vI
-vI
+Rc
+Rc
 te
 te
 te
@@ -92004,14 +92908,14 @@ OO
 OO
 OO
 HD
-gM
-Vc
+Yu
+BE
 xS
 Vc
 AY
 vm
 OV
-oz
+AY
 yu
 te
 te
@@ -92022,8 +92926,8 @@ te
 te
 te
 TC
-vI
-vI
+Rc
+Rc
 TC
 te
 te
@@ -92262,13 +93166,13 @@ yM
 yM
 HD
 sl
-gM
+Yu
 rq
-gM
+Yu
 vm
 vm
-gM
-gM
+Yu
+Yu
 oz
 yu
 te
@@ -92519,14 +93423,14 @@ yM
 yM
 yM
 Vg
-gM
+Yu
 AY
 vm
-vm
+Ad
 vm
 Ad
 xS
-gM
+Yu
 oz
 yu
 te
@@ -92777,7 +93681,7 @@ yM
 yM
 Vg
 xS
-gM
+Yu
 vm
 ZW
 Ab
@@ -92785,12 +93689,12 @@ vm
 vm
 vm
 vm
-gM
+Yu
 Vg
-Hm
-Hm
-Hm
-ux
+EZ
+EZ
+EZ
+Vg
 Cy
 DO
 bG
@@ -93034,20 +93938,20 @@ yM
 yM
 yM
 Vg
-vm
+AY
 vm
 rq
-gM
+Yu
 oz
-vm
+Ad
 xS
 Ad
 vm
-gM
 Yu
 Yu
 Yu
-Hm
+Yu
+EZ
 oo
 bG
 bG
@@ -93291,19 +94195,19 @@ yM
 yM
 yM
 Vg
-gM
+Yu
 vm
 AY
 nU
 oz
 vm
 tL
-gM
+Yu
 vm
+Ad
 vm
-bG
-bG
-bG
+Ad
+vm
 qb
 bG
 bG
@@ -93549,19 +94453,19 @@ yM
 yM
 Vg
 oz
-gM
+Yu
 oz
-gM
+Yu
 oz
-gM
-gM
-gM
-gM
-gM
 Yu
 Yu
 Yu
-Hm
+Yu
+Yu
+Yu
+Yu
+Yu
+EZ
 oo
 oo
 wJ
@@ -95420,7 +96324,7 @@ AB
 AB
 AB
 ee
-nM
+LU
 yf
 Fe
 Fe
@@ -95649,7 +96553,7 @@ us
 Ti
 In
 In
-Av
+In
 Jp
 sL
 Ti
@@ -96921,8 +97825,8 @@ mf
 mf
 mf
 zM
-zM
-zM
+yM
+yM
 zM
 Xl
 QV
@@ -97134,10 +98038,10 @@ Oa
 Oa
 mi
 nt
-fE
-fE
+Qm
+iq
 tY
-ie
+xd
 ta
 Mq
 zQ
@@ -97177,10 +98081,10 @@ db
 db
 db
 db
-Hb
-pe
-pe
-Hb
+zM
+yM
+yM
+zM
 Pz
 kM
 kM
@@ -97392,7 +98296,7 @@ Bx
 Bx
 Bx
 Bx
-fE
+nb
 tY
 NA
 aI
@@ -97434,10 +98338,10 @@ mU
 BI
 wE
 st
-Hb
-CK
-pe
-Hb
+zM
+zM
+zM
+zM
 IK
 FT
 AU
@@ -97649,7 +98553,7 @@ mc
 mc
 mc
 Bx
-fE
+nb
 tY
 NA
 ta
@@ -97692,14 +98596,14 @@ Kh
 uU
 tE
 Hb
-pe
-pe
+tF
+TG
 Hb
 ac
 JB
 DD
 Rk
-DD
+LX
 DD
 kR
 SC
@@ -97954,7 +98858,7 @@ HP
 Hb
 IK
 JB
-DD
+Lo
 Rk
 DD
 DD
@@ -98163,7 +99067,7 @@ mc
 mc
 mc
 Bx
-fE
+nb
 tY
 Rz
 ta
@@ -98398,7 +99302,7 @@ yY
 yY
 yY
 yY
-LW
+yY
 ff
 ff
 Ni
@@ -98420,7 +99324,7 @@ Bx
 Bx
 Bx
 Bx
-fE
+nb
 tY
 NA
 NA
@@ -98443,7 +99347,7 @@ NA
 NA
 TF
 Zd
-Df
+Zd
 Zd
 Hl
 uu
@@ -98655,7 +99559,7 @@ yY
 yY
 yY
 yY
-LW
+yY
 ff
 ff
 Ni
@@ -98677,7 +99581,7 @@ mc
 mc
 mc
 Bx
-fE
+nb
 tY
 FR
 uN
@@ -98720,7 +99624,7 @@ PQ
 DS
 Wb
 Hb
-Jg
+xr
 wr
 wr
 wr
@@ -98985,7 +99889,7 @@ wr
 wr
 wr
 SC
-lE
+Hb
 Hb
 qZ
 Hb
@@ -99191,7 +100095,7 @@ mc
 mc
 mc
 Bx
-fE
+nb
 tY
 Lt
 Lt
@@ -99448,7 +100352,7 @@ mc
 mc
 mc
 Bx
-fE
+nb
 tY
 Lt
 Lt
@@ -99705,7 +100609,7 @@ mc
 mc
 mc
 Bx
-fE
+nb
 tY
 NQ
 Lt
@@ -100219,7 +101123,7 @@ mc
 mc
 mc
 Bx
-fE
+nb
 tY
 zj
 zj
@@ -100476,7 +101380,7 @@ mc
 mc
 mc
 Bx
-fE
+nb
 tY
 zj
 zj
@@ -100733,7 +101637,7 @@ mc
 mc
 mc
 Bx
-fE
+nb
 tY
 zj
 zj
@@ -100770,7 +101674,7 @@ ul
 rO
 iF
 rO
-FE
+Hp
 ff
 ff
 ff
@@ -101247,7 +102151,7 @@ mc
 mc
 mc
 Bx
-fE
+nb
 tY
 zj
 zj
@@ -101478,7 +102382,7 @@ yY
 tW
 CS
 YL
-pR
+bS
 bF
 FL
 bF
@@ -101504,7 +102408,7 @@ Bx
 Bx
 Bx
 Bx
-fE
+nb
 tY
 zj
 zj
@@ -101524,7 +102428,7 @@ PO
 PO
 PO
 PO
-TB
+Kb
 YW
 cM
 eu
@@ -101551,7 +102455,7 @@ SV
 SV
 SV
 SV
-BE
+SV
 SV
 SV
 SV
@@ -101755,13 +102659,13 @@ MG
 MG
 uX
 Pa
-fE
-fE
-fE
-fE
-fE
-fE
-fE
+gp
+TB
+TB
+TB
+TB
+TB
+hM
 tY
 zj
 zj
@@ -101774,14 +102678,14 @@ MT
 Pq
 PO
 Oy
-WA
+ed
 WA
 WA
 WA
 WA
 FO
 PO
-TB
+Kb
 YW
 ig
 Ba
@@ -102038,7 +102942,7 @@ hD
 hD
 HH
 PO
-TB
+Kb
 YW
 xn
 xn
@@ -102872,7 +103776,7 @@ lI
 Bl
 vy
 Bl
-lI
+cn
 Bl
 BN
 Vu
@@ -102933,7 +103837,7 @@ Xp
 Xp
 AD
 AA
-ic
+UZ
 HG
 HG
 Ck
@@ -103124,12 +104028,12 @@ ob
 ob
 Bj
 Xn
-Ru
+Jl
 lI
 nv
 Xn
 rJ
-lI
+cn
 NH
 Xn
 SH
@@ -103190,7 +104094,7 @@ IN
 IN
 EP
 MN
-ic
+UZ
 eq
 tc
 Ck
@@ -103386,7 +104290,7 @@ lI
 Bl
 he
 Bl
-lI
+cn
 Bl
 BN
 nk
@@ -103447,7 +104351,7 @@ ov
 ov
 ew
 AA
-ic
+UZ
 pZ
 HG
 Ck
@@ -103601,7 +104505,7 @@ ny
 ny
 ny
 ny
-qO
+ny
 ny
 ny
 ny
@@ -104410,12 +105314,12 @@ yk
 Nh
 Lj
 MM
-gw
-VE
-VE
-VE
-mI
-zg
+Ct
+Ke
+MA
+GO
+ZE
+am
 dR
 Gp
 gy
@@ -104648,7 +105552,7 @@ Ys
 aU
 ms
 EH
-iK
+oR
 gz
 sW
 EW
@@ -104659,20 +105563,20 @@ Al
 mV
 ya
 Yp
-Nh
-Nh
-Nh
-Nh
+xB
+xB
+xB
+xB
 yk
 Nh
 Lj
-zg
+oc
 mI
+qa
 VE
-VE
-VE
+CX
 mI
-on
+xw
 bx
 gy
 gy
@@ -104903,7 +105807,7 @@ Js
 eb
 Ys
 aU
-kN
+tO
 EH
 iK
 gz
@@ -104916,20 +105820,20 @@ Uk
 mV
 ya
 Yp
-Nh
-Nh
-Nh
-Nh
+ra
+ra
+ra
+ra
 yk
 Nh
 Lj
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 mI
-zg
+XC
 dR
 Gp
 gy
@@ -105160,9 +106064,9 @@ oF
 eb
 Ys
 aU
-kN
+JT
 EH
-iK
+vO
 gz
 sW
 iH
@@ -105171,7 +106075,7 @@ RM
 wp
 eM
 mV
-ya
+iR
 Yp
 Nh
 Nh
@@ -105180,13 +106084,13 @@ Nh
 yk
 Nh
 eZ
-UV
+sR
 gw
+qa
 VE
-VE
-VE
+CX
 mI
-rh
+on
 ma
 dQ
 QF
@@ -105419,7 +106323,7 @@ Ys
 aU
 kN
 EH
-iK
+Wi
 gz
 sW
 Ec
@@ -105428,22 +106332,22 @@ vn
 VX
 cO
 mV
-ya
+nn
 Yp
 Nh
-Nh
-Nh
-Nh
+xB
+xB
+xB
 yk
 Nh
 Lj
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 mI
-zg
+XC
 dR
 Kv
 Gz
@@ -105676,7 +106580,7 @@ Ys
 aU
 ms
 EH
-iK
+fs
 gz
 Bt
 Rf
@@ -105688,19 +106592,19 @@ mV
 OX
 Yp
 Nh
-Nh
-Nh
-Nh
+ra
+CB
+CB
 yk
 Nh
 Lj
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 mI
-zg
+XC
 dR
 Kv
 Gz
@@ -105951,13 +106855,13 @@ FD
 hI
 kc
 HC
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 mI
-zg
+XC
 dR
 Kv
 Gz
@@ -106208,13 +107112,13 @@ hY
 Xw
 eZ
 eZ
-Od
+dF
 gw
+qa
 VE
-VE
-VE
+CX
 mI
-jG
+Tq
 ma
 Kv
 Gz
@@ -106465,13 +107369,13 @@ Tr
 Xc
 Hc
 gc
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 mJ
-zg
+XC
 dR
 Kv
 Gz
@@ -106722,13 +107626,13 @@ gJ
 mt
 qN
 gc
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 mJ
-zg
+XC
 dR
 Kv
 Gz
@@ -106979,13 +107883,13 @@ yK
 Zy
 OU
 gc
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 mJ
-zg
+XC
 dR
 Kv
 Gz
@@ -107236,13 +108140,13 @@ Mf
 DB
 Mf
 Mf
-Od
+dF
 gw
+qa
 VE
-VE
-VE
+CX
 mJ
-jG
+Tq
 ma
 dQ
 nB
@@ -107493,13 +108397,13 @@ EK
 GD
 MC
 Mf
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 mJ
-zg
+XC
 dR
 Gp
 gy
@@ -107750,13 +108654,13 @@ UX
 Lx
 yg
 Mf
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 mJ
-on
+xw
 ON
 gy
 gy
@@ -108007,13 +108911,13 @@ OT
 Ik
 OH
 Mf
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 mJ
-zg
+XC
 fK
 Gp
 Gp
@@ -108264,13 +109168,13 @@ Mf
 Mf
 Mf
 Mf
-Od
+dF
 gw
+qa
 VE
-VE
-VE
+CX
 mJ
-jG
+Tq
 ma
 dR
 dR
@@ -108521,18 +109425,18 @@ WO
 An
 Cj
 Mf
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 mJ
 zg
-zg
-zg
-zg
-zg
-rr
+ur
+ur
+ur
+ur
+vR
 th
 HR
 yl
@@ -108778,11 +109682,11 @@ UX
 Lx
 yg
 Mf
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 mJ
 CA
 CA
@@ -109035,16 +109939,16 @@ fe
 pT
 mK
 Mf
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
 zg
-VE
-VE
-VE
+Ke
+MA
+GO
 zg
 rr
 WR
@@ -109292,16 +110196,16 @@ Mf
 wU
 Mf
 Mf
-Od
+dF
 gw
+qa
 VE
-VE
-VE
+CX
 gw
 zg
+qa
 VE
-VE
-VE
+CX
 zg
 rr
 WR
@@ -109549,16 +110453,16 @@ OE
 La
 Bh
 gc
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
 zg
-VE
-VE
-VE
+Ib
+zo
+tb
 zg
 rr
 WR
@@ -109806,11 +110710,11 @@ gJ
 PN
 qN
 gc
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
 zg
 zg
@@ -110063,18 +110967,18 @@ yK
 Zy
 OU
 gc
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
 zg
-zg
-zg
-zg
-zg
-rr
+ic
+ic
+ic
+ic
+PJ
 mO
 Dy
 yl
@@ -110320,13 +111224,13 @@ Mf
 DB
 Mf
 Mf
-UV
+sR
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-rh
+on
 ma
 dR
 dR
@@ -110577,13 +111481,13 @@ EK
 GD
 MC
 Mf
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 dR
 Gp
 Gp
@@ -110834,13 +111738,13 @@ UX
 Lx
 yg
 Mf
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 rg
 Gp
 Gp
@@ -111091,13 +111995,13 @@ OT
 Ik
 kW
 Mf
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 dR
 Gp
 Gp
@@ -111348,13 +112252,13 @@ Mf
 Mf
 Mf
 Mf
-Od
+dF
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-jG
+Tq
 ma
 dQ
 QB
@@ -111605,13 +112509,13 @@ rO
 rO
 rO
 dR
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 dR
 rO
 rO
@@ -111862,13 +112766,13 @@ rO
 rO
 rO
 dR
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 dR
 rO
 rO
@@ -112119,13 +113023,13 @@ rO
 rO
 rO
 dR
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 dR
 rO
 rO
@@ -112376,13 +113280,13 @@ rO
 rO
 rO
 ma
-Od
+dF
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-jG
+Tq
 ma
 rO
 rO
@@ -112633,13 +113537,13 @@ rO
 rO
 rO
 dR
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 dR
 rO
 rO
@@ -112890,13 +113794,13 @@ rO
 rO
 rO
 dR
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 dR
 rO
 rO
@@ -113147,13 +114051,13 @@ rO
 rO
 rO
 dR
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 dR
 rO
 rO
@@ -113404,13 +114308,13 @@ rO
 rO
 rO
 ma
-Od
+dF
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-jG
+Tq
 ma
 rO
 rO
@@ -113661,13 +114565,13 @@ rO
 rO
 rO
 dR
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 dR
 rO
 rO
@@ -113918,13 +114822,13 @@ rO
 rO
 rO
 dR
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 dR
 rO
 rO
@@ -114175,13 +115079,13 @@ rO
 rO
 rO
 dR
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 dR
 rO
 rO
@@ -114432,13 +115336,13 @@ rO
 rO
 rO
 ma
-Od
+dF
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-jG
+Tq
 ma
 rO
 rO
@@ -114689,13 +115593,13 @@ rO
 rO
 rO
 dR
-qc
+fL
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-ZK
+Ii
 dR
 rO
 rO
@@ -114946,13 +115850,13 @@ rO
 rO
 rO
 dR
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 dR
 rO
 rO
@@ -115203,13 +116107,13 @@ rO
 rO
 rO
 dR
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 dR
 rO
 rO
@@ -115460,13 +116364,13 @@ rO
 rO
 rO
 ma
-Od
+dF
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-jG
+Tq
 ma
 rO
 rO
@@ -115717,13 +116621,13 @@ rO
 rO
 rO
 dR
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 dR
 rO
 rO
@@ -115974,13 +116878,13 @@ rO
 rO
 rO
 dR
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 dR
 rO
 rO
@@ -116231,13 +117135,13 @@ rO
 rO
 rO
 dR
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 dR
 rO
 rO
@@ -116488,13 +117392,13 @@ rO
 rO
 rO
 ma
-Od
+dF
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-jG
+Tq
 ma
 rO
 rO
@@ -116745,13 +117649,13 @@ rO
 rO
 rO
 dR
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 dR
 rO
 rO
@@ -117002,13 +117906,13 @@ rO
 rO
 rO
 dR
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 dR
 rO
 rO
@@ -117259,13 +118163,13 @@ rO
 rO
 rO
 dR
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 dR
 rO
 rO
@@ -117516,13 +118420,13 @@ rO
 rO
 rO
 ma
-Od
+dF
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-jG
+Tq
 ma
 rO
 rO
@@ -117773,13 +118677,13 @@ rO
 rO
 rO
 dR
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 dR
 rO
 rO
@@ -118030,13 +118934,13 @@ rO
 rO
 rO
 dR
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 dR
 rO
 rO
@@ -118287,13 +119191,13 @@ rO
 rO
 rO
 dR
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 dR
 rO
 rO
@@ -118544,13 +119448,13 @@ rO
 rO
 rO
 ma
-Od
+dF
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-jG
+Tq
 ma
 rO
 rO
@@ -118801,13 +119705,13 @@ rO
 rO
 rO
 dR
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 dR
 rO
 rO
@@ -118891,7 +119795,7 @@ ue
 li
 sm
 lC
-rd
+Df
 Nv
 LW
 LW
@@ -119058,13 +119962,13 @@ rO
 rO
 rO
 dR
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 dR
 rO
 rO
@@ -119315,13 +120219,13 @@ rO
 rO
 rO
 dR
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 dR
 rO
 rO
@@ -119405,7 +120309,7 @@ DC
 li
 zi
 rd
-rd
+Df
 Nv
 LW
 LW
@@ -119572,13 +120476,13 @@ rO
 rO
 rO
 ma
-UV
+sR
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-rh
+on
 ma
 rO
 rO
@@ -119829,13 +120733,13 @@ rO
 rO
 rO
 dR
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 dR
 rO
 rO
@@ -120086,13 +120990,13 @@ rO
 rO
 rO
 dR
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 dR
 rO
 rO
@@ -120343,13 +121247,13 @@ rO
 rO
 rO
 dR
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 dR
 rO
 rO
@@ -120600,13 +121504,13 @@ rO
 rO
 rO
 ma
-Od
+dF
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-jG
+Tq
 ma
 rO
 rO
@@ -120857,13 +121761,13 @@ rO
 rO
 rO
 dR
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 dR
 rO
 rO
@@ -121114,13 +122018,13 @@ rO
 rO
 rO
 dR
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 dR
 rO
 rO
@@ -121371,13 +122275,13 @@ rO
 rO
 rO
 dR
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 dR
 rO
 rO
@@ -121628,13 +122532,13 @@ rO
 rO
 rO
 ma
-Od
+dF
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-jG
+Tq
 ma
 rO
 rO
@@ -121885,13 +122789,13 @@ rO
 rO
 rO
 dR
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 dR
 rO
 rO
@@ -122142,13 +123046,13 @@ rO
 rO
 rO
 dR
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 dR
 rO
 rO
@@ -122399,13 +123303,13 @@ rO
 rO
 rO
 dR
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 dR
 rO
 rO
@@ -122656,13 +123560,13 @@ rO
 rO
 rO
 ma
-oy
+Aa
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-jG
+Tq
 ma
 rO
 rO
@@ -122913,13 +123817,13 @@ rO
 rO
 rO
 dR
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 dR
 rO
 rO
@@ -123170,13 +124074,13 @@ rO
 rO
 rO
 dR
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 dR
 rO
 rO
@@ -123427,13 +124331,13 @@ rO
 rO
 rO
 dR
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 dR
 rO
 rO
@@ -123684,13 +124588,13 @@ dQ
 HF
 dQ
 ma
-UV
+sR
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-rh
+on
 ma
 dQ
 HF
@@ -123941,13 +124845,13 @@ Gp
 Gp
 Gp
 dR
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 dR
 Gp
 Gp
@@ -124198,13 +125102,13 @@ Gp
 Gp
 Gp
 mS
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 mS
 Gp
 Gp
@@ -124455,13 +125359,13 @@ Gp
 Gp
 Gp
 dR
-zg
-gw
-VE
-VE
-VE
-gw
-zg
+sE
+Cp
+Ib
+zo
+tb
+Cp
+SB
 dR
 Gp
 Gp
@@ -124694,8 +125598,8 @@ ff
 ff
 rO
 rO
-rO
-ZG
+Hp
+XX
 XX
 XX
 XX
@@ -124951,23 +125855,23 @@ ff
 ff
 rO
 rO
-rO
-XX
-PO
-PO
-PO
-YI
-PO
-PO
-PO
-eB
-PO
-PO
-PO
-YI
-PO
-PO
-PO
+jO
+Qg
+Wd
+Wd
+Wd
+VR
+Wd
+Wd
+Wd
+Sy
+Wd
+Wd
+Wd
+VR
+Wd
+Wd
+cB
 Xn
 YE
 Wr
@@ -124977,37 +125881,37 @@ Bl
 Wr
 Rw
 Xn
-AA
-AA
-AA
+WU
+rL
+rL
 kZ
-AA
-AA
-AA
+rL
+rL
+rL
 JP
-AA
-AA
-AA
-Wj
-AA
-AA
-AA
-Wj
-AA
-AA
-AA
-Wj
-AA
-AA
-AA
-Wj
-AA
-AA
-AA
+rL
+rL
+rL
+EQ
+rL
+rL
+rL
+EQ
+rL
+rL
+rL
+EQ
+rL
+rL
+rL
+EQ
+rL
+rL
+rL
 kZ
-AA
-AA
-AA
+rL
+rL
+fW
 Xn
 AG
 Wr
@@ -125015,35 +125919,35 @@ Bl
 ZB
 Bl
 Wr
-Rw
+kx
 Xn
-AA
-ur
-AA
+WU
+gi
+rL
 kZ
-AA
-AA
-AA
-Wj
-AA
-AA
-AA
-Ne
-AA
-AA
-AA
-Wj
-AA
-AA
-AA
-Wj
-AA
-AA
-AA
+rL
+rL
+rL
+EQ
+rL
+rL
+rL
+iG
+rL
+rL
+rL
+EQ
+rL
+rL
+rL
+EQ
+rL
+rL
+rL
 kZ
-AA
-AA
-AA
+rL
+rL
+rL
 Wj
 FV
 UG
@@ -125208,8 +126112,8 @@ ff
 ff
 rO
 rO
-rO
-XX
+jO
+JO
 ny
 ny
 ny
@@ -125224,7 +126128,7 @@ ny
 ny
 ny
 ny
-ny
+FK
 GW
 Wr
 Wu
@@ -125234,6 +126138,7 @@ Wr
 Wu
 Wr
 GW
+dg
 GB
 GB
 GB
@@ -125263,8 +126168,7 @@ GB
 GB
 GB
 GB
-GB
-GB
+Fy
 GW
 Wr
 Wu
@@ -125274,6 +126178,7 @@ Wr
 Wu
 Wr
 GW
+dg
 GB
 GB
 GB
@@ -125300,9 +126205,8 @@ GB
 GB
 GB
 GB
-GB
-GB
-GB
+wy
+ZA
 oL
 bk
 RY
@@ -125465,23 +126369,23 @@ ff
 ff
 rO
 rO
-rO
-XX
-lb
-ob
-ob
-ob
-ob
-ob
-ob
-ob
-ob
-ob
-ob
-ob
-ob
-ob
-ob
+jO
+jJ
+PO
+Oy
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+FO
 iv
 Bl
 Wr
@@ -125491,37 +126395,37 @@ Bl
 Wr
 Bl
 iv
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
+Vu
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+AD
 iv
 Bl
 Rw
@@ -125531,35 +126435,35 @@ Bl
 Rw
 Bl
 iv
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
+Vu
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Vu
+Xp
+AD
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
+AD
 qT
 Vs
 ei
@@ -125722,9 +126626,10 @@ ff
 ff
 rO
 rO
-rO
-ZG
-hX
+Hp
+dy
+PO
+cw
 ob
 ob
 ob
@@ -125737,8 +126642,7 @@ ob
 ob
 ob
 ob
-ob
-ob
+Bj
 Xn
 Ru
 Wr
@@ -125748,6 +126652,7 @@ Bl
 Wr
 Bl
 Xn
+SH
 IN
 IN
 IN
@@ -125777,8 +126682,7 @@ IN
 IN
 IN
 IN
-IN
-IN
+EP
 Xn
 Ru
 Rw
@@ -125788,6 +126692,7 @@ Bl
 Rw
 sB
 Xn
+SH
 IN
 IN
 IN
@@ -125801,6 +126706,9 @@ IN
 IN
 IN
 IN
+SH
+IN
+EP
 IN
 IN
 IN
@@ -125812,11 +126720,7 @@ IN
 IN
 IN
 IN
-IN
-IN
-IN
-IN
-IN
+EP
 rD
 Vs
 ei
@@ -125979,23 +126883,23 @@ ff
 ff
 rO
 rO
-rO
-XX
-lb
-ob
-ob
-ob
-ob
-ob
-ob
-ob
-ob
-ob
-ob
-ob
-ob
-ob
-ob
+jO
+jJ
+PO
+lR
+hD
+hD
+hD
+hD
+hD
+hD
+hD
+hD
+hD
+hD
+hD
+hD
+HH
 iv
 Bl
 Wr
@@ -126005,37 +126909,37 @@ Bl
 Wr
 Bl
 iv
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
+nk
+ov
+ov
+ov
+ov
+ov
+ov
+ov
+ov
+ov
+ov
+ov
+ov
+ov
+ov
+ov
+ov
+ov
+ov
+ov
+ov
+ov
+ov
+ov
+ov
+ov
+ov
+ov
+ov
+ov
+ew
 iv
 Bl
 Rw
@@ -126045,35 +126949,35 @@ Bl
 Rw
 Bl
 iv
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
-IN
+nk
+ov
+ov
+ov
+ov
+ov
+ov
+ov
+ov
+ov
+ov
+ov
+ov
+ov
+nk
+ov
+ew
+ov
+ov
+ov
+ov
+ov
+ov
+ov
+ov
+ov
+ov
+ov
+ew
 qT
 Vs
 ei
@@ -126236,8 +127140,8 @@ ff
 ff
 rO
 rO
-rO
-XX
+jO
+JO
 ny
 ny
 ny
@@ -126252,7 +127156,7 @@ ny
 ny
 ny
 ny
-ny
+FK
 GW
 Wr
 Wu
@@ -126262,6 +127166,7 @@ Wr
 Wu
 Wr
 GW
+dg
 GB
 GB
 GB
@@ -126291,8 +127196,7 @@ GB
 GB
 GB
 GB
-GB
-GB
+Fy
 GW
 Wr
 Wr
@@ -126302,6 +127206,7 @@ Wr
 Wr
 Wr
 GW
+dg
 GB
 GB
 GB
@@ -126315,6 +127220,9 @@ GB
 GB
 GB
 GB
+lr
+ko
+WH
 GB
 GB
 GB
@@ -126325,12 +127233,8 @@ GB
 GB
 GB
 GB
-GB
-GB
-GB
-GB
-GB
-GB
+bu
+oN
 iL
 Vs
 ei
@@ -126493,23 +127397,23 @@ ff
 ff
 rO
 rO
-rO
-XX
-PO
-PO
-PO
-nb
-PO
-PO
-PO
-mu
-PO
-PO
-PO
-nb
-PO
-PO
-PO
+jO
+De
+EN
+EN
+EN
+Yt
+EN
+EN
+EN
+WG
+EN
+EN
+EN
+Yt
+EN
+EN
+Kc
 Xn
 ID
 Wr
@@ -126519,37 +127423,37 @@ Bl
 Wr
 Rw
 Xn
-AA
-AA
-AA
+vu
+Gw
+Gw
 Iw
-AA
-AA
-AA
-yX
-AA
-AA
-AA
-yX
-AA
-AA
-AA
-yX
-AA
-AA
-AA
-yX
-AA
-AA
-AA
-yX
-AA
-AA
-AA
+Gw
+Gw
+Gw
+sO
+Gw
+Gw
+Gw
+sO
+Gw
+Gw
+Gw
+sO
+Gw
+Gw
+Gw
+sO
+Gw
+Gw
+Gw
+sO
+Gw
+Gw
+Gw
 Iw
-AA
-AA
-AA
+Gw
+Gw
+sg
 Xn
 Ty
 Rw
@@ -126559,33 +127463,33 @@ Rw
 Rw
 Rw
 Xn
-AA
-AA
-AA
+vu
+Gw
+Gw
 Iw
+Gw
+Gw
+Gw
+sO
+Gw
+Gw
+Gw
+sO
 AA
 AA
-AA
-yX
-AA
-AA
-AA
-yX
+SH
+IN
+EP
 AA
 AA
-AA
-yX
-AA
-AA
-AA
-yX
-AA
-AA
-AA
+sO
+Gw
+Gw
+Gw
 Iw
-AA
-AA
-AA
+Gw
+Gw
+Gw
 yX
 ER
 CG
@@ -126750,8 +127654,8 @@ ff
 ff
 rO
 rO
-rO
-ZG
+Hp
+XX
 XX
 XX
 XX
@@ -126828,13 +127732,13 @@ NF
 NF
 NF
 yy
-NF
-NF
-NF
-yy
-NF
-NF
-NF
+TL
+AA
+SH
+IN
+EP
+AA
+UZ
 yy
 NF
 NF
@@ -127025,13 +127929,13 @@ Gp
 Gp
 Gp
 dR
-zg
-gw
-VE
-VE
-VE
-gw
-zg
+Rb
+Ct
+Ke
+MA
+GO
+Ct
+am
 dR
 Gp
 Gp
@@ -127084,15 +127988,15 @@ ff
 ff
 ff
 ff
-ff
-ff
-ff
-ff
-ff
-ff
-ff
-ff
-ff
+ie
+Ne
+CK
+FE
+Jg
+lE
+CK
+eB
+ie
 ff
 ff
 ff
@@ -127282,13 +128186,13 @@ Gp
 Gp
 Gp
 mS
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 mS
 Gp
 Gp
@@ -127336,20 +128240,20 @@ rO
 rO
 rO
 rO
-jO
+rO
 ff
 ff
 ff
 ff
-ff
-ff
-ff
-ff
-ff
-ff
-ff
-ff
-ff
+ie
+Ne
+CK
+FE
+Jg
+lE
+CK
+eB
+ie
 ff
 ff
 ff
@@ -127539,13 +128443,13 @@ Gp
 Gp
 Gp
 dR
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 dR
 Gp
 Gp
@@ -127598,15 +128502,15 @@ ff
 ff
 ff
 ff
-ff
-ff
-ff
-ff
-ff
-ff
-ff
-ff
-ff
+ie
+Ne
+CK
+FE
+Jg
+lE
+CK
+eB
+ie
 ff
 ff
 ff
@@ -127796,13 +128700,13 @@ dQ
 HF
 dQ
 ma
-oy
+Aa
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-rh
+on
 ma
 dQ
 HF
@@ -127855,15 +128759,15 @@ ff
 ff
 ff
 ff
-ff
-ff
-ff
-ff
-ff
-ff
-ff
-ff
-ff
+hX
+Ne
+CK
+FE
+Jg
+lE
+CK
+eB
+hX
 ff
 ff
 ff
@@ -128053,13 +128957,13 @@ rO
 rO
 rO
 dR
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 dR
 rO
 rO
@@ -128112,15 +129016,15 @@ ff
 ff
 ff
 ff
-ff
-ff
-ff
-ff
-ff
-ff
-ff
-ff
-ff
+ie
+Ne
+CK
+FE
+Jg
+lE
+CK
+eB
+ie
 ff
 ff
 ff
@@ -128310,13 +129214,13 @@ rO
 rO
 rO
 dR
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 dR
 rO
 rO
@@ -128369,15 +129273,15 @@ ff
 ff
 ff
 ff
-ff
-ff
-ff
-ff
-ff
-ff
-ff
-ff
-ff
+ie
+Ne
+CK
+FE
+Jg
+lE
+CK
+eB
+ie
 ff
 ff
 ff
@@ -128567,13 +129471,13 @@ rO
 rO
 rO
 dR
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 dR
 rO
 rO
@@ -128626,22 +129530,22 @@ ff
 ff
 ff
 ff
+ie
+Ne
+CK
+FE
+Jg
+lE
+CK
+eB
+ie
 ff
 ff
 ff
 ff
 ff
-ff
-ff
-ff
-ff
-ff
-ff
-ff
-ff
-ff
-LW
-ff
+yY
+ao
 ff
 ff
 ff
@@ -128824,13 +129728,13 @@ rO
 rO
 rO
 ma
-UV
+sR
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-jG
+Tq
 ma
 rO
 rO
@@ -128883,24 +129787,24 @@ ff
 ff
 ff
 ff
+hX
+Ne
+CK
+FE
+Jg
+lE
+CK
+eB
+hX
 ff
 ff
 ff
 ff
-ff
-ff
-ff
-ff
-ff
-ff
-ff
-ff
-ff
-LW
-LW
-LW
-LW
-ff
+yY
+yY
+yY
+yY
+ao
 ff
 ff
 nd
@@ -129081,13 +129985,13 @@ rO
 rO
 rO
 dR
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 dR
 rO
 rO
@@ -129140,24 +130044,24 @@ ff
 ff
 ff
 ff
+ie
+Ne
+CK
+FE
+Jg
+lE
+CK
+eB
+ie
 ff
 ff
 ff
-ff
-ff
-ff
-ff
-ff
-ff
-ff
-ff
-ff
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
 ff
 ff
 ff
@@ -129338,13 +130242,13 @@ rO
 rO
 rO
 dR
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 dR
 rO
 rO
@@ -129397,25 +130301,25 @@ ff
 ff
 ff
 ff
+ie
+Ne
+CK
+FE
+Jg
+lE
+CK
+eB
+ie
 ff
 ff
-ff
-ff
-ff
-ff
-ff
-ff
-ff
-ff
-ff
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 ff
 ff
 ff
@@ -129595,13 +130499,13 @@ rO
 rO
 rO
 dR
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 dR
 rO
 rO
@@ -129654,27 +130558,27 @@ ff
 ff
 ff
 ff
+ie
+Ne
+CK
+FE
+Jg
+lE
+CK
+eB
+ie
 ff
 ff
-ff
-ff
-ff
-ff
-ff
-ff
-ff
-ff
-ff
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 ff
 ff
 ff
@@ -129852,13 +130756,13 @@ rO
 rO
 rO
 ma
-Od
+dF
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-jG
+Tq
 ma
 rO
 rO
@@ -129911,30 +130815,30 @@ ff
 ff
 ff
 ff
+hX
+Ne
+CK
+FE
+Jg
+lE
+CK
+eB
+hX
 ff
-ff
-ff
-ff
-ff
-ff
-ff
-ff
-ff
-ff
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 ff
 ff
 ff
@@ -130109,13 +131013,13 @@ rO
 rO
 rO
 dR
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 dR
 rO
 rO
@@ -130168,32 +131072,32 @@ ff
 ff
 ff
 ff
-ff
-ff
-ff
-ff
-ff
-ff
-ff
-ff
-ff
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+ie
+Ne
+CK
+FE
+Jg
+lE
+CK
+eB
+ie
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 ff
 ff
 ff
@@ -130366,13 +131270,13 @@ rO
 rO
 rO
 dR
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 dR
 rO
 rO
@@ -130425,34 +131329,34 @@ ff
 ff
 ff
 ff
-ff
-ff
-ff
-ff
-ff
-ff
-ff
-ff
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-ff
+ie
+Ne
+CK
+FE
+Jg
+lE
+CK
+eB
+ie
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+ao
 ff
 ff
 ff
@@ -130623,13 +131527,13 @@ rO
 rO
 rO
 dR
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 dR
 rO
 rO
@@ -130682,36 +131586,36 @@ ff
 ff
 ff
 ff
-ff
-ff
-ff
-ff
-ff
-ff
-ff
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+ie
+Ne
+CK
+FE
+Jg
+lE
+CK
+eB
+ie
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 ff
 ff
 ff
@@ -130880,13 +131784,13 @@ rO
 rO
 rO
 ma
-Od
+dF
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-rh
+on
 ma
 dQ
 HF
@@ -130939,39 +131843,39 @@ ff
 ff
 ff
 ff
-ff
-ff
-ff
-ff
-ff
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+hX
+Ne
+CK
+FE
+Jg
+lE
+CK
+eB
+hX
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 ff
 ff
 ff
@@ -131137,13 +132041,13 @@ rO
 rO
 rO
 dR
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 dR
 Gp
 Gp
@@ -131193,44 +132097,44 @@ ff
 ff
 ff
 ff
-LW
-LW
-LW
-LW
-ff
-ff
-ff
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+ie
+gQ
+CK
+Nb
+mu
+Fw
+CK
+KM
+ie
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 ff
 ff
 ff
@@ -131394,13 +132298,13 @@ rO
 rO
 rO
 dR
-zg
+oc
 gw
+qa
 VE
-VE
-VE
+CX
 gw
-zg
+XC
 mS
 Gp
 Gp
@@ -131448,49 +132352,49 @@ ff
 ff
 ff
 ff
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+ie
+IO
+CK
+CK
+CK
+CK
+CK
+hZ
+ie
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 ff
 ff
 ff
@@ -131651,13 +132555,13 @@ rO
 rO
 rO
 dR
-zg
-gw
-VE
-VE
-VE
-gw
-zg
+sE
+Cp
+Ib
+zo
+tb
+Cp
+SB
 dR
 Gp
 Gp
@@ -131704,53 +132608,53 @@ ff
 ff
 ff
 ff
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+ie
+Cv
+BO
+Qb
+vH
+Qb
+BO
+YI
+ie
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 ff
 ff
 ff
@@ -131959,72 +132863,72 @@ ff
 ff
 ff
 ff
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+hX
+ie
+Qh
+ie
+hX
+ie
+Qh
+ie
+hX
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (193,1,2) = {"
 yY
@@ -132173,17 +133077,17 @@ VE
 gw
 ZK
 ma
-zg
-zg
-zg
-CI
-zg
-zg
-zg
+Rb
+ur
+ur
+mq
+ur
+ur
+ur
 Tj
-zg
-zg
-zg
+ur
+ur
+am
 ma
 Cf
 zg
@@ -132216,72 +133120,72 @@ ff
 ff
 ff
 LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (194,1,2) = {"
 yY
@@ -132430,6 +133334,7 @@ zg
 mI
 gw
 sM
+Io
 gw
 gw
 gw
@@ -132439,8 +133344,7 @@ gw
 gw
 gw
 gw
-gw
-gw
+aH
 sM
 gw
 gw
@@ -132473,72 +133377,72 @@ ff
 ff
 ff
 LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (195,1,2) = {"
 yY
@@ -132687,17 +133591,17 @@ VE
 zg
 VE
 zn
-VE
-VE
-VE
-VE
-VE
-VE
-VE
-VE
-VE
-VE
-VE
+Ke
+MA
+MA
+MA
+MA
+MA
+MA
+MA
+MA
+MA
+GO
 zn
 VE
 zg
@@ -132730,72 +133634,72 @@ ff
 ff
 LW
 LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (196,1,2) = {"
 yY
@@ -132944,6 +133848,7 @@ VE
 zg
 uO
 ma
+qa
 VE
 VE
 VE
@@ -132953,8 +133858,7 @@ VE
 VE
 VE
 VE
-VE
-VE
+CX
 ma
 VE
 zg
@@ -132987,72 +133891,72 @@ ff
 LW
 LW
 LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (197,1,2) = {"
 yY
@@ -133201,17 +134105,17 @@ VE
 zg
 VE
 zn
-VE
-VE
-VE
-VE
-VE
-VE
-VE
-VE
-VE
-VE
-VE
+Ib
+zo
+zo
+zo
+zo
+zo
+zo
+zo
+zo
+zo
+tb
 zn
 VE
 zg
@@ -133244,72 +134148,72 @@ ff
 LW
 LW
 LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (198,1,2) = {"
 yY
@@ -133458,6 +134362,7 @@ gw
 gw
 gw
 sM
+Io
 gw
 gw
 gw
@@ -133467,8 +134372,7 @@ gw
 gw
 gw
 gw
-gw
-gw
+aH
 sM
 gw
 mI
@@ -133501,72 +134405,72 @@ ff
 LW
 LW
 LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (199,1,2) = {"
 yY
@@ -133715,17 +134619,17 @@ zg
 zg
 zg
 ma
-zg
-zg
-jH
+sE
+ic
+ic
 DV
-zg
-zg
-zg
-jH
-zg
-zg
-zg
+ic
+ic
+ic
+Ud
+ic
+ic
+SB
 ma
 PH
 gw
@@ -133758,72 +134662,72 @@ ff
 LW
 LW
 LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (200,1,2) = {"
 yY
@@ -134015,72 +134919,72 @@ ff
 LW
 LW
 LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (201,1,2) = {"
 yY
@@ -134272,72 +135176,72 @@ ff
 LW
 LW
 LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (202,1,2) = {"
 yY
@@ -134529,72 +135433,72 @@ ff
 ff
 LW
 LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (203,1,2) = {"
 yY
@@ -134786,72 +135690,72 @@ ff
 ff
 LW
 LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (204,1,2) = {"
 yY
@@ -135043,72 +135947,72 @@ ff
 ff
 LW
 LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (205,1,2) = {"
 ff
@@ -135300,72 +136204,72 @@ ff
 ff
 LW
 LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (206,1,2) = {"
 ff
@@ -135557,72 +136461,72 @@ ff
 ff
 ff
 LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (207,1,2) = {"
 ff
@@ -135814,72 +136718,72 @@ ff
 ff
 ff
 LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (208,1,2) = {"
 ff
@@ -136071,72 +136975,72 @@ ff
 ff
 ff
 ff
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (209,1,2) = {"
 ff
@@ -136328,72 +137232,72 @@ ff
 ff
 ff
 ff
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (210,1,2) = {"
 ff
@@ -136588,69 +137492,69 @@ ff
 ff
 LW
 LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (211,1,2) = {"
 ff
@@ -136845,69 +137749,69 @@ ff
 ff
 LW
 LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (212,1,2) = {"
 ff
@@ -137102,69 +138006,69 @@ ff
 ff
 ff
 LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (213,1,2) = {"
 ff
@@ -137359,69 +138263,69 @@ ff
 ff
 ff
 ff
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (214,1,2) = {"
 ff
@@ -137621,64 +138525,64 @@ LW
 LW
 LW
 LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (215,1,2) = {"
 ff
@@ -137878,64 +138782,64 @@ ff
 LW
 LW
 LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (216,1,2) = {"
 ff
@@ -138135,64 +139039,64 @@ ff
 ff
 LW
 LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (217,1,2) = {"
 ff
@@ -138392,64 +139296,64 @@ ff
 ff
 ff
 LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (218,1,2) = {"
 ff
@@ -138649,64 +139553,64 @@ ff
 ff
 ff
 ff
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (219,1,2) = {"
 ff
@@ -138907,63 +139811,63 @@ ff
 ff
 ff
 ff
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (220,1,2) = {"
 ff
@@ -139165,62 +140069,62 @@ ff
 ff
 ff
 ff
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (221,1,2) = {"
 yY
@@ -139424,60 +140328,60 @@ ff
 ff
 ff
 ff
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (222,1,2) = {"
 yY
@@ -139684,57 +140588,57 @@ ff
 ff
 ff
 ff
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (223,1,2) = {"
 yY
@@ -139943,55 +140847,55 @@ ff
 ff
 ff
 ff
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (224,1,2) = {"
 yY
@@ -140201,54 +141105,54 @@ ff
 ff
 ff
 ff
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (225,1,2) = {"
 yY
@@ -140459,53 +141363,53 @@ ff
 ff
 ff
 ff
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (226,1,2) = {"
 yY
@@ -140717,52 +141621,52 @@ ff
 ff
 ff
 ff
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (227,1,2) = {"
 yY
@@ -140975,51 +141879,51 @@ ff
 ff
 ff
 ff
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (228,1,2) = {"
 yY
@@ -141232,51 +142136,51 @@ ff
 ff
 ff
 ff
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (229,1,2) = {"
 yY
@@ -141490,50 +142394,50 @@ ff
 ff
 ff
 ff
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (230,1,2) = {"
 yY
@@ -141747,50 +142651,50 @@ ff
 ff
 ff
 ff
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (231,1,2) = {"
 yY
@@ -142004,50 +142908,50 @@ ff
 ff
 ff
 ff
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (232,1,2) = {"
 yY
@@ -142261,50 +143165,50 @@ ff
 ff
 ff
 ff
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (233,1,2) = {"
 yY
@@ -142518,50 +143422,50 @@ ff
 ff
 ff
 ff
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (234,1,2) = {"
 yY
@@ -142775,50 +143679,50 @@ ff
 ff
 ff
 ff
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (235,1,2) = {"
 yY
@@ -143032,50 +143936,50 @@ ff
 ff
 ff
 ff
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (236,1,2) = {"
 yY
@@ -143289,50 +144193,50 @@ ff
 ff
 ff
 ff
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (237,1,2) = {"
 yY
@@ -143546,50 +144450,50 @@ ff
 ff
 ff
 ff
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (238,1,2) = {"
 yY
@@ -143803,50 +144707,50 @@ ff
 ff
 ff
 ff
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (239,1,2) = {"
 yY
@@ -144060,50 +144964,50 @@ ff
 ff
 ff
 ff
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (240,1,2) = {"
 yY
@@ -144317,50 +145221,50 @@ ff
 ff
 ff
 ff
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (241,1,2) = {"
 yY
@@ -144574,50 +145478,50 @@ ff
 ff
 ff
 ff
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (242,1,2) = {"
 yY
@@ -144831,50 +145735,50 @@ ff
 ff
 ff
 ff
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (243,1,2) = {"
 yY
@@ -145088,50 +145992,50 @@ ff
 ff
 ff
 ff
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (244,1,2) = {"
 yY
@@ -145345,50 +146249,50 @@ ff
 ff
 ff
 LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (245,1,2) = {"
 yY
@@ -145602,50 +146506,50 @@ ff
 ff
 ff
 LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (246,1,2) = {"
 yY
@@ -145859,50 +146763,50 @@ ff
 ff
 ff
 LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (247,1,2) = {"
 yY
@@ -146116,50 +147020,50 @@ ff
 ff
 LW
 LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (248,1,2) = {"
 yY
@@ -146373,50 +147277,50 @@ ff
 ff
 LW
 LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (249,1,2) = {"
 yY
@@ -146630,50 +147534,50 @@ ff
 ff
 LW
 LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (250,1,2) = {"
 yY
@@ -146887,50 +147791,50 @@ ff
 LW
 LW
 LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (251,1,2) = {"
 yY
@@ -147144,50 +148048,50 @@ ff
 LW
 LW
 LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (252,1,2) = {"
 yY
@@ -147401,50 +148305,50 @@ ff
 LW
 LW
 LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (253,1,2) = {"
 yY
@@ -147658,50 +148562,50 @@ LW
 LW
 LW
 LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (254,1,2) = {"
 yY
@@ -147915,50 +148819,50 @@ LW
 LW
 LW
 LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
 (255,1,2) = {"
 yY
@@ -148172,48 +149076,48 @@ LW
 LW
 LW
 LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
-LW
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
+yY
 "}
