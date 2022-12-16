@@ -3,16 +3,6 @@
 /obj/machinery/light/cold/directional/east,
 /turf/open/floor/vault/rock,
 /area/station/engineering/lobby)
-"ab" = (
-/obj/effect/turf_decal/siding/wideplating_new/dark{
-	dir = 5
-	},
-/turf/open/floor/stone/icemoon{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/ruin/space/ancientstation/charlie{
-	name = "Medical Parking"
-	})
 "ac" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -54,15 +44,6 @@
 /area/station/engineering/power_station{
 	name = "Tesla Engine"
 	})
-"ah" = (
-/obj/effect/turf_decal/siding/wideplating_new/dark,
-/obj/machinery/light/cold/directional/south,
-/turf/open/floor/stone/icemoon{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/ruin/space/ancientstation/charlie{
-	name = "Medical Parking"
-	})
 "ai" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
 	dir = 1
@@ -72,13 +53,18 @@
 	},
 /area/station/hallway/primary/port)
 "aj" = (
-/obj/effect/turf_decal/trimline/purple/filled/line{
+/obj/effect/turf_decal/siding/wideplating_new/dark{
 	dir = 8
 	},
-/obj/machinery/light/dim/directional/west,
-/turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/ordnance_hall{
-	name = "Acid Containment Room"
+/obj/effect/turf_decal/skyrat_decals/misc/handicapped{
+	pixel_x = 16;
+	pixel_y = 15
+	},
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/ruin/space/ancientstation/charlie/hall{
+	name = "Research Parking"
 	})
 "ak" = (
 /obj/structure/cable,
@@ -131,8 +117,9 @@
 	name = "Botanical Chem Facility"
 	})
 "ar" = (
-/turf/closed/indestructible/rock/snow/ice,
-/area/icemoon/surface/outdoors/unexplored/rivers/no_monsters)
+/obj/structure/lattice/catwalk,
+/turf/open/lava/plasma/ice_moon,
+/area/icemoon/surface/outdoors/nospawn)
 "as" = (
 /obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 4
@@ -144,10 +131,13 @@
 /area/station/science)
 "at" = (
 /obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 10
+	dir = 5
 	},
+/obj/structure/cable,
 /turf/open/floor/pod/dark,
-/area/station/science)
+/area/ruin/space/ks13/science/genetics{
+	name = "Lava containment Room"
+	})
 "au" = (
 /obj/machinery/vending/medical,
 /obj/effect/turf_decal/trimline/blue/filled/line{
@@ -172,27 +162,9 @@
 /turf/open/floor/wood,
 /area/station/cargo)
 "ax" = (
-/obj/effect/turf_decal/siding/wideplating_new/dark{
-	dir = 4
-	},
-/obj/effect/turf_decal/stripes/line,
-/obj/machinery/light/cold/directional/east,
-/turf/open/floor/stone/icemoon{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/ruin/space/ancientstation/charlie{
-	name = "Medical Parking"
-	})
-"ay" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/turf/open/floor/stone/icemoon{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/ruin/space/ancientstation/charlie/hall{
-	name = "Research Parking"
-	})
+/obj/machinery/light/dim/directional/south,
+/turf/open/floor/pod/dark,
+/area/station/hallway/primary/aft)
 "az" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -214,13 +186,6 @@
 /obj/structure/cable,
 /turf/open/floor/pod/dark,
 /area/station/science)
-"aC" = (
-/obj/structure/window{
-	dir = 4
-	},
-/obj/structure/flora/bush/fullgrass/style_random,
-/turf/open/floor/grass,
-/area/station/science)
 "aD" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/misc/grass/planet,
@@ -240,14 +205,18 @@
 /turf/open/floor/wood,
 /area/station/cargo)
 "aG" = (
-/obj/effect/turf_decal/siding/wideplating_new/dark{
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/purple/fourcorners,
+/turf/open/floor/pod/dark,
+/area/station/science)
+"aH" = (
+/obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 4
 	},
-/turf/open/floor/stone/icemoon{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/ruin/space/ancientstation/charlie/hall{
-	name = "Research Parking"
+/obj/machinery/light/dim/directional/east,
+/turf/open/floor/pod/dark,
+/area/ruin/space/ks13/science/ordnance{
+	name = "Plasma Containment Room"
 	})
 "aI" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -258,15 +227,13 @@
 /turf/open/floor/wood,
 /area/station/commons/dorms)
 "aJ" = (
-/obj/effect/turf_decal/stripes/corner{
-	dir = 1
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 9
 	},
-/obj/structure/railing/corner{
-	dir = 1
-	},
+/obj/structure/cable,
 /turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/ordnance_hall{
-	name = "Acid Containment Room"
+/area/ruin/space/ks13/science/ordnance{
+	name = "Plasma Containment Room"
 	})
 "aK" = (
 /turf/closed/wall/mineral/titanium/spaceship/nodiagonal,
@@ -356,14 +323,10 @@
 /turf/open/floor/wood/tile,
 /area/station/medical/break_room)
 "aX" = (
-/obj/effect/turf_decal/siding/wideplating_new/dark{
-	dir = 8
-	},
-/turf/open/floor/stone/icemoon{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/ruin/space/ancientstation/charlie{
-	name = "Medical Parking"
+/obj/machinery/door/airlock/plasma,
+/turf/open/floor/pod/dark,
+/area/ruin/space/ks13/science/ordnance{
+	name = "Plasma Containment Room"
 	})
 "aY" = (
 /obj/structure/cable,
@@ -396,26 +359,17 @@
 	name = "Temporary Bridge"
 	})
 "bc" = (
-/obj/effect/turf_decal/siding/wideplating_new/dark{
-	dir = 1
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 5
 	},
 /obj/structure/cable,
-/obj/machinery/power/apc/auto_name/directional/north{
-	arc_shielded = 1
-	},
-/turf/open/floor/stone/icemoon{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/station/cargo/miningoffice)
+/turf/open/floor/pod/dark,
+/area/ruin/space/ks13/science/ordnance{
+	name = "Plasma Containment Room"
+	})
 "bd" = (
 /turf/open/floor/carpet/black,
 /area/station/service/salon)
-"be" = (
-/obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 1
-	},
-/turf/open/floor/pod/dark,
-/area/station/science/robotics)
 "bf" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
@@ -535,13 +489,14 @@
 	},
 /area/station/hallway/primary/fore)
 "bu" = (
-/obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 9
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 1
 	},
-/obj/structure/cable,
-/turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/genetics{
-	name = "Lava containment Room"
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/ruin/space/ancientstation/charlie{
+	name = "Medical Parking"
 	})
 "bv" = (
 /obj/effect/turf_decal/stripes/line,
@@ -681,6 +636,11 @@
 "bQ" = (
 /turf/open/floor/wood,
 /area/station/science/breakroom)
+"bR" = (
+/turf/closed/wall/mineral/titanium/spaceship/nodiagonal,
+/area/ruin/space/ks13/science/ordnance{
+	name = "Plasma Containment Room"
+	})
 "bS" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
@@ -808,6 +768,14 @@
 	},
 /turf/open/floor/iron,
 /area/station/medical/morgue)
+"ck" = (
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 8
+	},
+/turf/open/floor/pod/dark,
+/area/ruin/space/ks13/science/ordnance_hall{
+	name = "Acid Containment Room"
+	})
 "cl" = (
 /obj/machinery/processor,
 /turf/open/floor/iron/kitchen/diagonal,
@@ -818,13 +786,15 @@
 /turf/open/floor/iron/kitchen/small,
 /area/station/service/kitchen/diner)
 "cn" = (
-/obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 1
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 10
 	},
-/obj/machinery/computer/scan_consolenew,
-/obj/machinery/light/dim/directional/north,
-/turf/open/floor/pod/dark,
-/area/station/science/genetics)
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/ruin/space/ancientstation/charlie/hall{
+	name = "Research Parking"
+	})
 "co" = (
 /obj/structure/cable,
 /turf/open/floor/vault/rock,
@@ -864,10 +834,13 @@
 /turf/closed/wall/mineral/titanium/spaceship/nodiagonal,
 /area/station/science/genetics)
 "cu" = (
-/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 8
+	},
+/obj/machinery/light/dim/directional/west,
 /turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/ordnance_hall{
-	name = "Acid Containment Room"
+/area/ruin/space/ks13/science/ordnance{
+	name = "Plasma Containment Room"
 	})
 "cv" = (
 /obj/structure/cable,
@@ -959,7 +932,6 @@
 /obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 8
 	},
-/obj/machinery/light/dim/directional/west,
 /turf/open/floor/pod/dark,
 /area/station/science)
 "cI" = (
@@ -1267,7 +1239,9 @@
 	dir = 6
 	},
 /turf/open/floor/pod/dark,
-/area/station/science/robotics)
+/area/ruin/space/ks13/science/genetics{
+	name = "Lava containment Room"
+	})
 "dz" = (
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/wood/tile,
@@ -1329,6 +1303,12 @@
 /turf/open/floor/pod/dark,
 /area/station/medical/chemistry{
 	name = "The Meth Room"
+	})
+"dI" = (
+/obj/machinery/door/airlock/plasma,
+/turf/open/floor/pod/dark,
+/area/ruin/space/ks13/science/ordnance_hall{
+	name = "Acid Containment Room"
 	})
 "dJ" = (
 /turf/open/floor/stone/icemoon{
@@ -1397,6 +1377,12 @@
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/station/hallway/primary/starboard)
+"dS" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/pod/dark,
+/area/ruin/space/ks13/science/ordnance_hall{
+	name = "Acid Containment Room"
+	})
 "dT" = (
 /obj/effect/turf_decal/siding/brown{
 	dir = 4
@@ -1493,13 +1479,14 @@
 	},
 /area/station/hallway/primary/port)
 "ef" = (
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/stone/icemoon{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 8
 	},
-/area/ruin/space/ancientstation/charlie/hall{
-	name = "Research Parking"
-	})
+/obj/machinery/button/door/directional/west{
+	id = Robotics
+	},
+/turf/open/floor/pod/dark,
+/area/station/science/robotics)
 "eg" = (
 /obj/structure/cable,
 /obj/machinery/door/airlock/public/glass{
@@ -1523,12 +1510,8 @@
 /turf/open/floor/vault/rock,
 /area/station/engineering/storage)
 "ei" = (
-/obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 1
-	},
-/obj/machinery/light/dim/directional/north,
-/turf/open/floor/pod/dark,
-/area/station/science)
+/turf/closed/wall/mineral/titanium/spaceship/nodiagonal,
+/area/station/science/research)
 "ej" = (
 /obj/structure/cable,
 /obj/effect/turf_decal/siding/wideplating_new/dark,
@@ -1609,6 +1592,14 @@
 /obj/item/canvas,
 /turf/open/floor/wood,
 /area/station/commons/storage/art)
+"ev" = (
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 5
+	},
+/turf/open/floor/pod/dark,
+/area/ruin/space/ks13/science/ordnance_hall{
+	name = "Acid Containment Room"
+	})
 "ew" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
 	dir = 6
@@ -1656,12 +1647,9 @@
 	},
 /area/station/hallway/primary/starboard)
 "eC" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
-/turf/open/floor/stone/icemoon{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/ruin/space/ancientstation/charlie{
-	name = "Medical Parking"
+/turf/closed/wall/mineral/stone,
+/area/ruin/space/ancientstation/charlie/hall{
+	name = "Research Parking"
 	})
 "eD" = (
 /turf/closed/wall/mineral/stone,
@@ -1915,10 +1903,9 @@
 	name = "Tchiko's Lake Side"
 	})
 "fo" = (
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ruin/space/ancientstation/charlie{
-	name = "Medical Parking"
-	})
+/obj/effect/turf_decal/tile/purple/fourcorners,
+/turf/open/floor/pod/dark,
+/area/station/science)
 "fp" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -2043,15 +2030,14 @@
 /turf/open/floor/wood,
 /area/station/science/breakroom)
 "fA" = (
-/obj/structure/window{
-	dir = 1
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 6
 	},
-/obj/structure/window{
-	dir = 8
-	},
-/obj/structure/flora/bush/fullgrass/style_random,
-/turf/open/floor/grass,
-/area/station/science)
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/floor/pod/dark,
+/area/ruin/space/ks13/science/ordnance{
+	name = "Plasma Containment Room"
+	})
 "fB" = (
 /obj/effect/turf_decal/tile/blue/full,
 /obj/structure/mineral_door/wood,
@@ -2120,16 +2106,13 @@
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/station/hallway/primary/starboard)
-"fL" = (
-/turf/closed/wall/mineral/stone,
-/area/ruin/space/ancientstation/charlie/hall{
-	name = "Research Parking"
-	})
 "fM" = (
-/obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 10
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
 	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/obj/structure/railing{
+	dir = 4
+	},
 /turf/open/floor/pod/dark,
 /area/ruin/space/ks13/science/ordnance{
 	name = "Plasma Containment Room"
@@ -2326,12 +2309,13 @@
 /turf/open/floor/pod/dark,
 /area/station/science/auxlab)
 "gp" = (
-/obj/effect/turf_decal/stripes/line,
-/turf/open/floor/stone/icemoon{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 8
 	},
-/area/ruin/space/ancientstation/charlie/hall{
-	name = "Research Parking"
+/obj/machinery/light/dim/directional/west,
+/turf/open/floor/pod/dark,
+/area/ruin/space/ks13/science/ordnance_hall{
+	name = "Acid Containment Room"
 	})
 "gq" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -2349,6 +2333,10 @@
 /obj/structure/table/reinforced/rglass,
 /turf/open/floor/wood,
 /area/station/cargo)
+"gt" = (
+/obj/machinery/light/dim/directional/south,
+/turf/open/floor/wood,
+/area/station/science/breakroom)
 "gu" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
@@ -2405,17 +2393,10 @@
 /area/station/command)
 "gC" = (
 /obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 1
+	dir = 3
 	},
-/obj/machinery/light/dim/directional/north,
-/obj/machinery/power/apc/auto_name/directional/north{
-	arc_shielded = 1
-	},
-/obj/structure/cable,
 /turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/ordnance_hall{
-	name = "Acid Containment Room"
-	})
+/area/station/science)
 "gD" = (
 /obj/effect/light_emitter{
 	set_cap = 1;
@@ -2431,17 +2412,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron/kitchen/small,
 /area/station/service/kitchen/diner)
-"gF" = (
-/obj/effect/turf_decal/stripes/corner{
-	dir = 4
-	},
-/obj/structure/railing/corner{
-	dir = 4
-	},
-/turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/ordnance{
-	name = "Plasma Containment Room"
-	})
 "gG" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -2450,11 +2420,14 @@
 /turf/open/floor/wood,
 /area/station/cargo)
 "gH" = (
-/obj/structure/table/wood,
-/obj/item/key/atv,
-/turf/open/floor/wood,
-/area/station/common/pool{
-	name = "Tchiko's Lake Side"
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/ruin/space/ancientstation/charlie/hall{
+	name = "Research Parking"
 	})
 "gI" = (
 /obj/effect/landmark/start/head_of_security,
@@ -2476,17 +2449,6 @@
 /turf/open/floor/circuit,
 /area/station/tcommsat/server{
 	has_gravity = 1
-	})
-"gL" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/obj/structure/railing{
-	dir = 4
-	},
-/turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/ordnance_hall{
-	name = "Acid Containment Room"
 	})
 "gM" = (
 /obj/structure/flora/bush/fullgrass/style_random,
@@ -2722,6 +2684,17 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/floor/wood,
 /area/station/service/library/lounge)
+"hp" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
+/obj/machinery/light_switch/directional/west,
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/ruin/space/ancientstation/charlie{
+	name = "Medical Parking"
+	})
 "hq" = (
 /obj/machinery/light/cold/directional/east,
 /obj/effect/turf_decal/siding/wideplating_new/dark{
@@ -2771,15 +2744,10 @@
 	name = "Tchiko's Castle Quarters"
 	})
 "hw" = (
-/obj/effect/turf_decal/siding/wideplating_new/dark{
-	dir = 8
-	},
-/turf/open/floor/stone/icemoon{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/ruin/space/ancientstation/charlie/hall{
-	name = "Research Parking"
-	})
+/obj/structure/flora/tree/jungle/style_random,
+/obj/structure/flora/bush/fullgrass/style_random,
+/turf/open/floor/grass,
+/area/station/science)
 "hx" = (
 /obj/structure/flora/bush/fullgrass/style_random,
 /obj/structure/flora/rock/style_random,
@@ -2815,13 +2783,6 @@
 /obj/structure/closet/crate/large,
 /turf/open/floor/wood,
 /area/station/cargo)
-"hC" = (
-/obj/effect/turf_decal/stripes/corner,
-/obj/structure/railing/corner,
-/turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/genetics{
-	name = "Lava containment Room"
-	})
 "hD" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
 	dir = 4
@@ -2852,15 +2813,15 @@
 	has_gravity = 1
 	})
 "hH" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/turf/open/floor/stone/icemoon{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+/obj/structure/window{
+	dir = 1
 	},
-/area/ruin/space/ancientstation/charlie{
-	name = "Medical Parking"
-	})
+/obj/structure/window{
+	dir = 8
+	},
+/obj/structure/flora/bush/fullgrass/style_random,
+/turf/open/floor/grass,
+/area/station/science)
 "hI" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 4
@@ -2871,12 +2832,16 @@
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/lobby)
 "hJ" = (
-/obj/machinery/door/poddoor/shutters{
-	id = Carglob
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
 	},
-/obj/structure/table/reinforced/rglass,
-/turf/open/floor/wood,
-/area/station/cargo)
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/floor/pod/dark,
+/area/ruin/space/ks13/science/ordnance_hall{
+	name = "Acid Containment Room"
+	})
 "hK" = (
 /obj/effect/turf_decal/trimline/blue/filled/corner,
 /turf/open/floor/iron/white,
@@ -2887,14 +2852,6 @@
 /turf/open/floor/iron/kitchen/diagonal,
 /area/station/commons/dorms{
 	name = "Dorm."
-	})
-"hM" = (
-/obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 6
-	},
-/turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/genetics{
-	name = "Lava containment Room"
 	})
 "hN" = (
 /obj/effect/turf_decal/siding/wood,
@@ -3042,10 +2999,7 @@
 /turf/open/floor/wood,
 /area/station/commons/storage/art)
 "ih" = (
-/obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 10
-	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/obj/structure/window/reinforced/plasma/fulltile,
 /turf/open/floor/pod/dark,
 /area/ruin/space/ks13/science/ordnance_hall{
 	name = "Acid Containment Room"
@@ -3090,15 +3044,6 @@
 /obj/effect/turf_decal/trimline/dark_red/line,
 /turf/open/floor/vault,
 /area/icemoon/underground/explored)
-"io" = (
-/obj/effect/turf_decal/siding/wideplating_new/dark{
-	dir = 4
-	},
-/obj/structure/cable,
-/turf/open/floor/stone/icemoon{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/station/hallway/primary/aft)
 "ip" = (
 /obj/effect/light_emitter{
 	set_cap = 1;
@@ -3109,10 +3054,17 @@
 	name = "Tchiko's Lake Side"
 	})
 "iq" = (
-/obj/effect/turf_decal/stripes/line,
-/turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/genetics{
-	name = "Lava containment Room"
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/ruin/space/ancientstation/charlie{
+	name = "Medical Parking"
 	})
 "ir" = (
 /obj/effect/mapping_helpers/airlock/access/any/command/captain,
@@ -3169,6 +3121,15 @@
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/station/hallway/primary/port)
+"iB" = (
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/pod/dark,
+/area/ruin/space/ks13/science/ordnance{
+	name = "Plasma Containment Room"
+	})
 "iC" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 9
@@ -3277,6 +3238,9 @@
 /area/station/hallway/primary/aft)
 "iM" = (
 /obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/any/science/general,
+/obj/machinery/door/airlock/plasma,
+/obj/effect/turf_decal/tile/purple/fourcorners,
 /turf/open/floor/pod/dark,
 /area/station/science/lab)
 "iN" = (
@@ -3300,12 +3264,12 @@
 	name = "Hakitachiya's Methshack Entrance"
 	})
 "iP" = (
-/turf/open/floor/stone/icemoon{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/ruin/space/ancientstation/charlie{
-	name = "Medical Parking"
-	})
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/purple/fourcorners,
+/turf/open/floor/pod/dark,
+/area/station/science)
 "iQ" = (
 /obj/machinery/power/apc/auto_name/directional/north{
 	arc_shielded = 1
@@ -3360,9 +3324,11 @@
 	name = "Medical Hallway"
 	})
 "iX" = (
-/obj/machinery/light/dim/directional/south,
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 10
+	},
 /turf/open/floor/pod/dark,
-/area/station/hallway/primary/aft)
+/area/station/science)
 "iY" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -3375,17 +3341,17 @@
 	name = "Tchiko's Lake Side"
 	})
 "iZ" = (
-/obj/effect/turf_decal/tile/blue/full,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/obj/machinery/door/airlock/medical/glass{
-	id_tag = "MedbayFoyer";
-	name = "Medbay"
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 1
 	},
-/turf/open/floor/iron/white,
-/area/ruin/space/ancientstation/charlie{
-	name = "Medical Parking"
+/obj/machinery/light/dim/directional/north,
+/obj/machinery/power/apc/auto_name/directional/north{
+	arc_shielded = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/pod/dark,
+/area/ruin/space/ks13/science/genetics{
+	name = "Lava containment Room"
 	})
 "ja" = (
 /obj/structure/cable,
@@ -3574,10 +3540,16 @@
 	},
 /area/station/hallway/primary/port)
 "jA" = (
-/mob/living/carbon/human/species/monkey,
-/obj/machinery/light/dim/directional/east,
-/turf/open/floor/grass,
-/area/station/science/genetics)
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/floor/pod/dark,
+/area/ruin/space/ks13/science/genetics{
+	name = "Lava containment Room"
+	})
 "jB" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -3654,9 +3626,9 @@
 	})
 "jK" = (
 /obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 3
+	dir = 1
 	},
-/obj/machinery/light/dim/directional/south,
+/obj/machinery/light/dim/directional/north,
 /turf/open/floor/pod/dark,
 /area/station/science/auxlab)
 "jL" = (
@@ -3698,7 +3670,7 @@
 "jQ" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/poddoor/shutters{
-	id = TchikoRoom
+	id = NisiRoom
 	},
 /turf/open/floor/wood,
 /area/mine/xenoarch/engineering{
@@ -3742,6 +3714,15 @@
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/station/hallway/primary/starboard)
+"jV" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 4
+	},
+/obj/structure/cable,
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/station/hallway/primary/aft)
 "jW" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/monitored/nitrogen_input{
 	dir = 1
@@ -3823,24 +3804,14 @@
 	name = "Hakitachiya's Kitchenette"
 	})
 "kf" = (
-/obj/effect/turf_decal/siding/wideplating_new/dark{
-	dir = 8
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 4
 	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/turf/open/floor/stone/icemoon{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/ruin/space/ancientstation/charlie/hall{
-	name = "Research Parking"
-	})
-"kg" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/light/dim/directional/east,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/turf/closed/wall/mineral/titanium/spaceship/nodiagonal,
-/area/station/science)
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/pod/dark,
+/area/station/science/robotics)
 "kh" = (
 /turf/open/floor/iron/dark,
 /area/station/service/chapel)
@@ -3890,17 +3861,6 @@
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/station/hallway)
-"ko" = (
-/obj/effect/turf_decal/stripes/corner{
-	dir = 8
-	},
-/obj/structure/railing/corner{
-	dir = 8
-	},
-/turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/genetics{
-	name = "Lava containment Room"
-	})
 "kp" = (
 /obj/machinery/light/directional/east,
 /turf/open/floor/iron/dark,
@@ -3944,11 +3904,16 @@
 /area/station/hallway{
 	name = "Tchiko's Castle Entrance"
 	})
-"ku" = (
-/obj/structure/window/reinforced/plasma/fulltile,
+"kv" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/obj/structure/railing/corner{
+	dir = 1
+	},
 /turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/genetics{
-	name = "Lava containment Room"
+/area/ruin/space/ks13/science/ordnance{
+	name = "Plasma Containment Room"
 	})
 "kw" = (
 /turf/open/floor/carpet/red,
@@ -4134,11 +4099,6 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/iron/white,
 /area/station/medical/patients_rooms/room_a)
-"kU" = (
-/turf/open/lava/plasma/ice_moon,
-/area/ruin/space/ks13/science/ordnance{
-	name = "Plasma Containment Room"
-	})
 "kV" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark,
 /turf/open/floor/glass/reinforced/plasma,
@@ -4253,10 +4213,12 @@
 	name = "Tchiko's Castle Gardens"
 	})
 "lk" = (
-/obj/structure/cable,
-/obj/machinery/light/dim/directional/east,
-/turf/open/floor/wood,
-/area/station/command/heads_quarters/rd)
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/ruin/space/ancientstation/charlie/hall{
+	name = "Research Parking"
+	})
 "ll" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -4307,6 +4269,7 @@
 /obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 1
 	},
+/obj/machinery/dna_scannernew,
 /turf/open/floor/pod/dark,
 /area/station/science/genetics)
 "lu" = (
@@ -4409,17 +4372,6 @@
 /area/station/common/pool{
 	name = "Tchiko's Lake Side"
 	})
-"lH" = (
-/obj/effect/turf_decal/stripes/corner{
-	dir = 1
-	},
-/obj/structure/railing/corner{
-	dir = 1
-	},
-/turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/ordnance{
-	name = "Plasma Containment Room"
-	})
 "lI" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -4469,6 +4421,18 @@
 	},
 /turf/open/floor/carpet/red,
 /area/station/service/kitchen/diner)
+"lP" = (
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 5
+	},
+/obj/machinery/recharge_station{
+	dir = 8
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
+/turf/open/floor/pod/dark,
+/area/station/science/robotics)
 "lQ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -4498,12 +4462,15 @@
 /turf/open/floor/iron/showroomfloor,
 /area/station/service/salon)
 "lU" = (
-/obj/structure/cable,
-/obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 4
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 1
 	},
-/turf/open/floor/pod/dark,
-/area/station/science/lab)
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/ruin/space/ancientstation/charlie/hall{
+	name = "Research Parking"
+	})
 "lV" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -4790,15 +4757,15 @@
 	name = "Tchiko's Castle Jani Closet"
 	})
 "mG" = (
-/obj/structure/window/reinforced/tinted/frosted{
+/obj/effect/turf_decal/siding/wideplating_new/dark{
 	dir = 4
 	},
-/obj/structure/window/reinforced/tinted/frosted{
-	dir = 1
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
-/obj/structure/chair/sofa/corner,
-/turf/open/floor/carpet/red,
-/area/station/service/kitchen/diner)
+/area/ruin/space/ancientstation/charlie/hall{
+	name = "Research Parking"
+	})
 "mH" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/cable,
@@ -4864,7 +4831,9 @@
 /turf/open/floor/wood,
 /area/station/cargo/lobby)
 "mP" = (
-/obj/machinery/door/airlock/plasma,
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 8
+	},
 /turf/open/floor/pod/dark,
 /area/ruin/space/ks13/science/genetics{
 	name = "Lava containment Room"
@@ -4971,9 +4940,21 @@
 	name = "Public Garden"
 	})
 "nd" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/closed/wall/mineral/titanium/spaceship/nodiagonal,
-/area/station/science/robotics)
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 8
+	},
+/obj/machinery/light/dim/directional/west,
+/turf/open/floor/pod/dark,
+/area/station/science)
+"ne" = (
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 10
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/turf/open/floor/pod/dark,
+/area/ruin/space/ks13/science/ordnance_hall{
+	name = "Acid Containment Room"
+	})
 "nf" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible{
@@ -5003,11 +4984,9 @@
 /turf/open/floor/iron/dark,
 /area/station/engineering/gravity_generator)
 "nj" = (
-/obj/structure/window/reinforced/plasma/fulltile,
+/obj/structure/cable,
 /turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/ordnance_hall{
-	name = "Acid Containment Room"
-	})
+/area/station/science/lab)
 "nk" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
 	dir = 5
@@ -5049,13 +5028,6 @@
 /obj/structure/table/reinforced/rglass,
 /turf/open/floor/iron/showroomfloor,
 /area/station/service/salon)
-"nq" = (
-/obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 1
-	},
-/obj/machinery/dna_scannernew,
-/turf/open/floor/pod/dark,
-/area/station/science/genetics)
 "nr" = (
 /obj/structure/mineral_door/silver,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -5066,7 +5038,7 @@
 	has_gravity = 1
 	})
 "ns" = (
-/obj/structure/flora/tree/jungle/style_random,
+/obj/structure/window,
 /obj/structure/flora/bush/fullgrass/style_random,
 /turf/open/floor/grass,
 /area/station/science)
@@ -5082,10 +5054,11 @@
 	},
 /area/station/common/pool)
 "nu" = (
-/obj/structure/window/reinforced/plasma/fulltile,
+/obj/effect/turf_decal/stripes/corner,
+/obj/structure/railing/corner,
 /turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/ordnance{
-	name = "Plasma Containment Room"
+/area/ruin/space/ks13/science/genetics{
+	name = "Lava containment Room"
 	})
 "nv" = (
 /obj/structure/sign/clock/directional/south,
@@ -5164,21 +5137,13 @@
 /turf/closed/wall,
 /area/station/engineering/hallway)
 "nH" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/door/poddoor/shutters{
-	id = NisiRoom
-	},
-/turf/open/floor/wood,
-/area/mine/xenoarch/engineering{
-	name = "Tchiko's Castle Quarters"
-	})
-"nI" = (
 /obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 4
 	},
+/obj/machinery/light/dim/directional/east,
 /turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/ordnance_hall{
-	name = "Acid Containment Room"
+/area/ruin/space/ks13/science/genetics{
+	name = "Lava containment Room"
 	})
 "nJ" = (
 /obj/structure/carving_block,
@@ -5255,6 +5220,14 @@
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/station/hallway/primary/central)
+"nT" = (
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 3
+	},
+/turf/open/floor/pod/dark,
+/area/ruin/space/ks13/science/ordnance{
+	name = "Plasma Containment Room"
+	})
 "nU" = (
 /obj/structure/flora/bush/fullgrass/style_random,
 /obj/structure/flora/bush/flowers_br/style_random,
@@ -5285,12 +5258,13 @@
 	name = "Tchiko's Castle Quarters"
 	})
 "nY" = (
-/obj/effect/turf_decal/stripes/line,
-/turf/open/floor/stone/icemoon{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 10
 	},
-/area/ruin/space/ancientstation/charlie{
-	name = "Medical Parking"
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/turf/open/floor/pod/dark,
+/area/ruin/space/ks13/science/ordnance{
+	name = "Plasma Containment Room"
 	})
 "nZ" = (
 /obj/machinery/light/directional/west,
@@ -5564,16 +5538,13 @@
 /area/mine/xenoarch/living{
 	name = "Tchiko's Castle Lounge"
 	})
-"oE" = (
-/obj/effect/turf_decal/siding/wideplating_new/dark{
-	dir = 10
+"oD" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 4
 	},
-/turf/open/floor/stone/icemoon{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/ruin/space/ancientstation/charlie{
-	name = "Medical Parking"
-	})
+/turf/open/floor/pod/dark,
+/area/station/science/lab)
 "oF" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 1
@@ -5655,12 +5626,6 @@
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/station/common/pool)
-"oN" = (
-/obj/effect/turf_decal/trimline/purple/filled/corner{
-	dir = 4
-	},
-/turf/open/floor/pod/dark,
-/area/station/science/robotics)
 "oO" = (
 /obj/structure/rack,
 /obj/item/storage/box/lights/mixed,
@@ -5793,9 +5758,13 @@
 /turf/open/floor/wood/tile,
 /area/station/command/heads_quarters/cmo)
 "pi" = (
-/turf/closed/wall/mineral/titanium/spaceship/nodiagonal,
-/area/ruin/space/ks13/science/ordnance_hall{
-	name = "Acid Containment Room"
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/pod/dark,
+/area/ruin/space/ks13/science/genetics{
+	name = "Lava containment Room"
 	})
 "pj" = (
 /obj/structure/cable,
@@ -6052,9 +6021,11 @@
 	name = "Tchiko's Lake Side"
 	})
 "pQ" = (
-/obj/machinery/light/dim/directional/south,
-/turf/open/floor/wood,
-/area/station/science/breakroom)
+/obj/structure/window/reinforced/plasma/fulltile,
+/turf/open/floor/pod/dark,
+/area/ruin/space/ks13/science/ordnance{
+	name = "Plasma Containment Room"
+	})
 "pR" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/carpet/red,
@@ -6164,19 +6135,17 @@
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/station/science/robotics/lab)
-"qj" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/turf/open/floor/stone/icemoon{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/ruin/space/ancientstation/charlie{
-	name = "Medical Parking"
+"qi" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/pod/dark,
+/area/ruin/space/ks13/science/genetics{
+	name = "Lava containment Room"
 	})
+"qj" = (
+/obj/effect/turf_decal/trimline/purple/filled/line,
+/obj/machinery/light/dim/directional/south,
+/turf/open/floor/pod/dark,
+/area/station/science/robotics)
 "qk" = (
 /obj/structure/table/wood,
 /turf/open/floor/wood{
@@ -6275,13 +6244,15 @@
 	has_gravity = 1
 	})
 "qv" = (
-/obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 5
+/obj/machinery/power/apc/auto_name/directional/north{
+	arc_shielded = 1
 	},
 /obj/structure/cable,
-/turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/ordnance{
-	name = "Plasma Containment Room"
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/ruin/space/ancientstation/charlie{
+	name = "Medical Parking"
 	})
 "qw" = (
 /obj/item/kirbyplants/potty,
@@ -6312,10 +6283,12 @@
 /turf/open/floor/wood,
 /area/station/commons/dorms/barracks)
 "qA" = (
-/obj/effect/turf_decal/trimline/purple/filled/line{
+/obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
-/obj/structure/cable,
+/obj/structure/railing{
+	dir = 1
+	},
 /turf/open/floor/pod/dark,
 /area/ruin/space/ks13/science/genetics{
 	name = "Lava containment Room"
@@ -6374,13 +6347,18 @@
 /turf/open/floor/wood,
 /area/station/commons/dorms/barracks)
 "qK" = (
-/obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 6
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 1
 	},
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
-/turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/ordnance{
-	name = "Plasma Containment Room"
+/obj/machinery/power/apc/auto_name/directional/north{
+	arc_shielded = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/ruin/space/ancientstation/charlie/hall{
+	name = "Research Parking"
 	})
 "qL" = (
 /obj/effect/spawner/random/bioluminescent_plant,
@@ -6583,6 +6561,15 @@
 	},
 /turf/open/floor/vault,
 /area/icemoon/underground/explored)
+"rp" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/button/door/directional/east{
+	id = TchikoRoom
+	},
+/turf/open/floor/wood,
+/area/mine/xenoarch/engineering{
+	name = "Tchiko's Castle Quarters"
+	})
 "rq" = (
 /obj/structure/flora/tree/jungle/style_random,
 /turf/open/misc/grass{
@@ -6598,16 +6585,6 @@
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/station/hallway/primary/starboard)
-"rs" = (
-/obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 1
-	},
-/obj/machinery/mech_bay_recharge_port{
-	dir = 2
-	},
-/obj/machinery/light/dim/directional/north,
-/turf/open/floor/pod/dark,
-/area/station/science/robotics)
 "rt" = (
 /mob/living/simple_animal/pet/bumbles,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -6652,21 +6629,18 @@
 	name = "Medical Hallway"
 	})
 "ry" = (
+/obj/structure/cable,
+/obj/structure/cable,
+/turf/open/floor/pod/dark,
+/area/station/science/lab)
+"rz" = (
 /obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 8
 	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/pod/dark,
-/area/station/science/robotics)
-"rz" = (
-/obj/effect/turf_decal/trimline/purple/filled/line,
-/obj/machinery/computer/scan_consolenew{
-	dir = 1
-	},
-/obj/machinery/light/dim/directional/south,
-/turf/open/floor/pod/dark,
-/area/station/science/genetics)
+/area/ruin/space/ks13/science/ordnance{
+	name = "Plasma Containment Room"
+	})
 "rA" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -6769,11 +6743,8 @@
 /turf/open/floor/vault/rock,
 /area/station/engineering/break_room)
 "rQ" = (
-/obj/effect/turf_decal/trimline/purple/filled/line,
-/obj/machinery/power/apc/auto_name/directional/south,
-/obj/structure/cable,
 /turf/open/floor/pod/dark,
-/area/station/science/lab)
+/area/station/science/robotics)
 "rR" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/vault,
@@ -6867,14 +6838,6 @@
 /area/station/service/kitchen{
 	has_gravity = 1
 	})
-"se" = (
-/obj/structure/window,
-/obj/structure/window{
-	dir = 4
-	},
-/obj/structure/flora/bush/fullgrass/style_random,
-/turf/open/floor/grass,
-/area/station/science)
 "sf" = (
 /obj/structure/chair/stool/bar{
 	dir = 1
@@ -6904,11 +6867,15 @@
 	name = "Public Garden"
 	})
 "sj" = (
-/obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 8
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 6
 	},
-/turf/open/floor/pod/dark,
-/area/station/science)
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/ruin/space/ancientstation/charlie{
+	name = "Medical Parking"
+	})
 "sk" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -6936,23 +6903,26 @@
 	},
 /area/station/science/server)
 "sn" = (
-/turf/closed/wall/mineral/titanium/spaceship/nodiagonal,
-/area/station/science/research)
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 5
+	},
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/ruin/space/ancientstation/charlie{
+	name = "Medical Parking"
+	})
 "so" = (
 /turf/open/floor/iron/kitchen/diagonal,
 /area/station/command/heads_quarters/cmo)
 "sp" = (
-/obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 5
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
-/obj/machinery/recharge_station{
-	dir = 8
-	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 1
-	},
-/turf/open/floor/pod/dark,
-/area/station/science/robotics)
+/area/ruin/space/ancientstation/charlie/hall{
+	name = "Research Parking"
+	})
 "sq" = (
 /obj/structure/table,
 /obj/item/reagent_containers/condiment/enzyme,
@@ -6963,17 +6933,13 @@
 	has_gravity = 1
 	})
 "sr" = (
-/obj/machinery/mech_bay_recharge_port{
-	dir = 2
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
-/obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 9
-	},
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 1
-	},
-/turf/open/floor/pod/dark,
-/area/station/science/robotics)
+/area/ruin/space/ancientstation/charlie/hall{
+	name = "Research Parking"
+	})
 "ss" = (
 /obj/structure/chair/pew{
 	dir = 1
@@ -7030,6 +6996,19 @@
 "sx" = (
 /turf/open/floor/iron/showroomfloor,
 /area/station/service/salon)
+"sy" = (
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 1
+	},
+/obj/machinery/light/dim/directional/north,
+/obj/machinery/power/apc/auto_name/directional/north{
+	arc_shielded = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/pod/dark,
+/area/ruin/space/ks13/science/ordnance{
+	name = "Plasma Containment Room"
+	})
 "sz" = (
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
@@ -7083,16 +7062,12 @@
 /turf/open/lava/plasma/ice_moon,
 /area/icemoon/surface/outdoors/labor_camp)
 "sG" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/structure/railing{
-	dir = 1
+/obj/structure/cable,
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 8
 	},
 /turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/genetics{
-	name = "Lava containment Room"
-	})
+/area/station/science/lab)
 "sH" = (
 /obj/machinery/computer/cargo/request{
 	dir = 4
@@ -7313,17 +7288,6 @@
 	},
 /turf/open/floor/wood,
 /area/station/commons/fitness/recreation/entertainment)
-"tj" = (
-/obj/effect/turf_decal/skyrat_decals/misc/handicapped{
-	pixel_x = 16;
-	pixel_y = 15
-	},
-/turf/open/floor/stone/icemoon{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/ruin/space/ancientstation/charlie{
-	name = "Medical Parking"
-	})
 "tk" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -7463,9 +7427,13 @@
 	name = "Tchiko's Castle Quarters"
 	})
 "tF" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/closed/wall/mineral/titanium/spaceship/nodiagonal,
-/area/station/science)
+/obj/effect/turf_decal/trimline/purple/filled/line,
+/obj/item/storage/box/monkeycubes{
+	pixel_x = 4
+	},
+/obj/structure/table/reinforced/plasmarglass,
+/turf/open/floor/pod/dark,
+/area/station/science/genetics)
 "tG" = (
 /turf/closed/wall/mineral/stone,
 /area/station/hallway/primary/port)
@@ -7557,9 +7525,9 @@
 	},
 /area/station/hallway/primary/fore)
 "tS" = (
-/turf/closed/wall/mineral/titanium/spaceship/nodiagonal,
-/area/ruin/space/ks13/science/genetics{
-	name = "Lava containment Room"
+/turf/closed/wall/mineral/stone,
+/area/ruin/space/ancientstation/charlie{
+	name = "Medical Parking"
 	})
 "tT" = (
 /obj/machinery/power/apc/auto_name/directional/north,
@@ -7600,22 +7568,6 @@
 "tZ" = (
 /turf/closed/wall/mineral/stone,
 /area/station/commons/fitness/recreation/entertainment)
-"ua" = (
-/obj/effect/turf_decal/siding/wideplating_new/dark{
-	dir = 10
-	},
-/turf/open/floor/stone/icemoon{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/ruin/space/ancientstation/charlie/hall{
-	name = "Research Parking"
-	})
-"ub" = (
-/obj/vehicle/ridden/atv,
-/turf/open/misc/grass,
-/area/station/common/pool{
-	name = "Tchiko's Lake Side"
-	})
 "uc" = (
 /obj/structure/cable,
 /obj/machinery/door/airlock/external,
@@ -7804,12 +7756,11 @@
 	},
 /area/station/hallway/primary/central)
 "uB" = (
-/obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 1
-	},
-/obj/machinery/light/dim/directional/north,
-/turf/open/floor/pod/dark,
-/area/station/science/auxlab)
+/obj/vehicle/ridden/atv,
+/turf/open/misc/grass,
+/area/station/common/pool{
+	name = "Tchiko's Lake Side"
+	})
 "uC" = (
 /obj/item/bdsm_bed_kit,
 /obj/item/clothing/mask/gas/bdsm_mask,
@@ -7854,17 +7805,11 @@
 /turf/open/floor/wood,
 /area/station/science/breakroom)
 "uJ" = (
-/obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 1
-	},
-/obj/machinery/light/dim/directional/north,
-/obj/machinery/power/apc/auto_name/directional/north{
-	arc_shielded = 1
-	},
-/obj/structure/cable,
+/obj/effect/turf_decal/stripes/line,
+/obj/structure/railing,
 /turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/ordnance{
-	name = "Plasma Containment Room"
+/area/ruin/space/ks13/science/genetics{
+	name = "Lava containment Room"
 	})
 "uK" = (
 /obj/structure/closet/emcloset/anchored,
@@ -7991,47 +7936,32 @@
 /turf/open/floor/vault/rock,
 /area/station/maintenance/port/central)
 "vb" = (
-/obj/effect/turf_decal/siding/wideplating_new/dark{
-	dir = 1
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 4
 	},
-/obj/machinery/power/apc/auto_name/directional/north{
-	arc_shielded = 1
-	},
-/obj/structure/cable,
-/turf/open/floor/stone/icemoon{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/ruin/space/ancientstation/charlie/hall{
-	name = "Research Parking"
+/turf/open/floor/pod/dark,
+/area/ruin/space/ks13/science/ordnance{
+	name = "Plasma Containment Room"
 	})
 "vc" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/closed/wall/mineral/titanium/spaceship/nodiagonal,
+/area/ruin/space/ks13/science/genetics{
+	name = "Lava containment Room"
+	})
+"ve" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
-	dir = 8
+	dir = 4
 	},
-/obj/machinery/light/cold/directional/west,
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/light/cold/directional/east,
 /turf/open/floor/stone/icemoon{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/ruin/space/ancientstation/charlie{
 	name = "Medical Parking"
-	})
-"vd" = (
-/obj/effect/turf_decal/stripes/corner{
-	dir = 4
-	},
-/obj/structure/railing/corner{
-	dir = 4
-	},
-/turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/genetics{
-	name = "Lava containment Room"
-	})
-"ve" = (
-/obj/effect/turf_decal/stripes/line,
-/obj/structure/railing,
-/turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/genetics{
-	name = "Lava containment Room"
 	})
 "vf" = (
 /obj/machinery/rnd/server/master,
@@ -8040,6 +7970,12 @@
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/station/science/server)
+"vg" = (
+/obj/structure/window/reinforced/plasma/fulltile,
+/turf/open/floor/pod/dark,
+/area/ruin/space/ks13/science/genetics{
+	name = "Lava containment Room"
+	})
 "vh" = (
 /obj/machinery/power/terminal{
 	dir = 4
@@ -8089,13 +8025,17 @@
 	name = "Botanical Chem Facility"
 	})
 "vo" = (
-/obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 4
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 8
 	},
-/obj/machinery/light/dim/directional/east,
-/turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/ordnance_hall{
-	name = "Acid Containment Room"
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/ruin/space/ancientstation/charlie{
+	name = "Medical Parking"
 	})
 "vp" = (
 /obj/machinery/oven{
@@ -8328,18 +8268,10 @@
 /turf/open/floor/vault,
 /area/icemoon/underground/explored)
 "vR" = (
-/obj/effect/turf_decal/siding/wideplating_new/dark{
-	dir = 1
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/obj/machinery/light/cold/directional/north,
-/turf/open/floor/stone/icemoon{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/ruin/space/ancientstation/charlie{
-	name = "Medical Parking"
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/pod/dark,
+/area/ruin/space/ks13/science/ordnance{
+	name = "Plasma Containment Room"
 	})
 "vS" = (
 /obj/effect/turf_decal/trimline/purple/filled/line,
@@ -8395,15 +8327,13 @@
 	has_gravity = 1
 	})
 "vZ" = (
-/obj/effect/turf_decal/stripes/corner{
-	dir = 8
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 9
 	},
-/obj/structure/railing/corner{
-	dir = 8
-	},
+/obj/structure/cable,
 /turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/ordnance{
-	name = "Plasma Containment Room"
+/area/ruin/space/ks13/science/genetics{
+	name = "Lava containment Room"
 	})
 "wa" = (
 /obj/structure/chair/sofa/corp/left{
@@ -8417,12 +8347,16 @@
 /obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 3
 	},
+/obj/machinery/light/dim/directional/south,
 /turf/open/floor/pod/dark,
 /area/station/science)
 "wc" = (
-/obj/structure/lattice/catwalk,
-/turf/open/lava/plasma/ice_moon,
-/area/icemoon/surface/outdoors/nospawn)
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 4
+	},
+/obj/machinery/light/dim/directional/east,
+/turf/open/floor/pod/dark,
+/area/station/science)
 "wd" = (
 /turf/open/floor/wood,
 /area/station/commons/dorms{
@@ -8480,6 +8414,17 @@
 /obj/machinery/light/cold/directional/north,
 /turf/open/floor/wood,
 /area/station/cargo)
+"wl" = (
+/obj/effect/turf_decal/skyrat_decals/misc/handicapped{
+	pixel_x = 16;
+	pixel_y = 15
+	},
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/ruin/space/ancientstation/charlie{
+	name = "Medical Parking"
+	})
 "wm" = (
 /obj/structure/chair/wood{
 	dir = 4
@@ -8520,27 +8465,22 @@
 /turf/open/floor/wood,
 /area/station/commons/fitness/recreation/entertainment)
 "wt" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 3
 	},
-/obj/structure/railing{
-	dir = 4
-	},
+/obj/machinery/light/dim/directional/south,
 /turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/genetics{
-	name = "Lava containment Room"
+/area/ruin/space/ks13/science/ordnance{
+	name = "Plasma Containment Room"
 	})
 "wu" = (
-/obj/structure/window{
-	dir = 1
-	},
-/obj/structure/flora/bush/fullgrass/style_random,
-/turf/open/floor/grass,
-/area/station/science)
+/obj/structure/cable,
+/turf/closed/wall/mineral/titanium/spaceship/nodiagonal,
+/area/ruin/space/ks13/science/ordnance{
+	name = "Plasma Containment Room"
+	})
 "wv" = (
-/obj/effect/turf_decal/stripes/corner,
-/obj/structure/railing/corner,
-/turf/open/floor/pod/dark,
+/turf/open/lava/plasma/ice_moon,
 /area/ruin/space/ks13/science/ordnance{
 	name = "Plasma Containment Room"
 	})
@@ -8556,15 +8496,13 @@
 /turf/open/floor/iron/small,
 /area/station/commons/dorms/laundry)
 "wy" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 9
 	},
-/obj/structure/railing{
-	dir = 8
-	},
+/obj/structure/cable,
 /turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/genetics{
-	name = "Lava containment Room"
+/area/ruin/space/ks13/science/ordnance_hall{
+	name = "Acid Containment Room"
 	})
 "wz" = (
 /obj/structure/cable,
@@ -8692,6 +8630,13 @@
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/station/hallway/primary/fore)
+"wR" = (
+/obj/structure/window{
+	dir = 8
+	},
+/obj/structure/flora/bush/fullgrass/style_random,
+/turf/open/floor/grass,
+/area/station/science)
 "wS" = (
 /turf/open/floor/vault/rock,
 /area/station/engineering/break_room)
@@ -8818,7 +8763,7 @@
 /area/station/science)
 "xi" = (
 /obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 8
+	dir = 1
 	},
 /turf/open/floor/pod/dark,
 /area/station/science/robotics)
@@ -8901,6 +8846,14 @@
 /turf/open/floor/plating,
 /area/station/hallway/secondary/entry{
 	has_gravity = 1
+	})
+"xt" = (
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 4
+	},
+/turf/open/floor/pod/dark,
+/area/ruin/space/ks13/science/ordnance_hall{
+	name = "Acid Containment Room"
 	})
 "xu" = (
 /obj/effect/turf_decal/trimline/blue/filled/line,
@@ -9033,6 +8986,18 @@
 /obj/structure/cable,
 /turf/open/floor/grass,
 /area/station/science/research)
+"xM" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 1
+	},
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/north{
+	arc_shielded = 1
+	},
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/station/cargo/miningoffice)
 "xN" = (
 /obj/structure/sign/warning/gas_mask{
 	dir = 8
@@ -9091,9 +9056,10 @@
 /turf/closed/wall/mineral/titanium,
 /area/icemoon/surface/outdoors/labor_camp)
 "xU" = (
-/obj/structure/window,
-/obj/structure/flora/bush/fullgrass/style_random,
-/turf/open/floor/grass,
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 1
+	},
+/turf/open/floor/pod/dark,
 /area/station/science)
 "xV" = (
 /obj/machinery/door/airlock/external,
@@ -9155,12 +9121,9 @@
 	name = "Hakitachiya's Methshack Entrance"
 	})
 "yd" = (
-/obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 3
-	},
-/turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/ordnance_hall{
-	name = "Acid Containment Room"
+/turf/closed/wall/mineral/titanium/spaceship/nodiagonal,
+/area/ruin/space/ks13/science/genetics{
+	name = "Lava containment Room"
 	})
 "ye" = (
 /obj/structure/cable,
@@ -9243,11 +9206,6 @@
 /obj/machinery/light_switch/directional/west,
 /turf/open/floor/wood,
 /area/station/commons/dorms/barracks)
-"yr" = (
-/turf/open/lava/smooth/lava_land_surface,
-/area/ruin/space/ks13/science/genetics{
-	name = "Lava containment Room"
-	})
 "ys" = (
 /obj/machinery/oven{
 	dir = 1
@@ -9317,11 +9275,17 @@
 	name = "Tchiko's Lake Side"
 	})
 "yC" = (
-/obj/structure/cable,
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/light/dim/directional/east,
 /turf/open/floor/stone/icemoon{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
-/area/station/cargo/miningoffice)
+/area/ruin/space/ancientstation/charlie/hall{
+	name = "Research Parking"
+	})
 "yD" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible{
@@ -9394,14 +9358,12 @@
 	name = "Medical Hallway"
 	})
 "yL" = (
-/obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 10
+/obj/machinery/door/poddoor/shutters{
+	id = Carglob
 	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
-/turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/genetics{
-	name = "Lava containment Room"
-	})
+/obj/structure/table/reinforced/rglass,
+/turf/open/floor/wood,
+/area/station/cargo)
 "yM" = (
 /turf/closed/indestructible/rock,
 /area/station/common/pool{
@@ -9443,20 +9405,20 @@
 "yS" = (
 /turf/open/misc/asteroid/snow/icemoon,
 /area/icemoon/surface/outdoors/nospawn)
-"yT" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/turf/closed/wall/mineral/titanium/spaceship/nodiagonal,
-/area/ruin/space/ks13/science/genetics{
-	name = "Lava containment Room"
-	})
 "yU" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
 /turf/open/floor/wood,
 /area/station/commons/fitness/recreation/entertainment)
+"yV" = (
+/obj/structure/window,
+/obj/structure/window{
+	dir = 4
+	},
+/obj/structure/flora/bush/fullgrass/style_random,
+/turf/open/floor/grass,
+/area/station/science)
 "yW" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
@@ -9661,6 +9623,17 @@
 /obj/structure/mineral_door/silver,
 /turf/open/floor/iron/kitchen/small,
 /area/station/service/kitchen/diner)
+"zC" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 8
+	},
+/obj/structure/cable,
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/ruin/space/ancientstation/charlie/hall{
+	name = "Research Parking"
+	})
 "zD" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -9703,12 +9676,6 @@
 /turf/open/floor/engine,
 /area/station/engineering/power_station{
 	name = "Tesla Engine"
-	})
-"zH" = (
-/obj/machinery/door/airlock/plasma,
-/turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/ordnance_hall{
-	name = "Acid Containment Room"
 	})
 "zI" = (
 /turf/closed/wall/mineral/stone,
@@ -9948,13 +9915,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/pod/dark,
 /area/station/science/lab)
-"Ap" = (
-/obj/structure/window{
-	dir = 8
-	},
-/obj/structure/flora/bush/fullgrass/style_random,
-/turf/open/floor/grass,
-/area/station/science)
 "Aq" = (
 /obj/machinery/light/cold/directional/south,
 /turf/open/floor/vault,
@@ -10002,6 +9962,15 @@
 	},
 /turf/open/floor/vault,
 /area/icemoon/underground/explored)
+"Aw" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 9
+	},
+/obj/vehicle/ridden/atv,
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/station/hallway/primary/aft)
 "Ax" = (
 /obj/machinery/atmospherics/pipe/smart/simple/cyan/visible{
 	dir = 4
@@ -10050,13 +10019,6 @@
 	},
 /turf/open/floor/glass/reinforced/plasma,
 /area/station/hallway/primary/aft)
-"AE" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/closed/wall/mineral/titanium/spaceship/nodiagonal,
-/area/ruin/space/ks13/science/genetics{
-	name = "Lava containment Room"
-	})
 "AF" = (
 /obj/structure/carving_block,
 /obj/effect/turf_decal/siding/wood{
@@ -10075,9 +10037,8 @@
 /area/station/hallway/primary/central)
 "AH" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
-	dir = 4
+	dir = 5
 	},
-/obj/effect/turf_decal/stripes/line,
 /turf/open/floor/stone/icemoon{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
@@ -10143,11 +10104,7 @@
 	name = "The Meth Room"
 	})
 "AS" = (
-/obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 4
-	},
-/obj/machinery/light/dim/directional/east,
-/turf/open/floor/pod/dark,
+/turf/closed/wall/mineral/titanium/spaceship/nodiagonal,
 /area/station/science)
 "AT" = (
 /obj/effect/mapping_helpers/airlock/access/any/command/captain,
@@ -10542,15 +10499,16 @@
 /turf/open/floor/glass/reinforced/plasma,
 /area/station/hallway/primary/central)
 "BV" = (
-/obj/structure/window/reinforced{
-	dir = 8
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
 	},
-/mob/living/carbon/human/species/monkey,
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 1
+/obj/structure/railing{
+	dir = 4
 	},
-/turf/open/floor/grass,
-/area/station/science/genetics)
+/turf/open/floor/pod/dark,
+/area/ruin/space/ks13/science/ordnance_hall{
+	name = "Acid Containment Room"
+	})
 "BW" = (
 /obj/structure/chair/comfy/black{
 	dir = 8
@@ -10644,11 +10602,16 @@
 /turf/open/floor/vault/rock,
 /area/station/engineering/lobby)
 "Cl" = (
-/obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 1
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/structure/railing{
+	dir = 8
 	},
 /turf/open/floor/pod/dark,
-/area/station/science)
+/area/ruin/space/ks13/science/ordnance{
+	name = "Plasma Containment Room"
+	})
 "Cm" = (
 /obj/effect/landmark/start/librarian,
 /turf/open/floor/plating,
@@ -10719,14 +10682,11 @@
 /turf/open/floor/wood,
 /area/station/commons/dorms)
 "Cv" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/turf/open/floor/stone/icemoon{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/ruin/space/ancientstation/charlie{
-	name = "Medical Parking"
+/obj/effect/turf_decal/stripes/line,
+/obj/structure/railing,
+/turf/open/floor/pod/dark,
+/area/ruin/space/ks13/science/ordnance_hall{
+	name = "Acid Containment Room"
 	})
 "Cw" = (
 /obj/effect/turf_decal/tile/purple/full,
@@ -10768,11 +10728,16 @@
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/lobby)
 "CC" = (
-/obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 10
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/railing{
+	dir = 1
 	},
 /turf/open/floor/pod/dark,
-/area/station/science/robotics)
+/area/ruin/space/ks13/science/ordnance{
+	name = "Plasma Containment Room"
+	})
 "CD" = (
 /obj/machinery/airalarm/directional/east,
 /turf/open/floor/wood,
@@ -10864,14 +10829,12 @@
 	name = "The Meth Room"
 	})
 "CR" = (
-/obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 1
+/obj/structure/window/reinforced{
+	dir = 8
 	},
-/obj/machinery/light/dim/directional/north,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/pod/dark,
-/area/station/science)
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/floor/grass,
+/area/station/science/genetics)
 "CS" = (
 /obj/machinery/light/directional/north,
 /obj/structure/chair/sofa,
@@ -10908,16 +10871,6 @@
 /obj/effect/turf_decal/siding/wideplating_new/dark,
 /turf/open/floor/glass/reinforced/plasma,
 /area/station/hallway/primary/starboard)
-"CY" = (
-/obj/effect/turf_decal/siding/wideplating_new/dark{
-	dir = 6
-	},
-/turf/open/floor/stone/icemoon{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/ruin/space/ancientstation/charlie/hall{
-	name = "Research Parking"
-	})
 "CZ" = (
 /obj/structure/chair/wood{
 	dir = 8
@@ -11078,12 +11031,24 @@
 /obj/structure/cable,
 /turf/open/floor/wood,
 /area/station/cargo/office)
-"Dv" = (
-/obj/effect/turf_decal/stripes/line,
-/obj/structure/railing,
+"Du" = (
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 3
+	},
+/obj/machinery/light/dim/directional/south,
 /turf/open/floor/pod/dark,
 /area/ruin/space/ks13/science/ordnance_hall{
 	name = "Acid Containment Room"
+	})
+"Dv" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 9
+	},
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/ruin/space/ancientstation/charlie/hall{
+	name = "Research Parking"
 	})
 "Dw" = (
 /mob/living/simple_animal/hostile/retaliate/goat,
@@ -11169,12 +11134,15 @@
 /turf/open/floor/grass,
 /area/station/science/research)
 "DI" = (
-/obj/effect/turf_decal/siding/wideplating_new/dark,
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line,
 /turf/open/floor/stone/icemoon{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
-/area/ruin/space/ancientstation/charlie{
-	name = "Medical Parking"
+/area/ruin/space/ancientstation/charlie/hall{
+	name = "Research Parking"
 	})
 "DJ" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
@@ -11386,22 +11354,14 @@
 /turf/open/floor/vault,
 /area/icemoon/underground/explored)
 "En" = (
-/obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 8
-	},
-/turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/genetics{
-	name = "Lava containment Room"
-	})
-"Eo" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
-	dir = 1
+	dir = 10
 	},
 /turf/open/floor/stone/icemoon{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
-/area/ruin/space/ancientstation/charlie/hall{
-	name = "Research Parking"
+/area/ruin/space/ancientstation/charlie{
+	name = "Medical Parking"
 	})
 "Ep" = (
 /obj/effect/turf_decal/tile/blue/full,
@@ -11514,14 +11474,21 @@
 /turf/open/floor/wood,
 /area/station/science/breakroom)
 "EE" = (
-/obj/effect/turf_decal/siding/wideplating_new/dark{
-	dir = 1
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 4
 	},
+/obj/machinery/light/dim/directional/east,
+/turf/open/floor/pod/dark,
+/area/ruin/space/ks13/science/ordnance_hall{
+	name = "Acid Containment Room"
+	})
+"EF" = (
+/obj/structure/cable,
 /turf/open/floor/stone/icemoon{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
-/area/ruin/space/ancientstation/charlie{
-	name = "Medical Parking"
+/area/ruin/space/ancientstation/charlie/hall{
+	name = "Research Parking"
 	})
 "EG" = (
 /obj/structure/cable,
@@ -11620,6 +11587,15 @@
 /area/station/medical/coldroom{
 	name = "Hakitachiya's Kitchenette"
 	})
+"EV" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/closed/wall/mineral/titanium/spaceship/nodiagonal,
+/area/ruin/space/ks13/science/genetics{
+	name = "Lava containment Room"
+	})
 "EW" = (
 /obj/effect/turf_decal/trimline/blue/filled/warning{
 	dir = 9
@@ -11642,6 +11618,14 @@
 /turf/open/floor/plating,
 /area/station/hallway/secondary/entry{
 	has_gravity = 1
+	})
+"Fb" = (
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 1
+	},
+/turf/open/floor/pod/dark,
+/area/ruin/space/ks13/science/ordnance_hall{
+	name = "Acid Containment Room"
 	})
 "Fc" = (
 /obj/structure/table/wood/fancy/royalblue,
@@ -11712,10 +11696,8 @@
 	name = "Tchiko's Castle Entrance"
 	})
 "Fm" = (
-/obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 1
-	},
-/obj/structure/cable,
+/obj/effect/turf_decal/stripes/corner,
+/obj/structure/railing/corner,
 /turf/open/floor/pod/dark,
 /area/ruin/space/ks13/science/ordnance_hall{
 	name = "Acid Containment Room"
@@ -11780,10 +11762,13 @@
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/qm)
 "Fw" = (
-/obj/effect/turf_decal/trimline/purple/filled/line,
-/obj/machinery/light/dim/directional/south,
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 1
+	},
+/obj/machinery/computer/scan_consolenew,
+/obj/machinery/light/dim/directional/north,
 /turf/open/floor/pod/dark,
-/area/station/science/robotics)
+/area/station/science/genetics)
 "Fx" = (
 /obj/structure/chair/sofa/corner{
 	dir = 8
@@ -11844,16 +11829,11 @@
 	},
 /area/station/cargo/miningoffice)
 "FF" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 1
-	},
-/obj/machinery/light_switch/directional/west,
+/obj/structure/cable,
 /turf/open/floor/stone/icemoon{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
-/area/ruin/space/ancientstation/charlie{
-	name = "Medical Parking"
-	})
+/area/station/cargo/miningoffice)
 "FG" = (
 /obj/machinery/door/airlock/engineering,
 /obj/structure/cable,
@@ -11873,15 +11853,14 @@
 	name = "Tesla Engine"
 	})
 "FJ" = (
-/obj/effect/turf_decal/stripes/corner{
-	dir = 4
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
-/obj/structure/railing/corner{
-	dir = 4
-	},
-/turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/ordnance_hall{
-	name = "Acid Containment Room"
+/area/ruin/space/ancientstation/charlie{
+	name = "Medical Parking"
 	})
 "FK" = (
 /obj/structure/cable,
@@ -11995,13 +11974,15 @@
 /turf/open/floor/pod/dark,
 /area/station/science/lab)
 "FY" = (
-/obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 1
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
 	},
-/obj/structure/cable,
+/obj/structure/railing/corner{
+	dir = 4
+	},
 /turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/ordnance{
-	name = "Plasma Containment Room"
+/area/ruin/space/ks13/science/ordnance_hall{
+	name = "Acid Containment Room"
 	})
 "FZ" = (
 /obj/effect/turf_decal/siding/wood/corner,
@@ -12148,6 +12129,12 @@
 "Gs" = (
 /turf/closed/wall/mineral/stone,
 /area/station/hallway)
+"Gt" = (
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 4
+	},
+/turf/open/floor/pod/dark,
+/area/station/science/lab)
 "Gu" = (
 /obj/machinery/light/red/directional/east,
 /turf/open/floor/wood/tile,
@@ -12239,15 +12226,14 @@
 	name = "Hakitachiya's Methshack Entrance"
 	})
 "GF" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 9
 	},
-/obj/structure/railing{
-	dir = 8
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
-/turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/ordnance_hall{
-	name = "Acid Containment Room"
+/area/ruin/space/ancientstation/charlie{
+	name = "Medical Parking"
 	})
 "GG" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
@@ -12306,14 +12292,9 @@
 	name = "Tchiko's Castle Restroom"
 	})
 "GN" = (
-/obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 3
-	},
-/obj/machinery/light/dim/directional/south,
+/obj/effect/turf_decal/trimline/purple/filled/line,
 /turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/ordnance_hall{
-	name = "Acid Containment Room"
-	})
+/area/station/science/lab)
 "GO" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
 	dir = 10
@@ -12588,6 +12569,11 @@
 /obj/structure/cable,
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/captain)
+"Hy" = (
+/turf/closed/wall/mineral/titanium/spaceship/nodiagonal,
+/area/ruin/space/ks13/science/ordnance_hall{
+	name = "Acid Containment Room"
+	})
 "Hz" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
@@ -12595,20 +12581,7 @@
 /turf/open/floor/wood,
 /area/station/cargo)
 "HA" = (
-/obj/effect/turf_decal/siding/wideplating_new/dark{
-	dir = 6
-	},
-/turf/open/floor/stone/icemoon{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/ruin/space/ancientstation/charlie{
-	name = "Medical Parking"
-	})
-"HB" = (
-/obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 8
-	},
-/obj/machinery/light/dim/directional/west,
+/obj/machinery/door/airlock/plasma,
 /turf/open/floor/pod/dark,
 /area/ruin/space/ks13/science/genetics{
 	name = "Lava containment Room"
@@ -12749,12 +12722,11 @@
 	name = "Public Garden"
 	})
 "HU" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/closed/wall/mineral/titanium/spaceship/nodiagonal,
-/area/ruin/space/ks13/science/ordnance{
-	name = "Plasma Containment Room"
-	})
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/station/cargo/lobby)
 "HV" = (
 /obj/structure/chair/sofa/corner{
 	dir = 4
@@ -12783,11 +12755,12 @@
 /turf/open/floor/wood,
 /area/station/cargo/storage)
 "HY" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
-/turf/open/floor/wood,
-/area/station/cargo/lobby)
+/area/ruin/space/ancientstation/charlie{
+	name = "Medical Parking"
+	})
 "HZ" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -12801,18 +12774,11 @@
 	has_gravity = 1
 	})
 "Ia" = (
-/obj/effect/turf_decal/siding/wideplating_new/dark{
-	dir = 8
-	},
-/obj/effect/turf_decal/skyrat_decals/misc/handicapped{
-	pixel_x = 16;
-	pixel_y = 15
-	},
-/turf/open/floor/stone/icemoon{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/ruin/space/ancientstation/charlie{
-	name = "Medical Parking"
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/closed/wall/mineral/titanium/spaceship/nodiagonal,
+/area/ruin/space/ks13/science/ordnance{
+	name = "Plasma Containment Room"
 	})
 "Ib" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
@@ -12862,15 +12828,16 @@
 /area/station/service/kitchen{
 	has_gravity = 1
 	})
-"Ii" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/button/door/directional/east{
-	id = TchikoRoom
+"Ih" = (
+/obj/structure/window/reinforced/tinted/frosted{
+	dir = 4
 	},
-/turf/open/floor/wood,
-/area/mine/xenoarch/engineering{
-	name = "Tchiko's Castle Quarters"
-	})
+/obj/structure/window/reinforced/tinted/frosted{
+	dir = 1
+	},
+/obj/structure/chair/sofa/corner,
+/turf/open/floor/carpet/red,
+/area/station/service/kitchen/diner)
 "Ij" = (
 /obj/effect/spawner/structure/window/reinforced/shuttle,
 /turf/open/floor/wood,
@@ -12894,21 +12861,27 @@
 	has_gravity = 1
 	})
 "Im" = (
-/obj/structure/cable,
-/obj/effect/turf_decal/tile/purple/fourcorners,
-/turf/open/floor/pod/dark,
-/area/station/science)
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/ruin/space/ancientstation/charlie{
+	name = "Medical Parking"
+	})
 "In" = (
 /turf/open/openspace,
 /area/mine/xenoarch/science/cytology{
 	name = "Tchiko's Castle Gardens"
 	})
 "Io" = (
-/obj/structure/cable,
-/turf/closed/wall/mineral/titanium/spaceship/nodiagonal,
-/area/ruin/space/ks13/science/ordnance{
-	name = "Plasma Containment Room"
-	})
+/obj/structure/window{
+	dir = 4
+	},
+/obj/structure/flora/bush/fullgrass/style_random,
+/turf/open/floor/grass,
+/area/station/science)
 "Ip" = (
 /obj/machinery/chem_heater,
 /turf/open/floor/vault,
@@ -12981,6 +12954,19 @@
 /area/station/medical/pharmacy{
 	name = "Botanical Chem Facility"
 	})
+"Iz" = (
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 1
+	},
+/obj/machinery/light/dim/directional/north,
+/obj/machinery/power/apc/auto_name/directional/north{
+	arc_shielded = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/pod/dark,
+/area/ruin/space/ks13/science/ordnance_hall{
+	name = "Acid Containment Room"
+	})
 "IA" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
@@ -13032,15 +13018,19 @@
 	name = "Tchiko's Castle Lounge"
 	})
 "IG" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/obj/structure/railing{
-	dir = 4
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 3
 	},
 /turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/ordnance{
-	name = "Plasma Containment Room"
+/area/station/science/robotics)
+"IH" = (
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 6
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/floor/pod/dark,
+/area/ruin/space/ks13/science/ordnance_hall{
+	name = "Acid Containment Room"
 	})
 "II" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -13098,6 +13088,11 @@
 /obj/structure/flora/bush/grassy/style_random,
 /turf/open/floor/grass,
 /area/station/science/research)
+"IQ" = (
+/obj/effect/turf_decal/trimline/purple/filled/line,
+/obj/machinery/dna_scannernew,
+/turf/open/floor/pod/dark,
+/area/station/science/genetics)
 "IR" = (
 /obj/effect/turf_decal/trimline/purple/line,
 /turf/open/floor/vault,
@@ -13163,13 +13158,11 @@
 /turf/open/floor/iron/dark,
 /area/station/engineering/gravity_generator)
 "Jb" = (
-/obj/effect/turf_decal/siding/wideplating_new/dark,
-/turf/open/floor/stone/icemoon{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/ruin/space/ancientstation/charlie/hall{
-	name = "Research Parking"
-	})
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/closed/wall/mineral/titanium/spaceship/nodiagonal,
+/area/station/science)
 "Jc" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/vault/rock,
@@ -13225,17 +13218,11 @@
 	name = "Hakitachiya's Bedroom and Bathroom"
 	})
 "Ji" = (
-/obj/effect/turf_decal/siding/wideplating_new/dark{
-	dir = 8
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/turf/open/floor/stone/icemoon{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/ruin/space/ancientstation/charlie{
-	name = "Medical Parking"
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/closed/wall/mineral/titanium/spaceship/nodiagonal,
+/area/ruin/space/ks13/science/genetics{
+	name = "Lava containment Room"
 	})
 "Jj" = (
 /obj/structure/flora/bush/fullgrass/style_random,
@@ -13284,10 +13271,13 @@
 	name = "Tchiko's Castle Gardens"
 	})
 "Jq" = (
-/obj/structure/cable,
-/obj/structure/cable,
+/obj/effect/turf_decal/trimline/purple/filled/line,
+/obj/machinery/computer/scan_consolenew{
+	dir = 1
+	},
+/obj/machinery/light/dim/directional/south,
 /turf/open/floor/pod/dark,
-/area/station/science/lab)
+/area/station/science/genetics)
 "Jr" = (
 /turf/closed/wall/mineral/titanium/spaceship/nodiagonal,
 /area/station/command/heads_quarters/rd)
@@ -13330,11 +13320,15 @@
 	name = "Public Garden"
 	})
 "Jy" = (
-/obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 4
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
 	},
-/turf/open/floor/pod/dark,
-/area/station/science/robotics)
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/ruin/space/ancientstation/charlie{
+	name = "Medical Parking"
+	})
 "Jz" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 1
@@ -13368,6 +13362,8 @@
 	has_gravity = 1
 	})
 "JE" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/closed/wall/mineral/titanium/spaceship/nodiagonal,
 /area/station/science)
 "JF" = (
@@ -13431,6 +13427,11 @@
 /obj/machinery/light/dim/directional/north,
 /turf/open/floor/pod/dark,
 /area/station/science/lab)
+"JO" = (
+/obj/structure/cable,
+/obj/machinery/light/dim/directional/east,
+/turf/open/floor/wood,
+/area/station/command/heads_quarters/rd)
 "JP" = (
 /obj/machinery/power/apc/auto_name/directional/west{
 	arc_shielded = 1
@@ -13521,11 +13522,12 @@
 	},
 /area/station/hallway/primary/central)
 "JX" = (
+/obj/structure/cable,
 /turf/open/floor/stone/icemoon{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
-/area/ruin/space/ancientstation/charlie/hall{
-	name = "Research Parking"
+/area/ruin/space/ancientstation/charlie{
+	name = "Medical Parking"
 	})
 "JY" = (
 /obj/machinery/power/apc/auto_name/directional/north,
@@ -13675,10 +13677,6 @@
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/station/hallway/primary/central)
-"Kq" = (
-/obj/machinery/light/dim/directional/north,
-/turf/open/floor/wood,
-/area/station/command/heads_quarters/rd)
 "Kr" = (
 /obj/structure/railing{
 	dir = 8
@@ -13731,13 +13729,6 @@
 	},
 /turf/open/floor/wood,
 /area/station/service/kitchen/diner)
-"Kx" = (
-/obj/effect/turf_decal/stripes/corner,
-/obj/structure/railing/corner,
-/turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/ordnance_hall{
-	name = "Acid Containment Room"
-	})
 "Ky" = (
 /turf/open/floor/plating,
 /area/station/hallway/secondary/entry{
@@ -13768,23 +13759,22 @@
 	},
 /area/station/hallway/primary/port)
 "KD" = (
-/obj/effect/turf_decal/siding/wideplating_new/dark{
-	dir = 9
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
 	},
-/turf/open/floor/stone/icemoon{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+/obj/structure/railing/corner{
+	dir = 1
 	},
-/area/ruin/space/ancientstation/charlie{
-	name = "Medical Parking"
-	})
-"KE" = (
-/obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 3
-	},
-/obj/machinery/light/dim/directional/south,
 /turf/open/floor/pod/dark,
 /area/ruin/space/ks13/science/genetics{
 	name = "Lava containment Room"
+	})
+"KE" = (
+/obj/structure/table/wood,
+/obj/item/key/atv,
+/turf/open/floor/wood,
+/area/station/common/pool{
+	name = "Tchiko's Lake Side"
 	})
 "KF" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -13792,12 +13782,9 @@
 /turf/open/floor/wood,
 /area/station/command)
 "KG" = (
-/obj/structure/flora/bush/fullgrass/style_random,
-/obj/vehicle/ridden/atv,
-/turf/open/misc/grass/planet,
-/area/station/common/pool{
-	name = "Tchiko's Lake Side"
-	})
+/obj/machinery/light/dim/directional/north,
+/turf/open/floor/wood,
+/area/station/command/heads_quarters/rd)
 "KH" = (
 /obj/structure/flora/bush/flowers_br/style_random,
 /turf/open/misc/grass/planet,
@@ -13830,12 +13817,6 @@
 	dir = 1
 	},
 /area/station/service/chapel)
-"KM" = (
-/obj/vehicle/ridden/atv,
-/turf/open/misc/grass/planet,
-/area/station/common/pool{
-	name = "Tchiko's Lake Side"
-	})
 "KN" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -13924,12 +13905,15 @@
 /turf/closed/wall/mineral/stone,
 /area/station/common/pool)
 "KY" = (
-/obj/effect/turf_decal/trimline/purple/filled/line{
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/obj/structure/railing/corner{
 	dir = 4
 	},
 /turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/genetics{
-	name = "Lava containment Room"
+/area/ruin/space/ks13/science/ordnance{
+	name = "Plasma Containment Room"
 	})
 "KZ" = (
 /obj/structure/chair/office/light{
@@ -13956,9 +13940,11 @@
 	has_gravity = 1
 	})
 "Lc" = (
-/mob/living/carbon/human/species/monkey,
-/turf/open/floor/grass,
-/area/station/science/genetics)
+/obj/structure/cable,
+/turf/closed/wall/mineral/titanium/spaceship/nodiagonal,
+/area/ruin/space/ks13/science/ordnance_hall{
+	name = "Acid Containment Room"
+	})
 "Ld" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -14038,23 +14024,25 @@
 	},
 /area/station/hallway/primary/fore)
 "Lo" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
+/obj/effect/turf_decal/tile/blue/full,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/machinery/door/airlock/medical/glass{
+	id_tag = "MedbayFoyer";
+	name = "Medbay"
 	},
-/obj/structure/railing{
-	dir = 1
-	},
-/turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/ordnance{
-	name = "Plasma Containment Room"
+/turf/open/floor/iron/white,
+/area/ruin/space/ancientstation/charlie{
+	name = "Medical Parking"
 	})
 "Lp" = (
 /obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 3
+	dir = 4
 	},
 /turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/ordnance{
-	name = "Plasma Containment Room"
+/area/ruin/space/ks13/science/genetics{
+	name = "Lava containment Room"
 	})
 "Lq" = (
 /obj/effect/turf_decal/tile/purple/full,
@@ -14127,10 +14115,13 @@
 	name = "Public Garden"
 	})
 "Lz" = (
-/obj/structure/cable,
-/turf/closed/wall/mineral/titanium/spaceship/nodiagonal,
-/area/ruin/space/ks13/science/ordnance_hall{
-	name = "Acid Containment Room"
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/poddoor/shutters{
+	id = TchikoRoom
+	},
+/turf/open/floor/wood,
+/area/mine/xenoarch/engineering{
+	name = "Tchiko's Castle Quarters"
 	})
 "LA" = (
 /obj/machinery/door/airlock/glass_large{
@@ -14147,15 +14138,6 @@
 /turf/open/floor/iron/kitchen/diagonal,
 /area/mine/xenoarch/maintenance/west{
 	name = "Tchiko's Castle Jani Closet"
-	})
-"LC" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/closed/wall/mineral/titanium/spaceship/nodiagonal,
-/area/ruin/space/ks13/science/genetics{
-	name = "Lava containment Room"
 	})
 "LD" = (
 /obj/machinery/door/airlock/engineering{
@@ -14218,10 +14200,11 @@
 	})
 "LK" = (
 /obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 3
+	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/pod/dark,
-/area/station/science/robotics)
+/area/station/science)
 "LL" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -14309,11 +14292,12 @@
 /turf/open/genturf,
 /area/icemoon/surface/outdoors/nospawn)
 "LX" = (
-/obj/effect/turf_decal/stripes/line,
-/obj/structure/railing,
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 3
+	},
 /turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/ordnance{
-	name = "Plasma Containment Room"
+/area/ruin/space/ks13/science/genetics{
+	name = "Lava containment Room"
 	})
 "LY" = (
 /obj/machinery/light/cold/directional/east,
@@ -14367,13 +14351,9 @@
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/station/medical/patients_rooms/room_b)
 "Mg" = (
-/obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 3
-	},
-/turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/genetics{
-	name = "Lava containment Room"
-	})
+/mob/living/carbon/human/species/monkey,
+/turf/open/floor/grass,
+/area/station/science/genetics)
 "Mh" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -14435,13 +14415,10 @@
 /area/icemoon/underground/explored)
 "Mp" = (
 /obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 5
+	dir = 9
 	},
-/obj/structure/cable,
 /turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/genetics{
-	name = "Lava containment Room"
-	})
+/area/station/science/robotics)
 "Mq" = (
 /obj/machinery/power/apc/auto_name/directional/west{
 	arc_shielded = 1
@@ -14459,6 +14436,17 @@
 /turf/open/floor/plating,
 /area/station/hallway/secondary/entry{
 	has_gravity = 1
+	})
+"Mt" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/pod/dark,
+/area/ruin/space/ks13/science/genetics{
+	name = "Lava containment Room"
 	})
 "Mu" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -14631,10 +14619,15 @@
 	name = "Tchiko's Castle Gardens"
 	})
 "MQ" = (
-/obj/structure/lattice/catwalk,
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ruin/space/ancientstation/charlie{
-	name = "Medical Parking"
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/turf/open/floor/pod/dark,
+/area/ruin/space/ks13/science/genetics{
+	name = "Lava containment Room"
 	})
 "MR" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -14659,11 +14652,16 @@
 	has_gravity = 1
 	})
 "MV" = (
-/obj/effect/turf_decal/tile/purple/fourcorners,
-/obj/effect/mapping_helpers/airlock/access/any/science/general,
-/obj/machinery/door/airlock/plasma,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/obj/structure/railing/corner{
+	dir = 8
+	},
 /turf/open/floor/pod/dark,
-/area/station/science/robotics)
+/area/ruin/space/ks13/science/ordnance_hall{
+	name = "Acid Containment Room"
+	})
 "MW" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
 	dir = 10
@@ -14686,7 +14684,6 @@
 	})
 "MY" = (
 /obj/effect/turf_decal/trimline/purple/filled/line,
-/obj/machinery/dna_scannernew,
 /turf/open/floor/pod/dark,
 /area/station/science/genetics)
 "MZ" = (
@@ -14704,13 +14701,11 @@
 /turf/open/floor/iron/white,
 /area/station/medical/surgery)
 "Nb" = (
-/obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 1
+/obj/structure/cable,
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
-/turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/ordnance_hall{
-	name = "Acid Containment Room"
-	})
+/area/station/hallway/primary/aft)
 "Nc" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -14722,18 +14717,6 @@
 /area/station/service/kitchen{
 	has_gravity = 1
 	})
-"Nd" = (
-/obj/effect/turf_decal/siding/wideplating_new/dark{
-	dir = 4
-	},
-/obj/effect/turf_decal/stripes/line,
-/obj/machinery/light/dim/directional/east,
-/turf/open/floor/stone/icemoon{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/ruin/space/ancientstation/charlie/hall{
-	name = "Research Parking"
-	})
 "Ne" = (
 /turf/closed/wall/mineral/stone,
 /area/station/cargo/miningoffice)
@@ -14742,11 +14725,12 @@
 /turf/open/floor/vault/rock,
 /area/station/engineering/hallway)
 "Ng" = (
-/obj/effect/turf_decal/stripes/line,
-/turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/ordnance{
-	name = "Plasma Containment Room"
-	})
+/obj/structure/window{
+	dir = 1
+	},
+/obj/structure/flora/bush/fullgrass/style_random,
+/turf/open/floor/grass,
+/area/station/science)
 "Nh" = (
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/lobby)
@@ -14800,13 +14784,9 @@
 /turf/open/floor/wood,
 /area/station/service/library/lounge)
 "Nq" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/closed/wall/mineral/stone,
-/area/mine/xenoarch/maintenance/west{
-	name = "Tchiko's Castle Jani Closet"
+/turf/open/lava/smooth/lava_land_surface,
+/area/ruin/space/ks13/science/genetics{
+	name = "Lava containment Room"
 	})
 "Nr" = (
 /obj/machinery/door/airlock/engineering,
@@ -15010,12 +14990,15 @@
 /turf/open/floor/iron/kitchen/diagonal,
 /area/station/commons/toilet)
 "NR" = (
-/obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 3
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 6
 	},
-/obj/machinery/light/dim/directional/south,
-/turf/open/floor/pod/dark,
-/area/station/science)
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/ruin/space/ancientstation/charlie/hall{
+	name = "Research Parking"
+	})
 "NS" = (
 /obj/structure/railing/corner,
 /turf/open/floor/plating,
@@ -15178,6 +15161,8 @@
 /area/station/medical/patients_rooms/room_a)
 "Oo" = (
 /obj/effect/turf_decal/trimline/purple/filled/line,
+/obj/machinery/power/apc/auto_name/directional/south,
+/obj/structure/cable,
 /turf/open/floor/pod/dark,
 /area/station/science/lab)
 "Op" = (
@@ -15263,13 +15248,6 @@
 /obj/effect/spawner/random/structure/crate_empty,
 /turf/open/floor/wood,
 /area/station/cargo)
-"OB" = (
-/obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 4
-	},
-/obj/machinery/rnd/production/circuit_imprinter/department/science,
-/turf/open/floor/pod/dark,
-/area/station/science/lab)
 "OC" = (
 /obj/structure/flora/rock/icy/style_2,
 /turf/open/misc/grass/planet,
@@ -15479,11 +15457,11 @@
 /turf/open/floor/wood,
 /area/station/service/chapel/office)
 "Pe" = (
-/obj/effect/turf_decal/tile/purple/full,
-/obj/structure/table/reinforced/plasmarglass,
-/obj/machinery/light/dim/directional/north,
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 1
+	},
 /turf/open/floor/pod/dark,
-/area/station/science/lab)
+/area/station/science/genetics)
 "Pf" = (
 /obj/structure/chair/comfy/carp{
 	dir = 4
@@ -15498,34 +15476,21 @@
 /turf/open/floor/wood,
 /area/station/commons/dorms/barracks)
 "Ph" = (
-/obj/effect/turf_decal/stripes/corner{
-	dir = 1
-	},
-/obj/structure/railing/corner{
+/obj/effect/turf_decal/trimline/purple/filled/corner{
 	dir = 1
 	},
 /turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/genetics{
-	name = "Lava containment Room"
-	})
+/area/station/science/robotics)
 "Pi" = (
-/obj/machinery/door/airlock/plasma,
-/turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/ordnance{
-	name = "Plasma Containment Room"
-	})
-"Pj" = (
-/obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 1
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 8
 	},
-/obj/machinery/light/dim/directional/north,
-/obj/machinery/power/apc/auto_name/directional/north{
-	arc_shielded = 1
+/obj/machinery/light/cold/directional/west,
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
-/obj/structure/cable,
-/turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/genetics{
-	name = "Lava containment Room"
+/area/ruin/space/ancientstation/charlie{
+	name = "Medical Parking"
 	})
 "Pk" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark/corner{
@@ -15652,8 +15617,9 @@
 	name = "Tchiko's Castle Lounge"
 	})
 "PA" = (
-/obj/machinery/light/dim/directional/south,
-/obj/effect/turf_decal/siding/wideplating_new/dark,
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 8
+	},
 /turf/open/floor/stone/icemoon{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
@@ -15661,12 +15627,13 @@
 	name = "Research Parking"
 	})
 "PB" = (
-/obj/structure/cable,
-/turf/open/floor/stone/icemoon{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 3
 	},
-/area/ruin/space/ancientstation/charlie/hall{
-	name = "Research Parking"
+/obj/machinery/light/dim/directional/south,
+/turf/open/floor/pod/dark,
+/area/ruin/space/ks13/science/genetics{
+	name = "Lava containment Room"
 	})
 "PC" = (
 /obj/effect/spawner/random/structure/crate_loot,
@@ -15725,13 +15692,11 @@
 	name = "Tchiko's Castle Jani Closet"
 	})
 "PJ" = (
-/obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 8
-	},
+/obj/effect/turf_decal/tile/purple/full,
+/obj/structure/table/reinforced/plasmarglass,
+/obj/machinery/light/dim/directional/north,
 /turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/ordnance{
-	name = "Plasma Containment Room"
-	})
+/area/station/science/lab)
 "PK" = (
 /obj/structure/table/wood,
 /turf/open/floor/wood{
@@ -15863,17 +15828,6 @@
 	},
 /turf/open/floor/iron/white,
 /area/station/medical/surgery)
-"Qb" = (
-/obj/machinery/power/apc/auto_name/directional/north{
-	arc_shielded = 1
-	},
-/obj/structure/cable,
-/turf/open/floor/stone/icemoon{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/ruin/space/ancientstation/charlie{
-	name = "Medical Parking"
-	})
 "Qc" = (
 /obj/effect/turf_decal/tile/purple/fourcorners,
 /obj/effect/mapping_helpers/airlock/access/any/science/general,
@@ -15887,16 +15841,6 @@
 /turf/open/floor/iron,
 /area/station/command/bridge{
 	name = "Temporary Bridge"
-	})
-"Qe" = (
-/obj/effect/turf_decal/siding/wideplating_new/dark{
-	dir = 9
-	},
-/turf/open/floor/stone/icemoon{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/ruin/space/ancientstation/charlie/hall{
-	name = "Research Parking"
 	})
 "Qf" = (
 /obj/structure/window{
@@ -15917,9 +15861,11 @@
 	},
 /area/station/hallway/primary/fore)
 "Qh" = (
-/obj/machinery/light/dim/directional/south,
-/turf/open/floor/wood,
-/area/station/command/heads_quarters/rd)
+/obj/vehicle/ridden/atv,
+/turf/open/misc/grass/planet,
+/area/station/common/pool{
+	name = "Tchiko's Lake Side"
+	})
 "Qi" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/turf_decal/siding/wood{
@@ -15951,6 +15897,17 @@
 /obj/structure/cable,
 /turf/open/floor/vault,
 /area/icemoon/underground/explored)
+"Qm" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/ruin/space/ancientstation/charlie/hall{
+	name = "Research Parking"
+	})
 "Qn" = (
 /obj/structure/table/wood,
 /obj/item/toy/spinningtoy,
@@ -16023,15 +15980,6 @@
 /area/station/medical{
 	name = "Medical Hallway"
 	})
-"Qx" = (
-/obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 9
-	},
-/obj/structure/cable,
-/turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/ordnance_hall{
-	name = "Acid Containment Room"
-	})
 "Qy" = (
 /obj/machinery/telecomms/processor/preset_four,
 /turf/open/floor/circuit,
@@ -16039,22 +15987,23 @@
 	has_gravity = 1
 	})
 "Qz" = (
-/obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 8
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
-/obj/machinery/light/dim/directional/west,
-/turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/ordnance{
-	name = "Plasma Containment Room"
+/area/ruin/space/ancientstation/charlie{
+	name = "Medical Parking"
 	})
 "QA" = (
-/obj/effect/turf_decal/trimline/purple/filled/line{
+/obj/effect/turf_decal/stripes/corner{
 	dir = 4
 	},
-/obj/machinery/light/dim/directional/east,
+/obj/structure/railing/corner{
+	dir = 4
+	},
 /turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/ordnance{
-	name = "Plasma Containment Room"
+/area/ruin/space/ks13/science/genetics{
+	name = "Lava containment Room"
 	})
 "QB" = (
 /obj/structure/fans/tiny,
@@ -16089,12 +16038,10 @@
 /turf/open/floor/vault/rock,
 /area/station/engineering/hallway)
 "QE" = (
-/obj/effect/turf_decal/stripes/corner{
-	dir = 8
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 1
 	},
-/obj/structure/railing/corner{
-	dir = 8
-	},
+/obj/structure/cable,
 /turf/open/floor/pod/dark,
 /area/ruin/space/ks13/science/ordnance_hall{
 	name = "Acid Containment Room"
@@ -16122,13 +16069,10 @@
 	})
 "QI" = (
 /obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 3
+	dir = 6
 	},
-/obj/machinery/light/dim/directional/south,
 /turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/ordnance{
-	name = "Plasma Containment Room"
-	})
+/area/station/science/robotics)
 "QJ" = (
 /obj/structure/particle_accelerator/particle_emitter/right,
 /obj/structure/cable,
@@ -16181,16 +16125,9 @@
 	name = "Tchiko's Castle Lounge"
 	})
 "QR" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/obj/structure/railing{
-	dir = 8
-	},
-/turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/ordnance{
-	name = "Plasma Containment Room"
-	})
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/closed/wall/mineral/titanium/spaceship/nodiagonal,
+/area/station/science/robotics)
 "QS" = (
 /obj/structure/sign/poster/contraband/power,
 /obj/structure/cable,
@@ -16243,6 +16180,12 @@
 /area/station/medical/pharmacy{
 	name = "Botanical Chem Facility"
 	})
+"QZ" = (
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 10
+	},
+/turf/open/floor/pod/dark,
+/area/station/science/robotics)
 "Ra" = (
 /obj/structure/bed/abductor{
 	pixel_y = 7;
@@ -16287,17 +16230,25 @@
 	name = "Botanical Chem Facility"
 	})
 "Rg" = (
-/turf/closed/wall/mineral/stone,
+/obj/effect/turf_decal/trimline/purple/filled/corner{
+	dir = 4
+	},
+/turf/open/floor/pod/dark,
+/area/station/science/robotics)
+"Rh" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/light/cold/directional/north,
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
 /area/ruin/space/ancientstation/charlie{
 	name = "Medical Parking"
 	})
-"Rh" = (
-/obj/structure/cable,
-/obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 8
-	},
-/turf/open/floor/pod/dark,
-/area/station/science/lab)
 "Ri" = (
 /obj/machinery/light/cold/directional/south,
 /turf/open/floor/wood,
@@ -16485,18 +16436,13 @@
 /turf/open/floor/vault,
 /area/icemoon/underground/explored)
 "RI" = (
-/obj/effect/turf_decal/siding/wideplating_new/dark{
-	dir = 8
+/obj/structure/table/wood,
+/obj/item/key/atv,
+/turf/open/misc/grass{
+	initial_gas_mix = "n2=82;TEMP=293.15"
 	},
-/obj/effect/turf_decal/skyrat_decals/misc/handicapped{
-	pixel_x = 16;
-	pixel_y = 15
-	},
-/turf/open/floor/stone/icemoon{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/ruin/space/ancientstation/charlie/hall{
-	name = "Research Parking"
+/area/station/medical/exam_room{
+	name = "Hakitachiya's Methshack Lounge"
 	})
 "RJ" = (
 /obj/structure/ladder,
@@ -16571,10 +16517,19 @@
 	name = "Public Garden"
 	})
 "RS" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/closed/wall/mineral/titanium/spaceship/nodiagonal,
-/area/station/science)
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/skyrat_decals/misc/handicapped{
+	pixel_x = 16;
+	pixel_y = 15
+	},
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/ruin/space/ancientstation/charlie{
+	name = "Medical Parking"
+	})
 "RT" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -16588,6 +16543,7 @@
 /obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 4
 	},
+/obj/machinery/rnd/production/circuit_imprinter/department/science,
 /turf/open/floor/pod/dark,
 /area/station/science/lab)
 "RV" = (
@@ -16609,13 +16565,15 @@
 	},
 /area/station/hallway/primary/port)
 "RX" = (
-/obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 4
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
 	},
-/obj/machinery/light/dim/directional/east,
+/obj/structure/railing{
+	dir = 1
+	},
 /turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/genetics{
-	name = "Lava containment Room"
+/area/ruin/space/ks13/science/ordnance_hall{
+	name = "Acid Containment Room"
 	})
 "RY" = (
 /obj/effect/mapping_helpers/airlock/access/any/science/general,
@@ -16689,12 +16647,31 @@
 	},
 /turf/open/floor/wood/tile,
 /area/station/medical/break_room)
+"Sg" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/ruin/space/ancientstation/charlie/hall{
+	name = "Research Parking"
+	})
 "Sh" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/vault/rock,
 /area/station/maintenance/port/central)
+"Si" = (
+/obj/structure/lattice/catwalk,
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ruin/space/ancientstation/charlie{
+	name = "Medical Parking"
+	})
 "Sj" = (
 /obj/structure/lattice,
 /turf/closed/indestructible/rock/snow,
@@ -16756,9 +16733,9 @@
 	name = "Hakitachiya's Bedroom and Bathroom"
 	})
 "Sq" = (
-/turf/open/water/xen_acid,
-/area/ruin/space/ks13/science/ordnance_hall{
-	name = "Acid Containment Room"
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ruin/space/ancientstation/charlie{
+	name = "Medical Parking"
 	})
 "Sr" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
@@ -16776,16 +16753,9 @@
 	name = "Tesla Engine"
 	})
 "Su" = (
-/obj/effect/turf_decal/siding/wideplating_new/dark{
-	dir = 8
-	},
-/obj/effect/turf_decal/stripes/line,
-/turf/open/floor/stone/icemoon{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/ruin/space/ancientstation/charlie/hall{
-	name = "Research Parking"
-	})
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/closed/wall/mineral/titanium/spaceship/nodiagonal,
+/area/station/science)
 "Sv" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/closed/wall/mineral/stone,
@@ -16796,6 +16766,15 @@
 /obj/structure/cable,
 /turf/open/floor/grass,
 /area/station/science/research)
+"Sx" = (
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 8
+	},
+/obj/machinery/light/dim/directional/west,
+/turf/open/floor/pod/dark,
+/area/ruin/space/ks13/science/genetics{
+	name = "Lava containment Room"
+	})
 "Sy" = (
 /obj/machinery/light/cold/directional/west,
 /obj/effect/turf_decal/siding/wideplating_new/dark{
@@ -16922,15 +16901,6 @@
 /obj/machinery/light_switch/directional/west,
 /turf/open/floor/iron/white,
 /area/station/medical/patients_rooms/room_a)
-"SR" = (
-/obj/structure/table/wood,
-/obj/item/key/atv,
-/turf/open/misc/grass{
-	initial_gas_mix = "n2=82;TEMP=293.15"
-	},
-/area/station/medical/exam_room{
-	name = "Hakitachiya's Methshack Lounge"
-	})
 "SS" = (
 /obj/machinery/door/airlock/public/glass{
 	name = "Arrivals"
@@ -16977,10 +16947,16 @@
 /obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/pod/dark,
-/area/station/science)
+/area/station/science/robotics)
 "SZ" = (
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 1
+	},
+/obj/machinery/mech_bay_recharge_port{
+	dir = 2
+	},
+/obj/machinery/light/dim/directional/north,
 /turf/open/floor/pod/dark,
 /area/station/science/robotics)
 "Ta" = (
@@ -17006,6 +16982,18 @@
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/station/hallway/primary/central)
+"Td" = (
+/obj/machinery/mech_bay_recharge_port{
+	dir = 2
+	},
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 9
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
+/turf/open/floor/pod/dark,
+/area/station/science/robotics)
 "Te" = (
 /obj/structure/cable,
 /turf/closed/wall/mineral/stone,
@@ -17096,10 +17084,11 @@
 	name = "Tchiko's Castle Lounge"
 	})
 "Tp" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/closed/wall/mineral/titanium/spaceship/nodiagonal,
-/area/ruin/space/ks13/science/ordnance_hall{
-	name = "Acid Containment Room"
+/obj/structure/flora/bush/fullgrass/style_random,
+/obj/vehicle/ridden/atv,
+/turf/open/misc/grass/planet,
+/area/station/common/pool{
+	name = "Tchiko's Lake Side"
 	})
 "Tq" = (
 /obj/machinery/light/cold/directional/south,
@@ -17118,11 +17107,12 @@
 	name = "Medical Hallway"
 	})
 "Ts" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/closed/wall/mineral/titanium/spaceship/nodiagonal,
-/area/ruin/space/ks13/science/ordnance_hall{
-	name = "Acid Containment Room"
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/ruin/space/ancientstation/charlie{
+	name = "Medical Parking"
 	})
 "Tt" = (
 /obj/structure/flora/bush/flowers_pp/style_random,
@@ -17191,6 +17181,10 @@
 /obj/structure/cable,
 /turf/open/floor/iron/white,
 /area/station/medical/storage)
+"TA" = (
+/obj/machinery/light/dim/directional/south,
+/turf/open/floor/wood,
+/area/station/command/heads_quarters/rd)
 "TB" = (
 /obj/machinery/suit_storage_unit/mining,
 /obj/effect/turf_decal/siding/wideplating_new/dark{
@@ -17226,13 +17220,12 @@
 /turf/closed/wall/mineral/stone,
 /area/station/commons/dorms)
 "TG" = (
-/obj/structure/cable,
-/turf/open/floor/stone/icemoon{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 3
 	},
-/area/ruin/space/ancientstation/charlie{
-	name = "Medical Parking"
-	})
+/obj/machinery/light/dim/directional/south,
+/turf/open/floor/pod/dark,
+/area/station/science/auxlab)
 "TH" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
@@ -17308,20 +17301,14 @@
 	name = "Public Garden"
 	})
 "TR" = (
-/obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 8
-	},
-/turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/ordnance_hall{
-	name = "Acid Containment Room"
-	})
-"TS" = (
 /obj/structure/cable,
-/obj/effect/mapping_helpers/airlock/access/any/science/general,
-/obj/machinery/door/airlock/plasma,
-/obj/effect/turf_decal/tile/purple/fourcorners,
-/turf/open/floor/pod/dark,
-/area/station/science/lab)
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/closed/wall/mineral/stone,
+/area/mine/xenoarch/maintenance/west{
+	name = "Tchiko's Castle Jani Closet"
+	})
 "TT" = (
 /obj/machinery/door/airlock/external,
 /turf/open/floor/stone/icemoon{
@@ -17335,11 +17322,8 @@
 /turf/open/floor/glass/reinforced/plasma,
 /area/station/hallway/primary/port)
 "TV" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/structure/railing{
-	dir = 1
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 3
 	},
 /turf/open/floor/pod/dark,
 /area/ruin/space/ks13/science/ordnance_hall{
@@ -17376,14 +17360,12 @@
 	name = "Tchiko's Castle Entrance"
 	})
 "TZ" = (
-/obj/effect/turf_decal/siding/wideplating_new/dark{
-	dir = 5
-	},
+/obj/effect/turf_decal/siding/wideplating_new/dark,
 /turf/open/floor/stone/icemoon{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
-/area/ruin/space/ancientstation/charlie/hall{
-	name = "Research Parking"
+/area/ruin/space/ancientstation/charlie{
+	name = "Medical Parking"
 	})
 "Ua" = (
 /obj/machinery/door/airlock/external,
@@ -17403,6 +17385,15 @@
 	},
 /turf/open/floor/glass/reinforced/plasma,
 /area/station/hallway/primary/port)
+"Ud" = (
+/obj/machinery/light/dim/directional/south,
+/obj/effect/turf_decal/siding/wideplating_new/dark,
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/ruin/space/ancientstation/charlie/hall{
+	name = "Research Parking"
+	})
 "Ue" = (
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible{
 	dir = 1
@@ -17495,14 +17486,16 @@
 	name = "Tchiko's Castle Quarters"
 	})
 "Ut" = (
-/obj/effect/turf_decal/siding/wideplating_new/dark{
-	dir = 9
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
 	},
-/obj/vehicle/ridden/atv,
-/turf/open/floor/stone/icemoon{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+/obj/structure/railing/corner{
+	dir = 1
 	},
-/area/station/hallway/primary/aft)
+/turf/open/floor/pod/dark,
+/area/ruin/space/ks13/science/ordnance_hall{
+	name = "Acid Containment Room"
+	})
 "Uu" = (
 /turf/open/floor/wood,
 /area/station/service/library/lounge)
@@ -17541,13 +17534,10 @@
 	name = "The Meth Room"
 	})
 "Uz" = (
-/obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 4
+/obj/structure/window/reinforced/plasma/fulltile,
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
-/obj/machinery/light/dim/directional/east,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/pod/dark,
 /area/station/science/robotics)
 "UA" = (
 /turf/closed/wall/mineral/titanium,
@@ -17825,10 +17815,7 @@
 	name = "The Meth Room"
 	})
 "Vp" = (
-/obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 9
-	},
-/turf/open/floor/pod/dark,
+/turf/closed/wall/mineral/titanium/spaceship/nodiagonal,
 /area/station/science/robotics)
 "Vq" = (
 /obj/machinery/cryopod{
@@ -17880,22 +17867,25 @@
 	},
 /area/station/commons/dorms/laundry)
 "Vz" = (
-/obj/structure/window/reinforced/plasma/fulltile,
-/turf/open/floor/stone/icemoon{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 1
 	},
-/area/station/science/robotics)
+/obj/machinery/light/dim/directional/north,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/pod/dark,
+/area/station/science)
 "VA" = (
 /turf/closed/wall/mineral/stone,
 /area/station/commons/toilet)
 "VB" = (
-/obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 9
+/obj/effect/turf_decal/siding/wideplating_new/dark,
+/obj/machinery/light/cold/directional/south,
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
-/obj/structure/cable,
-/turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/ordnance{
-	name = "Plasma Containment Room"
+/area/ruin/space/ancientstation/charlie{
+	name = "Medical Parking"
 	})
 "VC" = (
 /obj/structure/decorative/shelf/crates1,
@@ -17907,9 +17897,6 @@
 "VE" = (
 /turf/open/floor/glass/reinforced/plasma,
 /area/station/hallway/primary/starboard)
-"VF" = (
-/turf/closed/wall/mineral/titanium/spaceship/nodiagonal,
-/area/station/science/robotics)
 "VG" = (
 /turf/open/floor/iron/checker{
 	initial_gas_mix = "n2=82;TEMP=293.15"
@@ -18107,9 +18094,15 @@
 /turf/open/floor/wood,
 /area/station/command)
 "Wh" = (
-/obj/effect/turf_decal/tile/purple/fourcorners,
-/turf/open/floor/pod/dark,
-/area/station/science)
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 8
+	},
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/ruin/space/ancientstation/charlie{
+	name = "Medical Parking"
+	})
 "Wi" = (
 /obj/effect/turf_decal/trimline/blue/filled/line,
 /obj/structure/table/reinforced/rglass,
@@ -18169,14 +18162,11 @@
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/captain)
 "Wn" = (
-/obj/effect/turf_decal/siding/wideplating_new/dark{
-	dir = 4
-	},
-/turf/open/floor/stone/icemoon{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/ruin/space/ancientstation/charlie{
-	name = "Medical Parking"
+/obj/effect/turf_decal/stripes/corner,
+/obj/structure/railing/corner,
+/turf/open/floor/pod/dark,
+/area/ruin/space/ks13/science/ordnance{
+	name = "Plasma Containment Room"
 	})
 "Wo" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -18198,9 +18188,14 @@
 	},
 /area/station/hallway)
 "Wq" = (
-/obj/effect/turf_decal/trimline/purple/filled/line,
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 10
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/pod/dark,
-/area/station/science/genetics)
+/area/ruin/space/ks13/science/genetics{
+	name = "Lava containment Room"
+	})
 "Wr" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -18256,6 +18251,14 @@
 /obj/machinery/airalarm/directional/west,
 /turf/open/floor/iron/white,
 /area/station/medical/patients_rooms/room_a)
+"Wx" = (
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/pod/dark,
+/area/station/science/robotics)
 "Wy" = (
 /obj/structure/fans/tiny,
 /obj/machinery/door/airlock/external,
@@ -18287,13 +18290,11 @@
 /area/station/hallway/primary/central)
 "WC" = (
 /obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 6
+	dir = 1
 	},
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/obj/machinery/light/dim/directional/north,
 /turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/ordnance_hall{
-	name = "Acid Containment Room"
-	})
+/area/station/science)
 "WD" = (
 /obj/structure/carving_block,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -18391,11 +18392,12 @@
 /turf/open/floor/wood,
 /area/station/cargo/lobby)
 "WS" = (
-/obj/effect/turf_decal/trimline/purple/filled/corner{
-	dir = 1
-	},
-/turf/open/floor/pod/dark,
-/area/station/science/robotics)
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/closed/wall/mineral/titanium/spaceship/nodiagonal,
+/area/ruin/space/ks13/science/ordnance_hall{
+	name = "Acid Containment Room"
+	})
 "WT" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
@@ -18484,17 +18486,6 @@
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/station/medical/pharmacy{
 	name = "Botanical Chem Facility"
-	})
-"Xe" = (
-/obj/effect/turf_decal/siding/wideplating_new/dark{
-	dir = 8
-	},
-/obj/structure/cable,
-/turf/open/floor/stone/icemoon{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/ruin/space/ancientstation/charlie/hall{
-	name = "Research Parking"
 	})
 "Xf" = (
 /obj/structure/lattice/catwalk,
@@ -18729,6 +18720,17 @@
 /area/station/medical/pharmacy{
 	name = "Botanical Chem Facility"
 	})
+"XN" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/turf/open/floor/pod/dark,
+/area/ruin/space/ks13/science/ordnance{
+	name = "Plasma Containment Room"
+	})
 "XO" = (
 /turf/closed/wall/mineral/stone,
 /area/station/commons/dorms/laundry)
@@ -18764,11 +18766,15 @@
 	name = "Tchiko's Castle Entrance"
 	})
 "XT" = (
-/obj/structure/cable,
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 4
+	},
 /turf/open/floor/stone/icemoon{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
-/area/station/hallway/primary/aft)
+/area/ruin/space/ancientstation/charlie{
+	name = "Medical Parking"
+	})
 "XU" = (
 /obj/structure/flora/tree/pine/xmas/presents,
 /obj/effect/turf_decal/siding/wood{
@@ -18916,15 +18922,11 @@
 /turf/open/floor/plating,
 /area/station/solars)
 "Yn" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/turf/open/floor/stone/icemoon{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/ruin/space/ancientstation/charlie{
-	name = "Medical Parking"
-	})
+/obj/effect/turf_decal/tile/purple/fourcorners,
+/obj/effect/mapping_helpers/airlock/access/any/science/general,
+/obj/machinery/door/airlock/plasma,
+/turf/open/floor/pod/dark,
+/area/station/science/robotics)
 "Yo" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/plating,
@@ -19008,13 +19010,21 @@
 	name = "Hakitachiya's Methshack Entrance"
 	})
 "Yz" = (
-/turf/closed/wall/mineral/titanium/spaceship/nodiagonal,
+/obj/effect/turf_decal/stripes/line,
+/obj/structure/railing,
+/turf/open/floor/pod/dark,
 /area/ruin/space/ks13/science/ordnance{
 	name = "Plasma Containment Room"
 	})
 "YA" = (
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/qm)
+"YB" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/closed/wall/mineral/titanium/spaceship/nodiagonal,
+/area/ruin/space/ks13/science/ordnance_hall{
+	name = "Acid Containment Room"
+	})
 "YC" = (
 /obj/machinery/power/shuttle_engine/heater{
 	dir = 8
@@ -19367,12 +19377,10 @@
 /turf/closed/wall/r_wall,
 /area/misc/survivalpod/atmosia_box)
 "Zx" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/cable,
-/obj/effect/turf_decal/tile/purple/fourcorners,
-/turf/open/floor/pod/dark,
-/area/station/science)
+/turf/open/water/xen_acid,
+/area/ruin/space/ks13/science/ordnance_hall{
+	name = "Acid Containment Room"
+	})
 "Zy" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 4
@@ -19385,12 +19393,12 @@
 	name = "Medical Hallway"
 	})
 "Zz" = (
-/obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 5
+/obj/effect/turf_decal/siding/wideplating_new/dark,
+/turf/open/floor/stone/icemoon{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
-/turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/ordnance_hall{
-	name = "Acid Containment Room"
+/area/ruin/space/ancientstation/charlie/hall{
+	name = "Research Parking"
 	})
 "ZB" = (
 /obj/machinery/light/cold/directional/west,
@@ -19477,19 +19485,13 @@
 /turf/open/floor/wood,
 /area/station/cargo)
 "ZN" = (
-/obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 4
-	},
-/turf/open/floor/pod/dark,
-/area/ruin/space/ks13/science/ordnance{
-	name = "Plasma Containment Room"
-	})
+/mob/living/carbon/human/species/monkey,
+/obj/machinery/light/dim/directional/east,
+/turf/open/floor/grass,
+/area/station/science/genetics)
 "ZO" = (
 /obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 8
-	},
-/obj/machinery/button/door/directional/west{
-	id = Robotics
 	},
 /turf/open/floor/pod/dark,
 /area/station/science/robotics)
@@ -19504,14 +19506,6 @@
 	},
 /turf/open/floor/wood,
 /area/station/service/kitchen/diner)
-"ZQ" = (
-/obj/effect/turf_decal/trimline/purple/filled/line,
-/obj/item/storage/box/monkeycubes{
-	pixel_x = 4
-	},
-/obj/structure/table/reinforced/plasmarglass,
-/turf/open/floor/pod/dark,
-/area/station/science/genetics)
 "ZR" = (
 /turf/closed/wall/mineral/titanium,
 /area/station/command)
@@ -19525,7 +19519,10 @@
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/mob/living/carbon/human/species/monkey,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
 /turf/open/floor/grass,
 /area/station/science/genetics)
 "ZU" = (
@@ -85118,62 +85115,62 @@ El
 
 (1,1,2) = {"
 ff
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
 yM
 yM
 yM
@@ -85378,59 +85375,59 @@ ff
 ff
 ff
 ff
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
 yM
 yM
 yM
@@ -85641,53 +85638,53 @@ ff
 ff
 ff
 ff
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
 yM
 yM
 yM
@@ -85902,49 +85899,49 @@ ff
 ff
 ff
 ff
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
 yM
 yM
 yM
@@ -86161,47 +86158,47 @@ ff
 ff
 ff
 ff
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
 yM
 yM
 yM
@@ -86421,44 +86418,44 @@ ff
 ff
 ff
 ff
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
 yM
 yM
 yM
@@ -86678,44 +86675,44 @@ ff
 ff
 ff
 ff
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
 yM
 yM
 yM
@@ -86937,42 +86934,42 @@ ff
 ff
 ff
 ff
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
 yM
 yM
 yM
@@ -87195,41 +87192,41 @@ ff
 ff
 ff
 ff
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
 yM
 yM
 yM
@@ -87453,40 +87450,40 @@ ff
 ff
 ff
 ff
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
 yM
 yM
 yM
@@ -87712,38 +87709,38 @@ ff
 ff
 ff
 ff
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
 yM
 yM
 yM
@@ -87784,7 +87781,7 @@ fu
 fu
 fu
 zX
-gH
+KE
 Rc
 Rc
 Rc
@@ -87970,37 +87967,37 @@ ff
 ff
 ff
 ff
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
 yM
 yM
 yM
@@ -88229,35 +88226,35 @@ ff
 ff
 ff
 ff
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
 yM
 yM
 yM
@@ -88487,34 +88484,34 @@ ff
 ff
 ff
 ff
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
 yM
 yM
 yM
@@ -88553,7 +88550,7 @@ bG
 bG
 bG
 bG
-KG
+Tp
 zX
 Rc
 Rc
@@ -88745,33 +88742,33 @@ ff
 ff
 ff
 ff
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
 yM
 yM
 yM
@@ -89003,32 +89000,32 @@ ff
 ff
 ff
 ff
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
 yM
 yM
 yM
@@ -89261,31 +89258,31 @@ ff
 ff
 ff
 ff
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
 yM
 yM
 yM
@@ -89518,31 +89515,31 @@ ff
 ff
 ff
 ff
-ff
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
 yM
 yM
 yM
@@ -89775,31 +89772,31 @@ ff
 ff
 ff
 ff
-ff
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
 yM
 yM
 yM
@@ -90032,31 +90029,31 @@ ff
 ff
 ff
 ff
-ff
-yY
-yY
-ar
-ar
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
 yM
 yM
 yM
@@ -90290,30 +90287,30 @@ ff
 ff
 ff
 ff
-ff
-ar
-ar
-ar
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
 yM
 yM
 yM
@@ -90547,30 +90544,30 @@ ff
 ff
 ff
 ff
-ff
-ar
-ar
-ar
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
 yM
 yM
 yM
@@ -90805,29 +90802,29 @@ ff
 ff
 ff
 ff
-ar
-ar
-ar
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
 yM
 yM
 yM
@@ -91063,28 +91060,28 @@ ff
 ff
 ff
 ff
-ar
-ar
-ar
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
 yM
 yM
 yM
@@ -91320,28 +91317,28 @@ ff
 ff
 ff
 ff
-ar
-ar
-ar
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
 yM
 yM
 yM
@@ -91577,28 +91574,28 @@ ff
 ff
 ff
 ff
-ar
-ar
-ar
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
 yM
 yM
 yM
@@ -91835,27 +91832,27 @@ ff
 ff
 ff
 ff
-ar
-ar
-ar
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
 yM
 yM
 yM
@@ -92092,27 +92089,27 @@ ff
 ff
 ff
 ff
-ar
-ar
-ar
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
 yM
 yM
 yM
@@ -92349,27 +92346,27 @@ ff
 ff
 ff
 ff
-ar
-ar
-ar
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
 yM
 yM
 yM
@@ -92606,27 +92603,27 @@ ff
 ff
 ff
 ff
-ar
-ar
-ar
-ar
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
 yM
 yM
 yM
@@ -92864,26 +92861,26 @@ ff
 ff
 ff
 ff
-ar
-ar
-ar
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
 yM
 yM
 yM
@@ -93122,25 +93119,25 @@ ff
 ff
 ff
 ff
-ar
-ar
-ar
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
 yM
 yM
 yM
@@ -93379,25 +93376,25 @@ ff
 ff
 ff
 ff
-ar
-ar
-ar
-ar
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
 yM
 yM
 yM
@@ -93636,25 +93633,25 @@ ff
 ff
 ff
 ff
-ar
-ar
-ar
-ar
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
 yM
 yM
 yM
@@ -93894,24 +93891,24 @@ ff
 ff
 ff
 ff
-ar
-ar
-ar
-ar
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
-yY
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
 yM
 yM
 yM
@@ -94151,8 +94148,8 @@ ff
 ff
 ff
 ff
-ar
-ar
+Vx
+Vx
 Gs
 Gs
 Gs
@@ -94166,9 +94163,9 @@ cz
 cz
 cz
 cz
-yY
-yY
-yY
+Vx
+Vx
+Vx
 yM
 yM
 yM
@@ -94408,8 +94405,8 @@ ff
 ff
 ff
 ff
-ar
-ar
+Vx
+Vx
 Gs
 ce
 ce
@@ -94423,9 +94420,9 @@ hL
 hL
 hL
 cz
-yY
-yY
-yY
+Vx
+Vx
+Vx
 yM
 yM
 yM
@@ -94666,7 +94663,7 @@ ff
 ff
 ff
 ff
-ar
+Vx
 Gs
 ce
 WQ
@@ -94680,9 +94677,9 @@ Ae
 hL
 Er
 cz
-yY
-yY
-yY
+Vx
+Vx
+Vx
 yM
 yM
 yM
@@ -94923,7 +94920,7 @@ ff
 ff
 ff
 ff
-ar
+Vx
 Gs
 ce
 WQ
@@ -94937,9 +94934,9 @@ kb
 hL
 hL
 cz
-yY
-yY
-yY
+Vx
+Vx
+Vx
 yM
 yM
 yM
@@ -95194,9 +95191,9 @@ Hv
 Hv
 cz
 cz
-yY
-yY
-yY
+Vx
+Vx
+Vx
 yM
 yM
 yM
@@ -95451,9 +95448,9 @@ nL
 wd
 nL
 cz
-yY
-yY
-yY
+Vx
+Vx
+Vx
 yM
 yM
 yM
@@ -95480,9 +95477,9 @@ vm
 Yu
 Yu
 Yu
-SR
+RI
 EZ
-ub
+uB
 bG
 bG
 bG
@@ -95708,9 +95705,9 @@ Eb
 wd
 NP
 cz
-yY
-yY
-yY
+Vx
+Vx
+Vx
 yM
 yM
 yM
@@ -95965,9 +95962,9 @@ oH
 wd
 wd
 cz
-yY
-yY
-yY
+Vx
+Vx
+Vx
 yM
 yM
 yM
@@ -98070,7 +98067,7 @@ DO
 DO
 fu
 DO
-KM
+Qh
 Hj
 TY
 nV
@@ -98857,7 +98854,7 @@ qX
 qX
 qX
 bp
-Nq
+TR
 ff
 ff
 ff
@@ -102437,7 +102434,7 @@ Ka
 nQ
 JG
 BL
-Ii
+rp
 Hb
 HN
 QQ
@@ -102692,8 +102689,8 @@ iF
 rO
 Ka
 Ka
-nH
 jQ
+Lz
 Ka
 Hb
 Hb
@@ -102707,8 +102704,8 @@ Hb
 Hb
 Ka
 Ka
-nH
-nH
+jQ
+jQ
 Ka
 ff
 ff
@@ -103542,7 +103539,7 @@ ff
 ff
 ff
 yy
-Ut
+Aw
 rL
 TM
 EQ
@@ -105970,7 +105967,7 @@ Tg
 mT
 YO
 Fx
-mG
+Ih
 Tg
 nN
 YO
@@ -110970,7 +110967,7 @@ jU
 th
 HR
 yl
-hJ
+yL
 em
 OJ
 hB
@@ -111481,7 +111478,7 @@ MA
 GO
 zg
 rr
-HY
+HU
 WR
 yl
 gs
@@ -111738,7 +111735,7 @@ VE
 CX
 zg
 rr
-HY
+HU
 DX
 yl
 oa
@@ -111995,10 +111992,10 @@ zo
 tb
 zg
 rr
-HY
+HU
 WR
 yl
-hJ
+yL
 vB
 PG
 zb
@@ -112749,11 +112746,11 @@ Mf
 lJ
 Gb
 lJ
-fo
-fo
-iZ
-fo
-fo
+Sq
+Sq
+Lo
+Sq
+Sq
 sR
 gw
 qa
@@ -113006,11 +113003,11 @@ Mf
 kT
 ik
 SQ
-fo
-eC
-hH
-FF
-fo
+Sq
+Ts
+FJ
+hp
+Sq
 oc
 gw
 qa
@@ -113263,11 +113260,11 @@ Mf
 Rx
 eO
 Le
-fo
-Qb
-TG
-iP
-fo
+Sq
+qv
+JX
+HY
+Sq
 oc
 gw
 qa
@@ -113520,11 +113517,11 @@ Mf
 hQ
 JR
 fG
-fo
-iP
-iP
-iP
-fo
+Sq
+HY
+HY
+HY
+Sq
 oc
 gw
 qa
@@ -113777,11 +113774,11 @@ Mf
 lJ
 lJ
 lJ
-fo
-iP
-iP
-iP
-fo
+Sq
+HY
+HY
+HY
+Sq
 dF
 gw
 qa
@@ -114027,18 +114024,18 @@ UE
 UE
 iz
 Xs
-KD
-vc
-aX
-aX
-vc
-Ji
-Ia
-vc
-aX
-aX
-oE
-iP
+GF
+Pi
+Wh
+Wh
+Pi
+vo
+RS
+Pi
+Wh
+Wh
+En
+HY
 oc
 gw
 qa
@@ -114284,18 +114281,18 @@ NU
 NU
 UE
 Xs
-vR
-Cv
-iP
-Cv
-Cv
-qj
-Cv
-iP
-iP
-iP
-DI
-iP
+Rh
+Im
+HY
+Im
+Im
+iq
+Im
+HY
+HY
+HY
+TZ
+HY
 oc
 gw
 qa
@@ -114541,18 +114538,18 @@ NU
 NU
 bJ
 Xs
-EE
-iP
-iP
-iP
-iP
-Yn
-tj
-iP
-iP
-iP
-DI
-iP
+bu
+HY
+HY
+HY
+HY
+Jy
+wl
+HY
+HY
+HY
+TZ
+HY
 oc
 gw
 qa
@@ -114798,18 +114795,18 @@ UE
 UE
 iz
 rC
-vR
-Cv
-iP
-Cv
-Cv
-qj
-Cv
-iP
-iP
-iP
-ah
-Rg
+Rh
+Im
+HY
+Im
+Im
+iq
+Im
+HY
+HY
+HY
+VB
+tS
 dF
 gw
 qa
@@ -115055,18 +115052,18 @@ rC
 rC
 rC
 rC
-EE
-iP
-iP
-iP
-iP
-Yn
-tj
-iP
-iP
-iP
-DI
-iP
+bu
+HY
+HY
+HY
+HY
+Jy
+wl
+HY
+HY
+HY
+TZ
+HY
 oc
 gw
 qa
@@ -115312,18 +115309,18 @@ rC
 Cr
 so
 rC
-vR
-Cv
-iP
-Cv
-Cv
-qj
-Cv
-iP
-iP
-iP
-DI
-iP
+Rh
+Im
+HY
+Im
+Im
+iq
+Im
+HY
+HY
+HY
+TZ
+HY
 oc
 gw
 qa
@@ -115569,18 +115566,18 @@ nA
 PV
 Hw
 rC
-ab
-Wn
-Wn
-Wn
-iP
-iP
-iP
-iP
-iP
-iP
-DI
-iP
+sn
+XT
+XT
+XT
+HY
+HY
+HY
+HY
+HY
+HY
+TZ
+HY
 oc
 gw
 qa
@@ -115826,18 +115823,18 @@ rC
 rC
 rC
 rC
-MQ
-MQ
-MQ
-fo
-EE
-iP
-iP
-iP
-iP
-iP
-ah
-Rg
+Si
+Si
+Si
+Sq
+bu
+HY
+HY
+HY
+HY
+HY
+VB
+tS
 dF
 gw
 qa
@@ -116086,15 +116083,15 @@ rO
 rO
 rO
 rO
-fo
-EE
-iP
-iP
-iP
-iP
-iP
-DI
-iP
+Sq
+bu
+HY
+HY
+HY
+HY
+HY
+TZ
+HY
 oc
 gw
 qa
@@ -116343,15 +116340,15 @@ rO
 rO
 rO
 rO
-fo
-EE
-nY
-iP
-nY
-iP
-nY
-DI
-iP
+Sq
+bu
+Qz
+HY
+Qz
+HY
+Qz
+TZ
+HY
 oc
 gw
 qa
@@ -116600,15 +116597,15 @@ rO
 rO
 rO
 rO
-fo
-ab
-ax
-Wn
-ax
-Wn
-ax
-HA
-iP
+Sq
+sn
+ve
+XT
+ve
+XT
+ve
+sj
+HY
 oc
 gw
 qa
@@ -116857,15 +116854,15 @@ ff
 ff
 ff
 ff
-fo
-fo
-fo
-fo
-fo
-MQ
-MQ
-MQ
-fo
+Sq
+Sq
+Sq
+Sq
+Sq
+Si
+Si
+Si
+Sq
 dF
 gw
 qa
@@ -119517,7 +119514,7 @@ ff
 ff
 ff
 ff
-sn
+ei
 IP
 eT
 Bg
@@ -120029,18 +120026,18 @@ ff
 ff
 ff
 ff
-sn
+ei
 CU
 CU
 DH
 Jr
-Kq
+KG
 Bg
 Bg
 Et
 Bg
 Bg
-Qh
+TA
 Jr
 ff
 ff
@@ -120554,7 +120551,7 @@ Bg
 Et
 Bg
 Bg
-Qh
+TA
 Jr
 Vx
 Vx
@@ -120808,7 +120805,7 @@ eT
 vl
 XK
 vE
-lk
+JO
 Bg
 Bg
 Bg
@@ -121057,7 +121054,7 @@ ff
 ff
 ff
 ff
-sn
+ei
 IP
 CU
 CU
@@ -122085,10 +122082,10 @@ ff
 ff
 ff
 ff
-sn
-sn
-sn
-sn
+ei
+ei
+ei
+ei
 li
 li
 mM
@@ -122098,26 +122095,26 @@ Nv
 Nv
 Nv
 Nv
-JE
-JE
-JE
-JE
-JE
-kg
-kg
-kg
-kg
-kg
-kg
-yT
-yT
-AE
-AE
-AE
-AE
-AE
-AE
-LC
+AS
+AS
+AS
+AS
+AS
+Jb
+Jb
+Jb
+Jb
+Jb
+Jb
+vc
+vc
+Ji
+Ji
+Ji
+Ji
+Ji
+Ji
+EV
 Vx
 Vx
 Vx
@@ -122346,35 +122343,35 @@ KP
 bQ
 bQ
 bQ
-JE
+AS
 kY
 al
-sj
 cH
-sj
-sj
-sj
+nd
 cH
-sj
-sj
-sj
 cH
-sj
+cH
+nd
+cH
+cH
+cH
+nd
+cH
 al
-sj
 cH
-sj
-sj
-at
-ku
-bu
-En
-En
-HB
-En
-En
-yL
-AE
+nd
+cH
+cH
+iX
+vg
+vZ
+mP
+mP
+Sx
+mP
+mP
+Wq
+Ji
 Vx
 Vx
 Vx
@@ -122603,8 +122600,8 @@ KP
 bQ
 bQ
 bQ
-JE
-Cl
+AS
+xU
 uS
 Aj
 Aj
@@ -122618,20 +122615,20 @@ Aj
 Aj
 Aj
 jN
-Wh
-Wh
-Wh
-Wh
-wb
-ku
-qA
-hC
-wt
-wt
-wt
-vd
-Mg
-AE
+fo
+fo
+fo
+fo
+gC
+vg
+pi
+nu
+Mt
+Mt
+Mt
+QA
+LX
+Ji
 Vx
 Vx
 Vx
@@ -122860,8 +122857,8 @@ KP
 bQ
 bQ
 bQ
-JE
-Cl
+AS
+xU
 Aj
 pd
 sD
@@ -122876,19 +122873,19 @@ sD
 mW
 Aj
 pd
-AS
+wc
 mW
-Wh
-wb
-ku
+fo
+gC
+vg
+pi
+uJ
+Nq
+Nq
+Nq
 qA
-ve
-yr
-yr
-yr
-sG
-Mg
-AE
+LX
+Ji
 Vx
 Vx
 Vx
@@ -123116,9 +123113,9 @@ ff
 Vk
 ED
 ZV
-pQ
-JE
-ei
+gt
+AS
+WC
 Aj
 FQ
 ct
@@ -123130,22 +123127,22 @@ DY
 DY
 DY
 DY
-ei
+WC
 Aj
-NR
-JE
-ei
-Wh
-NR
-tS
-Pj
-iq
-yr
-yr
-yr
-sG
-KE
-AE
+wb
+AS
+WC
+fo
+wb
+yd
+iZ
+qi
+Nq
+Nq
+Nq
+qA
+PB
+Ji
 Vx
 Vx
 Vx
@@ -123374,8 +123371,8 @@ KP
 bQ
 ZV
 fz
-JE
-Cl
+AS
+xU
 Aj
 vS
 ct
@@ -123387,22 +123384,22 @@ uH
 bK
 hR
 DY
-Cl
+xU
 Aj
-wb
-JE
-Cl
-Wh
-wb
-ku
+gC
+AS
+xU
+fo
+gC
+vg
+pi
+uJ
+Nq
+Nq
+Nq
 qA
-ve
-yr
-yr
-yr
-sG
-Mg
-AE
+LX
+Ji
 Vx
 Vx
 Vx
@@ -123638,28 +123635,28 @@ vS
 ct
 Dk
 NT
-ZQ
+tF
 DY
 JN
-iM
+nj
 Me
 RA
 aB
 LN
-wb
-JE
-Cl
-Wh
-wb
-mP
-qA
-ko
-wy
-wy
-wy
-Ph
-Mg
-AE
+gC
+AS
+xU
+fo
+gC
+HA
+pi
+MQ
+jA
+jA
+jA
+KD
+LX
+Ji
 Vx
 Vx
 Vx
@@ -123888,35 +123885,35 @@ KP
 bQ
 bQ
 Ay
-JE
-Cl
+AS
+xU
 Aj
 vS
 ct
-nq
+lt
 yj
-MY
+IQ
 DY
 tD
-RU
+Gt
 Pt
 DY
-Cl
+xU
 Aj
-wb
-JE
-Cl
-Wh
-wb
-ku
-Mp
-KY
-KY
-RX
-KY
-KY
-hM
-AE
+gC
+AS
+xU
+fo
+gC
+vg
+at
+Lp
+Lp
+nH
+Lp
+Lp
+dy
+Ji
 Vx
 Vx
 Vx
@@ -124145,35 +124142,35 @@ DY
 DY
 DY
 DY
-RS
-CR
+JE
+Vz
 Aj
 FQ
 ct
-cn
+Fw
 yj
-rz
+Jq
 aK
 aK
 aK
 aK
 aK
-ei
+WC
 Aj
-NR
-JE
-ei
-Wh
-NR
-Yz
-Io
-Yz
-Yz
-Yz
-Yz
-Yz
-Yz
-HU
+wb
+AS
+WC
+fo
+wb
+bR
+wu
+bR
+bR
+bR
+bR
+bR
+bR
+Ia
 Vx
 Vx
 Vx
@@ -124402,35 +124399,35 @@ uH
 bK
 bK
 jl
-RS
-Cl
+JE
+xU
 Aj
 vS
 ct
-nq
+lt
 yj
-MY
+IQ
 aK
 SO
 ki
 Wt
 aK
-Cl
+xU
 Aj
-wb
-JE
-Cl
-Wh
-wb
-nu
-VB
-PJ
-PJ
-Qz
-PJ
-PJ
-fM
-HU
+gC
+AS
+xU
+fo
+gC
+pQ
+aJ
+rz
+rz
+cu
+rz
+rz
+nY
+Ia
 Vx
 Vx
 Vx
@@ -124658,15 +124655,15 @@ uH
 ug
 uV
 uV
-Oo
-RS
-Cl
+GN
+JE
+xU
 Aj
 vS
 ct
-lt
+Pe
 yj
-Wq
+MY
 aK
 HI
 tI
@@ -124674,20 +124671,20 @@ xF
 Nl
 aB
 jN
-wb
-JE
-Cl
-Wh
-wb
-nu
-FY
-wv
-IG
-IG
-IG
-gF
-Lp
-HU
+gC
+AS
+xU
+fo
+gC
+pQ
+iB
+Wn
+fM
+fM
+fM
+KY
+nT
+Ia
 Vx
 Vx
 Vx
@@ -124916,8 +124913,8 @@ uV
 uV
 uV
 CV
-RS
-Cl
+JE
+xU
 Aj
 vS
 ct
@@ -124929,22 +124926,22 @@ nz
 fk
 qe
 aK
-Cl
+xU
 Aj
-wb
-JE
-Cl
-Wh
-wb
-nu
-FY
-LX
-kU
-kU
-kU
-Lo
-Lp
-HU
+gC
+AS
+xU
+fo
+gC
+pQ
+iB
+Yz
+wv
+wv
+wv
+CC
+nT
+Ia
 Vx
 Vx
 Vx
@@ -125173,14 +125170,14 @@ uV
 uV
 uV
 FX
-RS
-ei
+JE
+WC
 Aj
 FQ
 ct
-ZT
+CR
 fc
-BV
+ZT
 aK
 aK
 aK
@@ -125188,20 +125185,20 @@ aK
 aK
 Zt
 Aj
-NR
-JE
-ei
-Wh
-NR
-Yz
-uJ
-Ng
-kU
-kU
-kU
-Lo
-QI
-HU
+wb
+AS
+WC
+fo
+wb
+bR
+sy
+vR
+wv
+wv
+wv
+CC
+wt
+Ia
 Vx
 Vx
 Vx
@@ -125430,12 +125427,12 @@ uV
 uV
 uV
 aV
-RS
-Cl
+JE
+xU
 Aj
 vS
 ct
-Lc
+Mg
 gd
 gd
 DY
@@ -125443,22 +125440,22 @@ uH
 bK
 hR
 DY
-Cl
+xU
 Aj
 ot
-sj
+cH
 eJ
-Wh
-wb
-nu
-FY
-LX
-kU
-kU
-kU
-Lo
-Lp
-HU
+fo
+gC
+pQ
+iB
+Yz
+wv
+wv
+wv
+CC
+nT
+Ia
 Vx
 Vx
 Vx
@@ -125681,41 +125678,41 @@ ff
 ff
 fv
 rH
-Jq
-iM
-iM
-iM
-iM
-rQ
-tF
-Cl
+ry
+nj
+nj
+nj
+nj
+Oo
+Su
+xU
 xh
 vS
 ct
 gd
 gd
-Lc
+Mg
 DY
 JN
-iM
+nj
 Me
 RA
 aB
 LN
-Wh
-Wh
-Wh
-Wh
-wb
-Pi
-FY
-vZ
-QR
-QR
-QR
-lH
-Lp
-HU
+fo
+fo
+fo
+fo
+gC
+aX
+iB
+XN
+Cl
+Cl
+Cl
+kv
+nT
+Ia
 Vx
 Vx
 Vx
@@ -125938,41 +125935,41 @@ ff
 ff
 fv
 tD
-lU
+oD
 oq
 GP
-OB
 RU
+Gt
 Mj
-JE
-Cl
+AS
+xU
 Aj
 vS
 ct
 gd
-jA
+ZN
 gd
 DY
 tD
-RU
+Gt
 Pt
 DY
-Cl
-Zx
+xU
+iP
 pd
 sD
 mW
-Wh
-wb
-nu
-qv
-ZN
-ZN
-QA
-ZN
-ZN
-qK
-HU
+fo
+gC
+pQ
+bc
+vb
+vb
+aH
+vb
+vb
+fA
+Ia
 Vx
 Vx
 Vx
@@ -126195,14 +126192,14 @@ ff
 ff
 DY
 DY
-TS
+iM
 DY
 DY
 fv
 di
 fv
-JE
-ei
+AS
+WC
 Aj
 FQ
 qn
@@ -126214,22 +126211,22 @@ qn
 qn
 qn
 qn
-uB
-pM
 jK
-JE
-ei
-Wh
-NR
-pi
-Lz
-pi
-pi
-pi
-pi
-pi
-pi
-Ts
+pM
+TG
+AS
+WC
+fo
+wb
+Hy
+Lc
+Hy
+Hy
+Hy
+Hy
+Hy
+Hy
+WS
 Vx
 Vx
 Vx
@@ -126452,13 +126449,13 @@ ff
 ff
 fv
 uH
-Rh
+sG
 ft
 DY
 lu
-Wh
-sj
+fo
 cH
+nd
 eJ
 Aj
 vS
@@ -126474,19 +126471,19 @@ qn
 ky
 go
 vq
-JE
-Cl
-Wh
-wb
-nj
-Qx
-TR
-TR
-aj
-TR
-TR
+AS
+xU
+fo
+gC
 ih
-Ts
+wy
+ck
+ck
+gp
+ck
+ck
+ne
+WS
 Vx
 Vx
 Vx
@@ -126709,7 +126706,7 @@ ff
 ff
 fv
 rH
-iM
+nj
 Ao
 Qc
 Tl
@@ -126731,19 +126728,19 @@ qn
 Ul
 Ul
 Ul
-JE
-Cl
-Wh
-wb
-nj
+AS
+xU
+fo
+gC
+ih
+QE
 Fm
-Kx
-gL
-gL
-gL
-FJ
-yd
-Tp
+BV
+BV
+BV
+FY
+TV
+YB
 Vx
 Vx
 Vx
@@ -126970,9 +126967,9 @@ eP
 en
 DY
 rc
-Wh
-fA
-Ap
+fo
+hH
+wR
 Oi
 Tv
 vS
@@ -126988,19 +126985,19 @@ qn
 Ul
 Ul
 Ul
-JE
-Cl
-Wh
-wb
-nj
-Fm
-Dv
-Sq
-Sq
-Sq
+AS
+xU
+fo
+gC
+ih
+QE
+Cv
+Zx
+Zx
+Zx
+RX
 TV
-yd
-Tp
+YB
 Vx
 Vx
 Vx
@@ -127222,15 +127219,15 @@ NF
 NF
 NF
 DY
-Pe
+PJ
 Cw
 Lq
 DY
-ei
-Wh
-wu
+WC
+fo
+Ng
+hw
 ns
-xU
 Tv
 FQ
 qn
@@ -127245,19 +127242,19 @@ qn
 aK
 aK
 aK
-JE
-ei
-Wh
-NR
-pi
-gC
-cu
-Sq
-Sq
-Sq
-TV
-GN
-Tp
+AS
+WC
+fo
+wb
+Hy
+Iz
+dS
+Zx
+Zx
+Zx
+RX
+Du
+YB
 Vx
 Vx
 Vx
@@ -127482,12 +127479,12 @@ Wj
 FV
 UG
 Vs
-sn
+ei
 OL
-Wh
+fo
 Qf
-aC
-se
+Io
+yV
 Aj
 vS
 VS
@@ -127502,19 +127499,19 @@ qn
 Vx
 Vx
 Vx
-JE
-Cl
-Wh
-wb
-nj
-Nb
-Dv
-Sq
-Sq
-Sq
+AS
+xU
+fo
+gC
+ih
+Fb
+Cv
+Zx
+Zx
+Zx
+RX
 TV
-yd
-Tp
+YB
 Vx
 Vx
 Vx
@@ -127740,11 +127737,11 @@ QT
 oL
 bk
 RY
-Zx
-Im
-Im
-Im
-Im
+iP
+aG
+aG
+aG
+aG
 OS
 MR
 TD
@@ -127759,19 +127756,19 @@ qn
 Vx
 Vx
 Vx
-JE
-Cl
-Wh
-wb
-zH
-Nb
-QE
-GF
-GF
-GF
-aJ
-yd
-Tp
+AS
+xU
+fo
+gC
+dI
+Fb
+MV
+hJ
+hJ
+hJ
+Ut
+TV
+YB
 Vx
 Vx
 Vx
@@ -127996,11 +127993,11 @@ Xp
 AD
 qT
 Vs
-sn
+ei
 pt
-Wh
+fo
 pd
-AS
+wc
 mW
 ZI
 vS
@@ -128016,19 +128013,19 @@ qn
 Vx
 Vx
 Vx
-JE
-Cl
-Wh
-wb
-nj
-Zz
-nI
-nI
-vo
-nI
-nI
-WC
-Tp
+AS
+xU
+fo
+gC
+ih
+ev
+xt
+xt
+EE
+xt
+xt
+IH
+YB
 Vx
 Vx
 Vx
@@ -128252,40 +128249,40 @@ IN
 IN
 EP
 rD
-iX
-sn
-So
-Wh
-NR
-JE
+ax
 ei
+So
+fo
+wb
+AS
+WC
 UC
 FQ
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-ei
-Wh
-NR
-pi
-pi
-pi
-pi
-pi
-pi
-pi
-pi
-pi
+AS
+AS
+AS
+AS
+AS
+AS
+AS
+AS
+AS
+AS
+AS
+AS
+AS
+WC
+fo
+wb
+Hy
+Hy
+Hy
+Hy
+Hy
+Hy
+Hy
+Hy
+Hy
 Vx
 Vx
 Vx
@@ -128510,31 +128507,31 @@ ov
 ew
 qT
 Vs
-sn
-Cl
-Wh
-wb
-JE
-Cl
+ei
+xU
+fo
+gC
+AS
+xU
 UC
 ot
+nd
 cH
-sj
-sj
-sj
 cH
-sj
-sj
-sj
 cH
-sj
-sj
-sj
+nd
 cH
+cH
+cH
+nd
+cH
+cH
+cH
+nd
 eJ
-Wh
-wb
-JE
+fo
+gC
+AS
 Vx
 Vx
 Vx
@@ -128767,31 +128764,31 @@ Ld
 xP
 iL
 Vs
-sn
-Cl
-Wh
-wb
-JE
-Cl
+ei
+xU
+fo
+gC
+AS
+xU
 UC
-Wh
-Wh
-Wh
-Wh
-Wh
-Wh
-Wh
-Wh
-Wh
-Wh
-Wh
-Wh
-Wh
-Wh
-Wh
-Wh
-wb
-JE
+fo
+fo
+fo
+fo
+fo
+fo
+fo
+fo
+fo
+fo
+fo
+fo
+fo
+fo
+fo
+fo
+gC
+AS
 Vx
 Vx
 Vx
@@ -129006,7 +129003,7 @@ Gw
 Gw
 sO
 AA
-XT
+Nb
 SH
 IN
 EP
@@ -129018,37 +129015,37 @@ Gw
 Gw
 Iw
 Gw
-io
+jV
 Gw
 yX
 ER
 CG
 Vs
-sn
+ei
 Ex
-Wh
+fo
 av
-JE
+AS
 Ex
-SY
+LK
 sD
-AS
-sD
-sD
-sD
-AS
+wc
 sD
 sD
 sD
-AS
+wc
 sD
 sD
 sD
-AS
+wc
+sD
+sD
+sD
+wc
 sD
 sD
 av
-JE
+AS
 Vx
 Vx
 Vx
@@ -129093,7 +129090,7 @@ ff
 ff
 ff
 ff
-wc
+ar
 yY
 yY
 yY
@@ -129263,49 +129260,49 @@ NF
 NF
 yy
 TL
-XT
+Nb
 SH
 IN
 EP
 AA
 ic
-fL
-ef
-ef
-ef
-fL
-ay
-PB
-Jb
+eC
+sr
+sr
+sr
+eC
+gH
+EF
+Zz
 Fj
 Yi
 ok
 Yi
-sn
-VF
-MV
-VF
+ei
+Vp
+Yn
+Vp
 pV
 pV
 pV
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
+AS
+AS
+AS
+AS
+AS
+AS
+AS
+AS
+AS
+AS
+AS
+AS
+AS
+AS
+AS
+AS
+AS
+AS
 Vx
 Vx
 Vx
@@ -129350,9 +129347,9 @@ ff
 ff
 ff
 ff
-wc
-wc
-wc
+ar
+ar
+ar
 ff
 ff
 yY
@@ -129520,29 +129517,29 @@ ff
 ff
 ie
 Jg
-yC
+FF
 jO
 ur
 mu
 BO
 FE
-ef
-Qe
-Su
-hw
-RI
-kf
-Xe
-ua
+sr
+Dv
+DI
+PA
+aj
+Sg
+zC
+cn
 QX
-Vp
-ry
-xi
+Mp
+Wx
 ZO
-xi
-xi
-CC
-nd
+ef
+ZO
+ZO
+QZ
+QR
 Vx
 Vx
 Vx
@@ -129607,9 +129604,9 @@ ff
 ff
 ff
 ff
-wc
-wc
-wc
+ar
+ar
+ar
 ff
 ff
 ff
@@ -129777,29 +129774,29 @@ ff
 ff
 ie
 Jg
-yC
+FF
 jO
 ur
 mu
 BO
 FE
-ef
-Eo
-gp
-JX
-JX
-ay
-PB
-Jb
+sr
+lU
+sp
+lk
+lk
+gH
+EF
+Zz
 QX
-be
+xi
 Xo
 Oz
 Oz
 Oz
-SZ
-Fw
-nd
+rQ
+qj
+QR
 Vx
 Vx
 Vx
@@ -129864,9 +129861,9 @@ ff
 ff
 ff
 ff
-wc
-wc
-wc
+ar
+ar
+ar
 ff
 ff
 ff
@@ -130034,29 +130031,29 @@ ff
 ff
 ie
 Jg
-yC
+FF
 jO
 ur
 mu
 BO
 FE
-ef
-Eo
-JX
-JX
-JX
-JX
-PB
-Jb
+sr
+lU
+lk
+lk
+lk
+lk
+EF
+Zz
 QX
 IW
-Jy
-Jy
-Uz
-Jy
-oN
-LK
-nd
+SY
+SY
+kf
+SY
+Rg
+IG
+QR
 Vx
 Vx
 Vx
@@ -130121,9 +130118,9 @@ ff
 ff
 ff
 ff
-wc
-wc
-wc
+ar
+ar
+ar
 ff
 ff
 ff
@@ -130290,30 +130287,30 @@ ff
 ff
 ff
 Ne
-bc
-yC
+xM
+FF
 jO
 ur
 mu
 BO
 FE
-fL
-vb
-PB
-PB
-PB
-PB
-PB
-Jb
+eC
+qK
+EF
+EF
+EF
+EF
+EF
+Zz
 Fj
 DT
 uw
-Vz
+Uz
 JL
-VF
-be
-LK
-nd
+Vp
+xi
+IG
+QR
 Vx
 Vx
 Vx
@@ -130378,9 +130375,9 @@ ff
 ff
 ff
 ff
-wc
-wc
-wc
+ar
+ar
+ar
 ff
 ff
 ff
@@ -130554,23 +130551,23 @@ ur
 mu
 BO
 FE
-ef
-Eo
-JX
-JX
-JX
-JX
-JX
-Jb
-hw
-hw
-hw
-ua
-JL
 sr
-WS
-LK
-nd
+lU
+lk
+lk
+lk
+lk
+lk
+Zz
+PA
+PA
+PA
+cn
+JL
+Td
+Ph
+IG
+QR
 Vx
 Vx
 Vx
@@ -130635,9 +130632,9 @@ ff
 ff
 ff
 ff
-wc
-wc
-wc
+ar
+ar
+ar
 ff
 ff
 ff
@@ -130811,23 +130808,23 @@ ur
 mu
 BO
 FE
-ef
-Eo
-gp
-JX
-gp
-JX
-gp
-Jb
-JX
-JX
-JX
-PA
+sr
+lU
+sp
+lk
+sp
+lk
+sp
+Zz
+lk
+lk
+lk
+Ud
 JL
-rs
 SZ
-Fw
-nd
+rQ
+qj
+QR
 Vx
 Vx
 Vx
@@ -130892,9 +130889,9 @@ ff
 ff
 ff
 ff
-wc
-wc
-wc
+ar
+ar
+ar
 ff
 ff
 ff
@@ -131068,23 +131065,23 @@ ur
 mu
 BO
 FE
-ef
-TZ
+sr
 AH
-aG
-Nd
-aG
-AH
-CY
-aG
-aG
-aG
-CY
+Qm
+mG
+yC
+mG
+Qm
+NR
+mG
+mG
+mG
+NR
 JL
-sp
-Jy
-dy
-nd
+lP
+SY
+QI
+QR
 Vx
 Vx
 Vx
@@ -131149,9 +131146,9 @@ ff
 ff
 ff
 ff
-wc
-wc
-wc
+ar
+ar
+ar
 ff
 ff
 ff
@@ -131325,23 +131322,23 @@ ur
 mu
 BO
 FE
-fL
-ef
-ef
-ef
+eC
+sr
+sr
+sr
 Fj
-ef
-ef
-ef
-Fj
-Fj
+sr
+sr
+sr
 Fj
 Fj
-nd
-nd
-nd
-nd
-nd
+Fj
+Fj
+QR
+QR
+QR
+QR
+QR
 Vx
 Vx
 Vx
@@ -131406,9 +131403,9 @@ ff
 ff
 ff
 ff
-wc
-wc
-wc
+ar
+ar
+ar
 ff
 ff
 ff
@@ -131663,9 +131660,9 @@ ff
 ff
 ff
 ff
-wc
-wc
-wc
+ar
+ar
+ar
 ff
 ff
 ff
@@ -131920,9 +131917,9 @@ ff
 ff
 ff
 ff
-wc
-wc
-wc
+ar
+ar
+ar
 ff
 ff
 ff
@@ -133451,14 +133448,14 @@ yY
 yY
 yY
 yY
-wc
-wc
-wc
-wc
-wc
-wc
-wc
-wc
+ar
+ar
+ar
+ar
+ar
+ar
+ar
+ar
 yY
 yY
 yY
@@ -133708,14 +133705,14 @@ yY
 yY
 yY
 yY
-wc
-wc
-wc
-wc
-wc
-wc
-wc
-wc
+ar
+ar
+ar
+ar
+ar
+ar
+ar
+ar
 yY
 yY
 yY
@@ -133964,15 +133961,15 @@ yY
 yY
 yY
 yY
-wc
-wc
-wc
-wc
-wc
-wc
-wc
-wc
-wc
+ar
+ar
+ar
+ar
+ar
+ar
+ar
+ar
+ar
 yY
 yY
 yY
@@ -136804,9 +136801,9 @@ ff
 ff
 ff
 ff
-wc
-wc
-wc
+ar
+ar
+ar
 ff
 ff
 ff
@@ -137061,9 +137058,9 @@ ff
 ff
 ff
 ff
-wc
-wc
-wc
+ar
+ar
+ar
 ff
 ff
 ff
@@ -137318,9 +137315,9 @@ ff
 ff
 ff
 ff
-wc
-wc
-wc
+ar
+ar
+ar
 ff
 ff
 ff
@@ -137575,9 +137572,9 @@ ff
 ff
 ff
 ff
-wc
-wc
-wc
+ar
+ar
+ar
 ff
 ff
 ff
@@ -137832,9 +137829,9 @@ ff
 ff
 ff
 ff
-wc
-wc
-wc
+ar
+ar
+ar
 ff
 ff
 ff
@@ -138089,9 +138086,9 @@ ff
 ff
 ff
 ff
-wc
-wc
-wc
+ar
+ar
+ar
 ff
 ff
 ff
@@ -138346,9 +138343,9 @@ ff
 ff
 ff
 ff
-wc
-wc
-wc
+ar
+ar
+ar
 ff
 ff
 ff
@@ -138603,9 +138600,9 @@ ff
 ff
 ff
 ff
-wc
-wc
-wc
+ar
+ar
+ar
 ff
 ff
 ff
@@ -138860,9 +138857,9 @@ ff
 ff
 ff
 ff
-wc
-wc
-wc
+ar
+ar
+ar
 ff
 ff
 ff
@@ -139117,9 +139114,9 @@ ff
 ff
 ff
 ff
-wc
-wc
-wc
+ar
+ar
+ar
 ff
 ff
 ff
@@ -139374,9 +139371,9 @@ ff
 ff
 ff
 ff
-wc
-wc
-wc
+ar
+ar
+ar
 ff
 ff
 ff
@@ -139631,9 +139628,9 @@ ff
 ff
 ff
 ff
-wc
-wc
-wc
+ar
+ar
+ar
 yY
 yY
 yY
@@ -141787,16 +141784,16 @@ yY
 yY
 yY
 yY
-wc
-wc
-wc
-wc
-wc
-wc
-wc
-wc
-wc
-wc
+ar
+ar
+ar
+ar
+ar
+ar
+ar
+ar
+ar
+ar
 yY
 yY
 yY
@@ -142044,16 +142041,16 @@ yY
 yY
 yY
 yY
-wc
-wc
-wc
-wc
-wc
-wc
-wc
-wc
-wc
-wc
+ar
+ar
+ar
+ar
+ar
+ar
+ar
+ar
+ar
+ar
 yY
 yY
 yY
@@ -142301,16 +142298,16 @@ yY
 yY
 yY
 yY
-wc
-wc
-wc
-wc
-wc
-wc
-wc
-wc
-wc
-wc
+ar
+ar
+ar
+ar
+ar
+ar
+ar
+ar
+ar
+ar
 yY
 yY
 yY
@@ -145714,15 +145711,15 @@ yY
 yY
 yY
 yY
-wc
-wc
-wc
-wc
-wc
-wc
-wc
-wc
-wc
+ar
+ar
+ar
+ar
+ar
+ar
+ar
+ar
+ar
 yY
 yY
 yY
@@ -145971,15 +145968,15 @@ yY
 yY
 yY
 yY
-wc
-wc
-wc
-wc
-wc
-wc
-wc
-wc
-wc
+ar
+ar
+ar
+ar
+ar
+ar
+ar
+ar
+ar
 yY
 yY
 yY
@@ -146228,15 +146225,15 @@ yY
 yY
 yY
 yY
-wc
-wc
-wc
-wc
-wc
-wc
-wc
-wc
-wc
+ar
+ar
+ar
+ar
+ar
+ar
+ar
+ar
+ar
 yY
 yY
 yY
