@@ -74,3 +74,62 @@
 /turf/open/indestructible/cobble/corner
 	icon_state = "cobble_corner"
 
+//Naaka's Lounge edit 1: tiles
+
+//Wood
+
+/obj/item/stack/tile/wood/birch
+	name = "birchwood floor tile"
+	singular_name = "birchwood floor tile"
+	desc = "An easy to fit wood floor til, made from birch. Use while in your hand to change what pattern you want."
+	icon_state = "tile-wood"
+	inhand_icon_state = "tile-wood"
+	turf_type = /turf/open/floor/wood/birch
+	resistance_flags = FLAMMABLE
+	merge_type = /obj/item/stack/tile/wood/birch
+	tile_reskin_types = list(
+		/obj/item/stack/tile/wood/birch,
+		/obj/item/stack/tile/wood/large/birch,
+		/obj/item/stack/tile/wood/tile/birch,
+		/obj/item/stack/tile/wood/parquet/birch,
+	)
+
+/obj/item/stack/tile/wood/parquet/birch
+	name = "parquet birchwood floor tile"
+	singular_name = "parquet birchwood floor tile"
+	icon_state = "tile-wood_parquet"
+	turf_type = /turf/open/floor/wood/parquet/birch
+	merge_type = /obj/item/stack/tile/wood/parquet/birch
+
+/obj/item/stack/tile/wood/large/birch
+	name = "large birchwood floor tile"
+	singular_name = "large birchwood floor tile"
+	icon_state = "tile-wood_large"
+	turf_type = /turf/open/floor/wood/large/birch
+	merge_type = /obj/item/stack/tile/wood/large/birch
+
+/obj/item/stack/tile/wood/tile/birch
+	name = "tiled birchwood floor tile"
+	singular_name = "tiled birchwood floor tile"
+	icon_state = "tile-wood_tile"
+	turf_type = /turf/open/floor/wood/tile/birch
+	merge_type = /obj/item/stack/tile/wood/tile/birch
+
+
+//Naaka's Lounge edit
+
+/turf/open/floor/wood/birch
+	icon_state = "birchwood"
+	floor_tile = /obj/item/stack/tile/wood/birch
+
+/turf/open/floor/wood/tile/birch
+	icon_state = "birchwood_tile"
+	floor_tile = /obj/item/stack/tile/wood/tile/birch
+
+/turf/open/floor/wood/parquet/birch
+	icon_state = "birchwood_parquet"
+	floor_tile = /obj/item/stack/tile/wood/parquet/birch
+
+/turf/open/floor/wood/large/birch
+	icon_state = "birchwood_large"
+	floor_tile = /obj/item/stack/tile/wood/large/birch
