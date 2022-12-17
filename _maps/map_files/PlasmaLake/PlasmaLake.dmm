@@ -306,7 +306,7 @@
 	dir = 8
 	},
 /turf/open/floor/wood/tile,
-/area/icemoon/underground/explored)
+/area/station/security/prison)
 "ayl" = (
 /obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 5
@@ -507,11 +507,11 @@
 	name = "Tchiko's Castle Gardens"
 	})
 "aIs" = (
-/obj/machinery/light/directional/south{
-	bound_height = 16
-	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/general/visible/layer2,
 /turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
+	})
 "aIu" = (
 /obj/structure/flora/bush/sparsegrass/style_3,
 /obj/structure/flora/tree/jungle/small,
@@ -558,7 +558,7 @@
 	dir = 4
 	},
 /turf/open/floor/wood/birch,
-/area/icemoon/underground/explored)
+/area/station/security/prison)
 "aLj" = (
 /obj/effect/turf_decal/trimline/purple/filled/corner{
 	dir = 1
@@ -590,7 +590,9 @@
 	dir = 8
 	},
 /turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
+	})
 "aMJ" = (
 /obj/effect/turf_decal/trimline/purple/filled/line,
 /turf/open/floor/pod/dark,
@@ -617,7 +619,7 @@
 	dir = 8
 	},
 /turf/open/floor/wood/tile,
-/area/icemoon/underground/explored)
+/area/station/security/prison)
 "aOw" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -739,6 +741,16 @@
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/station/hallway/primary/central)
+"aRn" = (
+/obj/effect/turf_decal/trimline/purple/line{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/general/visible/layer2,
+/obj/machinery/light/floor,
+/turf/open/floor/vault,
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
+	})
 "aRF" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible{
@@ -751,8 +763,11 @@
 	})
 "aRH" = (
 /obj/effect/turf_decal/tile/dark_red/fourcorners,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/general/visible/layer2,
 /turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
+	})
 "aRU" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
 	dir = 6
@@ -785,6 +800,14 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/vault/rock,
 /area/station/engineering/break_room)
+"aUA" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/wood/birch,
+/area/ruin/space/ks13/security{
+	name = "Left Sec-Camp Office"
+	})
 "aUZ" = (
 /turf/closed/wall/mineral/stone,
 /area/ruin/space/ancientstation/charlie/hall{
@@ -1136,13 +1159,11 @@
 /area/station/engineering/hallway)
 "bqv" = (
 /obj/effect/turf_decal/siding/wood{
-	dir = 1
+	dir = 4
 	},
-/obj/structure/cable,
-/obj/machinery/light/cold/directional/north,
 /turf/open/floor/wood/birch,
-/area/station/security{
-	name = "Sec-Camp Lobby"
+/area/station/security/checkpoint{
+	name = "Right Sec-Camp Office"
 	})
 "brA" = (
 /obj/structure/mineral_door/silver,
@@ -1550,7 +1571,7 @@
 	dir = 8
 	},
 /turf/open/floor/wood/birch,
-/area/icemoon/underground/explored)
+/area/station/security/prison)
 "bMU" = (
 /obj/effect/turf_decal/tile/blue/full,
 /obj/machinery/door/airlock/medical/glass{
@@ -1617,11 +1638,6 @@
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/station/common/pool)
-"bQo" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/light/cold/directional/west,
-/turf/open/floor/iron/dark,
-/area/station/service/chapel)
 "bQE" = (
 /obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 5
@@ -1805,8 +1821,11 @@
 	})
 "bYC" = (
 /obj/structure/table/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
 /turf/open/floor/wood/tile,
-/area/icemoon/underground/explored)
+/area/station/security/prison)
 "bYK" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/wood/large,
@@ -1835,7 +1854,9 @@
 	dir = 4
 	},
 /turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
+	})
 "bZB" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
 	dir = 1
@@ -2307,6 +2328,16 @@
 	},
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/lobby)
+"cwW" = (
+/obj/effect/turf_decal/trimline/dark_red/line{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/general/visible/layer2,
+/obj/machinery/light/floor,
+/turf/open/floor/vault,
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
+	})
 "cxb" = (
 /obj/structure/flora/bush/fullgrass/style_random,
 /obj/structure/flora/rock/style_random,
@@ -2340,11 +2371,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/wood/tile,
 /area/station/command/heads_quarters/cmo)
-"cAh" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/light/cold/directional/east,
-/turf/open/floor/iron/dark,
-/area/station/service/chapel)
 "cBr" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
@@ -2494,9 +2520,10 @@
 	},
 /area/station/hallway/primary/fore)
 "cJR" = (
-/obj/effect/turf_decal/trimline/purple/line,
-/turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/turf/closed/wall/mineral/stone,
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
+	})
 "cJV" = (
 /obj/machinery/telecomms/message_server/preset,
 /turf/open/floor/circuit,
@@ -2629,7 +2656,7 @@
 "cPT" = (
 /obj/effect/turf_decal/siding/wood/corner,
 /turf/open/floor/wood/birch,
-/area/icemoon/underground/explored)
+/area/station/security/prison)
 "cPX" = (
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/captain)
@@ -2814,6 +2841,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
 	},
+/obj/machinery/light/cold/directional/east,
 /turf/open/floor/wood/birch,
 /area/station/security/checkpoint{
 	name = "Right Sec-Camp Office"
@@ -2839,7 +2867,7 @@
 	dir = 1
 	},
 /turf/open/floor/wood/tile,
-/area/icemoon/underground/explored)
+/area/station/security/prison)
 "dcQ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -2959,14 +2987,6 @@
 /obj/structure/cable,
 /turf/closed/wall/mineral/stone,
 /area/station/service/hydroponics)
-"dha" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 4
-	},
-/turf/open/floor/wood/birch,
-/area/station/security{
-	name = "Sec-Camp Lobby"
-	})
 "dhr" = (
 /obj/machinery/power/smes{
 	charge = 5e+006
@@ -3628,10 +3648,13 @@
 	name = "Public Garden"
 	})
 "dOW" = (
-/obj/effect/turf_decal/siding/wood,
-/turf/open/floor/wood/birch,
-/area/station/security/checkpoint{
-	name = "Right Sec-Camp Office"
+/obj/structure/table,
+/obj/item/reagent_containers/cup/beaker/cryoxadone,
+/obj/item/reagent_containers/cup/beaker/cryoxadone,
+/obj/item/reagent_containers/cup/beaker/cryoxadone,
+/turf/open/floor/vault,
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
 	})
 "dPa" = (
 /obj/machinery/light/cold/directional/west,
@@ -3843,7 +3866,9 @@
 	dir = 8
 	},
 /turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
+	})
 "eeJ" = (
 /obj/structure/mineral_door/wood,
 /turf/open/floor/wood,
@@ -4171,8 +4196,13 @@
 /obj/structure/cable,
 /obj/machinery/light_switch/directional/west,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable/multilayer/connected,
+/obj/machinery/atmospherics/pipe/multiz/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/multiz/supply/hidden/layer4,
 /turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
+	})
 "ezj" = (
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/pod/dark,
@@ -4364,7 +4394,9 @@
 "eJk" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
+	})
 "eJm" = (
 /obj/structure/ladder,
 /turf/open/floor/wood,
@@ -4528,7 +4560,7 @@
 	},
 /obj/item/kirbyplants/random,
 /turf/open/floor/wood/birch,
-/area/icemoon/underground/explored)
+/area/station/security/prison)
 "eQZ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -4554,10 +4586,14 @@
 	has_gravity = 1
 	})
 "eRG" = (
-/obj/effect/turf_decal/siding/wood,
-/turf/open/floor/wood,
-/area/mine/xenoarch/living{
-	name = "Tchiko's Castle Lounge"
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/structure/cable,
+/obj/machinery/light/cold/directional/north,
+/turf/open/floor/wood/birch,
+/area/station/security{
+	name = "Sec-Camp Lobby"
 	})
 "eTf" = (
 /obj/machinery/vending/cola,
@@ -4955,7 +4991,9 @@
 "fuu" = (
 /obj/machinery/chem_dispenser/fullupgrade,
 /turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
+	})
 "fuG" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -5016,6 +5054,15 @@
 /turf/open/floor/iron/kitchen/small,
 /area/station/service/kitchen{
 	has_gravity = 1
+	})
+"fzS" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/machinery/light/cold/directional/east,
+/turf/open/floor/wood/birch,
+/area/station/security{
+	name = "Sec-Camp Lobby"
 	})
 "fzU" = (
 /obj/structure/cable,
@@ -5622,8 +5669,12 @@
 /obj/effect/turf_decal/trimline/purple/line{
 	dir = 8
 	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/general/visible/layer2,
+/obj/machinery/light/floor,
 /turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
+	})
 "gml" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
@@ -5794,7 +5845,7 @@
 	},
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood/birch,
-/area/icemoon/underground/explored)
+/area/station/security/prison)
 "gvY" = (
 /obj/structure/railing{
 	dir = 6
@@ -5960,7 +6011,7 @@
 "gCU" = (
 /obj/structure/chair/wood,
 /turf/open/floor/wood/tile,
-/area/icemoon/underground/explored)
+/area/station/security/prison)
 "gDH" = (
 /obj/structure/flora/rock/icy/style_random,
 /obj/effect/light_emitter{
@@ -6202,6 +6253,14 @@
 	},
 /turf/open/floor/pod/dark,
 /area/station/science/robotics)
+"gVp" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/wood/birch,
+/area/station/security{
+	name = "Sec-Camp Lobby"
+	})
 "gVw" = (
 /obj/structure/stairs/stone,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -6215,9 +6274,11 @@
 /turf/open/floor/wood,
 /area/station/cargo)
 "gWJ" = (
-/obj/machinery/light/cold/directional/north,
+/obj/machinery/light/floor,
 /turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
+	})
 "gWM" = (
 /obj/structure/window{
 	dir = 4
@@ -6257,7 +6318,7 @@
 	dir = 4
 	},
 /turf/open/floor/wood/birch,
-/area/icemoon/underground/explored)
+/area/station/security/prison)
 "han" = (
 /turf/open/lava/plasma/ice_moon,
 /area/icemoon/surface/outdoors/nospawn)
@@ -6560,7 +6621,9 @@
 "hup" = (
 /obj/machinery/chem_heater,
 /turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
+	})
 "huu" = (
 /turf/open/floor/plating/snowed/smoothed{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
@@ -6627,7 +6690,6 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
-/obj/machinery/light/cold/directional/west,
 /turf/open/floor/wood/birch,
 /area/station/security{
 	name = "Sec-Camp Lobby"
@@ -6817,14 +6879,9 @@
 /turf/open/floor/wood,
 /area/station/cargo/storage)
 "hLO" = (
-/obj/machinery/atmospherics/components/unary/cryo_cell{
-	dir = 1
-	},
-/obj/effect/turf_decal/trimline/dark_red/line{
-	dir = 6
-	},
-/turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/wood/birch,
+/area/station/security/prison)
 "hMf" = (
 /obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 8
@@ -7038,7 +7095,7 @@
 	dir = 1
 	},
 /turf/open/floor/wood/tile,
-/area/icemoon/underground/explored)
+/area/station/security/prison)
 "hYS" = (
 /obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 9
@@ -7097,10 +7154,12 @@
 /turf/open/floor/wood/tile,
 /area/station/service/salon)
 "ibK" = (
-/obj/effect/turf_decal/tile/purple/fourcorners,
-/obj/structure/stairs/stone,
-/turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/obj/effect/turf_decal/siding/wood,
+/obj/machinery/light/cold/directional/south,
+/turf/open/floor/wood/birch,
+/area/station/security{
+	name = "Sec-Camp Lobby"
+	})
 "icA" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible{
@@ -7237,11 +7296,6 @@
 /area/mine/xenoarch/living{
 	name = "Tchiko's Castle Lounge"
 	})
-"ios" = (
-/obj/effect/turf_decal/siding/wood,
-/obj/machinery/light/cold/directional/south,
-/turf/open/floor/wood,
-/area/station/commons/fitness/recreation/entertainment)
 "ipG" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -7281,7 +7335,7 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/wood/birch,
-/area/icemoon/underground/explored)
+/area/station/security/prison)
 "iqP" = (
 /obj/effect/landmark/start/librarian,
 /turf/open/floor/plating,
@@ -7866,8 +7920,9 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/siding/wood,
+/obj/structure/cable,
 /turf/open/floor/wood/birch,
-/area/icemoon/underground/explored)
+/area/station/security/prison)
 "iTE" = (
 /obj/structure/bed/double{
 	dir = 1
@@ -7967,15 +8022,6 @@
 /obj/machinery/light/directional/west,
 /turf/open/floor/iron,
 /area/station/engineering/gravity_generator)
-"iYZ" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 8
-	},
-/obj/machinery/light/cold/directional/west,
-/turf/open/floor/wood/birch,
-/area/ruin/space/ks13/security{
-	name = "Left Sec-Camp Office"
-	})
 "iZP" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -8402,8 +8448,16 @@
 	},
 /area/station/hallway)
 "jFk" = (
+/obj/structure/cable,
 /turf/closed/wall/mineral/sandstone,
-/area/icemoon/underground/explored)
+/area/station/security/prison)
+"jFB" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/general/visible/layer2,
+/obj/machinery/light/floor,
+/turf/open/floor/vault,
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
+	})
 "jFQ" = (
 /obj/structure/cable,
 /turf/open/indestructible/dark,
@@ -8418,6 +8472,16 @@
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/station/common/pool)
+"jFV" = (
+/obj/effect/turf_decal/trimline/dark_red/line{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/general/visible/layer2,
+/obj/machinery/light/floor,
+/turf/open/floor/vault,
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
+	})
 "jGi" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
@@ -8550,11 +8614,11 @@
 /turf/open/floor/wood,
 /area/station/cargo/storage)
 "jOt" = (
-/obj/effect/turf_decal/trimline/purple/line{
-	dir = 4
-	},
-/turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/wood,
+/area/mine/xenoarch/living{
+	name = "Tchiko's Castle Lounge"
+	})
 "jOB" = (
 /obj/structure/sign/warning/gas_mask{
 	dir = 8
@@ -8570,7 +8634,7 @@
 	dir = 4
 	},
 /turf/open/floor/wood/tile,
-/area/icemoon/underground/explored)
+/area/station/security/prison)
 "jPs" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
@@ -8637,7 +8701,9 @@
 "jTc" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
+	})
 "jTK" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible{
@@ -8941,6 +9007,11 @@
 /area/station/commons/dorms{
 	name = "Dorm."
 	})
+"kqb" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/light/cold/directional/west,
+/turf/open/floor/iron/dark,
+/area/station/service/chapel)
 "kqv" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
@@ -8977,15 +9048,11 @@
 	name = "Tchiko's Castle Quarters"
 	})
 "krN" = (
-/obj/structure/closet,
-/obj/effect/turf_decal/siding/wood{
-	dir = 1
-	},
-/obj/effect/turf_decal/siding/wood{
-	dir = 4
-	},
-/turf/open/floor/wood/tile,
-/area/icemoon/underground/explored)
+/obj/structure/falsewall/stone,
+/turf/open/floor/vault,
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
+	})
 "ksk" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
 	dir = 9
@@ -9072,8 +9139,8 @@
 "kxk" = (
 /obj/structure/stairs/wood,
 /obj/structure/cable,
-/turf/open/lava/plasma/ice_moon,
-/area/icemoon/underground/explored)
+/turf/open/floor/wood/birch,
+/area/station/security/prison)
 "kxr" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -9128,7 +9195,9 @@
 "kBP" = (
 /obj/machinery/light/cold/directional/south,
 /turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
+	})
 "kBX" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -9421,10 +9490,9 @@
 	},
 /area/station/hallway/primary/port)
 "kTv" = (
-/obj/structure/cable,
-/turf/open/openspace,
-/area/station/security{
-	name = "Sec-Camp Lobby"
+/turf/open/floor/vault,
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
 	})
 "kUJ" = (
 /obj/structure/table/reinforced/rglass,
@@ -9545,7 +9613,7 @@
 	dir = 4
 	},
 /turf/open/floor/wood/birch,
-/area/icemoon/underground/explored)
+/area/station/security/prison)
 "lbn" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -9858,7 +9926,7 @@
 /area/station/service/salon)
 "lus" = (
 /turf/closed/wall/mineral/wood,
-/area/icemoon/underground/explored)
+/area/station/security/prison)
 "luZ" = (
 /obj/machinery/power/apc/auto_name/directional/north{
 	arc_shielded = 1
@@ -9954,15 +10022,6 @@
 "lzv" = (
 /turf/closed/indestructible/rock/snow,
 /area/icemoon/surface/outdoors/nospawn)
-"lzA" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 4
-	},
-/obj/machinery/light/cold/directional/east,
-/turf/open/floor/wood/birch,
-/area/station/security{
-	name = "Sec-Camp Lobby"
-	})
 "lBi" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -10194,7 +10253,7 @@
 "lOo" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/wood/large,
-/area/icemoon/underground/explored)
+/area/station/security/prison)
 "lOO" = (
 /obj/effect/spawner/liquids_spawner{
 	reagent_list = list(/datum/reagent/consumable/chocolatepudding=190)
@@ -10231,6 +10290,11 @@
 /obj/machinery/light_switch/directional/south,
 /turf/open/floor/wood/tile,
 /area/station/medical/break_room)
+"lSJ" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/machinery/light/cold/directional/south,
+/turf/open/floor/wood,
+/area/station/commons/fitness/recreation/entertainment)
 "lSK" = (
 /obj/structure/carving_block,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -10430,6 +10494,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
+/obj/machinery/light/cold/directional/west,
 /turf/open/floor/wood/birch,
 /area/ruin/space/ks13/security{
 	name = "Left Sec-Camp Office"
@@ -10554,6 +10619,12 @@
 /obj/structure/table/reinforced/plasmarglass,
 /turf/open/floor/pod/dark,
 /area/station/science/genetics)
+"mmJ" = (
+/obj/structure/table,
+/turf/open/floor/vault,
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
+	})
 "mnn" = (
 /turf/open/floor/vault/rock,
 /area/station/tcommsat/computer{
@@ -10837,6 +10908,7 @@
 	arc_shielded = 1
 	},
 /obj/structure/cable,
+/obj/structure/cable/multilayer/connected,
 /turf/open/floor/wood/birch,
 /area/station/security{
 	name = "Sec-Camp Lobby"
@@ -11444,9 +11516,11 @@
 	name = "Medical Hallway"
 	})
 "niB" = (
-/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/window/reinforced/plasma/fulltile,
 /turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
+	})
 "niG" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -11912,14 +11986,17 @@
 	dir = 4
 	},
 /turf/open/floor/wood/tile,
-/area/icemoon/underground/explored)
+/area/station/security/prison)
 "nOn" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/dark_red/fourcorners,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/general/visible/layer2,
 /turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
+	})
 "nOp" = (
 /obj/machinery/suit_storage_unit/mining,
 /obj/effect/turf_decal/siding/wideplating_new/dark{
@@ -12073,7 +12150,7 @@
 /area/station/science/lab)
 "nWr" = (
 /turf/open/floor/carpet/red,
-/area/icemoon/underground/explored)
+/area/station/security/prison)
 "nWw" = (
 /obj/structure/chair/sofa/right{
 	dir = 8
@@ -12332,8 +12409,11 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/purple/fourcorners,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/general/visible/layer2,
 /turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
+	})
 "ojH" = (
 /obj/structure/chair/sofa/corner{
 	dir = 8
@@ -12550,6 +12630,9 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
+/obj/structure/cable/multilayer/connected,
+/obj/machinery/atmospherics/pipe/multiz/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/multiz/supply/hidden/layer4,
 /turf/open/floor/wood,
 /area/mine/xenoarch/engineering{
 	name = "Tchiko's Castle Quarters"
@@ -12640,12 +12723,14 @@
 	dir = 1
 	},
 /turf/open/floor/wood/tile,
-/area/icemoon/underground/explored)
+/area/station/security/prison)
 "oCe" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/light/cold/directional/south,
 /turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
+	})
 "oCP" = (
 /obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 3
@@ -12789,6 +12874,14 @@
 /turf/closed/wall/mineral/stone,
 /area/mine/xenoarch/engineering{
 	name = "Tchiko's Castle Quarters"
+	})
+"oJg" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/vault,
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
 	})
 "oJr" = (
 /turf/open/floor/wood,
@@ -13003,8 +13096,11 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
 /turf/open/floor/wood/tile,
-/area/icemoon/underground/explored)
+/area/station/security/prison)
 "oXp" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible{
@@ -13206,7 +13302,9 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
 /turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
+	})
 "pkk" = (
 /turf/closed/wall/mineral/titanium/spaceship/nodiagonal,
 /area/ruin/space/ks13/science/ordnance_hall{
@@ -13470,7 +13568,9 @@
 "pzL" = (
 /obj/machinery/dna_scannernew,
 /turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
+	})
 "pzM" = (
 /obj/structure/cable,
 /turf/closed/wall/mineral/stone,
@@ -13518,9 +13618,12 @@
 	name = "Public Garden"
 	})
 "pDl" = (
-/obj/effect/turf_decal/siding/wood,
-/turf/open/floor/wood,
-/area/station/commons/fitness/recreation/entertainment)
+/obj/structure/window/reinforced/plasma/fulltile,
+/obj/machinery/atmospherics/components/binary/pump/layer2,
+/turf/open/floor/vault,
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
+	})
 "pDu" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -13551,9 +13654,11 @@
 /turf/open/floor/vault/rock,
 /area/station/engineering/hallway)
 "pFx" = (
-/obj/structure/table,
+/obj/machinery/atmospherics/components/unary/thermomachine/freezer,
 /turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
+	})
 "pFF" = (
 /obj/structure/cable,
 /turf/closed/wall/mineral/stone,
@@ -13603,14 +13708,9 @@
 /turf/open/floor/vault/rock,
 /area/station/command/heads_quarters/ce)
 "pIN" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 1
-	},
-/obj/effect/turf_decal/siding/wood{
-	dir = 4
-	},
-/turf/open/floor/wood/birch,
-/area/icemoon/underground/explored)
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/wood,
+/area/station/commons/fitness/recreation/entertainment)
 "pJy" = (
 /obj/structure/bedsheetbin{
 	pixel_y = -10;
@@ -13744,7 +13844,9 @@
 	dir = 4
 	},
 /turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
+	})
 "pRT" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -14215,7 +14317,9 @@
 	dir = 8
 	},
 /turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
+	})
 "quK" = (
 /obj/effect/turf_decal/tile/blue/full,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -14230,9 +14334,6 @@
 /obj/structure/table/wood/fancy/royalblue,
 /turf/open/floor/wood,
 /area/station/command)
-"qwn" = (
-/turf/open/floor/wood/tile,
-/area/icemoon/underground/explored)
 "qwo" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
@@ -14375,6 +14476,13 @@
 /turf/open/floor/wood,
 /area/station/hallway{
 	name = "Tchiko's Castle Entrance"
+	})
+"qId" = (
+/obj/effect/turf_decal/trimline/purple/line,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/general/visible/layer2,
+/turf/open/floor/vault,
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
 	})
 "qIf" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
@@ -14583,7 +14691,7 @@
 	dir = 4
 	},
 /turf/open/floor/wood/tile,
-/area/icemoon/underground/explored)
+/area/station/security/prison)
 "qVr" = (
 /obj/machinery/power/emitter/welded{
 	dir = 8
@@ -14718,9 +14826,12 @@
 /turf/open/floor/iron,
 /area/station/engineering/gravity_generator)
 "rfq" = (
-/obj/structure/falsewall/stone,
+/obj/effect/turf_decal/trimline/dark_red/line,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/general/visible/layer2,
 /turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
+	})
 "rfC" = (
 /obj/structure/sign/clock/directional/south,
 /turf/open/floor/glass/reinforced/plasma,
@@ -14870,8 +14981,12 @@
 /obj/effect/turf_decal/trimline/purple/line{
 	dir = 4
 	},
-/turf/closed/wall/mineral/stone,
-/area/icemoon/underground/explored)
+/obj/machinery/atmospherics/pipe/smart/manifold4w/general/visible/layer2,
+/obj/machinery/light/floor,
+/turf/open/floor/vault,
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
+	})
 "roK" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -15211,14 +15326,12 @@
 /turf/open/floor/iron/white/textured_half,
 /area/station/medical/medbay/lobby)
 "rKc" = (
-/obj/machinery/atmospherics/components/unary/cryo_cell{
-	dir = 1
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
 	},
-/obj/effect/turf_decal/trimline/purple/line{
-	dir = 8
-	},
-/turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/wood/birch,
+/area/station/security/prison)
 "rKQ" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/station/hallway/primary/fore)
@@ -15276,10 +15389,12 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/trimline/dark_red/line{
-	dir = 10
+	dir = 8
 	},
 /turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
+	})
 "rQF" = (
 /obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 4
@@ -15405,8 +15520,12 @@
 /obj/effect/turf_decal/trimline/dark_red/line{
 	dir = 8
 	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/general/visible/layer2,
+/obj/machinery/light/floor,
 /turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
+	})
 "rZV" = (
 /turf/closed/wall/mineral/titanium,
 /area/station/cargo)
@@ -15608,7 +15727,7 @@
 /obj/structure/cable,
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/carpet/red,
-/area/icemoon/underground/explored)
+/area/station/security/prison)
 "smS" = (
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/wood/tile,
@@ -15662,6 +15781,9 @@
 /obj/machinery/light/cold/directional/north,
 /turf/open/floor/wood/tile,
 /area/station/medical/break_room)
+"spZ" = (
+/turf/open/floor/wood/tile,
+/area/station/security/prison)
 "sqc" = (
 /obj/structure/closet/secure_closet/freezer/meat,
 /turf/open/floor/iron/checker{
@@ -15675,7 +15797,9 @@
 	dir = 1
 	},
 /turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
+	})
 "srw" = (
 /obj/machinery/atmospherics/pipe/bridge_pipe/scrubbers/visible,
 /obj/machinery/atmospherics/pipe/smart/simple/supply/visible{
@@ -15952,11 +16076,8 @@
 /area/station/engineering/gravity_generator)
 "sFo" = (
 /obj/structure/table/wood,
-/obj/effect/turf_decal/siding/wood{
-	dir = 4
-	},
 /turf/open/floor/wood/tile,
-/area/icemoon/underground/explored)
+/area/station/security/prison)
 "sFz" = (
 /obj/structure/table/reinforced/rglass,
 /turf/open/floor/carpet/red,
@@ -16050,8 +16171,8 @@
 	})
 "sOv" = (
 /obj/structure/stairs/wood,
-/turf/open/lava/plasma/ice_moon,
-/area/icemoon/underground/explored)
+/turf/open/floor/wood/birch,
+/area/station/security/prison)
 "sOx" = (
 /obj/machinery/door/airlock/public/glass,
 /turf/open/floor/glass/reinforced/plasma,
@@ -16144,7 +16265,9 @@
 	},
 /obj/machinery/light/directional/west,
 /turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
+	})
 "sUi" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 10
@@ -16162,6 +16285,13 @@
 	},
 /turf/open/floor/iron/kitchen/diagonal,
 /area/station/command/heads_quarters/cmo)
+"sWp" = (
+/obj/structure/cable/multilayer/connected,
+/obj/structure/cable,
+/turf/closed/wall/mineral/wood,
+/area/station/security{
+	name = "Sec-Camp Lobby"
+	})
 "sWR" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/station/medical/morgue)
@@ -16177,9 +16307,11 @@
 /turf/open/floor/pod/dark,
 /area/station/science/auxlab)
 "sYb" = (
-/obj/effect/turf_decal/trimline/dark_red/line,
-/turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/wood/birch,
+/area/station/security/checkpoint{
+	name = "Right Sec-Camp Office"
+	})
 "sYe" = (
 /obj/machinery/modular_computer/console/preset/engineering,
 /obj/machinery/light/directional/west,
@@ -16327,10 +16459,17 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/trimline/purple/line{
-	dir = 10
+	dir = 8
 	},
 /turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
+	})
+"tfN" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/light/cold/directional/east,
+/turf/open/floor/iron/dark,
+/area/station/service/chapel)
 "tfO" = (
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/stone/icemoon{
@@ -16390,9 +16529,10 @@
 /area/station/common/pool)
 "tiR" = (
 /obj/machinery/computer/scan_consolenew,
-/obj/machinery/light/cold/directional/north,
 /turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
+	})
 "tjB" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
@@ -16652,7 +16792,9 @@
 	dir = 8
 	},
 /turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
+	})
 "txP" = (
 /obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 1
@@ -16727,6 +16869,13 @@
 /area/mine/xenoarch/engineering{
 	name = "Tchiko's Castle Quarters"
 	})
+"tCq" = (
+/obj/structure/closet,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood/tile,
+/area/station/security/prison)
 "tCZ" = (
 /obj/structure/table/reinforced,
 /obj/item/flashlight,
@@ -16982,14 +17131,6 @@
 /area/station/common/pool{
 	name = "Tchiko's Lake Side"
 	})
-"tOy" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 4
-	},
-/turf/open/floor/wood/birch,
-/area/ruin/space/ks13/security{
-	name = "Left Sec-Camp Office"
-	})
 "tOJ" = (
 /obj/machinery/door/airlock/external,
 /turf/open/floor/stone/icemoon{
@@ -17075,6 +17216,11 @@
 /area/mine/xenoarch/engineering{
 	name = "Tchiko's Castle Quarters"
 	})
+"tTs" = (
+/obj/structure/cable/multilayer/connected,
+/obj/structure/cable,
+/turf/closed/wall/mineral/wood,
+/area/station/security/prison)
 "tTB" = (
 /obj/machinery/light/cold/directional/north,
 /turf/open/floor/stone/icemoon{
@@ -17469,7 +17615,7 @@
 	dir = 8
 	},
 /turf/open/floor/wood/birch,
-/area/icemoon/underground/explored)
+/area/station/security/prison)
 "ulM" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 4
@@ -17548,7 +17694,9 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
+	})
 "urK" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -17618,6 +17766,16 @@
 /turf/closed/indestructible/rock,
 /area/station/common/pool{
 	name = "Tchiko's Lake Side"
+	})
+"uuH" = (
+/obj/effect/turf_decal/trimline/purple/line{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/general/visible/layer2,
+/obj/machinery/light/floor,
+/turf/open/floor/vault,
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
 	})
 "uvt" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
@@ -17796,7 +17954,7 @@
 	dir = 8
 	},
 /turf/open/floor/wood/tile,
-/area/icemoon/underground/explored)
+/area/station/security/prison)
 "uFK" = (
 /turf/open/floor/iron/chapel,
 /area/station/service/chapel)
@@ -17955,8 +18113,12 @@
 /obj/effect/turf_decal/trimline/dark_red/line{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/general/visible/layer2,
+/obj/machinery/light/floor,
 /turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
+	})
 "uQm" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 6
@@ -17969,10 +18131,12 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/trimline/purple/line{
-	dir = 6
+	dir = 4
 	},
 /turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
+	})
 "uRB" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible{
@@ -18071,6 +18235,12 @@
 /area/station/tcommsat/computer{
 	has_gravity = 1
 	})
+"uXK" = (
+/obj/machinery/atmospherics/components/binary/pump/on/layer2,
+/turf/open/floor/vault,
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
+	})
 "uXN" = (
 /obj/machinery/power/apc/auto_name/directional/south{
 	arc_shielded = 1
@@ -18078,7 +18248,7 @@
 /obj/structure/cable,
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood/birch,
-/area/icemoon/underground/explored)
+/area/station/security/prison)
 "uYw" = (
 /obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 5
@@ -18136,6 +18306,15 @@
 /turf/open/floor/pod/dark,
 /area/ruin/space/ks13/science/ordnance{
 	name = "Plasma Containment Room"
+	})
+"vaT" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/machinery/light/cold/directional/west,
+/turf/open/floor/wood/birch,
+/area/station/security{
+	name = "Sec-Camp Lobby"
 	})
 "vaV" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
@@ -18277,11 +18456,12 @@
 /turf/open/floor/plating,
 /area/icemoon/surface/outdoors/labor_camp)
 "vgR" = (
-/obj/effect/turf_decal/siding/wood,
-/obj/machinery/light/cold/directional/south,
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
 /turf/open/floor/wood/birch,
-/area/station/security{
-	name = "Sec-Camp Lobby"
+/area/ruin/space/ks13/security{
+	name = "Left Sec-Camp Office"
 	})
 "vhq" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
@@ -18293,8 +18473,11 @@
 	})
 "vhz" = (
 /obj/machinery/chem_master,
+/obj/machinery/light/floor,
 /turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
+	})
 "vid" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/floor/wood,
@@ -18591,13 +18774,8 @@
 	name = "The Meth Room"
 	})
 "vAf" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 8
-	},
-/turf/open/floor/wood/birch,
-/area/station/security{
-	name = "Sec-Camp Lobby"
-	})
+/turf/closed/wall/mineral/sandstone,
+/area/station/security/prison)
 "vAy" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
 	dir = 5
@@ -18677,7 +18855,9 @@
 	},
 /obj/machinery/light/directional/east,
 /turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
+	})
 "vFg" = (
 /turf/open/floor/carpet/red,
 /area/station/security/checkpoint{
@@ -18716,8 +18896,11 @@
 	})
 "vJf" = (
 /obj/effect/turf_decal/tile/purple/fourcorners,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/general/visible/layer2,
 /turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
+	})
 "vJM" = (
 /obj/structure/lattice/catwalk,
 /obj/effect/spawner/structure/window/reinforced,
@@ -18818,7 +19001,7 @@
 	dir = 1
 	},
 /turf/open/floor/wood/birch,
-/area/icemoon/underground/explored)
+/area/station/security/prison)
 "vPF" = (
 /obj/machinery/door/airlock/command{
 	name = "Captain's Quarters"
@@ -18953,12 +19136,21 @@
 	},
 /turf/open/floor/wood/tile,
 /area/station/service/bar)
+"vWq" = (
+/obj/machinery/atmospherics/components/unary/portables_connector/visible/layer2{
+	dir = 4
+	},
+/obj/machinery/portable_atmospherics/canister/anesthetic_mix,
+/turf/open/floor/vault,
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
+	})
 "vYy" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
 /turf/open/floor/wood/birch,
-/area/icemoon/underground/explored)
+/area/station/security/prison)
 "vYO" = (
 /obj/structure/lattice/catwalk,
 /obj/machinery/door/airlock/external{
@@ -19325,7 +19517,7 @@
 "wqm" = (
 /obj/structure/cable,
 /turf/open/floor/carpet/red,
-/area/icemoon/underground/explored)
+/area/station/security/prison)
 "wrk" = (
 /obj/structure/cable,
 /obj/structure/cable,
@@ -19483,7 +19675,7 @@
 	dir = 8
 	},
 /turf/open/floor/wood/birch,
-/area/icemoon/underground/explored)
+/area/station/security/prison)
 "wwX" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/door/airlock/highsecurity{
@@ -19514,9 +19706,14 @@
 	name = "Public Garden"
 	})
 "wxk" = (
-/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
 /turf/open/floor/wood/birch,
-/area/icemoon/underground/explored)
+/area/station/security/prison)
 "wxn" = (
 /obj/machinery/light_switch/directional/east,
 /turf/open/floor/grass/fairy,
@@ -19636,7 +19833,9 @@
 	dir = 4
 	},
 /turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
+	})
 "wEM" = (
 /obj/structure/flora/rock/icy/style_random,
 /turf/open/misc/grass/planet,
@@ -19905,15 +20104,6 @@
 	},
 /area/station/service/hydroponics/garden{
 	name = "Public Garden"
-	})
-"xaw" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 4
-	},
-/obj/machinery/light/cold/directional/east,
-/turf/open/floor/wood/birch,
-/area/station/security/checkpoint{
-	name = "Right Sec-Camp Office"
 	})
 "xbf" = (
 /obj/effect/spawner/random/structure/chair_comfy,
@@ -20289,7 +20479,7 @@
 /obj/machinery/door/airlock/wood/glass,
 /obj/effect/mapping_helpers/airlock/access/all/security,
 /turf/open/floor/wood/large,
-/area/icemoon/underground/explored)
+/area/station/security/prison)
 "xum" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/misc/grass/planet,
@@ -20629,7 +20819,9 @@
 "xNT" = (
 /obj/machinery/door/airlock/glass_large,
 /turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
+	})
 "xPb" = (
 /obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 8
@@ -20816,7 +21008,9 @@
 	pixel_x = 4
 	},
 /turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/area/awaymission/black_mesa/genetics{
+	name = "Nisime's Cloning Lab"
+	})
 "xYH" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -20825,7 +21019,7 @@
 	dir = 1
 	},
 /turf/open/floor/wood/birch,
-/area/icemoon/underground/explored)
+/area/station/security/prison)
 "xYK" = (
 /obj/machinery/vending/tool,
 /obj/machinery/airalarm/directional/east,
@@ -35251,23 +35445,23 @@ tAg
 tAg
 tAg
 tAg
-cgT
+cJR
 niB
 niB
-cgT
+cJR
 niB
 niB
-cgT
+cJR
 niB
 niB
+cJR
 niB
-cgT
-cgT
-cgT
-cgT
-cgT
-cgT
-tAg
+niB
+cJR
+cJR
+cJR
+cJR
+cJR
 tAg
 tAg
 tAg
@@ -35510,21 +35704,21 @@ tAg
 tAg
 niB
 vhz
-jfa
-jfa
-jfa
-jfa
+kTv
+kTv
+kTv
+gWJ
 txC
 gmi
-rKc
+tfD
 gmi
 tfD
-cgT
-jfa
-jfa
-jfa
+uuH
+cJR
+kTv
+kTv
+kTv
 niB
-tAg
 tAg
 tAg
 tAg
@@ -35767,21 +35961,21 @@ tAg
 tAg
 niB
 fuu
-jfa
+kTv
 hup
-jfa
-jfa
+kTv
+aIs
 ojE
 vJf
-ibK
 vJf
+vJf
+vJf
+qId
 cJR
-cgT
-jfa
-jfa
-jfa
+kTv
+kTv
+kTv
 niB
-tAg
 tAg
 tAg
 tAg
@@ -36024,21 +36218,21 @@ tAg
 tAg
 niB
 pzL
-jfa
-pFx
-jfa
-jfa
+kTv
+mmJ
+kTv
+aIs
 wEI
-jOt
+rok
 vDO
 rok
 uQz
-cgT
-jfa
-jfa
-jfa
+aRn
+cJR
+kTv
+kTv
+kTv
 niB
-tAg
 tAg
 tAg
 tAg
@@ -36279,23 +36473,23 @@ tAg
 tAg
 tAg
 tAg
-cgT
+cJR
 tiR
 eer
 xYA
-jfa
+kTv
 aIs
-cgT
-cgT
-cgT
-cgT
-cgT
-cgT
-jfa
-jfa
-jfa
-cgT
-tAg
+cJR
+cJR
+cJR
+cJR
+cJR
+cJR
+cJR
+kTv
+kTv
+kTv
+cJR
 tAg
 tAg
 tAg
@@ -36538,21 +36732,21 @@ tAg
 tAg
 niB
 pzL
-jfa
-pFx
-jfa
-jfa
+kTv
+dOW
+kTv
+aIs
 aLU
 rZH
 sTv
 rZH
 rOx
-cgT
-jfa
-jfa
-jfa
+cwW
+cJR
+kTv
+kTv
+kTv
 niB
-tAg
 tAg
 tAg
 tAg
@@ -36794,22 +36988,22 @@ tAg
 tAg
 tAg
 niB
-jfa
-jfa
+vWq
+kTv
 pFx
-jfa
-jfa
+aIs
+aIs
 nOn
 aRH
 aRH
 aRH
-sYb
+aRH
 rfq
-jfa
-jfa
-jfa
+krN
+kTv
+kTv
+kTv
 niB
-tAg
 tAg
 tAg
 tAg
@@ -37051,22 +37245,22 @@ tAg
 tAg
 tAg
 niB
-jfa
-jfa
-jfa
-jfa
-jfa
+jFB
+uXK
+aIs
+aIs
+gWJ
 pRS
 uQh
 bZp
 uQh
-hLO
-cgT
-jfa
-jfa
-jfa
+bZp
+jFV
+cJR
+kTv
+kTv
+kTv
 niB
-tAg
 tAg
 tAg
 tAg
@@ -37303,27 +37497,27 @@ tAg
 tAg
 tAg
 tAg
-cgT
-cgT
-cgT
-cgT
-cgT
-rfq
-cgT
-cgT
-cgT
-cgT
-cgT
-cgT
-cgT
-cgT
-cgT
-cgT
-cgT
-cgT
-cgT
-cgT
 tAg
+tAg
+tAg
+tAg
+cJR
+niB
+kTv
+kTv
+niB
+cJR
+cJR
+cJR
+cJR
+cJR
+cJR
+cJR
+cJR
+cJR
+cJR
+cJR
+cJR
 tAg
 tAg
 tAg
@@ -37564,17 +37758,17 @@ tAg
 tAg
 tAg
 tAg
-cgT
+cJR
 gWJ
-jfa
-jfa
-jfa
-cgT
+kTv
+kTv
+gWJ
+cJR
 ezd
 urw
 jTc
 oCe
-cgT
+cJR
 tAg
 tAg
 tAg
@@ -37822,12 +38016,12 @@ tAg
 tAg
 tAg
 niB
-jfa
-jfa
-jfa
-jfa
+kTv
+kTv
+kTv
+kTv
 xNT
-xUc
+oJg
 eJk
 sqo
 quI
@@ -38079,15 +38273,15 @@ tAg
 tAg
 tAg
 niB
-jfa
-jfa
-jfa
-jfa
-jfa
-xUc
-jfa
-jfa
-jfa
+kTv
+kTv
+kTv
+kTv
+kTv
+oJg
+kTv
+kTv
+kTv
 niB
 tAg
 tAg
@@ -38335,17 +38529,17 @@ tAg
 tAg
 tAg
 tAg
-cgT
+cJR
 gWJ
-jfa
-jfa
-jfa
-cgT
+kTv
+kTv
+gWJ
+cJR
 pkc
-jfa
-jfa
+kTv
+kTv
 kBP
-cgT
+cJR
 tAg
 tAg
 tAg
@@ -38592,17 +38786,17 @@ tAg
 tAg
 tAg
 tAg
-cgT
-cgT
+cJR
+cJR
+pDl
+niB
+cJR
+cJR
+cJR
 niB
 niB
-cgT
-cgT
-cgT
-niB
-niB
-cgT
-cgT
+cJR
+cJR
 tAg
 tAg
 tAg
@@ -55807,29 +56001,29 @@ tAg
 tAg
 tAg
 lus
-jFk
-jFk
-jFk
+vAf
+vAf
+vAf
 lus
-jFk
-jFk
-jFk
+vAf
+vAf
+vAf
 lus
-jFk
-jFk
-jFk
+vAf
+vAf
+vAf
 lus
-jFk
-jFk
-jFk
+vAf
+vAf
+vAf
 lus
-jFk
-jFk
-jFk
+vAf
+vAf
+vAf
 lus
-jFk
-jFk
-jFk
+vAf
+vAf
+vAf
 lus
 tAg
 tAg
@@ -56063,31 +56257,31 @@ tAg
 tAg
 tAg
 tAg
-jFk
+vAf
 hXQ
 dcp
 uFk
-jFk
+vAf
 hXQ
 dcp
 uFk
-jFk
+vAf
 hXQ
 dcp
 uFk
-jFk
+vAf
 hXQ
 dcp
 uFk
-jFk
+vAf
 hXQ
 dcp
 uFk
-jFk
+vAf
 hXQ
 dcp
 uFk
-jFk
+vAf
 tAg
 tAg
 tAg
@@ -56320,31 +56514,31 @@ tAg
 tAg
 tAg
 tAg
-jFk
+vAf
 oBg
 gCU
-bYC
-jFk
+sFo
+vAf
 oBg
 gCU
-bYC
-jFk
+sFo
+vAf
 oBg
 gCU
-bYC
-jFk
+sFo
+vAf
 oBg
 gCU
-bYC
-jFk
+sFo
+vAf
 oBg
 gCU
-bYC
-jFk
+sFo
+vAf
 oBg
 gCU
-bYC
-jFk
+sFo
+vAf
 tAg
 tAg
 tAg
@@ -56577,31 +56771,31 @@ tAg
 tAg
 tAg
 tAg
-jFk
-krN
-nOh
-sFo
-jFk
-krN
-nOh
-sFo
-jFk
-krN
-nOh
-sFo
-jFk
-krN
-nOh
-sFo
-jFk
-krN
-nOh
-sFo
-jFk
+vAf
 oXb
-qwn
+nOh
 bYC
-jFk
+vAf
+oXb
+nOh
+bYC
+vAf
+oXb
+nOh
+bYC
+vAf
+oXb
+nOh
+bYC
+vAf
+oXb
+nOh
+bYC
+vAf
+tCq
+spZ
+sFo
+vAf
 tAg
 tAg
 tAg
@@ -57091,7 +57285,7 @@ tAg
 tAg
 tAg
 tAg
-jFk
+vAf
 bMO
 ulJ
 ulJ
@@ -57115,7 +57309,7 @@ ulJ
 ulJ
 ulJ
 gvD
-jFk
+vAf
 tAg
 tAg
 tAg
@@ -57348,7 +57542,7 @@ tAg
 tAg
 tAg
 tAg
-jFk
+vAf
 vYy
 nWr
 nWr
@@ -57371,8 +57565,8 @@ nWr
 nWr
 nWr
 nWr
-wxk
-jFk
+hLO
+vAf
 tAg
 tAg
 tAg
@@ -57605,7 +57799,7 @@ tAg
 tAg
 tAg
 tAg
-jFk
+vAf
 vYy
 nWr
 cPT
@@ -57628,8 +57822,8 @@ laD
 laD
 laD
 laD
-iTB
-jFk
+rKc
+vAf
 tAg
 tAg
 tAg
@@ -57851,21 +58045,21 @@ tAg
 tAg
 tAg
 lus
-jFk
-jFk
-jFk
+vAf
+vAf
+vAf
 lus
-jFk
-jFk
-jFk
+vAf
+vAf
+vAf
 lus
-jFk
-jFk
-jFk
+vAf
+vAf
+vAf
 lus
 vYy
 nWr
-wxk
+hLO
 lus
 lOo
 xuc
@@ -58107,7 +58301,7 @@ tAg
 tAg
 tAg
 tAg
-jFk
+vAf
 xYH
 ulJ
 ulJ
@@ -58122,28 +58316,28 @@ ulJ
 ulJ
 vPa
 nWr
-wxk
-jFk
+hLO
+vAf
 axx
 aOt
 uFk
-jFk
+vAf
 axx
 aOt
 uFk
-jFk
+vAf
 axx
 aOt
 uFk
-jFk
+vAf
 axx
 aOt
 uFk
-jFk
+vAf
 axx
 aOt
 uFk
-jFk
+vAf
 tAg
 tAg
 tAg
@@ -58364,7 +58558,7 @@ tAg
 tAg
 tAg
 tAg
-jFk
+vAf
 vYy
 nWr
 nWr
@@ -58379,28 +58573,28 @@ nWr
 nWr
 nWr
 nWr
-wxk
-jFk
+hLO
+vAf
 oBg
 gCU
-bYC
-jFk
+sFo
+vAf
 oBg
 gCU
-bYC
-jFk
+sFo
+vAf
 oBg
 gCU
-bYC
-jFk
+sFo
+vAf
 oBg
 gCU
-bYC
-jFk
+sFo
+vAf
 oBg
 gCU
-bYC
-jFk
+sFo
+vAf
 tAg
 tAg
 tAg
@@ -58621,8 +58815,8 @@ tAg
 tAg
 tAg
 tAg
-jFk
-pIN
+vAf
+wxk
 laD
 laD
 laD
@@ -58636,28 +58830,28 @@ laD
 laD
 aLg
 nWr
-wxk
-jFk
+hLO
+vAf
 jPm
 qVe
-sFo
-jFk
+bYC
+vAf
 jPm
 qVe
-sFo
-jFk
+bYC
+vAf
 jPm
 qVe
-sFo
-jFk
+bYC
+vAf
 jPm
 qVe
-sFo
-jFk
+bYC
+vAf
 jPm
 qVe
-sFo
-jFk
+bYC
+vAf
 tAg
 tAg
 tAg
@@ -58879,41 +59073,41 @@ tAg
 tAg
 tAg
 lus
-jFk
-jFk
-jFk
+vAf
+vAf
+vAf
 lus
-jFk
-jFk
-jFk
+vAf
+vAf
+vAf
 lus
-jFk
-jFk
-jFk
+vAf
+vAf
+vAf
 lus
 vYy
 nWr
-wxk
+hLO
 lus
-jFk
-jFk
-jFk
+vAf
+vAf
+vAf
 lus
-jFk
-jFk
-jFk
+vAf
+vAf
+vAf
 lus
-jFk
-jFk
-jFk
+vAf
+vAf
+vAf
 lus
-jFk
-jFk
-jFk
+vAf
+vAf
+vAf
 lus
-jFk
-jFk
-jFk
+vAf
+vAf
+vAf
 lus
 tAg
 tAg
@@ -59147,31 +59341,31 @@ tAg
 tAg
 tAg
 tAg
-jFk
+vAf
 vYy
 nWr
-wxk
-jFk
+hLO
+vAf
 hXQ
 dcp
 uFk
-jFk
+vAf
 hXQ
 dcp
 uFk
-jFk
+vAf
 hXQ
 dcp
 uFk
-jFk
+vAf
 hXQ
 dcp
 uFk
-jFk
+vAf
 hXQ
 dcp
 uFk
-jFk
+vAf
 tAg
 tAg
 tAg
@@ -59404,31 +59598,31 @@ tAg
 tAg
 tAg
 tAg
-jFk
+vAf
 vYy
 nWr
-wxk
-jFk
+hLO
+vAf
 oBg
 gCU
-bYC
-jFk
+sFo
+vAf
 oBg
 gCU
-bYC
-jFk
+sFo
+vAf
 oBg
 gCU
-bYC
-jFk
+sFo
+vAf
 oBg
 gCU
-bYC
-jFk
+sFo
+vAf
 oBg
 gCU
-bYC
-jFk
+sFo
+vAf
 tAg
 tAg
 tAg
@@ -59661,31 +59855,31 @@ tAg
 tAg
 tAg
 tAg
-jFk
+vAf
 vYy
 nWr
-wxk
-jFk
-krN
+hLO
+vAf
+oXb
 nOh
-sFo
-jFk
-krN
+bYC
+vAf
+oXb
 nOh
-sFo
-jFk
-krN
+bYC
+vAf
+oXb
 nOh
-sFo
-jFk
-krN
+bYC
+vAf
+oXb
 nOh
-sFo
-jFk
-krN
+bYC
+vAf
+oXb
 nOh
-sFo
-jFk
+bYC
+vAf
 tAg
 tAg
 tAg
@@ -59921,7 +60115,7 @@ tAg
 lus
 vYy
 nWr
-wxk
+hLO
 lus
 lOo
 xuc
@@ -60175,7 +60369,7 @@ tAg
 tAg
 tAg
 tAg
-jFk
+vAf
 vYy
 nWr
 wwU
@@ -60199,7 +60393,7 @@ ulJ
 ulJ
 ulJ
 gvD
-jFk
+vAf
 tAg
 tAg
 tAg
@@ -60432,7 +60626,7 @@ tAg
 tAg
 tAg
 tAg
-jFk
+vAf
 vYy
 nWr
 nWr
@@ -60455,8 +60649,8 @@ nWr
 nWr
 nWr
 nWr
-wxk
-jFk
+hLO
+vAf
 tAg
 tAg
 tAg
@@ -60689,7 +60883,7 @@ tAg
 tAg
 tAg
 tAg
-jFk
+vAf
 vYy
 nWr
 cPT
@@ -60712,8 +60906,8 @@ laD
 laD
 laD
 laD
-iTB
-jFk
+rKc
+vAf
 tAg
 tAg
 tAg
@@ -60949,7 +61143,7 @@ tAg
 lus
 vYy
 nWr
-wxk
+hLO
 lus
 lOo
 xuc
@@ -61203,31 +61397,31 @@ tAg
 tAg
 tAg
 tAg
-jFk
+vAf
 vYy
 nWr
-wxk
-jFk
+hLO
+vAf
 axx
 aOt
 uFk
-jFk
+vAf
 axx
 aOt
 uFk
-jFk
+vAf
 axx
 aOt
 uFk
-jFk
+vAf
 axx
 aOt
 uFk
-jFk
+vAf
 axx
 aOt
 uFk
-jFk
+vAf
 tAg
 tAg
 tAg
@@ -61460,31 +61654,31 @@ tAg
 tAg
 tAg
 tAg
-jFk
+vAf
 vYy
 nWr
-wxk
-jFk
+hLO
+vAf
 oBg
 gCU
-bYC
-jFk
+sFo
+vAf
 oBg
 gCU
-bYC
-jFk
+sFo
+vAf
 oBg
 gCU
-bYC
-jFk
+sFo
+vAf
 oBg
 gCU
-bYC
-jFk
+sFo
+vAf
 oBg
 gCU
-bYC
-jFk
+sFo
+vAf
 tAg
 tAg
 tAg
@@ -61717,31 +61911,31 @@ tAg
 tAg
 tAg
 tAg
-jFk
+vAf
 vYy
 nWr
-wxk
-jFk
+hLO
+vAf
 jPm
 qVe
-sFo
-jFk
+bYC
+vAf
 jPm
 qVe
-sFo
-jFk
+bYC
+vAf
 jPm
 qVe
-sFo
-jFk
+bYC
+vAf
 jPm
 qVe
-sFo
-jFk
+bYC
+vAf
 jPm
 qVe
-sFo
-jFk
+bYC
+vAf
 tAg
 tAg
 tAg
@@ -61977,27 +62171,27 @@ tAg
 lus
 vYy
 nWr
-wxk
+hLO
 lus
-jFk
-jFk
-jFk
+vAf
+vAf
+vAf
 lus
-jFk
-jFk
-jFk
+vAf
+vAf
+vAf
 lus
-jFk
-jFk
-jFk
+vAf
+vAf
+vAf
 lus
-jFk
-jFk
-jFk
+vAf
+vAf
+vAf
 lus
-jFk
-jFk
-jFk
+vAf
+vAf
+vAf
 lus
 tAg
 tAg
@@ -62231,7 +62425,7 @@ tAg
 tAg
 tAg
 tAg
-jFk
+vAf
 vYy
 nWr
 wwU
@@ -62488,7 +62682,7 @@ tAg
 tAg
 tAg
 tAg
-jFk
+vAf
 eQV
 wqm
 wqm
@@ -62745,8 +62939,8 @@ tAg
 tAg
 tAg
 tAg
-jFk
-pIN
+vAf
+wxk
 laD
 laD
 laD
@@ -63003,18 +63197,18 @@ tAg
 tAg
 tAg
 lus
-jFk
-jFk
-jFk
+vAf
+vAf
+vAf
 lus
 vYy
 wqm
-wxk
+hLO
 lus
+vAf
+vAf
 jFk
-jFk
-jFk
-lus
+tTs
 lus
 tAg
 tAg
@@ -63263,11 +63457,11 @@ tAg
 tAg
 tAg
 tAg
-jFk
+vAf
 vYy
 wqm
-wxk
-jFk
+hLO
+vAf
 tAg
 tAg
 tAg
@@ -63520,11 +63714,11 @@ tAg
 tAg
 tAg
 tAg
-jFk
+vAf
 vYy
 wqm
-wxk
-jFk
+hLO
+vAf
 tAg
 tAg
 tAg
@@ -63777,11 +63971,11 @@ tAg
 tAg
 tAg
 tAg
-jFk
+vAf
 vYy
 wqm
-wxk
-jFk
+hLO
+vAf
 tAg
 tAg
 tAg
@@ -64291,11 +64485,11 @@ tAg
 tAg
 tAg
 tAg
-jFk
+vAf
 vYy
 wqm
-wxk
-jFk
+hLO
+vAf
 tAg
 tAg
 tAg
@@ -64548,11 +64742,11 @@ tAg
 tAg
 tAg
 tAg
-jFk
+vAf
 vYy
 wqm
-wxk
-jFk
+hLO
+vAf
 tAg
 tAg
 tAg
@@ -64805,11 +64999,11 @@ tAg
 tAg
 tAg
 tAg
-jFk
+vAf
 vYy
 wqm
-wxk
-jFk
+hLO
+vAf
 tAg
 tAg
 tAg
@@ -65065,11 +65259,11 @@ tAg
 lus
 vYy
 wqm
-wxk
+hLO
 lus
-jFk
-jFk
-jFk
+vAf
+vAf
+vAf
 lus
 lus
 tAg
@@ -65319,7 +65513,7 @@ tAg
 tAg
 tAg
 tAg
-jFk
+vAf
 vYy
 wqm
 wwU
@@ -65576,7 +65770,7 @@ tAg
 tAg
 tAg
 tAg
-jFk
+vAf
 vYy
 wqm
 wqm
@@ -65833,14 +66027,14 @@ tAg
 tAg
 tAg
 tAg
-jFk
+vAf
 haj
 laD
 laD
 laD
 laD
 laD
-iTB
+rKc
 sOv
 lus
 tAg
@@ -66091,13 +66285,13 @@ tAg
 tAg
 tAg
 lus
-jFk
-jFk
-jFk
+vAf
+vAf
+vAf
 lus
-jFk
-jFk
-jFk
+vAf
+vAf
+vAf
 lus
 lus
 tAg
@@ -101308,7 +101502,7 @@ gzd
 oQi
 oQi
 mMi
-eRG
+jOt
 aEY
 usw
 mBl
@@ -101565,7 +101759,7 @@ mWl
 vKi
 sKE
 mzh
-eRG
+jOt
 ddP
 usw
 mBl
@@ -101822,7 +102016,7 @@ mWl
 sKE
 sKE
 mzh
-eRG
+jOt
 wlo
 usw
 mBl
@@ -102079,7 +102273,7 @@ mRy
 fYs
 fYs
 btg
-eRG
+jOt
 auF
 iVP
 rTb
@@ -102847,7 +103041,7 @@ ejM
 ejM
 ejM
 ejM
-eRG
+jOt
 auF
 auF
 dMX
@@ -103063,11 +103257,11 @@ mob
 yhU
 yhU
 yhU
-bQo
+kqb
 yhU
 yhU
 yhU
-bQo
+kqb
 yhU
 yhU
 yhU
@@ -103335,7 +103529,7 @@ aYq
 cfW
 aYq
 xqt
-pDl
+pIN
 sPQ
 qDF
 cSH
@@ -103361,7 +103555,7 @@ pDu
 pDu
 rmq
 ejM
-eRG
+jOt
 nrD
 bnO
 pyJ
@@ -103592,7 +103786,7 @@ aYq
 cfW
 aYq
 xqt
-pDl
+pIN
 sPQ
 qDF
 cSH
@@ -103618,7 +103812,7 @@ ejM
 ejM
 ejM
 ejM
-eRG
+jOt
 auF
 oJc
 oJc
@@ -103849,7 +104043,7 @@ lLU
 cfW
 aYq
 xqt
-ios
+lSJ
 bhv
 yjd
 cSH
@@ -104106,7 +104300,7 @@ aYq
 cfW
 aYq
 xqt
-pDl
+pIN
 sPQ
 qDF
 cSH
@@ -104363,7 +104557,7 @@ aYq
 gml
 aYq
 aYq
-pDl
+pIN
 sPQ
 qDF
 cSH
@@ -104605,11 +104799,11 @@ phl
 jxq
 jxq
 jxq
-cAh
+tfN
 jxq
 jxq
 jxq
-cAh
+tfN
 jxq
 jxq
 jxq
@@ -127785,11 +127979,11 @@ tIk
 jDk
 oAe
 nFL
+aUA
+aUA
 mfJ
-mfJ
-iYZ
-mfJ
-mfJ
+aUA
+aUA
 uTl
 rOq
 tWv
@@ -128036,7 +128230,7 @@ nGR
 uGj
 uGj
 uGj
-kTv
+uGj
 yfg
 cuJ
 hbp
@@ -128300,9 +128494,9 @@ hbp
 oAe
 ayR
 bZM
-tOy
-tOy
-tOy
+vgR
+vgR
+vgR
 xXe
 geC
 rOq
@@ -128550,10 +128744,10 @@ vdr
 nGR
 nGR
 nGR
-vdr
-bqv
+sWp
+eRG
 cuJ
-vgR
+ibK
 qLT
 wJB
 laq
@@ -128811,8 +129005,8 @@ bYK
 dpi
 cuJ
 tTT
+vaT
 hxy
-vAf
 gws
 fuG
 mmd
@@ -130353,8 +130547,8 @@ bYK
 dpi
 cuJ
 sNk
-lzA
-dha
+fzS
+gVp
 jAJ
 wWQ
 mmd
@@ -130607,9 +130801,9 @@ nGR
 nGR
 nGR
 vdr
-bqv
+eRG
 cuJ
-vgR
+ibK
 ntk
 jax
 xJf
@@ -131120,7 +131314,7 @@ nGR
 uGj
 uGj
 uGj
-kTv
+uGj
 yfg
 cuJ
 hbp
@@ -131131,7 +131325,7 @@ vFg
 vFg
 vFg
 vFg
-dOW
+sYb
 hrf
 tWv
 tWv
@@ -131383,11 +131577,11 @@ nod
 sta
 oAe
 vpn
+bqv
+bqv
 dbk
-dbk
-xaw
-dbk
-dbk
+bqv
+bqv
 qDu
 hrf
 tWv
