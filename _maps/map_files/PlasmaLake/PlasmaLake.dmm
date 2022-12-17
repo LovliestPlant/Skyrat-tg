@@ -3,8 +3,8 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
-/obj/effect/turf_decal/siding/wood,
 /obj/structure/window,
+/obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
 /area/station/common/pool{
 	name = "Tchiko's Lake Side"
@@ -31,6 +31,18 @@
 /obj/structure/cable,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
+"abd" = (
+/obj/structure/window/reinforced/tinted{
+	dir = 4
+	},
+/obj/machinery/door/window/tram/left/directional/north{
+	desc = "Sturdy glass sliding door meant to keep the largest of creatures behind them......maybe."
+	},
+/obj/structure/flora/bush/fullgrass,
+/obj/structure/flora/bush/grassy/style_2,
+/obj/structure/flora/bush/flowers_pp,
+/turf/open/misc/grass/jungle,
+/area/station/commons/lounge)
 "abn" = (
 /obj/structure/chair/comfy/carp{
 	dir = 4
@@ -309,15 +321,41 @@
 	})
 "ayR" = (
 /obj/effect/turf_decal/siding/wood{
-	dir = 4
-	},
-/obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
-/turf/open/floor/wood/large/birch,
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/wood/birch,
 /area/ruin/space/ks13/security{
 	name = "Left Sec-Camp Office"
 	})
+"ayZ" = (
+/obj/structure/table_frame/abductor,
+/obj/item/condom_pack{
+	pixel_y = 7
+	},
+/obj/item/condom_pack{
+	pixel_x = 10;
+	pixel_y = 7
+	},
+/obj/item/condom_pack{
+	pixel_y = 7;
+	pixel_x = -10
+	},
+/obj/item/condom_pack{
+	pixel_x = -10;
+	pixel_y = -4
+	},
+/obj/item/condom_pack{
+	pixel_y = -4
+	},
+/obj/item/condom_pack{
+	pixel_x = 10;
+	pixel_y = -4
+	},
+/turf/open/floor/vault,
+/area/station/commons/lounge)
 "azP" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -403,10 +441,10 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
-/obj/effect/turf_decal/siding/wood{
+/obj/structure/window{
 	dir = 4
 	},
-/obj/structure/window{
+/obj/effect/turf_decal/siding/wood{
 	dir = 4
 	},
 /turf/open/floor/wood,
@@ -468,6 +506,12 @@
 /area/mine/xenoarch/science/cytology{
 	name = "Tchiko's Castle Gardens"
 	})
+"aIs" = (
+/obj/machinery/light/directional/south{
+	bound_height = 16
+	},
+/turf/open/floor/vault,
+/area/icemoon/underground/explored)
 "aIu" = (
 /obj/structure/flora/bush/sparsegrass/style_3,
 /obj/structure/flora/tree/jungle/small,
@@ -592,6 +636,57 @@
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/station/common/pool)
+"aOT" = (
+/obj/structure/table_frame/abductor,
+/obj/item/serviette_pack{
+	pixel_x = 10;
+	pixel_y = 9
+	},
+/obj/item/clothing/mask/muzzle/ring{
+	pixel_y = 40
+	},
+/obj/item/restraints/handcuffs/alien{
+	pixel_y = 28;
+	pixel_x = 1
+	},
+/obj/item/clothing/sextoy/dildo{
+	pixel_x = 8
+	},
+/obj/item/clothing/sextoy/eggvib/signalvib{
+	pixel_x = -1;
+	pixel_y = -3
+	},
+/obj/item/clothing/sextoy/vibroring{
+	pixel_y = 9;
+	pixel_x = -10
+	},
+/obj/item/clothing/sextoy/magic_wand{
+	pixel_y = 6;
+	pixel_x = 13
+	},
+/obj/item/clothing/sextoy/buttplug{
+	pixel_x = -10
+	},
+/obj/item/assembly/signaler{
+	pixel_y = 16
+	},
+/obj/item/clothing/sextoy/eggvib/signalvib{
+	pixel_x = 3;
+	pixel_y = -5
+	},
+/obj/item/clothing/sextoy/dildo/double_dildo{
+	pixel_y = -9;
+	pixel_x = -1
+	},
+/obj/item/clothing/sextoy/fleshlight{
+	pixel_x = 12;
+	pixel_y = -12
+	},
+/obj/structure/closet/secure_closet/wall{
+	pixel_x = 32
+	},
+/turf/open/floor/vault,
+/area/station/commons/lounge)
 "aPp" = (
 /obj/structure/particle_accelerator/power_box,
 /obj/structure/cable,
@@ -828,10 +923,10 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
-/obj/effect/turf_decal/siding/wood,
 /obj/structure/window{
 	dir = 8
 	},
+/obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
 /area/station/common/pool{
 	name = "Tchiko's Lake Side"
@@ -997,10 +1092,10 @@
 /area/station/hallway/primary/starboard)
 "bnO" = (
 /obj/effect/turf_decal/siding/wood{
-	dir = 4
+	dir = 1
 	},
 /obj/effect/turf_decal/siding/wood{
-	dir = 1
+	dir = 4
 	},
 /turf/open/floor/wood,
 /area/mine/xenoarch/engineering{
@@ -1040,12 +1135,15 @@
 /turf/open/floor/vault/rock,
 /area/station/engineering/hallway)
 "bqv" = (
-/obj/effect/turf_decal/siding/wood,
 /obj/effect/turf_decal/siding/wood{
-	dir = 8
+	dir = 1
 	},
+/obj/structure/cable,
+/obj/machinery/light/cold/directional/north,
 /turf/open/floor/wood/birch,
-/area/icemoon/underground/explored)
+/area/station/security{
+	name = "Sec-Camp Lobby"
+	})
 "brA" = (
 /obj/structure/mineral_door/silver,
 /turf/open/floor/iron/kitchen/small,
@@ -1080,10 +1178,10 @@
 	name = "Tchiko's Castle Jani Closet"
 	})
 "btg" = (
+/obj/effect/turf_decal/siding/wood,
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
 	},
-/obj/effect/turf_decal/siding/wood,
 /turf/open/floor/carpet/royalblack,
 /area/mine/xenoarch/living{
 	name = "Tchiko's Castle Lounge"
@@ -1232,6 +1330,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
+/obj/machinery/light/cold/directional/north,
 /turf/open/floor/wood,
 /area/station/commons/fitness/recreation/entertainment)
 "bCq" = (
@@ -1518,6 +1617,11 @@
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/station/common/pool)
+"bQo" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/light/cold/directional/west,
+/turf/open/floor/iron/dark,
+/area/station/service/chapel)
 "bQE" = (
 /obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 5
@@ -1612,7 +1716,6 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
-/obj/effect/turf_decal/siding/wood,
 /turf/open/floor/carpet/royalblack,
 /area/mine/xenoarch/living{
 	name = "Tchiko's Castle Lounge"
@@ -1702,10 +1805,6 @@
 	})
 "bYC" = (
 /obj/structure/table/wood,
-/obj/effect/turf_decal/siding/wood,
-/obj/effect/turf_decal/siding/wood{
-	dir = 4
-	},
 /turf/open/floor/wood/tile,
 /area/icemoon/underground/explored)
 "bYK" = (
@@ -1758,11 +1857,11 @@
 	has_gravity = 1
 	})
 "bZM" = (
+/obj/structure/cable,
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
 	},
-/obj/structure/cable,
-/turf/open/floor/wood/large/birch,
+/turf/open/floor/wood/birch,
 /area/ruin/space/ks13/security{
 	name = "Left Sec-Camp Office"
 	})
@@ -1869,10 +1968,10 @@
 /area/station/hallway/primary/port)
 "ceP" = (
 /obj/effect/turf_decal/siding/wood{
-	dir = 4
+	dir = 1
 	},
 /obj/effect/turf_decal/siding/wood{
-	dir = 1
+	dir = 4
 	},
 /turf/open/floor/carpet/royalblack,
 /area/mine/xenoarch/living{
@@ -1907,10 +2006,11 @@
 /turf/closed/wall/mineral/stone,
 /area/icemoon/underground/explored)
 "chb" = (
-/obj/item/reagent_containers/spray/cyborg_lube,
-/obj/structure/table_frame/abductor,
-/turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 7
+	},
+/turf/open/floor/wood,
+/area/station/commons/lounge)
 "chD" = (
 /obj/machinery/light/cold/directional/south,
 /obj/effect/turf_decal/siding/wideplating_new/dark,
@@ -2000,13 +2100,11 @@
 /turf/open/floor/wood,
 /area/station/cargo)
 "cmx" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 4
-	},
-/turf/open/floor/wood/large/birch,
-/area/ruin/space/ks13/security{
-	name = "Left Sec-Camp Office"
-	})
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/multiz/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/multiz/supply/hidden/layer4,
+/turf/open/floor/vault,
+/area/icemoon/underground/explored)
 "cmU" = (
 /obj/structure/chair/sofa{
 	dir = 1
@@ -2144,8 +2242,8 @@
 	name = "Tchiko's Castle Gardens"
 	})
 "cuw" = (
-/obj/effect/turf_decal/siding/wood,
 /obj/structure/cable,
+/obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood/birch,
 /area/station/security{
 	name = "Sec-Camp Lobby"
@@ -2242,6 +2340,11 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/wood/tile,
 /area/station/command/heads_quarters/cmo)
+"cAh" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/light/cold/directional/east,
+/turf/open/floor/iron/dark,
+/area/station/service/chapel)
 "cBr" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
@@ -2680,7 +2783,9 @@
 	},
 /area/station/hallway/primary/fore)
 "daC" = (
-/obj/machinery/light/directional/south,
+/obj/machinery/light/directional/south{
+	bound_height = 16
+	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -2709,7 +2814,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
 	},
-/turf/open/floor/wood/large/birch,
+/turf/open/floor/wood/birch,
 /area/station/security/checkpoint{
 	name = "Right Sec-Camp Office"
 	})
@@ -2854,6 +2959,14 @@
 /obj/structure/cable,
 /turf/closed/wall/mineral/stone,
 /area/station/service/hydroponics)
+"dha" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/wood/birch,
+/area/station/security{
+	name = "Sec-Camp Lobby"
+	})
 "dhr" = (
 /obj/machinery/power/smes{
 	charge = 5e+006
@@ -3118,31 +3231,24 @@
 	has_gravity = 1
 	})
 "duQ" = (
-/obj/structure/table_frame/abductor,
-/obj/item/condom_pack{
-	pixel_y = 7
+/obj/structure/table/wood,
+/obj/item/reagent_containers/cup/soda_cans/sodawater{
+	pixel_x = -3;
+	pixel_y = 8
 	},
-/obj/item/condom_pack{
-	pixel_x = 10;
-	pixel_y = 7
+/obj/item/reagent_containers/cup/soda_cans/sodawater{
+	pixel_x = -1;
+	pixel_y = 2
 	},
-/obj/item/condom_pack{
-	pixel_y = 7;
-	pixel_x = -10
+/obj/item/reagent_containers/cup/glass/bottle/juice/orangejuice{
+	pixel_x = 9;
+	pixel_y = 9
 	},
-/obj/item/condom_pack{
-	pixel_x = -10;
-	pixel_y = -4
+/obj/item/reagent_containers/cup/glass/bottle/juice/orangejuice{
+	pixel_x = 9
 	},
-/obj/item/condom_pack{
-	pixel_y = -4
-	},
-/obj/item/condom_pack{
-	pixel_x = 10;
-	pixel_y = -4
-	},
-/turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/turf/open/floor/wood,
+/area/station/commons/lounge)
 "dvZ" = (
 /obj/machinery/power/apc/auto_name/directional/west{
 	arc_shielded = 1
@@ -3523,9 +3629,9 @@
 	})
 "dOW" = (
 /obj/effect/turf_decal/siding/wood,
-/turf/open/floor/wood,
-/area/station/hallway{
-	name = "Tchiko's Castle Entrance"
+/turf/open/floor/wood/birch,
+/area/station/security/checkpoint{
+	name = "Right Sec-Camp Office"
 	})
 "dPa" = (
 /obj/machinery/light/cold/directional/west,
@@ -3680,11 +3786,13 @@
 	},
 /area/station/commons/dorms/laundry)
 "ebM" = (
-/obj/structure/window/reinforced/tinted{
-	dir = 1
-	},
-/turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/obj/effect/turf_decal/siding/wood,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/machinery/airalarm/directional/east,
+/turf/open/floor/wood,
+/area/station/commons/lounge)
 "ecF" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -3808,10 +3916,10 @@
 	})
 "eim" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/effect/turf_decal/siding/wood,
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
+/obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
 /area/station/service/kitchen/diner)
 "eiP" = (
@@ -3887,7 +3995,6 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
 /area/station/hallway{
 	name = "Tchiko's Castle Entrance"
@@ -4448,12 +4555,9 @@
 	})
 "eRG" = (
 /obj/effect/turf_decal/siding/wood,
-/obj/effect/turf_decal/siding/wood{
-	dir = 4
-	},
 /turf/open/floor/wood,
-/area/station/hallway{
-	name = "Tchiko's Castle Entrance"
+/area/mine/xenoarch/living{
+	name = "Tchiko's Castle Lounge"
 	})
 "eTf" = (
 /obj/machinery/vending/cola,
@@ -4728,9 +4832,8 @@
 	},
 /area/station/hallway/primary/fore)
 "fkZ" = (
-/obj/effect/turf_decal/siding/wood,
-/turf/open/floor/wood/birch,
-/area/icemoon/underground/explored)
+/turf/closed/wall/mineral/stone,
+/area/station/commons/lounge)
 "flf" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 8
@@ -4767,7 +4870,9 @@
 	pixel_x = 6;
 	pixel_y = 6
 	},
-/obj/machinery/light/directional/south,
+/obj/machinery/light/directional/south{
+	bound_height = 16
+	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -4776,13 +4881,13 @@
 	has_gravity = 1
 	})
 "fpl" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 4
+/obj/machinery/power/apc{
+	pixel_y = 0;
+	pixel_x = -28
 	},
-/turf/open/floor/wood/birch,
-/area/station/security{
-	name = "Sec-Camp Lobby"
-	})
+/obj/structure/cable,
+/turf/open/floor/wood,
+/area/station/commons/lounge)
 "fpT" = (
 /obj/machinery/vending/coffee,
 /obj/machinery/light/cold/directional/north,
@@ -4852,11 +4957,11 @@
 /turf/open/floor/vault,
 /area/icemoon/underground/explored)
 "fuG" = (
-/obj/effect/turf_decal/siding/wood,
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
 /obj/item/kirbyplants/random,
+/obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood/birch,
 /area/station/security{
 	name = "Sec-Camp Lobby"
@@ -4962,10 +5067,10 @@
 /turf/open/floor/pod/dark,
 /area/station/science/robotics)
 "fEq" = (
+/obj/effect/turf_decal/siding/wood,
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
 	},
-/obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
 /area/mine/xenoarch/living{
 	name = "Tchiko's Castle Lounge"
@@ -5212,6 +5317,10 @@
 /area/ruin/space/ks13/science/ordnance_hall{
 	name = "Acid Containment Room"
 	})
+"fTC" = (
+/obj/machinery/light/small/blacklight/directional/west,
+/turf/open/floor/vault,
+/area/station/commons/lounge)
 "fTO" = (
 /obj/effect/turf_decal/tile/blue/full,
 /obj/machinery/door/airlock/medical,
@@ -5331,10 +5440,10 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
-/obj/effect/turf_decal/siding/wood,
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
+/obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
 /area/station/service/kitchen/diner)
 "gbS" = (
@@ -5393,7 +5502,7 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/siding/wood,
-/turf/open/floor/wood/large/birch,
+/turf/open/floor/wood/birch,
 /area/ruin/space/ks13/security{
 	name = "Left Sec-Camp Office"
 	})
@@ -5540,7 +5649,7 @@
 /area/station/hallway/primary/starboard)
 "gnD" = (
 /obj/effect/turf_decal/siding/wood,
-/turf/open/floor/wood/large/birch,
+/turf/open/floor/wood/birch,
 /area/ruin/space/ks13/security{
 	name = "Left Sec-Camp Office"
 	})
@@ -5735,7 +5844,9 @@
 "gyg" = (
 /obj/structure/table,
 /obj/machinery/processor,
-/obj/machinery/light/directional/south,
+/obj/machinery/light/directional/south{
+	bound_height = 16
+	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -6093,8 +6204,12 @@
 /area/station/science/robotics)
 "gVw" = (
 /obj/structure/stairs/stone,
-/turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/wood,
+/area/station/commons/lounge)
 "gVP" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/wood,
@@ -6135,12 +6250,12 @@
 	})
 "haj" = (
 /obj/effect/turf_decal/siding/wood{
-	dir = 4
-	},
-/obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
 /obj/item/kirbyplants/random,
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
 /turf/open/floor/wood/birch,
 /area/icemoon/underground/explored)
 "han" = (
@@ -6378,6 +6493,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
+/obj/machinery/light/cold/directional/west,
 /turf/open/floor/wood,
 /area/station/commons/fitness/recreation/entertainment)
 "hmX" = (
@@ -6388,11 +6504,11 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
-/obj/effect/turf_decal/siding/wood{
-	dir = 4
-	},
 /obj/structure/window{
 	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
 	},
 /turf/open/floor/wood,
 /area/station/common/pool{
@@ -6511,6 +6627,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
+/obj/machinery/light/cold/directional/west,
 /turf/open/floor/wood/birch,
 /area/station/security{
 	name = "Sec-Camp Lobby"
@@ -6789,12 +6906,10 @@
 /turf/open/floor/wood/tile,
 /area/station/command/heads_quarters/cmo)
 "hSW" = (
-/obj/effect/turf_decal/siding/wood,
-/obj/effect/turf_decal/siding/wood{
-	dir = 4
-	},
-/turf/open/floor/wood/birch,
-/area/icemoon/underground/explored)
+/obj/effect/turf_decal/siding/wood/corner,
+/obj/structure/cable,
+/turf/open/floor/wood,
+/area/station/commons/lounge)
 "hTd" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -6862,10 +6977,10 @@
 	name = "Tchiko's Lake Side"
 	})
 "hVV" = (
+/obj/effect/turf_decal/siding/wood,
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
 	},
-/obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
 /area/station/service/hydroponics/garden{
 	name = "Public Garden"
@@ -7068,10 +7183,10 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
-/obj/effect/turf_decal/siding/wood{
+/obj/structure/window{
 	dir = 4
 	},
-/obj/structure/window{
+/obj/effect/turf_decal/siding/wood{
 	dir = 4
 	},
 /turf/open/floor/wood,
@@ -7122,6 +7237,11 @@
 /area/mine/xenoarch/living{
 	name = "Tchiko's Castle Lounge"
 	})
+"ios" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/machinery/light/cold/directional/south,
+/turf/open/floor/wood,
+/area/station/commons/fitness/recreation/entertainment)
 "ipG" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -7376,7 +7496,6 @@
 /turf/open/floor/iron/white,
 /area/station/medical/cryo)
 "iCy" = (
-/obj/effect/turf_decal/siding/wood,
 /obj/machinery/light_switch/directional/south,
 /turf/open/floor/wood,
 /area/station/hallway{
@@ -7423,56 +7542,25 @@
 	},
 /area/station/hallway)
 "iFj" = (
-/obj/structure/table_frame/abductor,
-/obj/item/serviette_pack{
-	pixel_x = 10;
-	pixel_y = 9
+/obj/structure/table/wood,
+/obj/item/reagent_containers/cup/soda_cans/cola{
+	pixel_x = 8;
+	pixel_y = 13
 	},
-/obj/item/clothing/mask/muzzle/ring{
-	pixel_y = 40
+/obj/item/reagent_containers/cup/soda_cans/cola{
+	pixel_y = 3;
+	pixel_x = 9
 	},
-/obj/item/restraints/handcuffs/alien{
-	pixel_y = 28;
-	pixel_x = 1
+/obj/item/reagent_containers/cup/glass/ice{
+	pixel_y = 7;
+	pixel_x = -5
 	},
-/obj/item/clothing/sextoy/dildo{
-	pixel_x = 8
-	},
-/obj/item/clothing/sextoy/eggvib/signalvib{
-	pixel_x = -1;
-	pixel_y = -3
-	},
-/obj/item/clothing/sextoy/vibroring{
-	pixel_y = 9;
-	pixel_x = -10
-	},
-/obj/item/clothing/sextoy/magic_wand{
-	pixel_y = 6;
-	pixel_x = 13
-	},
-/obj/item/clothing/sextoy/buttplug{
-	pixel_x = -10
-	},
-/obj/item/assembly/signaler{
-	pixel_y = 16
-	},
-/obj/item/clothing/sextoy/eggvib/signalvib{
-	pixel_x = 3;
-	pixel_y = -5
-	},
-/obj/item/clothing/sextoy/dildo/double_dildo{
-	pixel_y = -9;
-	pixel_x = -1
-	},
-/obj/item/clothing/sextoy/fleshlight{
-	pixel_x = 12;
-	pixel_y = -12
-	},
-/obj/structure/closet/secure_closet/wall{
-	pixel_x = 32
-	},
-/turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/obj/item/reagent_containers/cup/glass/ice,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/light_switch/directional/east,
+/turf/open/floor/wood,
+/area/station/commons/lounge)
 "iFv" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/station/medical/storage)
@@ -7544,10 +7632,10 @@
 /turf/open/floor/wood/tile,
 /area/station/medical/break_room)
 "iJn" = (
-/obj/effect/turf_decal/siding/wood{
+/obj/structure/window{
 	dir = 4
 	},
-/obj/structure/window{
+/obj/effect/turf_decal/siding/wood{
 	dir = 4
 	},
 /turf/open/floor/wood,
@@ -7842,11 +7930,9 @@
 	name = "Tchiko's Castle Lounge"
 	})
 "iWs" = (
-/obj/structure/chair/shibari_stand,
-/obj/item/storage/box/shibari_stand,
-/obj/item/stack/shibari_rope/full,
-/turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/obj/structure/decorative/shelf/milk_big,
+/turf/open/floor/wood,
+/area/station/commons/lounge)
 "iWG" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 1
@@ -7881,6 +7967,15 @@
 /obj/machinery/light/directional/west,
 /turf/open/floor/iron,
 /area/station/engineering/gravity_generator)
+"iYZ" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/machinery/light/cold/directional/west,
+/turf/open/floor/wood/birch,
+/area/ruin/space/ks13/security{
+	name = "Left Sec-Camp Office"
+	})
 "iZP" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -7914,6 +8009,13 @@
 	},
 /turf/open/floor/glass/reinforced/plasma,
 /area/station/hallway/primary/port)
+"jec" = (
+/obj/structure/decorative/shelf/soda{
+	name = "bottle shelf";
+	desc = "A sturdy wooden shelf with a bunch of sexual enhancer's on it, as well as some empty ones. Whats inside of this bottle? It's....white?"
+	},
+/turf/closed/wall/mineral/stone,
+/area/station/commons/lounge)
 "jef" = (
 /turf/closed/wall/mineral/stone,
 /area/station/commons/toilet)
@@ -8232,10 +8334,10 @@
 	},
 /area/station/commons/dorms/laundry)
 "jAJ" = (
+/obj/structure/cable,
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
 	},
-/obj/structure/cable,
 /turf/open/floor/carpet/red,
 /area/station/security{
 	name = "Sec-Camp Lobby"
@@ -8280,7 +8382,6 @@
 /turf/open/floor/iron/white,
 /area/station/medical/surgery)
 "jDk" = (
-/obj/effect/turf_decal/siding/wood,
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
@@ -8288,6 +8389,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood/birch,
 /area/station/security{
 	name = "Sec-Camp Lobby"
@@ -8503,6 +8605,11 @@
 /area/station/commons/dorms{
 	name = "Dorm."
 	})
+"jRI" = (
+/obj/item/bdsm_bed_kit,
+/obj/item/clothing/mask/gas/bdsm_mask,
+/turf/open/floor/vault,
+/area/station/commons/lounge)
 "jRQ" = (
 /obj/structure/flora/bush/fullgrass,
 /obj/structure/flora/bush/grassy,
@@ -8571,10 +8678,10 @@
 "jWX" = (
 /obj/item/toy/plush/skyrat/secdrake,
 /obj/effect/turf_decal/siding/wood{
-	dir = 4
+	dir = 1
 	},
 /obj/effect/turf_decal/siding/wood{
-	dir = 1
+	dir = 4
 	},
 /turf/open/floor/wood,
 /area/mine/xenoarch/engineering{
@@ -8673,7 +8780,9 @@
 /turf/open/floor/vault/rock,
 /area/station/maintenance/port/central)
 "kfb" = (
-/obj/machinery/light/directional/south,
+/obj/machinery/light/directional/south{
+	bound_height = 16
+	},
 /turf/open/floor/iron/kitchen/diagonal,
 /area/station/commons/dorms/barracks)
 "kfd" = (
@@ -8720,15 +8829,10 @@
 	name = "Research Parking"
 	})
 "khx" = (
-/obj/structure/flora/bush/fullgrass,
-/obj/structure/flora/bush/fullgrass/style_3,
-/obj/structure/flora/bush/grassy/style_2,
-/obj/structure/window/reinforced/spawner/north{
-	name = "containment cell"
-	},
-/obj/structure/flora/bush/flowers_pp/style_2,
-/turf/open/misc/grass/jungle,
-/area/icemoon/underground/explored)
+/obj/structure/decorative/shelf/soda_multipacks,
+/obj/machinery/light/cold/directional/south,
+/turf/open/floor/wood,
+/area/station/commons/lounge)
 "khy" = (
 /obj/machinery/light/directional/north,
 /obj/structure/chair/sofa,
@@ -8816,7 +8920,9 @@
 	name = "Medical Hallway"
 	})
 "kmD" = (
-/obj/machinery/light/directional/south,
+/obj/machinery/light/directional/south{
+	bound_height = 16
+	},
 /turf/open/floor/iron/kitchen/diagonal,
 /area/station/commons/dorms{
 	name = "Dorm."
@@ -8871,13 +8977,14 @@
 	name = "Tchiko's Castle Quarters"
 	})
 "krN" = (
-/obj/effect/turf_decal/siding/wood,
+/obj/structure/closet,
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
-/obj/machinery/door/airlock/wood/glass,
-/obj/effect/mapping_helpers/airlock/access/all/security,
-/turf/open/floor/wood/large,
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/wood/tile,
 /area/icemoon/underground/explored)
 "ksk" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
@@ -8911,10 +9018,10 @@
 "ktE" = (
 /obj/structure/closet/secure_closet/freezer/meat,
 /obj/machinery/light/cold/directional/east,
+/obj/effect/turf_decal/siding/wood,
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
 	},
-/obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
 /area/mine/xenoarch/living{
 	name = "Tchiko's Castle Lounge"
@@ -9083,9 +9190,9 @@
 /turf/closed/wall/mineral/titanium/spaceship/nodiagonal,
 /area/station/science/lab)
 "kEi" = (
-/obj/effect/turf_decal/siding/wood,
+/obj/structure/fermenting_barrel,
 /turf/open/floor/wood,
-/area/station/commons/fitness/recreation/entertainment)
+/area/station/commons/lounge)
 "kEB" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/misc/dirt/planet,
@@ -9258,10 +9365,10 @@
 /area/station/commons/dorms)
 "kPI" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/turf_decal/siding/wood,
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
+/obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
 /area/station/service/kitchen/diner)
 "kPM" = (
@@ -9421,7 +9528,6 @@
 	name = "Tchiko's Lake Side"
 	})
 "laq" = (
-/obj/effect/turf_decal/siding/wood,
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
@@ -9430,7 +9536,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/wood/large/birch,
+/turf/open/space/basic,
 /area/ruin/space/ks13/security{
 	name = "Left Sec-Camp Office"
 	})
@@ -9457,17 +9563,9 @@
 	},
 /area/station/hallway/primary/central)
 "lbV" = (
-/obj/structure/window/reinforced/tinted{
-	dir = 4
-	},
-/obj/machinery/door/window/tram/left/directional/north{
-	desc = "Sturdy glass sliding door meant to keep the largest of creatures behind them......maybe."
-	},
-/obj/structure/flora/bush/fullgrass,
-/obj/structure/flora/bush/grassy/style_2,
-/obj/structure/flora/bush/flowers_pp,
-/turf/open/misc/grass/jungle,
-/area/icemoon/underground/explored)
+/obj/structure/decorative/shelf/soda_milk,
+/turf/open/floor/wood,
+/area/station/commons/lounge)
 "lcj" = (
 /turf/closed/wall/mineral/stone,
 /area/station/hallway/primary/aft)
@@ -9789,7 +9887,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
-/turf/open/floor/wood/large/birch,
+/turf/open/floor/wood/birch,
 /area/station/security/checkpoint{
 	name = "Right Sec-Camp Office"
 	})
@@ -9856,6 +9954,15 @@
 "lzv" = (
 /turf/closed/indestructible/rock/snow,
 /area/icemoon/surface/outdoors/nospawn)
+"lzA" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/machinery/light/cold/directional/east,
+/turf/open/floor/wood/birch,
+/area/station/security{
+	name = "Sec-Camp Lobby"
+	})
 "lBi" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -10323,7 +10430,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
-/turf/open/floor/wood/large/birch,
+/turf/open/floor/wood/birch,
 /area/ruin/space/ks13/security{
 	name = "Left Sec-Camp Office"
 	})
@@ -10495,10 +10602,10 @@
 /turf/open/floor/wood/tile,
 /area/station/service/salon)
 "mpV" = (
-/obj/effect/turf_decal/siding/wood{
+/obj/structure/window{
 	dir = 4
 	},
-/obj/structure/window{
+/obj/effect/turf_decal/siding/wood{
 	dir = 4
 	},
 /turf/open/floor/wood,
@@ -10693,10 +10800,10 @@
 /turf/open/floor/iron/showroomfloor,
 /area/station/service/salon)
 "mze" = (
+/obj/effect/turf_decal/siding/wood,
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
 	},
-/obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
 /area/station/common/pool{
 	name = "Tchiko's Lake Side"
@@ -10894,10 +11001,10 @@
 	dir = 8
 	},
 /obj/machinery/light/directional/east,
-/obj/effect/turf_decal/siding/wood,
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
+/obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
 /area/station/service/kitchen/diner)
 "mHz" = (
@@ -10991,10 +11098,10 @@
 /turf/open/floor/wood,
 /area/station/commons/dorms)
 "mMi" = (
-/obj/effect/turf_decal/siding/wood,
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
+/obj/effect/turf_decal/siding/wood,
 /turf/open/floor/carpet/royalblack,
 /area/mine/xenoarch/living{
 	name = "Tchiko's Castle Lounge"
@@ -11057,7 +11164,9 @@
 	name = "Tchiko's Castle Lounge"
 	})
 "mRC" = (
-/obj/machinery/light/directional/south,
+/obj/machinery/light/directional/south{
+	bound_height = 16
+	},
 /turf/open/floor/wood,
 /area/station/commons/dorms{
 	name = "Dorm."
@@ -11075,6 +11184,16 @@
 /turf/open/floor/pod/dark,
 /area/station/medical/chemistry{
 	name = "The Meth Room"
+	})
+"mSp" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/multiz/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/multiz/scrubbers/visible/layer2,
+/turf/closed/wall/mineral/stone,
+/area/mine/xenoarch/science/cytology{
+	name = "Tchiko's Castle Gardens"
 	})
 "mSI" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
@@ -11214,7 +11333,7 @@
 	dir = 8
 	},
 /obj/structure/cable,
-/turf/open/floor/wood/large/birch,
+/turf/open/floor/wood/birch,
 /area/station/security/checkpoint{
 	name = "Right Sec-Camp Office"
 	})
@@ -11309,6 +11428,11 @@
 /obj/structure/flora/bush/snow/style_random,
 /turf/open/misc/asteroid/snow/icemoon,
 /area/icemoon/surface/outdoors/nospawn)
+"nfV" = (
+/obj/item/reagent_containers/spray/cyborg_lube,
+/obj/structure/table_frame/abductor,
+/turf/open/floor/vault,
+/area/station/commons/lounge)
 "nhn" = (
 /obj/effect/turf_decal/tile/blue/full,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -11392,6 +11516,13 @@
 	},
 /turf/open/floor/glass/reinforced/plasma,
 /area/station/hallway/primary/starboard)
+"nmz" = (
+/obj/structure/window/reinforced/tinted{
+	dir = 1
+	},
+/obj/machinery/light_switch/directional/east,
+/turf/open/floor/vault,
+/area/station/commons/lounge)
 "nnm" = (
 /turf/closed/wall/mineral/titanium/spaceship/nodiagonal,
 /area/station/science/robotics)
@@ -11409,11 +11540,11 @@
 	},
 /area/icemoon/surface/outdoors/nospawn)
 "nod" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 4
-	},
 /obj/structure/chair/sofa/bench{
 	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
 	},
 /turf/open/floor/wood/birch,
 /area/station/security{
@@ -11509,11 +11640,11 @@
 	has_gravity = 1
 	})
 "nyO" = (
-/obj/effect/turf_decal/siding/wood{
+/obj/structure/window{
 	dir = 4
 	},
 /obj/effect/turf_decal/siding/wood,
-/obj/structure/window{
+/obj/effect/turf_decal/siding/wood{
 	dir = 4
 	},
 /turf/open/floor/wood,
@@ -11664,7 +11795,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
-/turf/open/floor/wood/large/birch,
+/turf/open/floor/wood/birch,
 /area/ruin/space/ks13/security{
 	name = "Left Sec-Camp Office"
 	})
@@ -11855,10 +11986,10 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
-/obj/effect/turf_decal/siding/wood,
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
+/obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
 /area/station/service/kitchen/diner)
 "nQY" = (
@@ -11921,8 +12052,8 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
-/obj/effect/turf_decal/siding/wood,
 /obj/structure/window,
+/obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
 /area/station/service/hydroponics/garden{
 	name = "Public Garden"
@@ -12185,12 +12316,12 @@
 	name = "Nisime's Bed"
 	},
 /obj/item/bedsheet/rd/double,
-/obj/effect/turf_decal/siding/wood{
-	dir = 4
-	},
-/obj/effect/turf_decal/siding/wood,
 /obj/machinery/button/door/directional/south{
 	id = NisiRoom
+	},
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
 	},
 /turf/open/floor/wood,
 /area/mine/xenoarch/engineering{
@@ -12283,6 +12414,12 @@
 /area/station/service/kitchen{
 	has_gravity = 1
 	})
+"omo" = (
+/obj/structure/window/reinforced/tinted{
+	dir = 4
+	},
+/turf/open/floor/vault,
+/area/station/commons/lounge)
 "omH" = (
 /turf/closed/wall/mineral/titanium/spaceship/nodiagonal,
 /area/station/science/breakroom)
@@ -12316,6 +12453,16 @@
 	dir = 8
 	},
 /area/station/service/chapel)
+"ooX" = (
+/obj/structure/flora/bush/fullgrass,
+/obj/structure/flora/bush/fullgrass/style_3,
+/obj/structure/flora/bush/grassy/style_2,
+/obj/structure/window/reinforced/spawner/north{
+	name = "containment cell"
+	},
+/obj/structure/flora/bush/flowers_pp/style_2,
+/turf/open/misc/grass/jungle,
+/area/station/commons/lounge)
 "opi" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
 	dir = 8
@@ -12329,6 +12476,13 @@
 /obj/machinery/light/dim/directional/south,
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/rd)
+"opV" = (
+/obj/structure/chair/shibari_stand,
+/obj/item/storage/box/shibari_stand,
+/obj/item/stack/shibari_rope/full,
+/obj/machinery/light/small/blacklight/directional/north,
+/turf/open/floor/vault,
+/area/station/commons/lounge)
 "oqm" = (
 /obj/structure/cable,
 /turf/open/misc/grass/planet,
@@ -12337,7 +12491,9 @@
 	})
 "oqA" = (
 /obj/structure/cable,
-/obj/machinery/light/directional/south,
+/obj/machinery/light/directional/south{
+	bound_height = 16
+	},
 /turf/open/floor/wood,
 /area/station/commons/dorms/barracks)
 "oqE" = (
@@ -12371,8 +12527,15 @@
 "orV" = (
 /obj/structure/cable,
 /obj/structure/cable,
+/obj/machinery/light/cold/directional/north,
 /turf/open/floor/iron/dark,
 /area/station/service/chapel)
+"otC" = (
+/obj/structure/cable/multilayer/connected,
+/obj/structure/cable/multilayer/multiz,
+/obj/structure/cable,
+/turf/open/floor/vault,
+/area/icemoon/underground/explored)
 "oue" = (
 /obj/machinery/power/apc/auto_name/directional/north{
 	arc_shielded = 1
@@ -12409,10 +12572,10 @@
 	},
 /area/station/hallway/primary/fore)
 "ovx" = (
-/obj/effect/turf_decal/siding/wood,
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
+/obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
 /area/mine/xenoarch/living{
 	name = "Tchiko's Castle Lounge"
@@ -12444,7 +12607,9 @@
 /area/station/service/library/lounge)
 "oxM" = (
 /obj/structure/cable,
-/obj/machinery/light/directional/south,
+/obj/machinery/light/directional/south{
+	bound_height = 16
+	},
 /turf/open/floor/wood,
 /area/station/commons/dorms{
 	name = "Dorm."
@@ -12593,7 +12758,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
-/turf/open/floor/wood/large/birch,
+/turf/open/floor/wood/birch,
 /area/station/security/checkpoint{
 	name = "Right Sec-Camp Office"
 	})
@@ -12836,9 +13001,6 @@
 "oXb" = (
 /obj/structure/closet,
 /obj/effect/turf_decal/siding/wood{
-	dir = 4
-	},
-/obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
 /turf/open/floor/wood/tile,
@@ -13019,10 +13181,10 @@
 "pjC" = (
 /obj/structure/chair/sofa/corp/left,
 /obj/effect/turf_decal/siding/wood{
-	dir = 4
+	dir = 1
 	},
 /obj/effect/turf_decal/siding/wood{
-	dir = 1
+	dir = 4
 	},
 /turf/open/floor/carpet/royalblack,
 /area/mine/xenoarch/living{
@@ -13034,6 +13196,10 @@
 /area/station/medical/coldroom{
 	name = "Hakitachiya's Kitchenette"
 	})
+"pjX" = (
+/obj/structure/falsewall/stone,
+/turf/open/floor/vault,
+/area/station/commons/lounge)
 "pkc" = (
 /obj/structure/ladder,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -13352,13 +13518,9 @@
 	name = "Public Garden"
 	})
 "pDl" = (
-/obj/structure/table/wood,
-/obj/effect/turf_decal/siding/wood{
-	dir = 8
-	},
 /obj/effect/turf_decal/siding/wood,
-/turf/open/floor/wood/tile,
-/area/icemoon/underground/explored)
+/turf/open/floor/wood,
+/area/station/commons/fitness/recreation/entertainment)
 "pDu" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -13442,10 +13604,10 @@
 /area/station/command/heads_quarters/ce)
 "pIN" = (
 /obj/effect/turf_decal/siding/wood{
-	dir = 4
+	dir = 1
 	},
 /obj/effect/turf_decal/siding/wood{
-	dir = 1
+	dir = 4
 	},
 /turf/open/floor/wood/birch,
 /area/icemoon/underground/explored)
@@ -13506,10 +13668,10 @@
 /obj/item/canvas/twentythree_twentythree,
 /obj/item/canvas/twentythree_twentythree,
 /obj/item/canvas/twentythree_twentythree,
-/obj/effect/turf_decal/siding/wood,
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
 	},
+/obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
 /area/station/commons/storage/art)
 "pOM" = (
@@ -14068,15 +14230,18 @@
 /obj/structure/table/wood/fancy/royalblue,
 /turf/open/floor/wood,
 /area/station/command)
+"qwn" = (
+/turf/open/floor/wood/tile,
+/area/icemoon/underground/explored)
 "qwo" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
 	},
 /obj/machinery/light/directional/east,
-/obj/effect/turf_decal/siding/wood,
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
+/obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
 /area/station/service/kitchen/diner)
 "qxd" = (
@@ -14150,7 +14315,7 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/siding/wood,
-/turf/open/floor/wood/large/birch,
+/turf/open/floor/wood/birch,
 /area/station/security/checkpoint{
 	name = "Right Sec-Camp Office"
 	})
@@ -14381,12 +14546,9 @@
 /turf/open/floor/wood,
 /area/station/commons/fitness/recreation/entertainment)
 "qTy" = (
-/obj/structure/decorative/shelf/soda{
-	name = "";
-	desc = "A sturdy wooden shelf with a bunch of sexual enhancer's on it, as well as some empty ones. Whats inside of this bottle? It's....white?"
-	},
-/turf/closed/wall/mineral/stone,
-/area/icemoon/underground/explored)
+/obj/structure/decorative/shelf/crates1,
+/turf/open/floor/wood,
+/area/station/commons/lounge)
 "qTF" = (
 /obj/effect/turf_decal/trimline/purple/filled/corner{
 	dir = 1
@@ -14416,10 +14578,10 @@
 /area/station/hallway/primary/aft)
 "qVe" = (
 /obj/structure/bed/double/pod,
+/obj/item/bedsheet/red/double,
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
 	},
-/obj/item/bedsheet/red/double,
 /turf/open/floor/wood/tile,
 /area/icemoon/underground/explored)
 "qVr" = (
@@ -14655,7 +14817,9 @@
 	name = "The Meth Room"
 	})
 "rkh" = (
-/obj/machinery/light/directional/south,
+/obj/machinery/light/directional/south{
+	bound_height = 16
+	},
 /turf/open/floor/wood,
 /area/station/commons/dorms/barracks)
 "rlW" = (
@@ -14673,7 +14837,6 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
 	},
-/obj/effect/turf_decal/siding/wood,
 /turf/open/floor/carpet/royalblack,
 /area/mine/xenoarch/living{
 	name = "Tchiko's Castle Lounge"
@@ -14703,6 +14866,12 @@
 /obj/structure/cable,
 /turf/open/floor/vault/rock,
 /area/station/engineering/hallway)
+"rok" = (
+/obj/effect/turf_decal/trimline/purple/line{
+	dir = 4
+	},
+/turf/closed/wall/mineral/stone,
+/area/icemoon/underground/explored)
 "roK" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -14715,6 +14884,16 @@
 /turf/closed/wall/mineral/stone,
 /area/station/medical/exam_room{
 	name = "Hakitachiya's Methshack Lounge"
+	})
+"roY" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable/multilayer/connected,
+/obj/structure/cable/multilayer/multiz,
+/turf/closed/wall/mineral/stone,
+/area/mine/xenoarch/science/cytology{
+	name = "Tchiko's Castle Gardens"
 	})
 "rqc" = (
 /obj/effect/spawner/random/structure/crate_loot,
@@ -14737,10 +14916,10 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
-/obj/effect/turf_decal/siding/wood,
 /obj/structure/window{
 	dir = 8
 	},
+/obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
 /area/station/service/hydroponics/garden{
 	name = "Public Garden"
@@ -15173,11 +15352,11 @@
 	name = "Tchiko's Castle Quarters"
 	})
 "rVo" = (
-/obj/effect/turf_decal/siding/wood,
-/turf/open/floor/wood/large/birch,
-/area/station/security/checkpoint{
-	name = "Right Sec-Camp Office"
-	})
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/closed/wall/mineral/stone,
+/area/station/commons/lounge)
 "rVy" = (
 /obj/effect/turf_decal/tile/purple/full,
 /obj/effect/mapping_helpers/airlock/access/any/science/rd,
@@ -15340,7 +15519,6 @@
 /turf/open/floor/wood,
 /area/station/commons/dorms/barracks)
 "sgG" = (
-/obj/effect/turf_decal/siding/wood,
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
@@ -15427,8 +15605,8 @@
 	name = "Tchiko's Castle Jani Closet"
 	})
 "smP" = (
-/obj/effect/turf_decal/siding/wood,
 /obj/structure/cable,
+/obj/effect/turf_decal/siding/wood,
 /turf/open/floor/carpet/red,
 /area/icemoon/underground/explored)
 "smS" = (
@@ -15485,7 +15663,6 @@
 /turf/open/floor/wood/tile,
 /area/station/medical/break_room)
 "sqc" = (
-/obj/effect/turf_decal/siding/wood,
 /obj/structure/closet/secure_closet/freezer/meat,
 /turf/open/floor/iron/checker{
 	initial_gas_mix = "n2=82;TEMP=293.15"
@@ -15529,14 +15706,14 @@
 	name = "Tchiko's Lake Side"
 	})
 "sta" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 4
-	},
-/obj/effect/turf_decal/siding/wood,
 /obj/structure/chair/sofa/bench/left{
 	dir = 8
 	},
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood/birch,
 /area/station/security{
 	name = "Sec-Camp Lobby"
@@ -15560,7 +15737,7 @@
 	arc_shielded = 1
 	},
 /obj/structure/cable,
-/turf/open/floor/wood/large/birch,
+/turf/open/floor/wood/birch,
 /area/ruin/space/ks13/security{
 	name = "Left Sec-Camp Office"
 	})
@@ -15624,6 +15801,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
+/obj/machinery/light/cold/directional/north,
 /turf/open/floor/wood,
 /area/station/commons/storage/art)
 "syU" = (
@@ -15675,7 +15853,9 @@
 /area/station/hallway/primary/central)
 "sDi" = (
 /obj/effect/turf_decal/trimline/blue/filled/line,
-/obj/machinery/light/directional/south,
+/obj/machinery/light/directional/south{
+	bound_height = 16
+	},
 /turf/open/floor/iron/white,
 /area/station/medical/pharmacy{
 	name = "Botanical Chem Facility"
@@ -15772,7 +15952,9 @@
 /area/station/engineering/gravity_generator)
 "sFo" = (
 /obj/structure/table/wood,
-/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
 /turf/open/floor/wood/tile,
 /area/icemoon/underground/explored)
 "sFz" = (
@@ -15960,6 +16142,7 @@
 /obj/effect/turf_decal/trimline/dark_red/line{
 	dir = 8
 	},
+/obj/machinery/light/directional/west,
 /turf/open/floor/vault,
 /area/icemoon/underground/explored)
 "sUi" = (
@@ -16207,6 +16390,7 @@
 /area/station/common/pool)
 "tiR" = (
 /obj/machinery/computer/scan_consolenew,
+/obj/machinery/light/cold/directional/north,
 /turf/open/floor/vault,
 /area/icemoon/underground/explored)
 "tjB" = (
@@ -16493,12 +16677,21 @@
 /obj/structure/decorative/shelf/crates,
 /turf/open/floor/wood,
 /area/station/service/library/lounge)
+"tyz" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/wood,
+/area/station/commons/lounge)
 "tyK" = (
 /obj/structure/cable,
 /turf/closed/wall/mineral/titanium/spaceship/nodiagonal,
 /area/ruin/space/ks13/science/ordnance_hall{
 	name = "Acid Containment Room"
 	})
+"tzf" = (
+/turf/open/floor/vault,
+/area/station/commons/lounge)
 "tzK" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/carpet/red,
@@ -16742,13 +16935,13 @@
 /area/icemoon/underground/explored)
 "tLE" = (
 /obj/effect/turf_decal/siding/wood{
-	dir = 4
-	},
-/obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
 /obj/structure/chair/sofa/bench/right{
 	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
 	},
 /turf/open/floor/wood/birch,
 /area/station/security{
@@ -16788,6 +16981,14 @@
 /turf/open/misc/grass,
 /area/station/common/pool{
 	name = "Tchiko's Lake Side"
+	})
+"tOy" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/wood/birch,
+/area/ruin/space/ks13/security{
+	name = "Left Sec-Camp Office"
 	})
 "tOJ" = (
 /obj/machinery/door/airlock/external,
@@ -16894,6 +17095,41 @@
 /area/station/service/hydroponics/garden{
 	name = "Public Garden"
 	})
+"tUk" = (
+/obj/structure/closet/secure_closet/freezer/fridge,
+/obj/item/food/grown/kiri,
+/obj/item/food/grown/kiri,
+/obj/item/food/grown/kiri,
+/obj/item/food/grown/kiri,
+/obj/item/food/grown/kiri,
+/obj/item/food/grown/kiri,
+/obj/item/food/grown/kiri,
+/obj/item/food/grown/kiri,
+/obj/item/food/grown/kiri,
+/obj/item/food/grown/kiri,
+/obj/item/food/grown/kiri,
+/obj/item/food/grown/kiri,
+/obj/item/food/grown/kiri,
+/obj/item/food/grown/kiri,
+/obj/item/food/grown/kiri,
+/obj/item/food/grown/kiri,
+/obj/item/food/grown/kiri,
+/obj/item/food/grown/kiri,
+/obj/item/food/grown/kiri,
+/obj/item/food/grown/kiri,
+/obj/item/food/grown/kiri,
+/obj/item/food/grown/kiri,
+/obj/item/food/grown/kiri,
+/obj/item/food/grown/kiri,
+/obj/item/food/grown/kiri,
+/obj/item/food/grown/kiri,
+/obj/item/food/grown/kiri,
+/obj/item/food/grown/kiri,
+/obj/item/food/grown/kiri,
+/obj/item/food/grown/kiri,
+/obj/item/food/grown/kiri,
+/turf/open/floor/wood,
+/area/station/commons/lounge)
 "tUm" = (
 /obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 8
@@ -17144,8 +17380,8 @@
 	has_gravity = 1
 	})
 "uiL" = (
-/obj/effect/turf_decal/siding/wood,
 /obj/structure/window,
+/obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
 /area/station/common/pool{
 	name = "Tchiko's Lake Side"
@@ -17294,11 +17530,11 @@
 	},
 /area/station/hallway/primary/aft)
 "upH" = (
+/obj/structure/window,
+/obj/effect/turf_decal/siding/wood,
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
 	},
-/obj/effect/turf_decal/siding/wood,
-/obj/structure/window,
 /turf/open/floor/wood,
 /area/station/service/hydroponics/garden{
 	name = "Public Garden"
@@ -17392,8 +17628,8 @@
 	name = "Medical Hallway"
 	})
 "uvM" = (
-/obj/effect/turf_decal/siding/wood,
 /obj/structure/window,
+/obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
 /area/station/service/hydroponics/garden{
 	name = "Public Garden"
@@ -17431,11 +17667,8 @@
 	},
 /area/station/science/robotics/lab)
 "uxB" = (
-/obj/structure/window/reinforced/tinted{
-	dir = 4
-	},
-/turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/turf/open/floor/wood,
+/area/station/commons/lounge)
 "uxL" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -17544,11 +17777,9 @@
 /turf/open/floor/grass,
 /area/station/science/research)
 "uDg" = (
-/obj/effect/turf_decal/siding/wood,
+/obj/structure/decorative/shelf/crates,
 /turf/open/floor/wood,
-/area/mine/xenoarch/living{
-	name = "Tchiko's Castle Lounge"
-	})
+/area/station/commons/lounge)
 "uDR" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -17561,7 +17792,6 @@
 /area/station/service/kitchen/diner)
 "uFk" = (
 /obj/structure/table/wood,
-/obj/effect/turf_decal/siding/wood,
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
@@ -17791,7 +18021,7 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/siding/wood,
-/turf/open/floor/wood/large/birch,
+/turf/open/floor/wood/birch,
 /area/ruin/space/ks13/security{
 	name = "Left Sec-Camp Office"
 	})
@@ -17842,11 +18072,11 @@
 	has_gravity = 1
 	})
 "uXN" = (
-/obj/effect/turf_decal/siding/wood,
 /obj/machinery/power/apc/auto_name/directional/south{
 	arc_shielded = 1
 	},
 /obj/structure/cable,
+/obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood/birch,
 /area/icemoon/underground/explored)
 "uYw" = (
@@ -17879,11 +18109,11 @@
 	has_gravity = 1
 	})
 "uZs" = (
-/obj/effect/turf_decal/siding/wood,
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
-/turf/open/floor/wood/large/birch,
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/wood/birch,
 /area/station/security/checkpoint{
 	name = "Right Sec-Camp Office"
 	})
@@ -18048,11 +18278,10 @@
 /area/icemoon/surface/outdoors/labor_camp)
 "vgR" = (
 /obj/effect/turf_decal/siding/wood,
-/turf/open/floor/iron/checker{
-	initial_gas_mix = "n2=82;TEMP=293.15"
-	},
-/area/station/medical/coldroom{
-	name = "Hakitachiya's Kitchenette"
+/obj/machinery/light/cold/directional/south,
+/turf/open/floor/wood/birch,
+/area/station/security{
+	name = "Sec-Camp Lobby"
 	})
 "vhq" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
@@ -18074,10 +18303,10 @@
 /obj/structure/decorative/shelf/crates1,
 /obj/structure/cable,
 /obj/effect/turf_decal/siding/wood{
-	dir = 4
+	dir = 1
 	},
 /obj/effect/turf_decal/siding/wood{
-	dir = 1
+	dir = 4
 	},
 /turf/open/floor/wood,
 /area/station/commons/storage/art)
@@ -18216,12 +18445,12 @@
 /area/station/hallway/primary/fore)
 "vpn" = (
 /obj/effect/turf_decal/siding/wood{
-	dir = 4
-	},
-/obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
-/turf/open/floor/wood/large/birch,
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/wood/birch,
 /area/station/security/checkpoint{
 	name = "Right Sec-Camp Office"
 	})
@@ -18285,6 +18514,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
 	},
+/obj/machinery/light/cold/directional/east,
 /turf/open/floor/wood,
 /area/station/commons/fitness/recreation/entertainment)
 "vtL" = (
@@ -18361,8 +18591,13 @@
 	name = "The Meth Room"
 	})
 "vAf" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
 /turf/open/floor/wood/birch,
-/area/icemoon/underground/explored)
+/area/station/security{
+	name = "Sec-Camp Lobby"
+	})
 "vAy" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
 	dir = 5
@@ -18383,10 +18618,10 @@
 	name = "Tchiko's Castle Quarters"
 	})
 "vBz" = (
-/obj/effect/turf_decal/siding/wood,
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
+/obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
 /area/station/commons/fitness/recreation/entertainment)
 "vBJ" = (
@@ -18440,6 +18675,7 @@
 /obj/effect/turf_decal/trimline/purple/line{
 	dir = 4
 	},
+/obj/machinery/light/directional/east,
 /turf/open/floor/vault,
 /area/icemoon/underground/explored)
 "vFg" = (
@@ -18471,9 +18707,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/light_switch/directional/north,
-/obj/effect/turf_decal/siding/wood{
-	dir = 4
-	},
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
@@ -18715,7 +18948,9 @@
 /obj/machinery/chem_dispenser/drinks/beer{
 	dir = 1
 	},
-/obj/machinery/light/directional/south,
+/obj/machinery/light/directional/south{
+	bound_height = 16
+	},
 /turf/open/floor/wood/tile,
 /area/station/service/bar)
 "vYy" = (
@@ -18980,9 +19215,6 @@
 "wkW" = (
 /obj/machinery/light/cold/directional/north,
 /obj/effect/turf_decal/siding/wood{
-	dir = 4
-	},
-/obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
 /obj/structure/table/wood/fancy/red,
@@ -19082,7 +19314,9 @@
 	has_gravity = 1
 	})
 "wpM" = (
-/obj/machinery/light/directional/south,
+/obj/machinery/light/directional/south{
+	bound_height = 16
+	},
 /obj/effect/turf_decal/siding/wideplating_new/dark,
 /turf/open/floor/stone/icemoon{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
@@ -19129,7 +19363,7 @@
 	arc_shielded = 1
 	},
 /obj/structure/cable,
-/turf/open/floor/wood/large/birch,
+/turf/open/floor/wood/birch,
 /area/station/security/checkpoint{
 	name = "Right Sec-Camp Office"
 	})
@@ -19280,12 +19514,7 @@
 	name = "Public Garden"
 	})
 "wxk" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 1
-	},
-/obj/effect/turf_decal/siding/wood{
-	dir = 4
-	},
+/obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood/birch,
 /area/icemoon/underground/explored)
 "wxn" = (
@@ -19324,7 +19553,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
-/turf/open/floor/wood/large/birch,
+/turf/open/floor/wood/birch,
 /area/station/security/checkpoint{
 	name = "Right Sec-Camp Office"
 	})
@@ -19634,11 +19863,11 @@
 /turf/open/floor/glass/reinforced/plasma,
 /area/station/hallway/primary/starboard)
 "wWQ" = (
-/obj/effect/turf_decal/siding/wood,
+/obj/item/kirbyplants/random,
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
 	},
-/obj/item/kirbyplants/random,
+/obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood/birch,
 /area/station/security{
 	name = "Sec-Camp Lobby"
@@ -19676,6 +19905,15 @@
 	},
 /area/station/service/hydroponics/garden{
 	name = "Public Garden"
+	})
+"xaw" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/machinery/light/cold/directional/east,
+/turf/open/floor/wood/birch,
+/area/station/security/checkpoint{
+	name = "Right Sec-Camp Office"
 	})
 "xbf" = (
 /obj/effect/spawner/random/structure/chair_comfy,
@@ -19753,7 +19991,8 @@
 	righthand_file = 'icons/mob/inhands/items/food_righthand.dmi';
 	color = "#91593b";
 	transform = matrix()*1.5;
-	desc = "A large, leathery egg.  You feel like its occupant is peeping at you, faintly."
+	desc = "A large, leathery egg.  You feel like its occupant is peeping at you, faintly.";
+	can_buckle = 1
 	},
 /turf/open/floor/eighties,
 /area/mine/xenoarch/engineering{
@@ -19931,7 +20170,9 @@
 	name = "Hakitachiya's Bedroom and Bathroom"
 	})
 "xmA" = (
-/obj/machinery/light/directional/south,
+/obj/machinery/light/directional/south{
+	bound_height = 16
+	},
 /turf/open/floor/stone/icemoon{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
@@ -20045,7 +20286,6 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
-/obj/effect/turf_decal/siding/wood,
 /obj/machinery/door/airlock/wood/glass,
 /obj/effect/mapping_helpers/airlock/access/all/security,
 /turf/open/floor/wood/large,
@@ -20097,10 +20337,10 @@
 /turf/open/floor/vault/rock,
 /area/station/engineering/lobby)
 "xyE" = (
-/obj/item/bdsm_bed_kit,
-/obj/item/clothing/mask/gas/bdsm_mask,
-/turf/open/floor/vault,
-/area/icemoon/underground/explored)
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/wood,
+/area/station/commons/lounge)
 "xyV" = (
 /obj/machinery/power/shuttle_engine/heater{
 	dir = 8
@@ -20131,11 +20371,11 @@
 	has_gravity = 1
 	})
 "xDe" = (
+/obj/structure/window,
+/obj/effect/turf_decal/siding/wood,
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
 	},
-/obj/effect/turf_decal/siding/wood,
-/obj/structure/window,
 /turf/open/floor/wood,
 /area/station/common/pool{
 	name = "Tchiko's Lake Side"
@@ -20252,6 +20492,13 @@
 /area/ruin/space/ks13/security{
 	name = "Left Sec-Camp Office"
 	})
+"xHO" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/wood,
+/area/station/commons/lounge)
 "xIj" = (
 /obj/structure/toilet{
 	dir = 8
@@ -20273,13 +20520,12 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
-/obj/effect/turf_decal/siding/wood,
 /obj/structure/mineral_door/wood,
 /obj/effect/mapping_helpers/airlock/access/all/security,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/wood/large/birch,
+/turf/open/space/basic,
 /area/station/security/checkpoint{
 	name = "Right Sec-Camp Office"
 	})
@@ -20445,11 +20691,11 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
-/obj/effect/turf_decal/siding/wood{
-	dir = 4
-	},
 /obj/structure/window{
 	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
 	},
 /turf/open/floor/wood,
 /area/station/service/hydroponics/garden{
@@ -20507,6 +20753,18 @@
 "xVR" = (
 /turf/closed/wall,
 /area/station/hallway/primary/aft)
+"xVV" = (
+/obj/structure/bed/abductor{
+	pixel_y = 9;
+	name = "incubation contraption";
+	desc = "This device is meant to incubate egg's.";
+	bolts = 0
+	},
+/obj/structure/window/reinforced/survival_pod,
+/turf/open/floor/eighties,
+/area/mine/xenoarch/engineering{
+	name = "Tchiko's Castle Quarters"
+	})
 "xWo" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -20520,7 +20778,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
 	},
-/turf/open/floor/wood/large/birch,
+/turf/open/floor/wood/birch,
 /area/ruin/space/ks13/security{
 	name = "Left Sec-Camp Office"
 	})
@@ -20717,11 +20975,11 @@
 	},
 /area/station/hallway/primary/port)
 "yke" = (
-/obj/effect/turf_decal/siding/wood{
+/obj/structure/window{
 	dir = 4
 	},
 /obj/effect/turf_decal/siding/wood,
-/obj/structure/window{
+/obj/effect/turf_decal/siding/wood{
 	dir = 4
 	},
 /turf/open/floor/wood,
@@ -31658,12 +31916,12 @@ tAg
 tAg
 tAg
 tAg
-tAg
-tAg
-tAg
-tAg
-tAg
-tAg
+fkZ
+fkZ
+fkZ
+fkZ
+fkZ
+fkZ
 tAg
 tAg
 tAg
@@ -31914,13 +32172,13 @@ tAg
 tAg
 tAg
 tAg
-tAg
-tAg
-tAg
-tAg
-tAg
-tAg
-tAg
+fkZ
+jec
+nfV
+jRI
+fTC
+ooX
+fkZ
 tAg
 tAg
 tAg
@@ -32171,13 +32429,13 @@ tAg
 tAg
 tAg
 tAg
-tAg
-tAg
-tAg
-tAg
-tAg
-tAg
-tAg
+fkZ
+opV
+omo
+tzf
+tzf
+abd
+fkZ
 tAg
 tAg
 tAg
@@ -32428,13 +32686,13 @@ tAg
 tAg
 tAg
 tAg
-tAg
-tAg
-tAg
-tAg
-tAg
-tAg
-tAg
+fkZ
+fkZ
+ayZ
+aOT
+nmz
+tzf
+fkZ
 tAg
 tAg
 tAg
@@ -32685,13 +32943,13 @@ tAg
 tAg
 tAg
 tAg
-tAg
-tAg
-tAg
-tAg
-tAg
-tAg
-tAg
+fkZ
+fkZ
+fkZ
+fkZ
+fkZ
+pjX
+fkZ
 tAg
 tAg
 tAg
@@ -32942,15 +33200,15 @@ tAg
 tAg
 tAg
 tAg
-tAg
+fkZ
+uDg
+kEi
+kEi
+fpl
+tUk
+fkZ
 cgT
 cgT
-cgT
-cgT
-cgT
-cgT
-tAg
-tAg
 tAg
 tAg
 tAg
@@ -33199,16 +33457,16 @@ tAg
 tAg
 tAg
 tAg
-cgT
+fkZ
 qTy
 chb
 xyE
-jfa
+xHO
 khx
+fkZ
+jfa
+otC
 cgT
-tAg
-tAg
-tAg
 tAg
 tAg
 tAg
@@ -33456,16 +33714,16 @@ tAg
 tAg
 tAg
 tAg
-cgT
+fkZ
 iWs
 uxB
-jfa
-jfa
+tyz
+hSW
 lbV
+fkZ
+jfa
+cmx
 cgT
-tAg
-tAg
-tAg
 tAg
 tAg
 tAg
@@ -33713,16 +33971,16 @@ tAg
 tAg
 tAg
 tAg
-cgT
-cgT
+fkZ
+iWs
 duQ
 iFj
 ebM
 gVw
+rVo
+xUc
+xUc
 cgT
-tAg
-tAg
-tAg
 tAg
 tAg
 tAg
@@ -33970,15 +34228,15 @@ tAg
 tAg
 tAg
 tAg
-tAg
+fkZ
+fkZ
+fkZ
+fkZ
+fkZ
+fkZ
+fkZ
 cgT
 cgT
-cgT
-cgT
-cgT
-cgT
-tAg
-tAg
 tAg
 tAg
 tAg
@@ -34229,11 +34487,11 @@ tAg
 tAg
 tAg
 tAg
-cgT
-cgT
-cgT
-cgT
-cgT
+tAg
+tAg
+tAg
+tAg
+tAg
 tAg
 tAg
 tAg
@@ -35773,7 +36031,7 @@ jfa
 wEI
 jOt
 vDO
-jOt
+rok
 uQz
 cgT
 jfa
@@ -36026,7 +36284,7 @@ tiR
 eer
 xYA
 jfa
-jfa
+aIs
 cgT
 cgT
 cgT
@@ -55808,27 +56066,27 @@ tAg
 jFk
 hXQ
 dcp
-pDl
+uFk
 jFk
 hXQ
 dcp
-pDl
+uFk
 jFk
 hXQ
 dcp
-pDl
+uFk
 jFk
 hXQ
 dcp
-pDl
+uFk
 jFk
 hXQ
 dcp
-pDl
+uFk
 jFk
 hXQ
 dcp
-pDl
+uFk
 jFk
 tAg
 tAg
@@ -56065,27 +56323,27 @@ tAg
 jFk
 oBg
 gCU
-sFo
+bYC
 jFk
 oBg
 gCU
-sFo
+bYC
 jFk
 oBg
 gCU
-sFo
+bYC
 jFk
 oBg
 gCU
-sFo
+bYC
 jFk
 oBg
 gCU
-sFo
+bYC
 jFk
 oBg
 gCU
-sFo
+bYC
 jFk
 tAg
 tAg
@@ -56320,28 +56578,28 @@ tAg
 tAg
 tAg
 jFk
-oXb
+krN
 nOh
-bYC
+sFo
+jFk
+krN
+nOh
+sFo
+jFk
+krN
+nOh
+sFo
+jFk
+krN
+nOh
+sFo
+jFk
+krN
+nOh
+sFo
 jFk
 oXb
-nOh
-bYC
-jFk
-oXb
-nOh
-bYC
-jFk
-oXb
-nOh
-bYC
-jFk
-oXb
-nOh
-bYC
-jFk
-oXb
-nOh
+qwn
 bYC
 jFk
 tAg
@@ -57113,7 +57371,7 @@ nWr
 nWr
 nWr
 nWr
-fkZ
+wxk
 jFk
 tAg
 tAg
@@ -57607,26 +57865,26 @@ jFk
 lus
 vYy
 nWr
-fkZ
+wxk
 lus
 lOo
-krN
-lOo
-lus
-lOo
-krN
+xuc
 lOo
 lus
 lOo
-krN
+xuc
 lOo
 lus
 lOo
-krN
+xuc
 lOo
 lus
 lOo
-krN
+xuc
+lOo
+lus
+lOo
+xuc
 lOo
 lus
 tAg
@@ -57864,7 +58122,7 @@ ulJ
 ulJ
 vPa
 nWr
-fkZ
+wxk
 jFk
 axx
 aOt
@@ -58106,7 +58364,7 @@ tAg
 tAg
 tAg
 tAg
-vAf
+jFk
 vYy
 nWr
 nWr
@@ -58121,27 +58379,27 @@ nWr
 nWr
 nWr
 nWr
-fkZ
+wxk
 jFk
 oBg
 gCU
-sFo
+bYC
 jFk
 oBg
 gCU
-sFo
+bYC
 jFk
 oBg
 gCU
-sFo
+bYC
 jFk
 oBg
 gCU
-sFo
+bYC
 jFk
 oBg
 gCU
-sFo
+bYC
 jFk
 tAg
 tAg
@@ -58364,7 +58622,7 @@ tAg
 tAg
 tAg
 jFk
-wxk
+pIN
 laD
 laD
 laD
@@ -58378,27 +58636,27 @@ laD
 laD
 aLg
 nWr
-fkZ
+wxk
 jFk
 jPm
 qVe
-bYC
+sFo
 jFk
 jPm
 qVe
-bYC
+sFo
 jFk
 jPm
 qVe
-bYC
+sFo
 jFk
 jPm
 qVe
-bYC
+sFo
 jFk
 jPm
 qVe
-bYC
+sFo
 jFk
 tAg
 tAg
@@ -58635,7 +58893,7 @@ jFk
 lus
 vYy
 nWr
-fkZ
+wxk
 lus
 jFk
 jFk
@@ -58892,27 +59150,27 @@ tAg
 jFk
 vYy
 nWr
-fkZ
+wxk
 jFk
 hXQ
 dcp
-pDl
+uFk
 jFk
 hXQ
 dcp
-pDl
+uFk
 jFk
 hXQ
 dcp
-pDl
+uFk
 jFk
 hXQ
 dcp
-pDl
+uFk
 jFk
 hXQ
 dcp
-pDl
+uFk
 jFk
 tAg
 tAg
@@ -59149,27 +59407,27 @@ tAg
 jFk
 vYy
 nWr
-fkZ
+wxk
 jFk
 oBg
 gCU
-sFo
+bYC
 jFk
 oBg
 gCU
-sFo
+bYC
 jFk
 oBg
 gCU
-sFo
+bYC
 jFk
 oBg
 gCU
-sFo
+bYC
 jFk
 oBg
 gCU
-sFo
+bYC
 jFk
 tAg
 tAg
@@ -59406,27 +59664,27 @@ tAg
 jFk
 vYy
 nWr
-fkZ
+wxk
 jFk
-oXb
+krN
 nOh
-bYC
+sFo
 jFk
-oXb
+krN
 nOh
-bYC
+sFo
 jFk
-oXb
+krN
 nOh
-bYC
+sFo
 jFk
-oXb
+krN
 nOh
-bYC
+sFo
 jFk
-oXb
+krN
 nOh
-bYC
+sFo
 jFk
 tAg
 tAg
@@ -59663,7 +59921,7 @@ tAg
 lus
 vYy
 nWr
-fkZ
+wxk
 lus
 lOo
 xuc
@@ -60197,7 +60455,7 @@ nWr
 nWr
 nWr
 nWr
-fkZ
+wxk
 jFk
 tAg
 tAg
@@ -60691,26 +60949,26 @@ tAg
 lus
 vYy
 nWr
-fkZ
+wxk
 lus
 lOo
-krN
-lOo
-lus
-lOo
-krN
+xuc
 lOo
 lus
 lOo
-krN
+xuc
 lOo
 lus
 lOo
-krN
+xuc
 lOo
 lus
 lOo
-krN
+xuc
+lOo
+lus
+lOo
+xuc
 lOo
 lus
 tAg
@@ -60948,7 +61206,7 @@ tAg
 jFk
 vYy
 nWr
-fkZ
+wxk
 jFk
 axx
 aOt
@@ -61205,27 +61463,27 @@ tAg
 jFk
 vYy
 nWr
-fkZ
+wxk
 jFk
 oBg
 gCU
-sFo
+bYC
 jFk
 oBg
 gCU
-sFo
+bYC
 jFk
 oBg
 gCU
-sFo
+bYC
 jFk
 oBg
 gCU
-sFo
+bYC
 jFk
 oBg
 gCU
-sFo
+bYC
 jFk
 tAg
 tAg
@@ -61462,27 +61720,27 @@ tAg
 jFk
 vYy
 nWr
-fkZ
+wxk
 jFk
 jPm
 qVe
-bYC
+sFo
 jFk
 jPm
 qVe
-bYC
+sFo
 jFk
 jPm
 qVe
-bYC
+sFo
 jFk
 jPm
 qVe
-bYC
+sFo
 jFk
 jPm
 qVe
-bYC
+sFo
 jFk
 tAg
 tAg
@@ -61719,7 +61977,7 @@ tAg
 lus
 vYy
 nWr
-fkZ
+wxk
 lus
 jFk
 jFk
@@ -61984,7 +62242,7 @@ ulJ
 ulJ
 ulJ
 ulJ
-bqv
+gvD
 sOv
 lus
 tAg
@@ -62498,7 +62756,7 @@ cPT
 laD
 laD
 laD
-hSW
+iTB
 sOv
 lus
 tAg
@@ -62751,7 +63009,7 @@ jFk
 lus
 vYy
 wqm
-fkZ
+wxk
 lus
 jFk
 jFk
@@ -63008,7 +63266,7 @@ tAg
 jFk
 vYy
 wqm
-fkZ
+wxk
 jFk
 tAg
 tAg
@@ -63265,7 +63523,7 @@ tAg
 jFk
 vYy
 wqm
-fkZ
+wxk
 jFk
 tAg
 tAg
@@ -63522,7 +63780,7 @@ tAg
 jFk
 vYy
 wqm
-fkZ
+wxk
 jFk
 tAg
 tAg
@@ -64036,7 +64294,7 @@ tAg
 jFk
 vYy
 wqm
-fkZ
+wxk
 jFk
 tAg
 tAg
@@ -64293,7 +64551,7 @@ tAg
 jFk
 vYy
 wqm
-fkZ
+wxk
 jFk
 tAg
 tAg
@@ -64550,7 +64808,7 @@ tAg
 jFk
 vYy
 wqm
-fkZ
+wxk
 jFk
 tAg
 tAg
@@ -64807,7 +65065,7 @@ tAg
 lus
 vYy
 wqm
-fkZ
+wxk
 lus
 jFk
 jFk
@@ -65068,7 +65326,7 @@ wwU
 ulJ
 ulJ
 ulJ
-bqv
+gvD
 sOv
 lus
 tAg
@@ -65582,7 +65840,7 @@ laD
 laD
 laD
 laD
-hSW
+iTB
 sOv
 lus
 tAg
@@ -92525,7 +92783,7 @@ qUG
 tYz
 bKe
 mjU
-vgR
+mjU
 kYG
 kYG
 kYG
@@ -98732,7 +98990,7 @@ ipO
 bfE
 whY
 oJr
-dOW
+oJr
 bjS
 emN
 vTq
@@ -98743,7 +99001,7 @@ vTq
 vTq
 vTq
 nBG
-mMS
+roY
 han
 han
 han
@@ -99000,7 +99258,7 @@ blV
 blV
 qrP
 aIn
-mMS
+mSp
 han
 han
 han
@@ -99759,7 +100017,7 @@ qUG
 qUG
 eGu
 iSh
-dOW
+oJr
 six
 kgX
 ckw
@@ -100273,7 +100531,7 @@ qUG
 qUG
 gvq
 vJa
-eRG
+oJr
 six
 vhq
 ckw
@@ -100778,7 +101036,7 @@ bnY
 pNa
 bnY
 oJc
-tCe
+xVV
 tCe
 tCe
 tCe
@@ -101050,7 +101308,7 @@ gzd
 oQi
 oQi
 mMi
-uDg
+eRG
 aEY
 usw
 mBl
@@ -101307,7 +101565,7 @@ mWl
 vKi
 sKE
 mzh
-uDg
+eRG
 ddP
 usw
 mBl
@@ -101564,7 +101822,7 @@ mWl
 sKE
 sKE
 mzh
-uDg
+eRG
 wlo
 usw
 mBl
@@ -101821,7 +102079,7 @@ mRy
 fYs
 fYs
 btg
-uDg
+eRG
 auF
 iVP
 rTb
@@ -102589,7 +102847,7 @@ ejM
 ejM
 ejM
 ejM
-uDg
+eRG
 auF
 auF
 dMX
@@ -102805,11 +103063,11 @@ mob
 yhU
 yhU
 yhU
+bQo
 yhU
 yhU
 yhU
-yhU
-yhU
+bQo
 yhU
 yhU
 yhU
@@ -103077,7 +103335,7 @@ aYq
 cfW
 aYq
 xqt
-kEi
+pDl
 sPQ
 qDF
 cSH
@@ -103103,7 +103361,7 @@ pDu
 pDu
 rmq
 ejM
-uDg
+eRG
 nrD
 bnO
 pyJ
@@ -103334,7 +103592,7 @@ aYq
 cfW
 aYq
 xqt
-kEi
+pDl
 sPQ
 qDF
 cSH
@@ -103360,7 +103618,7 @@ ejM
 ejM
 ejM
 ejM
-uDg
+eRG
 auF
 oJc
 oJc
@@ -103591,7 +103849,7 @@ lLU
 cfW
 aYq
 xqt
-kEi
+ios
 bhv
 yjd
 cSH
@@ -103848,7 +104106,7 @@ aYq
 cfW
 aYq
 xqt
-kEi
+pDl
 sPQ
 qDF
 cSH
@@ -104105,7 +104363,7 @@ aYq
 gml
 aYq
 aYq
-kEi
+pDl
 sPQ
 qDF
 cSH
@@ -104347,11 +104605,11 @@ phl
 jxq
 jxq
 jxq
+cAh
 jxq
 jxq
 jxq
-jxq
-jxq
+cAh
 jxq
 jxq
 jxq
@@ -127529,7 +127787,7 @@ oAe
 nFL
 mfJ
 mfJ
-mfJ
+iYZ
 mfJ
 mfJ
 uTl
@@ -128042,9 +128300,9 @@ hbp
 oAe
 ayR
 bZM
-cmx
-cmx
-cmx
+tOy
+tOy
+tOy
 xXe
 geC
 rOq
@@ -128293,9 +128551,9 @@ nGR
 nGR
 nGR
 vdr
-dpi
+bqv
 cuJ
-hbp
+vgR
 qLT
 wJB
 laq
@@ -128554,7 +128812,7 @@ dpi
 cuJ
 tTT
 hxy
-hxy
+vAf
 gws
 fuG
 mmd
@@ -130095,8 +130353,8 @@ bYK
 dpi
 cuJ
 sNk
-fpl
-fpl
+lzA
+dha
 jAJ
 wWQ
 mmd
@@ -130349,9 +130607,9 @@ nGR
 nGR
 nGR
 vdr
-dpi
+bqv
 cuJ
-hbp
+vgR
 ntk
 jax
 xJf
@@ -130873,7 +131131,7 @@ vFg
 vFg
 vFg
 vFg
-rVo
+dOW
 hrf
 tWv
 tWv
@@ -131127,7 +131385,7 @@ oAe
 vpn
 dbk
 dbk
-dbk
+xaw
 dbk
 dbk
 qDu
