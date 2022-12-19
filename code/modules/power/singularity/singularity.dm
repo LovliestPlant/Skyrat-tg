@@ -165,8 +165,7 @@
 	radiation_pulse(
 		src,
 		max_range = 12,
-		threshold = min(5000, (energy*4.5)+1000),
-		chance = 0.5 * 100,
+		threshold = RAD_TO_THRESHOLD(((energy * RAD_ENERGY_MULTIPLIER) + RAD_ENERGY_BASELINE) ** RAD_ENERGY_EXPONENT)
 	)
 	
 	if(current_size >= STAGE_TWO)
