@@ -368,8 +368,8 @@
 
 	if(prob(20))//I know I know
 		var/list/shocked_copy = shocked_targets.Copy()
-		tesla_zap(closest_atom, next_range, power * 0.5, zap_flags ^ ZAP_GENERATES_POWER, shocked_copy)//Normally I'd copy here so grounding rods work properly, but it fucks with movement
-		tesla_zap(closest_atom, next_range, power * 0.5, zap_flags ^ ZAP_GENERATES_POWER, shocked_targets)
+		tesla_zap(closest_atom, next_range, power * 0.5, zap_flags, shocked_copy)//Normally I'd copy here so grounding rods work properly, but it fucks with movement
+		tesla_zap(closest_atom, next_range, power * 0.5, zap_flags, shocked_targets) //readd ^ ZAP_GENERATES_POWER if this causes issues
 		shocked_targets += shocked_copy
 	else
 		tesla_zap(closest_atom, next_range, power, zap_flags ^ ZAP_GENERATES_POWER, shocked_targets)
