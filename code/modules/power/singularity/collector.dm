@@ -64,9 +64,9 @@
 		efficiency_multiplier += C.rating
 	for(var/obj/item/stock_parts/matter_bin/C in component_parts)
 		collector_multiplier += C.rating
-	input_power_multiplier = power_multiplier
-	input_efficiency_multiplier = efficiency_multiplier
-	input_collector_multiplier = collector_multiplier
+	input_power_multiplier = power_multiplier/4
+	input_efficiency_multiplier = efficiency_multiplier/4
+	input_collector_multiplier = collector_multiplier/2
 
 /obj/machinery/power/rad_collector/should_have_node()
 	return anchored
