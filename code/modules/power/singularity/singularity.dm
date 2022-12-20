@@ -40,6 +40,8 @@
 	var/consumed_supermatter = FALSE
 	/// How long it's been since the singulo last acted, in seconds
 	var/time_since_act = 0
+	/// see above, but for rad procs
+	var/time_since_rad = 0
 
 	flags_1 = SUPERMATTER_IGNORES_1
 	resistance_flags = INDESTRUCTIBLE | LAVA_PROOF | FIRE_PROOF | UNACIDABLE | ACID_PROOF | FREEZE_PROOF
@@ -156,17 +158,21 @@
 
 /obj/singularity/process(delta_time)
 	time_since_act += delta_time
+	time_since_rad += delta_time
+	
+	if(time_since_rad > 0.5) //pulse twice/sec
+		time_since_rad = 0
+		radiation_pulse(
+			src,
+			max_range = 12,
+			threshold = RAD_TO_THRESHOLD(((energy * RAD_ENERGY_MULTIPLIER) + RAD_ENERGY_BASELINE) ** RAD_ENERGY_EXPONENT)
+		)
+	
 	if(time_since_act < 2)
 		return
 	time_since_act = 0
 	
 	//radiation_pulse(src, min(5000, (energy*4.5)+1000), RAD_DISTANCE_COEFFICIENT*0.5)
-	
-	radiation_pulse(
-		src,
-		max_range = 12,
-		threshold = RAD_TO_THRESHOLD(((energy * RAD_ENERGY_MULTIPLIER) + RAD_ENERGY_BASELINE) ** RAD_ENERGY_EXPONENT)
-	)
 	
 	if(current_size >= STAGE_TWO)
 		if(prob(event_chance))
