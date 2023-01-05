@@ -1,7 +1,7 @@
 /proc/power_failure()
 	if(GLOB.power_failure_message_cooldown > world.time)
-		priority_announce("Abnormal activity detected in [station_name()]'s powernet. As a precautionary measure, the station's power will be shut off for an indeterminate duration.", "Critical Power Failure", ANNOUNCER_POWEROFF)
-	for(var/obj/machinery/power/smes/S in GLOB.machines)
+		priority_announce("Abnormal activity was detected in station's power grid.", "Critical Power Failure", ANNOUNCER_POWEROFF)
+	/*for(var/obj/machinery/power/smes/S in GLOB.machines)
 		if(istype(get_area(S), /area/station/ai_monitored/turret_protected) || !is_station_level(S.z))
 			continue
 		S.charge = 0
@@ -27,7 +27,7 @@
 			if(GLOB.typecache_powerfailure_safe_areas[A.type])
 				continue
 
-			C.cell.charge = 0
+			C.cell.charge = 0*/
 
 /proc/power_restore()
 	priority_announce("Power has been restored to [station_name()]. We apologize for the inconvenience.", "Power Systems Nominal", ANNOUNCER_POWERON)
