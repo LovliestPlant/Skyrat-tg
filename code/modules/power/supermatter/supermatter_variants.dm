@@ -46,29 +46,3 @@
 	icon_state = "light"
 	pixel_x = -176
 	pixel_y = -176
-
-#define SUPERMATTER_NAAKA_COLOUR "#7fff00"
-#define SUPERMATTER_NAAKA_RED "#aaff00"
-
-/// Shard SM, but Naaka'fied
-/obj/machinery/power/supermatter_crystal/shardnaaka
-	name = "chartreuse supermatter shard"
-	desc = "A strangely translucent and iridescent crystal that looks like it used to be part of a larger structure.  This one shines in unusual colors and reacts more powerfully with the atmosphere."
-	base_icon_state = "sm_shard_naaka"
-	icon_state = "sm_shard_naaka"
-	light_color = SUPERMATTER_NAAKA_COLOUR
-	main_color = SUPERMATTER_NAAKA_COLOUR
-	pure_color = SUPERMATTER_NAAKA_RED
-	anchored = FALSE
-	absorption_ratio = 0.2
-	explosion_power = 20
-	layer = ABOVE_MOB_LAYER
-	plane = GAME_PLANE_UPPER
-	moveable = TRUE
-
-/// Shard SM designated as the main engine.
-/obj/machinery/power/supermatter_crystal/shardnaaka/engine
-	name = "anchored chartreuse supermatter shard"
-	is_main_engine = TRUE
-	anchored = TRUE
-	moveable = FALSE

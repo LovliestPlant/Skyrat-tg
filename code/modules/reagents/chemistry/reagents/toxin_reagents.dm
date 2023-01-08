@@ -499,10 +499,10 @@
 	description = "A specially-engineered sedative disguised as beer. It induces instant sleep in its target."
 	color = "#664300" // rgb: 102, 67, 0
 	metabolization_rate = 1.5 * REAGENTS_METABOLISM
-	taste_description = "piss water"
-	glass_icon_state = "beerglass"
-	glass_name = "glass of beer"
-	glass_desc = "A freezing pint of beer."
+	taste_description = "piss water" //we're just not going to bother fixing fake beer for now, fuck it
+	//glass_icon_state = "beerglass"
+	//glass_name = "glass of beer"
+	//glass_desc = "A freezing pint of beer."
 	ph = 2
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED|REAGENT_NO_RANDOM_RECIPE
 

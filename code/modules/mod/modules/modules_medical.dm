@@ -388,8 +388,9 @@
 		perform advanced surgeries on the go. This one came pre-loaded with some advanced surgeries."
 	device = /obj/item/surgical_processor/mod/preloaded
 
+//breaking things by commenting this out, whatever
 /obj/item/surgical_processor/mod/preloaded
-	loaded_surgeries = list(
+	/*loaded_surgeries = list(
 		/datum/surgery/advanced/pacify,
 		/datum/surgery/healing/combo/upgraded/femto,
 		/datum/surgery/advanced/brainwashing,
@@ -401,4 +402,4 @@
 		/datum/surgery/advanced/bioware/ligament_reinforcement,
 		/datum/surgery/advanced/bioware/cortex_imprint,
 		/datum/surgery/advanced/bioware/cortex_folding,
-	)
+	)*/
