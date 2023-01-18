@@ -467,17 +467,9 @@
 	has_gravity = 1
 	})
 "bW" = (
-/obj/effect/mapping_helpers/airlock/access/any/medical/general,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/nk006/specialist/science/xenobio/viro/glass{
-	name = "Virology"
-	},
-/turf/open/floor/iron/dark,
-/area/station/medical/virology{
-	has_gravity = 1
-	})
+/obj/structure/ore_box,
+/turf/open/floor/iron,
+/area/station/cargo/miningoffice)
 "bX" = (
 /obj/structure/cable,
 /turf/open/floor/iron,
@@ -543,10 +535,9 @@
 /turf/open/floor/engine,
 /area/station/nk006/support/eng/engine/teg)
 "cm" = (
-/obj/structure/cable,
-/obj/machinery/light/directional/south,
+/obj/structure/sign/warning/radiation/directional/west,
 /turf/open/floor/engine,
-/area/station/nk006/support/eng/engine/sng)
+/area/station/nk006/support/eng/engine/teg)
 "co" = (
 /obj/machinery/holopad,
 /obj/structure/cable,
@@ -1708,9 +1699,7 @@
 /turf/open/floor/engine/vacuum,
 /area/station/science/ordnance/burnchamber)
 "gN" = (
-/obj/machinery/shower{
-	dir = 8
-	},
+/obj/machinery/shower/directional/west,
 /turf/open/floor/iron,
 /area/station/command/heads_quarters/qm{
 	has_gravity = 1
@@ -2262,10 +2251,8 @@
 	has_gravity = 1
 	})
 "jc" = (
-/obj/machinery/shower{
-	dir = 4
-	},
 /obj/machinery/light/warm/directional/west,
+/obj/machinery/shower/directional/north,
 /turf/open/floor/iron/white,
 /area/station/commons/toilet/restrooms)
 "jd" = (
@@ -2675,6 +2662,9 @@
 /area/station/hallway/secondary/exit/departure_lounge{
 	has_gravity = 1
 	})
+"kx" = (
+/turf/closed/wall/r_wall,
+/area/station/nk006/support/eng/engine/sng)
 "ky" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -2815,14 +2805,9 @@
 /turf/open/floor/engine,
 /area/station/nk006/support/eng/engine/sm)
 "le" = (
-/obj/effect/turf_decal/tile/nk006/department_sub_red{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/nk006/department_specialist/anticorner/contrasted{
-	dir = 8
-	},
-/turf/open/floor/iron,
-/area/station/medical/chemistry{
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/iron/white,
+/area/station/medical/treatment_center{
 	has_gravity = 1
 	})
 "lf" = (
@@ -3207,13 +3192,13 @@
 /turf/open/floor/engine,
 /area/station/nk006/support/eng/engine/sm)
 "mp" = (
-/obj/machinery/door/airlock/command{
-	name = "Research Director's Office"
-	},
 /obj/effect/mapping_helpers/airlock/access/any/science/rd,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
+/obj/machinery/door/airlock/nk006/specialist/rd/glass{
+	name = "RD Office"
+	},
 /turf/open/floor/iron/white,
 /area/station/command/heads_quarters/rd)
 "mr" = (
@@ -3918,13 +3903,9 @@
 	has_gravity = 1
 	})
 "oV" = (
-/obj/effect/turf_decal/tile/nk006/department_specialist/half/contrasted{
-	dir = 8
-	},
-/turf/open/floor/iron,
-/area/station/medical/chemistry{
-	has_gravity = 1
-	})
+/obj/machinery/atmospherics/pipe/smart/manifold4w/yellow/visible/layer4,
+/turf/closed/wall/r_wall,
+/area/station/nk006/support/eng/engine/sm)
 "oX" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/door/window/left/directional/south{
@@ -4021,8 +4002,10 @@
 	has_gravity = 1
 	})
 "pp" = (
-/turf/closed/wall/r_wall,
-/area/station/nk006/support/eng/engine/sng)
+/obj/machinery/light/warm/directional/east,
+/obj/machinery/shower/directional/south,
+/turf/open/floor/iron/white,
+/area/station/commons/toilet/restrooms)
 "pr" = (
 /obj/effect/mapping_helpers/airlock/access/all/engineering/general,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
@@ -4119,9 +4102,7 @@
 	has_gravity = 1
 	})
 "pM" = (
-/obj/machinery/shower{
-	dir = 8
-	},
+/obj/machinery/shower/directional/east,
 /turf/open/floor/iron,
 /area/station/command/heads_quarters/rd)
 "pP" = (
@@ -4902,9 +4883,11 @@
 /turf/open/floor/iron/white,
 /area/station/science/ordnance)
 "sM" = (
-/obj/structure/ore_box,
+/obj/effect/turf_decal/tile/nk006/department_specialist/opposingcorners,
 /turf/open/floor/iron,
-/area/station/cargo/miningoffice)
+/area/station/medical/chemistry{
+	has_gravity = 1
+	})
 "sN" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
@@ -5556,7 +5539,8 @@
 	has_gravity = 1
 	})
 "vi" = (
-/obj/effect/turf_decal/tile/nk006/department_sub_red/half/contrasted,
+/obj/machinery/holopad,
+/obj/effect/turf_decal/tile/nk006/department_sub_red/fourcorners,
 /turf/open/floor/iron,
 /area/station/medical/chemistry{
 	has_gravity = 1
@@ -5568,16 +5552,9 @@
 /turf/open/floor/iron/dark,
 /area/station/service/chapel)
 "vk" = (
-/obj/effect/turf_decal/tile/nk006/department_sub_red/half/contrasted{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/nk006/department_specialist/half/contrasted{
-	dir = 4
-	},
-/turf/open/floor/iron,
-/area/station/medical/chemistry{
-	has_gravity = 1
-	})
+/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
+/turf/open/floor/plating/snowed,
+/area/station/nk006/support/eng/engine/sm)
 "vl" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/landmark/start/depsec/supply,
@@ -5727,9 +5704,7 @@
 /turf/open/floor/iron/white,
 /area/station/science/ordnance/freezerchamber)
 "vK" = (
-/obj/machinery/shower{
-	dir = 8
-	},
+/obj/machinery/shower/directional/south,
 /turf/open/floor/iron,
 /area/station/command/heads_quarters/hos{
 	has_gravity = 1
@@ -6239,9 +6214,7 @@
 	has_gravity = 1
 	})
 "xH" = (
-/obj/machinery/shower{
-	dir = 8
-	},
+/obj/machinery/shower/directional/south,
 /turf/open/floor/iron,
 /area/station/command/heads_quarters/captain/private)
 "xI" = (
@@ -6389,9 +6362,14 @@
 /turf/open/floor/iron/white,
 /area/station/science/cytology)
 "yi" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/yellow/visible/layer4,
-/turf/closed/wall/r_wall,
-/area/station/nk006/support/eng/engine/sm)
+/obj/effect/turf_decal/tile/nk006/department_sub_red/half/contrasted{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/nk006/department_specialist/half/contrasted,
+/turf/open/floor/iron,
+/area/station/medical/chemistry{
+	has_gravity = 1
+	})
 "yj" = (
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 4
@@ -6942,17 +6920,6 @@
 /area/station/medical/medbay/lobby{
 	has_gravity = 1
 	})
-"Ao" = (
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 4
-	},
-/obj/machinery/door/airlock/nk006/glass{
-	name = "External Airlock"
-	},
-/turf/open/floor/plating,
-/area/station/hallway/secondary/exit/departure_lounge{
-	has_gravity = 1
-	})
 "Ap" = (
 /obj/machinery/door/window/left/directional/west{
 	dir = 1;
@@ -7064,9 +7031,11 @@
 	name = "Tchiko's Castle Jani Closet"
 	})
 "AE" = (
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/iron/white,
-/area/station/medical/treatment_center{
+/obj/effect/turf_decal/tile/nk006/department_specialist/half/contrasted{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/station/medical/chemistry{
 	has_gravity = 1
 	})
 "AF" = (
@@ -7077,10 +7046,10 @@
 	has_gravity = 1
 	})
 "AG" = (
-/obj/machinery/door/airlock/command{
-	name = "Research Director's Office"
-	},
 /obj/effect/mapping_helpers/airlock/access/any/science/rd,
+/obj/machinery/door/airlock/nk006/specialist/rd{
+	name = "RD Quarters"
+	},
 /turf/open/floor/iron,
 /area/station/command/heads_quarters/rd)
 "AH" = (
@@ -7132,8 +7101,16 @@
 /turf/open/floor/engine,
 /area/station/nk006/support/eng/engine/sng)
 "AQ" = (
-/turf/open/floor/engine,
-/area/station/nk006/support/eng/engine/sng)
+/obj/effect/turf_decal/tile/nk006/department_sub_red/half/contrasted{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/nk006/department_specialist/half/contrasted{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/station/medical/chemistry{
+	has_gravity = 1
+	})
 "AT" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
@@ -7288,9 +7265,26 @@
 	righthand_file = 'icons/mob/inhands/items/food_righthand.dmi';
 	color = "#91593b";
 	transform = matrix()*1.5;
-	desc = "A large, leathery egg.  You feel like its occupant is peeping at you, faintly."
+	desc = "A large, leathery egg.  You feel like its occupant is peeping at you, faintly.";
+	pixel_y = -5;
+	pixel_x = -3
 	},
 /obj/machinery/light/directional/west,
+/obj/item/toy/plush/skyrat/borbplushie{
+	attack_verb_simple = list("peep");
+	attack_verb_continuous = list("peeps");
+	name = "A Leathery Egg";
+	icon = 'icons/obj/food/egg.dmi';
+	icon_state = "egg";
+	inhand_icon_state = null;
+	lefthand_file = 'icons/mob/inhands/items/food_lefthand.dmi';
+	righthand_file = 'icons/mob/inhands/items/food_righthand.dmi';
+	color = "#91593b";
+	transform = matrix()*1.5;
+	desc = "A large, leathery egg.  You feel like its occupant is peeping at you, faintly.";
+	pixel_x = 5;
+	pixel_y = 2
+	},
 /turf/open/floor/wood/large,
 /area/mine/xenoarch/engineering{
 	name = "Tchiko's Castle Quarters"
@@ -8066,13 +8060,10 @@
 	has_gravity = 1
 	})
 "Eb" = (
-/obj/effect/turf_decal/tile/nk006/department_specialist/half/contrasted{
-	dir = 4
-	},
-/turf/open/floor/iron,
-/area/station/medical/chemistry{
-	has_gravity = 1
-	})
+/obj/structure/cable,
+/obj/machinery/light/directional/south,
+/turf/open/floor/engine,
+/area/station/nk006/support/eng/engine/sng)
 "Ed" = (
 /obj/machinery/atmospherics/components/binary/pump{
 	dir = 4
@@ -8087,14 +8078,8 @@
 	has_gravity = 1
 	})
 "Eg" = (
-/obj/effect/turf_decal/tile/nk006/department_sub_red{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/nk006/department_specialist/anticorner/contrasted,
-/turf/open/floor/iron,
-/area/station/medical/chemistry{
-	has_gravity = 1
-	})
+/turf/closed/wall/r_wall,
+/area/station/nk006/support/eng/engine/sm)
 "Ei" = (
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 8
@@ -8181,9 +8166,7 @@
 	name = "Birdhouse Lounge"
 	})
 "Ev" = (
-/obj/machinery/shower{
-	dir = 8
-	},
+/obj/machinery/shower/directional/south,
 /turf/open/floor/iron,
 /area/station/command/heads_quarters/hop{
 	has_gravity = 1
@@ -8420,9 +8403,16 @@
 /turf/open/floor/iron/white,
 /area/station/science/ordnance)
 "Fn" = (
-/obj/structure/cable,
-/turf/open/floor/engine,
-/area/station/nk006/support/eng/engine/sng)
+/obj/effect/turf_decal/tile/nk006/department_sub_red/half/contrasted{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/nk006/department_specialist/half/contrasted{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/station/medical/chemistry{
+	has_gravity = 1
+	})
 "Fo" = (
 /obj/machinery/atmospherics/components/binary/pump{
 	dir = 4
@@ -8523,7 +8513,6 @@
 	})
 "FH" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
-/obj/structure/closet/secure_closet/medical3,
 /turf/open/floor/iron/white,
 /area/station/medical/cryo{
 	has_gravity = 1
@@ -8749,10 +8738,9 @@
 /turf/open/floor/iron/kitchen/herringbone,
 /area/station/service/hydroponics/garden)
 "GA" = (
-/obj/effect/turf_decal/tile/nk006/department_sub_red/half/contrasted{
-	dir = 1
+/obj/effect/turf_decal/tile/nk006/department_specialist/half/contrasted{
+	dir = 4
 	},
-/obj/effect/turf_decal/tile/nk006/department_specialist/half/contrasted,
 /turf/open/floor/iron,
 /area/station/medical/chemistry{
 	has_gravity = 1
@@ -9274,9 +9262,12 @@
 	has_gravity = 1
 	})
 "Iw" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
-/turf/open/floor/plating/snowed,
-/area/station/nk006/support/eng/engine/sm)
+/obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
+/obj/structure/closet/secure_closet/medical3,
+/turf/open/floor/iron/white,
+/area/station/medical/cryo{
+	has_gravity = 1
+	})
 "Iy" = (
 /obj/structure/table,
 /obj/item/transfer_valve,
@@ -9347,8 +9338,16 @@
 	has_gravity = 1
 	})
 "IM" = (
-/turf/closed/wall/r_wall,
-/area/station/nk006/support/eng/engine/sm)
+/obj/effect/turf_decal/tile/nk006/department_sub_red{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/nk006/department_specialist/anticorner/contrasted{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/station/medical/chemistry{
+	has_gravity = 1
+	})
 "IN" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
@@ -9711,12 +9710,9 @@
 /turf/open/floor/iron/white,
 /area/station/science/research)
 "Kc" = (
-/obj/effect/turf_decal/tile/nk006/department_specialist/opposingcorners{
-	dir = 1
-	},
-/turf/open/floor/iron,
-/area/station/medical/chemistry{
-	has_gravity = 1
+/turf/open/floor/engine,
+/area/station/nk006/support/eng/engine/sng{
+	name = "Passive Engine"
 	})
 "Kd" = (
 /obj/machinery/smartfridge/chemistry/virology/preloaded,
@@ -9998,6 +9994,15 @@
 /obj/machinery/status_display/evac/directional/south,
 /turf/open/floor/carpet/orange,
 /area/station/command/heads_quarters/ce)
+"La" = (
+/obj/effect/turf_decal/tile/nk006/department_sub_red{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/nk006/department_specialist/anticorner/contrasted,
+/turf/open/floor/iron,
+/area/station/medical/chemistry{
+	has_gravity = 1
+	})
 "Ld" = (
 /obj/machinery/smartfridge/extract/preloaded,
 /turf/closed/wall/r_wall,
@@ -10401,9 +10406,17 @@
 /turf/open/floor/iron/white,
 /area/station/science/ordnance)
 "MD" = (
-/obj/structure/sign/warning/radiation/directional/west,
-/turf/open/floor/engine,
-/area/station/nk006/support/eng/engine/teg)
+/obj/effect/mapping_helpers/airlock/access/any/medical/general,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/nk006/specialist/science/xenobio/viro/glass{
+	name = "Virology"
+	},
+/turf/open/floor/iron/dark,
+/area/station/medical/virology{
+	has_gravity = 1
+	})
 "ME" = (
 /obj/structure/table,
 /obj/item/electropack,
@@ -10465,12 +10478,7 @@
 	has_gravity = 1
 	})
 "MP" = (
-/obj/effect/turf_decal/tile/nk006/department_sub_red/half/contrasted{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/nk006/department_specialist/half/contrasted{
-	dir = 8
-	},
+/obj/effect/turf_decal/tile/nk006/department_sub_red/half/contrasted,
 /turf/open/floor/iron,
 /area/station/medical/chemistry{
 	has_gravity = 1
@@ -10687,9 +10695,7 @@
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/turret_protected/ai)
 "NG" = (
-/obj/machinery/shower{
-	dir = 8
-	},
+/obj/machinery/shower/directional/west,
 /turf/open/floor/iron,
 /area/station/command/heads_quarters/cmo{
 	has_gravity = 1
@@ -10721,11 +10727,8 @@
 /turf/open/floor/engine/vacuum,
 /area/station/science/ordnance/burnchamber)
 "NL" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
-/turf/open/floor/iron/white,
-/area/station/medical/cryo{
-	has_gravity = 1
-	})
+/turf/open/floor/engine,
+/area/station/nk006/support/eng/engine/sng)
 "NN" = (
 /obj/machinery/power/apc/auto_name/directional/north{
 	arc_shielded = 1
@@ -11311,12 +11314,6 @@
 /area/station/engineering/atmos{
 	has_gravity = 1
 	})
-"PT" = (
-/obj/effect/turf_decal/tile/nk006/department_specialist/opposingcorners,
-/turf/open/floor/iron,
-/area/station/medical/chemistry{
-	has_gravity = 1
-	})
 "PU" = (
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
@@ -11454,9 +11451,15 @@
 	name = "Tchiko's Castle Gardens"
 	})
 "Qn" = (
-/turf/open/floor/engine,
-/area/station/nk006/support/eng/engine/sng{
-	name = "Passive Engine"
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
+	},
+/obj/machinery/door/airlock/nk006/glass{
+	name = "External Airlock"
+	},
+/turf/open/floor/plating,
+/area/station/hallway/secondary/exit/departure_lounge{
+	has_gravity = 1
 	})
 "Qp" = (
 /turf/open/floor/iron,
@@ -11846,11 +11849,9 @@
 	has_gravity = 1
 	})
 "RD" = (
-/obj/machinery/shower{
-	dir = 4
-	},
 /obj/machinery/light/warm/directional/west,
 /obj/effect/landmark/blobstart,
+/obj/machinery/shower/directional/south,
 /turf/open/floor/iron/white,
 /area/station/commons/toilet/restrooms)
 "RG" = (
@@ -13058,10 +13059,8 @@
 	has_gravity = 1
 	})
 "VV" = (
-/obj/machinery/shower{
-	dir = 8
-	},
 /obj/machinery/light/warm/directional/east,
+/obj/machinery/shower/directional/north,
 /turf/open/floor/iron/white,
 /area/station/commons/toilet/restrooms)
 "VW" = (
@@ -13904,8 +13903,9 @@
 	has_gravity = 1
 	})
 "Za" = (
-/obj/machinery/holopad,
-/obj/effect/turf_decal/tile/nk006/department_sub_red/fourcorners,
+/obj/effect/turf_decal/tile/nk006/department_specialist/opposingcorners{
+	dir = 1
+	},
 /turf/open/floor/iron,
 /area/station/medical/chemistry{
 	has_gravity = 1
@@ -13928,6 +13928,10 @@
 /area/station/command/heads_quarters/cmo{
 	has_gravity = 1
 	})
+"Zf" = (
+/obj/structure/cable,
+/turf/open/floor/engine,
+/area/station/nk006/support/eng/engine/sng)
 "Zg" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 4
@@ -17480,19 +17484,19 @@ BT
 Wx
 Cj
 Qe
-IM
-IM
-IM
-IM
-IM
-IM
-IM
-IM
-IM
-IM
-IM
-yi
-IM
+Eg
+Eg
+Eg
+Eg
+Eg
+Eg
+Eg
+Eg
+Eg
+Eg
+Eg
+oV
+Eg
 hQ
 hQ
 hQ
@@ -17737,7 +17741,7 @@ BT
 Wx
 Cj
 Wx
-IM
+Eg
 pP
 PQ
 wL
@@ -17749,7 +17753,7 @@ PQ
 wL
 pP
 fO
-IM
+Eg
 Wx
 Wx
 PK
@@ -17994,7 +17998,7 @@ BT
 Wx
 Cj
 Wx
-IM
+Eg
 pP
 rw
 sg
@@ -18006,7 +18010,7 @@ rw
 sg
 pP
 Xt
-IM
+Eg
 nz
 Wx
 HN
@@ -18234,24 +18238,24 @@ Vq
 Vq
 "}
 (17,1,1) = {"
-pp
-pp
-pp
-pp
-pp
-pp
-pp
-pp
-pp
-pp
-pp
+kx
+kx
+kx
+kx
+kx
+kx
+kx
+kx
+kx
+kx
+kx
 BT
 BT
 BT
 la
 Cj
 la
-IM
+Eg
 vV
 Qw
 we
@@ -18263,7 +18267,7 @@ Qw
 we
 ia
 VM
-IM
+Eg
 Wx
 KP
 JP
@@ -18491,24 +18495,24 @@ Vq
 Vq
 "}
 (18,1,1) = {"
-pp
-AQ
-AQ
-AQ
+kx
+NL
+NL
+NL
 XT
-AQ
-AQ
-AQ
-AQ
-AQ
-pp
+NL
+NL
+NL
+NL
+NL
+kx
 BT
 BT
 BT
 la
 Cj
 la
-IM
+Eg
 Kj
 nU
 ld
@@ -18520,7 +18524,7 @@ nU
 ld
 lr
 Gg
-IM
+Eg
 Wx
 KP
 aX
@@ -18748,24 +18752,24 @@ Vq
 Vq
 "}
 (19,1,1) = {"
-pp
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
+kx
+NL
+NL
+NL
+NL
+NL
+NL
+NL
+NL
 hF
-pp
+kx
 BT
 BT
 BT
 la
 Cj
 la
-IM
+Eg
 Kj
 tk
 fg
@@ -19005,7 +19009,7 @@ Vq
 Vq
 "}
 (20,1,1) = {"
-pp
+kx
 oe
 oe
 oe
@@ -19013,16 +19017,16 @@ oe
 oe
 oe
 oe
-AQ
-AQ
-pp
-pp
-pp
-pp
+NL
+NL
+kx
+kx
+kx
+kx
 la
 Cj
 la
-IM
+Eg
 Kj
 SG
 gI
@@ -19262,24 +19266,24 @@ Vq
 Vq
 "}
 (21,1,1) = {"
-pp
+kx
 oe
-AQ
-AQ
-AQ
-AQ
-AQ
+NL
+NL
+NL
+NL
+NL
 oe
-AQ
-AQ
-AQ
-AQ
+NL
+NL
+NL
+NL
 dw
-pp
+kx
 la
 Cj
 la
-IM
+Eg
 Kj
 SG
 pP
@@ -19519,24 +19523,24 @@ Vq
 Vq
 "}
 (22,1,1) = {"
-pp
+kx
 oe
-AQ
-AQ
-AQ
-AQ
-AQ
+NL
+NL
+NL
+NL
+NL
 oe
-AQ
-AQ
-AQ
-AQ
+NL
+NL
+NL
+NL
 tg
-pp
+kx
 Qe
 Cj
 Wx
-IM
+Eg
 Kj
 Bs
 zw
@@ -19776,24 +19780,24 @@ Vq
 Vq
 "}
 (23,1,1) = {"
-pp
+kx
 oe
-AQ
-AQ
+NL
+NL
 AP
-AQ
-AQ
-Fn
-Fn
-Fn
-Fn
-Fn
+NL
+NL
+Zf
+Zf
+Zf
+Zf
+Zf
 nw
-pp
+kx
 la
 Cj
 la
-IM
+Eg
 lK
 mw
 LR
@@ -20033,24 +20037,24 @@ Vq
 Vq
 "}
 (24,1,1) = {"
-pp
+kx
 oe
-AQ
-AQ
-AQ
-AQ
-Qn
+NL
+NL
+NL
+NL
+Kc
 oe
-AQ
-AQ
-AQ
-AQ
+NL
+NL
+NL
+NL
 LD
-pp
+kx
 la
 Cj
 la
-IM
+Eg
 RO
 SG
 FN
@@ -20290,24 +20294,24 @@ Vq
 Vq
 "}
 (25,1,1) = {"
-pp
+kx
 oe
-AQ
-AQ
-AQ
-AQ
-AQ
+NL
+NL
+NL
+NL
+NL
 oe
-AQ
-AQ
-AQ
-AQ
+NL
+NL
+NL
+NL
 dw
-pp
+kx
 la
 Cj
 la
-IM
+Eg
 lK
 mw
 pP
@@ -20547,7 +20551,7 @@ Vq
 Vq
 "}
 (26,1,1) = {"
-pp
+kx
 oe
 oe
 oe
@@ -20555,16 +20559,16 @@ oe
 oe
 oe
 oe
-Fn
-Fn
-pp
-pp
-pp
-pp
+Zf
+Zf
+kx
+kx
+kx
+kx
 la
 Cj
 la
-IM
+Eg
 Kj
 KS
 Sz
@@ -20804,24 +20808,24 @@ Vq
 Vq
 "}
 (27,1,1) = {"
-pp
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-cm
-pp
+kx
+NL
+NL
+NL
+NL
+NL
+NL
+NL
+NL
+Eb
+kx
 iA
 iA
 iA
 la
 Cj
 la
-IM
+Eg
 ia
 SG
 pP
@@ -21061,17 +21065,17 @@ Vq
 Vq
 "}
 (28,1,1) = {"
-pp
-AQ
-AQ
-AQ
+kx
+NL
+NL
+NL
 uD
-AQ
-AQ
-AQ
-AQ
-Fn
-pp
+NL
+NL
+NL
+NL
+Zf
+kx
 iA
 iA
 iA
@@ -21583,7 +21587,7 @@ pj
 nf
 OA
 nf
-MD
+cm
 dP
 HD
 iA
@@ -22363,7 +22367,7 @@ HD
 la
 Ob
 Qe
-IM
+Eg
 Nd
 bz
 EC
@@ -23138,11 +23142,11 @@ HD
 Zz
 LJ
 Bf
-IM
-IM
-IM
+Eg
+Eg
+Eg
 Bf
-IM
+Eg
 bv
 bT
 rN
@@ -23906,7 +23910,7 @@ Wx
 Wx
 Wx
 zi
-Iw
+vk
 cU
 ax
 ax
@@ -23920,7 +23924,7 @@ Ee
 yt
 xG
 oU
-sM
+bW
 ag
 Wx
 Wx
@@ -24963,10 +24967,10 @@ TP
 Ko
 gd
 ky
-Kc
-Eb
-MP
-le
+Za
+GA
+AQ
+IM
 Wm
 Wm
 Wm
@@ -25221,9 +25225,9 @@ Ko
 lx
 sy
 yS
+MP
 vi
-Za
-GA
+yi
 Pw
 Wm
 Wm
@@ -25477,10 +25481,10 @@ TP
 Ko
 Wm
 sy
-PT
-oV
-vk
-Eg
+sM
+AE
+Fn
+La
 Wm
 Wm
 Wm
@@ -28051,10 +28055,10 @@ pV
 pV
 pV
 Vo
-AE
+le
 Ua
-AE
-AE
+le
+le
 Vo
 rZ
 nJ
@@ -29345,7 +29349,7 @@ DV
 pt
 WW
 WW
-bW
+MD
 WW
 GG
 Yp
@@ -29859,7 +29863,7 @@ Aq
 tM
 WW
 WW
-bW
+MD
 WW
 GG
 Yp
@@ -32678,8 +32682,8 @@ Om
 Ca
 ES
 hZ
+Iw
 FH
-NL
 hR
 ES
 TI
@@ -33193,7 +33197,7 @@ Vc
 ES
 NN
 rv
-NL
+FH
 hR
 ES
 iO
@@ -35216,7 +35220,7 @@ BT
 BT
 BT
 Zb
-VV
+pp
 Zb
 VV
 xI
@@ -36013,9 +36017,9 @@ uy
 MI
 uy
 jx
-Ao
+Qn
 rV
-Ao
+Qn
 jx
 MI
 mr
