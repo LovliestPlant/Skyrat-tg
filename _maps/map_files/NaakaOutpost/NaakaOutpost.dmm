@@ -4306,11 +4306,13 @@
 	has_gravity = 1
 	})
 "qH" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/plating/snowed/smoothed,
-/area/icemoon/surface/outdoors/nospawn)
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/plating,
+/area/station/tcommsat/computer{
+	has_gravity = 1
+	})
 "qI" = (
 /turf/open/floor/carpet/orange,
 /area/station/commons/dorms)
@@ -6123,6 +6125,16 @@
 /obj/structure/bed/dogbed,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
+	},
+/mob/living/simple_animal/hostile/retaliate/tegu/gus{
+	can_have_ai = 0;
+	ai_controller = null;
+	AIStatus = 0;
+	move_force = 1;
+	move_resist = 1;
+	wander = 0;
+	pixel_y = 3;
+	dir = 4
 	},
 /turf/open/floor/wood,
 /area/mine/living_quarters{
@@ -9912,6 +9924,12 @@
 /obj/machinery/power/energy_accumulator/tesla_coil/anchored,
 /turf/open/floor/engine,
 /area/station/nk006/support/eng/engine/teg)
+"KJ" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/misc/asteroid/snow/icemoon,
+/area/icemoon/surface/outdoors/nospawn)
 "KK" = (
 /obj/structure/table/reinforced/rglass,
 /obj/item/reagent_containers/cup/beaker/large{
@@ -16991,11 +17009,11 @@ Wx
 Wx
 Wx
 hQ
-jf
-qH
-jf
-jf
-jf
+Wx
+hQ
+hQ
+hQ
+hQ
 jf
 jf
 jf
@@ -17248,12 +17266,12 @@ Wx
 Wx
 PK
 hQ
-jf
+Wx
 hQ
 Qe
 Wx
 hQ
-hQ
+jf
 hQ
 Wx
 Wx
@@ -17505,12 +17523,12 @@ hQ
 hQ
 hQ
 hQ
-jf
+Wx
 Wx
 ay
 Wx
 Wx
-Wx
+jf
 Wx
 Wx
 BT
@@ -17762,12 +17780,12 @@ hQ
 hQ
 hQ
 hQ
+Wx
+Wx
+Wx
+Wx
+Wx
 jf
-Wx
-Wx
-Wx
-Wx
-Wx
 Wx
 Wx
 BT
@@ -18022,9 +18040,9 @@ qk
 Zq
 Wx
 Wx
-Wx
-Wx
 ay
+Wx
+KJ
 Wx
 Wx
 Vf
@@ -18281,7 +18299,7 @@ Wx
 Wx
 Wx
 Wx
-Wx
+KJ
 Wx
 Wx
 Vf
@@ -18538,7 +18556,7 @@ Wx
 Wx
 Wx
 Wx
-Wx
+KJ
 Wx
 Wx
 Vf
@@ -18795,7 +18813,7 @@ Cj
 Cj
 Cj
 Cj
-Cj
+As
 Wx
 Wx
 Vf
@@ -19052,7 +19070,7 @@ bK
 bK
 bK
 Wx
-Ob
+cb
 Wx
 Wx
 Vf
@@ -19309,7 +19327,7 @@ wF
 jD
 bK
 Wx
-Ob
+cb
 Wx
 Wx
 Wx
@@ -19566,7 +19584,7 @@ eT
 OJ
 bK
 Vf
-Cj
+As
 Vf
 Wx
 Vf
@@ -19823,7 +19841,7 @@ fD
 fs
 bK
 Vf
-Cj
+As
 Vf
 Wx
 Vf
@@ -20080,7 +20098,7 @@ uo
 bK
 bK
 Vf
-Cj
+As
 Vf
 Wx
 Vf
@@ -20337,7 +20355,7 @@ Rg
 gA
 bK
 Vf
-Cj
+As
 Vf
 Wx
 Vf
@@ -20594,7 +20612,7 @@ bK
 bK
 bK
 Vf
-Cj
+As
 Vf
 Wx
 Vf
@@ -20851,10 +20869,10 @@ Wx
 Wx
 Wx
 Wx
-Cj
-Cj
-Cj
-Cj
+As
+As
+As
+As
 ou
 Cj
 Cj
@@ -21111,7 +21129,7 @@ Rr
 Rr
 Rr
 cw
-cw
+qH
 cw
 jU
 jU
