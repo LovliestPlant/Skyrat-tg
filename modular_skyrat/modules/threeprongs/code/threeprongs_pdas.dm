@@ -113,7 +113,7 @@
 		/datum/computer_file/program/science,
 		/datum/computer_file/program/robocontrol,
 		/datum/computer_file/program/budgetorders,
-		/datum/computer_file/program/phys_scanner/all,
+		///datum/computer_file/program/phys_scanner/all,
 		/datum/computer_file/program/records/medical,
 	)
 
@@ -127,7 +127,7 @@
 		/datum/computer_file/program/science,
 		/datum/computer_file/program/robocontrol,
 		/datum/computer_file/program/budgetorders,
-		/datum/computer_file/program/phys_scanner/chemistry,
+		///datum/computer_file/program/phys_scanner/chemistry,
 		/datum/computer_file/program/signal_commander,
 	)
 
@@ -200,7 +200,7 @@
 	starting_programs = list(
 		/datum/computer_file/program/atmosscan,
 		/datum/computer_file/program/alarm_monitor,
-		/datum/computer_file/program/phys_scanner/medical,
+		///datum/computer_file/program/phys_scanner/medical,
 		/datum/computer_file/program/radar/lifeline,
 	)
 
@@ -223,7 +223,7 @@
 	starting_programs = list(
 		/datum/computer_file/program/shipping,
 		/datum/computer_file/program/skill_tracker,
-		/datum/computer_file/program/phys_scanner/medical,
+		///datum/computer_file/program/phys_scanner/medical,
 		/datum/computer_file/program/radar/lifeline,
 	)
 
@@ -248,8 +248,8 @@
 	greyscale_config = /datum/greyscale_config/tablet/nk006_pda
 	greyscale_colors = "#FFFFFF#FF0000#AAFF00#7f7f7f"
 	starting_programs = list(
-		/datum/computer_file/program/phys_scanner/medical,
-		/datum/computer_file/program/phys_scanner/chemistry,
+		///datum/computer_file/program/phys_scanner/medical,
+		///datum/computer_file/program/phys_scanner/chemistry,
 		/datum/computer_file/program/records/medical,
 		/datum/computer_file/program/robocontrol,
 	)
@@ -259,8 +259,8 @@
 	greyscale_config = /datum/greyscale_config/tablet/nk006_pda
 	greyscale_colors = "#FFFFFF#FF0000#FF6600#7f7f7f"
 	starting_programs = list(
-		/datum/computer_file/program/phys_scanner/medical,
-		/datum/computer_file/program/phys_scanner/chemistry,
+		///datum/computer_file/program/phys_scanner/medical,
+		///datum/computer_file/program/phys_scanner/chemistry,
 		/datum/computer_file/program/records/medical,
 		/datum/computer_file/program/radar/lifeline,
 	)
@@ -281,8 +281,8 @@
 	greyscale_config = /datum/greyscale_config/tablet/nk006_pda
 	greyscale_colors = "#FFFFFF#AAFF00#FF0000#7f7f7f"
 	starting_programs = list(
-		/datum/computer_file/program/phys_scanner/medical,
-		/datum/computer_file/program/phys_scanner/chemistry,
+		///datum/computer_file/program/phys_scanner/medical,
+		///datum/computer_file/program/phys_scanner/chemistry,
 		/datum/computer_file/program/records/medical,
 		/datum/computer_file/program/atmosscan,
 		/datum/computer_file/program/robocontrol,
