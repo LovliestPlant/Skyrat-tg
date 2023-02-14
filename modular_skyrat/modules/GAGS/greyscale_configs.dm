@@ -1119,6 +1119,21 @@ digi
 	name = "Teshari Hardsuit"
 	json_config = 'modular_skyrat/modules/GAGS/json_configs/teshari_fallbacks/hardsuit.json'
 
+// COLORABLE BANDED RINGS
+
+/datum/greyscale_config/custom_rings
+	name = "Custom Ring"
+	icon_file = 'modular_skyrat/modules/GAGS/icons/rings.dmi'
+	json_config = 'modular_skyrat/modules/GAGS/json_configs/rings/ring_inv.json'
+
+/datum/greyscale_config/custom_rings/worn
+	name = "Custom Ring - Worn"
+	json_config = 'modular_skyrat/modules/GAGS/json_configs/rings/ring_worn.json'
+
+/datum/greyscale_config/custom_rings/worn/teshari
+	name = "Custom Ring - Worn - Teshari"
+	icon_file = 'modular_skyrat/modules/GAGS/icons/rings_teshari.dmi'
+
 /*
 *	ITEMS
 */

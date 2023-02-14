@@ -31,3 +31,24 @@
 	desc = "A tiny silver ring, sized to wrap around a finger."
 	icon_state = "ringsilver"
 	worn_icon_state = "sring"
+
+
+
+// Greyscaled rings
+/obj/item/clothing/gloves/ring/diamond/colorable_blackband
+	name = "banded tungsten ring"
+	desc = "A sturdy, yet affordable tungsten ring with a brightly colored band.  A more accessible alternative for proposals that can be much more personal."
+	icon_state = "ringtung"
+	worn_icon_state = "ringtung"
+	greyscale_config = /datum/greyscale_config/custom_rings
+	greyscale_config_worn = /datum/greyscale_config/custom_rings/worn
+	greyscale_config_worn_teshari = /datum/greyscale_config/custom_rings/worn/teshari
+	flags_1 = IS_PLAYER_COLORABLE_1
+	greyscale_colors = "#FF0000"
+
+/obj/item/clothing/gloves/ring/diamond/colorable_blackband/iri
+	name = "iridescent banded tungsten ring"
+	desc = "A sturdy, shiny, yet affordable tungsten ring with an iridescent, colored band.  A more accessible alternative for proposals that can be much more personal."
+	icon_state = "ringtung_iri"
+	worn_icon_state = "ringtung_iri"
+	greyscale_colors = "#FF0000#FF9F00#FF009F"

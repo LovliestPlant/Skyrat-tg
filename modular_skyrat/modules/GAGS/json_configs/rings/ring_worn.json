@@ -1,0 +1,35 @@
+{
+	"ringtung": [
+		{
+			"type": "icon_state",
+			"icon_state": "ringcolor_worn",
+			"blend_mode": "overlay",
+			"color_ids": [ 1 ]
+		}
+	],
+	"ringtung_iri": [
+		{
+			"type": "icon_state",
+			"icon_state": "ringcolor_worn",
+			"blend_mode": "overlay",
+			"color_ids": [ 3 ]
+		},
+		{
+			"type": "icon_state",
+			"icon_state": "ringcolor_worn",
+			"blend_mode": "overlay",
+			"color_ids": [ 1 ]
+		},
+		{
+			"type": "icon_state",
+			"icon_state": "ringshine_worn",
+			"blend_mode": "overlay",
+			"color_ids": [ 2 ]
+		},
+		{
+			"type": "icon_state",
+			"icon_state": "ringshine_worn",
+			"blend_mode": "overlay"
+		}
+	]
+}

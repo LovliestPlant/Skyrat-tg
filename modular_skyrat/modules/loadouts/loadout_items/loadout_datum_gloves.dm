@@ -97,6 +97,14 @@ GLOBAL_LIST_INIT(loadout_gloves, generate_loadout_items(/datum/loadout_item/glov
 	name = "Diamond Ring"
 	item_path = /obj/item/clothing/gloves/ring/diamond
 
+/datum/loadout_item/gloves/blackring_banded
+	name = "Banded Tungsten Ring"
+	item_path = /obj/item/clothing/gloves/ring/diamond/colorable_blackband
+
+/datum/loadout_item/gloves/blackring_banded_iri
+	name = "Iridescent Banded Tungsten Ring"
+	item_path = /obj/item/clothing/gloves/ring/diamond/colorable_blackband/iri
+
 /*
 *	DONATOR
 */

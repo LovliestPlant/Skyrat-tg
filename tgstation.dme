@@ -6538,6 +6538,8 @@
 #include "modular_skyrat\modules\threeprongs\code\threeprongs_access.dm"
 #include "modular_skyrat\modules\threeprongs\code\threeprongs_areas.dm"
 #include "modular_skyrat\modules\threeprongs\code\threeprongs_decals.dm"
+#include "modular_skyrat\modules\threeprongs\code\threeprongs_headecor.dm"
+#include "modular_skyrat\modules\threeprongs\code\threeprongs_newlockers.dm"
 #include "modular_skyrat\modules\threeprongs\code\threeprongs_pdas.dm"
 #include "modular_skyrat\modules\threeprongs\code\threeprongs_storage.dm"
 #include "modular_skyrat\modules\threeprongs\code\threeprongs_uniforms.dm"

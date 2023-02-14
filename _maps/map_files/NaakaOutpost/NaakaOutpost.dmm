@@ -1649,9 +1649,6 @@
 /obj/structure/table/wood{
 	pixel_x = -8
 	},
-/obj/item/candle/jasmine{
-	pixel_y = 12
-	},
 /turf/open/floor/carpet/purple,
 /area/station/commons/dorms)
 "gF" = (
@@ -1816,7 +1813,6 @@
 /obj/structure/table/wood{
 	pixel_x = 8
 	},
-/obj/item/candle/pear,
 /turf/open/floor/carpet/green,
 /area/station/commons/dorms)
 "ho" = (
@@ -3273,7 +3269,6 @@
 "mL" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/mob/living/simple_animal/hostile/carp/lia,
 /turf/open/floor/carpet/purple,
 /area/station/command/heads_quarters/hos{
 	has_gravity = 1
@@ -10619,9 +10614,6 @@
 	},
 /obj/structure/table/wood{
 	pixel_x = 8
-	},
-/obj/item/candle/mint{
-	pixel_y = 12
 	},
 /turf/open/floor/carpet/orange,
 /area/station/commons/dorms)

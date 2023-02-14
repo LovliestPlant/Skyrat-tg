@@ -1,0 +1,40 @@
+{
+	"ringtung": [
+		{
+			"type": "icon_state",
+			"icon_state": "ringblack",
+			"blend_mode": "overlay"
+		},
+		{
+			"type": "icon_state",
+			"icon_state": "ringband",
+			"blend_mode": "overlay",
+			"color_ids": [ 1 ]
+		}
+	],
+	"ringtung_iri": [
+		{
+			"type": "icon_state",
+			"icon_state": "ringblack",
+			"blend_mode": "overlay"
+		},
+		{
+			"type": "icon_state",
+			"icon_state": "ringband",
+			"blend_mode": "overlay",
+			"color_ids": [ 1 ]
+		},
+		{
+			"type": "icon_state",
+			"icon_state": "ringiri_light",
+			"blend_mode": "overlay",
+			"color_ids": [ 2 ]
+		},
+		{
+			"type": "icon_state",
+			"icon_state": "ringiri_dark",
+			"blend_mode": "overlay",
+			"color_ids": [ 3 ]
+		}
+	]
+}
