@@ -1,16 +1,17 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "af" = (
-/obj/machinery/shower/directional/west,
-/turf/open/floor/iron/white/small,
-/area/space)
+/obj/structure/table/wood/fancy/nk006_hop,
+/obj/item/flashlight/lamp/green,
+/turf/open/floor/carpet/nk006_hop,
+/area/station/nk006/specialist/rob)
 "al" = (
 /obj/machinery/computer/cryopod,
 /turf/closed/wall,
 /area/space)
 "am" = (
-/obj/structure/closet/cabinet,
-/turf/open/floor/carpet/nk006_ce,
-/area/space)
+/obj/machinery/smartfridge/food,
+/turf/closed/wall/mineral/titanium/interior,
+/area/station/nk006/specialist/rob)
 "as" = (
 /obj/structure/chair/sofa/left/brown{
 	dir = 1
@@ -83,14 +84,14 @@
 "cm" = (
 /obj/machinery/door/airlock/bathroom,
 /turf/open/floor/iron/white/small,
-/area/space)
+/area/station/nk006/specialist/rob)
 "co" = (
 /obj/structure/railing{
 	dir = 1
 	},
 /obj/effect/spawner/liquids_spawner,
 /turf/open/floor/iron/pool,
-/area/space)
+/area/station/nk006/specialist/rob)
 "cv" = (
 /obj/structure/closet/secure_closet/medical2,
 /turf/open/floor/iron/white,
@@ -121,10 +122,19 @@
 "dR" = (
 /turf/open/floor/iron/white,
 /area/space)
+"dT" = (
+/obj/structure/closet/secure_closet/freezer/fridge,
+/turf/open/floor/wood/large,
+/area/station/nk006/specialist/rob)
 "dU" = (
 /obj/structure/bookcase/random/nonfiction,
 /turf/open/space/basic,
 /area/space)
+"ef" = (
+/obj/machinery/computer/libraryconsole,
+/obj/structure/table/wood/fancy/nk006_hop,
+/turf/open/floor/wood/large,
+/area/station/nk006/specialist/rob)
 "eh" = (
 /turf/open/floor/iron/chapel{
 	dir = 1
@@ -135,9 +145,9 @@
 /turf/open/misc/grass/jungle/planet,
 /area/space)
 "eu" = (
-/obj/structure/sink/directional/east,
-/turf/open/floor/iron/white/small,
-/area/space)
+/obj/structure/bed/roller,
+/turf/open/floor/iron/white/smooth_large,
+/area/station/nk006/specialist/rob)
 "eA" = (
 /obj/structure/table/reinforced/rglass,
 /obj/item/storage/backpack/duffelbag/med/surgery{
@@ -151,8 +161,9 @@
 /area/space)
 "fj" = (
 /obj/structure/table,
+/obj/machinery/processor,
 /turf/open/floor/iron/kitchen,
-/area/space)
+/area/station/nk006/specialist/rob)
 "fq" = (
 /obj/structure/toilet,
 /turf/open/floor/iron/white,
@@ -167,10 +178,13 @@
 /turf/open/floor/iron/white,
 /area/space)
 "fB" = (
-/obj/structure/table,
-/obj/machinery/processor,
-/turf/open/floor/iron/white/small,
-/area/space)
+/obj/structure/closet/secure_closet/freezer/meat,
+/turf/open/floor/wood/large,
+/area/station/nk006/specialist/rob)
+"fL" = (
+/obj/machinery/door/airlock/nk006/support/service/glass,
+/turf/open/floor/wood/large,
+/area/station/nk006/specialist/rob)
 "fM" = (
 /obj/machinery/atmospherics/components/unary/cryo_cell{
 	dir = 4
@@ -188,6 +202,11 @@
 /obj/machinery/door/airlock/material,
 /turf/open/floor/iron,
 /area/space)
+"gk" = (
+/obj/structure/table/optable,
+/obj/structure/extinguisher_cabinet/directional/north,
+/turf/open/floor/iron/white/smooth_large,
+/area/station/nk006/specialist/rob)
 "gq" = (
 /obj/machinery/door/airlock/glass_large,
 /turf/open/floor/iron/white/smooth_large,
@@ -220,7 +239,7 @@
 	dir = 1
 	},
 /turf/open/floor/wood/large,
-/area/space)
+/area/station/nk006/specialist/rob)
 "hj" = (
 /obj/structure/table/wood/fancy/nk006_any_violet,
 /turf/open/floor/carpet/nk006_any_violet,
@@ -247,19 +266,23 @@
 /turf/open/floor/iron/white,
 /area/space)
 "hF" = (
-/obj/structure/closet/secure_closet/freezer/meat,
-/turf/open/floor/iron/white/small,
-/area/space)
+/obj/machinery/door/airlock/nk006/command,
+/turf/open/floor/carpet/nk006_captain,
+/area/station/nk006/specialist/rob)
 "hN" = (
 /obj/structure/table/wood,
 /turf/open/floor/iron/dark,
 /area/space)
+"hY" = (
+/obj/machinery/light/directional/west,
+/turf/open/floor/iron/white/smooth_large,
+/area/station/nk006/specialist/rob)
 "ib" = (
 /obj/structure/chair/sofa/corp/right{
 	dir = 1
 	},
 /turf/open/floor/wood/large,
-/area/space)
+/area/station/nk006/specialist/rob)
 "iq" = (
 /obj/machinery/smartfridge/organ,
 /turf/open/floor/iron/dark/smooth_large,
@@ -267,7 +290,7 @@
 "ir" = (
 /obj/structure/dresser,
 /turf/open/floor/carpet/nk006_ce,
-/area/space)
+/area/station/nk006/specialist/rob)
 "iz" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -292,7 +315,7 @@
 "je" = (
 /obj/structure/dresser,
 /turf/open/floor/carpet/nk006_rd,
-/area/space)
+/area/station/nk006/specialist/rob)
 "jl" = (
 /obj/structure/flora/rock/style_random,
 /turf/open/misc/grass/planet,
@@ -334,7 +357,7 @@
 "jI" = (
 /obj/structure/sink/directional/west,
 /turf/open/floor/iron/white/small,
-/area/space)
+/area/station/nk006/specialist/rob)
 "jK" = (
 /turf/open/floor/carpet/nk006_any_lime,
 /area/space)
@@ -356,9 +379,12 @@
 /turf/open/floor/iron/white,
 /area/space)
 "kD" = (
-/obj/structure/sink/directional/south,
-/turf/open/floor/iron/white/small,
-/area/space)
+/turf/open/floor/carpet/nk006_hop,
+/area/station/nk006/specialist/rob)
+"kM" = (
+/obj/machinery/griddle,
+/turf/open/floor/iron/kitchen,
+/area/station/nk006/specialist/rob)
 "kR" = (
 /obj/structure/table/wood,
 /obj/machinery/chem_dispenser/drinks{
@@ -366,6 +392,13 @@
 	},
 /turf/open/floor/carpet/neon/simple/blue,
 /area/space)
+"ly" = (
+/obj/effect/spawner/liquids_spawner,
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/open/floor/iron/pool,
+/area/station/nk006/specialist/rob)
 "lE" = (
 /obj/structure/dresser,
 /turf/open/floor/carpet/nk006_any_blue,
@@ -379,13 +412,13 @@
 /obj/structure/bed/double,
 /obj/item/bedsheet/nk006_rd/double,
 /turf/open/floor/carpet/nk006_rd,
-/area/space)
+/area/station/nk006/specialist/rob)
 "mi" = (
 /obj/structure/chair{
 	dir = 4
 	},
 /turf/open/floor/wood/large,
-/area/space)
+/area/station/nk006/specialist/rob)
 "mm" = (
 /turf/open/floor/carpet/nk006_any_orange,
 /area/space)
@@ -400,33 +433,38 @@
 /turf/closed/wall,
 /area/space)
 "ne" = (
-/obj/machinery/griddle,
+/obj/machinery/oven,
+/obj/machinery/microwave{
+	pixel_y = 18;
+	pixel_x = -2
+	},
 /turf/open/floor/iron/kitchen,
-/area/space)
+/area/station/nk006/specialist/rob)
 "nf" = (
 /obj/structure/closet/secure_closet/freezer/fridge/open,
 /turf/open/floor/iron/dark,
 /area/space)
 "nq" = (
-/obj/structure/dresser,
-/turf/open/floor/carpet/nk006_captain,
-/area/space)
-"nt" = (
-/obj/structure/table/wood/fancy/nk006_captain,
-/obj/item/flashlight/lamp{
-	pixel_y = 8;
-	layer = 4
+/obj/machinery/computer/operating{
+	dir = 8
 	},
-/turf/open/floor/carpet/nk006_captain,
-/area/space)
+/obj/machinery/defibrillator_mount/directional/east,
+/turf/open/floor/iron/white/smooth_large,
+/area/station/nk006/specialist/rob)
+"nt" = (
+/obj/effect/spawner/liquids_spawner,
+/turf/open/floor/iron/pool,
+/area/station/nk006/specialist/rob)
 "nB" = (
 /turf/open/floor/iron/kitchen,
 /area/space)
+"nF" = (
+/obj/structure/closet/secure_closet/medical1,
+/turf/open/floor/iron/white/smooth_large,
+/area/station/nk006/specialist/rob)
 "nY" = (
-/obj/structure/fans/tiny,
-/obj/machinery/door/airlock/glass_large,
-/turf/open/floor/iron/kitchen,
-/area/space)
+/turf/closed/wall/mineral/wood,
+/area/station/nk006/specialist/rob)
 "og" = (
 /turf/open/floor/iron/dark,
 /area/space)
@@ -460,8 +498,8 @@
 /area/space)
 "oG" = (
 /obj/machinery/door/airlock/nk006/glass,
-/turf/open/floor/iron/white/small,
-/area/space)
+/turf/open/floor/wood/large,
+/area/station/nk006/specialist/rob)
 "oI" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
 /turf/open/floor/iron/white,
@@ -490,7 +528,14 @@
 "pj" = (
 /obj/structure/table,
 /turf/open/floor/wood/large,
-/area/space)
+/area/station/nk006/specialist/rob)
+"pk" = (
+/obj/structure/toilet{
+	dir = 8
+	},
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron/white/small,
+/area/station/nk006/specialist/rob)
 "pp" = (
 /obj/machinery/door/airlock/nk006/support/eng/engine,
 /turf/open/space/basic,
@@ -499,6 +544,10 @@
 /obj/effect/spawner/random/trash/soap,
 /turf/open/floor/iron/white,
 /area/space)
+"pB" = (
+/obj/structure/bookcase/random/adult,
+/turf/open/floor/wood/large,
+/area/station/nk006/specialist/rob)
 "pQ" = (
 /obj/structure/chair/comfy/brown{
 	dir = 8
@@ -571,7 +620,7 @@
 	dir = 1
 	},
 /turf/open/floor/carpet/nk006_ce,
-/area/space)
+/area/station/nk006/specialist/rob)
 "sr" = (
 /obj/effect/mapping_helpers/dead_body_placer,
 /turf/open/floor/iron/dark/smooth_large,
@@ -598,14 +647,17 @@
 	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/space)
+"tf" = (
+/obj/structure/bookcase/random/nonfiction,
+/turf/open/floor/wood/large,
+/area/station/nk006/specialist/rob)
 "tm" = (
 /obj/machinery/computer/communications,
 /turf/open/floor/iron,
 /area/space)
 "to" = (
-/obj/machinery/door/airlock/nk006/glass,
-/turf/open/floor/wood/large,
-/area/space)
+/turf/open/floor/plating/cobblestone/planet,
+/area/station/nk006/specialist/rob)
 "tu" = (
 /obj/item/storage/box/bodybags,
 /obj/structure/table/wood,
@@ -628,6 +680,11 @@
 /obj/machinery/door/airlock/glass_large,
 /turf/open/space/basic,
 /area/space)
+"uN" = (
+/obj/machinery/stasis,
+/obj/machinery/light/directional/east,
+/turf/open/floor/iron/white/smooth_large,
+/area/station/nk006/specialist/rob)
 "uU" = (
 /obj/structure/bookcase/random/adult,
 /turf/open/space/basic,
@@ -639,10 +696,10 @@
 "ve" = (
 /obj/structure/closet/cabinet,
 /turf/open/floor/carpet/nk006_rd,
-/area/space)
+/area/station/nk006/specialist/rob)
 "vf" = (
 /turf/open/floor/wood/large,
-/area/space)
+/area/station/nk006/specialist/rob)
 "vx" = (
 /obj/structure/chair/comfy/teal{
 	dir = 8
@@ -663,13 +720,15 @@
 /turf/open/floor/iron,
 /area/space)
 "vW" = (
-/obj/machinery/oven,
-/obj/machinery/microwave{
-	pixel_y = 18;
-	pixel_x = -2
+/obj/machinery/bookbinder,
+/turf/open/floor/wood/large,
+/area/station/nk006/specialist/rob)
+"vX" = (
+/obj/structure/chair/comfy/black{
+	dir = 8
 	},
-/turf/open/floor/iron/kitchen,
-/area/space)
+/turf/open/floor/carpet/nk006_hop,
+/area/station/nk006/specialist/rob)
 "vY" = (
 /obj/structure/chair/sofa/corner{
 	dir = 8
@@ -688,7 +747,7 @@
 	layer = 4
 	},
 /turf/open/floor/carpet/nk006_ce,
-/area/space)
+/area/station/nk006/specialist/rob)
 "wO" = (
 /obj/machinery/chem_dispenser,
 /turf/open/floor/iron/white,
@@ -726,6 +785,14 @@
 /obj/structure/table/wood,
 /turf/open/floor/carpet/neon/simple/blue,
 /area/space)
+"xp" = (
+/obj/structure/table/wood/fancy/nk006_captain,
+/obj/item/flashlight/lamp{
+	pixel_y = 8;
+	layer = 4
+	},
+/turf/open/floor/carpet/nk006_captain,
+/area/station/nk006/specialist/rob)
 "xu" = (
 /turf/open/floor/iron/chapel,
 /area/space)
@@ -738,21 +805,21 @@
 /turf/open/floor/carpet/green,
 /area/space)
 "xF" = (
-/obj/machinery/smartfridge/food,
-/turf/open/floor/iron/white/small,
-/area/space)
+/obj/structure/closet/secure_closet/freezer/kitchen,
+/turf/open/floor/wood/large,
+/area/station/nk006/specialist/rob)
 "xI" = (
 /obj/machinery/shower/directional/east,
 /turf/open/floor/iron/white/small,
-/area/space)
+/area/station/nk006/specialist/rob)
 "xJ" = (
 /obj/structure/flora/rock/style_random,
 /turf/open/misc/snow,
 /area/space)
 "xU" = (
-/obj/structure/closet/secure_closet/freezer/fridge,
-/turf/open/floor/iron/white/small,
-/area/space)
+/obj/structure/bookcase/random/fiction,
+/turf/open/floor/wood/large,
+/area/station/nk006/specialist/rob)
 "xX" = (
 /obj/machinery/vending/autodrobe/all_access,
 /turf/open/floor/iron/dark,
@@ -768,7 +835,7 @@
 	layer = 4
 	},
 /turf/open/floor/carpet/nk006_rd,
-/area/space)
+/area/station/nk006/specialist/rob)
 "yv" = (
 /obj/machinery/requests_console/directional/north{
 	announcementConsole = 1;
@@ -783,13 +850,15 @@
 	dir = 8
 	},
 /turf/open/floor/wood/large,
-/area/space)
+/area/station/nk006/specialist/rob{
+	name = "Casa de Ko"
+	})
 "yE" = (
 /obj/structure/chair/sofa/corp/left{
 	dir = 1
 	},
 /turf/open/floor/wood/large,
-/area/space)
+/area/station/nk006/specialist/rob)
 "yH" = (
 /obj/machinery/cryopod,
 /turf/open/floor/iron/white/smooth_large,
@@ -806,12 +875,10 @@
 /turf/open/floor/iron/white,
 /area/space)
 "yX" = (
-/obj/effect/spawner/liquids_spawner,
-/obj/structure/railing{
-	dir = 1
-	},
-/turf/open/floor/iron/pool,
-/area/space)
+/obj/structure/fans/tiny,
+/obj/machinery/door/airlock/nk006/glass,
+/turf/open/floor/wood/large,
+/area/station/nk006/specialist/rob)
 "zx" = (
 /obj/structure/closet/crate/freezer/surplus_limbs,
 /turf/open/floor/iron/white,
@@ -823,6 +890,10 @@
 /obj/structure/chair/comfy,
 /turf/open/floor/iron/dark,
 /area/space)
+"Ac" = (
+/obj/structure/displaycase/trophy,
+/turf/open/floor/wood/large,
+/area/station/nk006/specialist/rob)
 "Ad" = (
 /turf/closed/wall,
 /area/space)
@@ -881,12 +952,20 @@
 /obj/item/storage/book/bible,
 /turf/open/floor/iron/chapel,
 /area/space)
+"BT" = (
+/obj/machinery/photocopier,
+/turf/open/floor/carpet/nk006_hop,
+/area/station/nk006/specialist/rob)
 "BY" = (
 /obj/structure/chair/sofa/corp/right{
 	dir = 4
 	},
 /turf/open/floor/iron/white,
 /area/space)
+"Cq" = (
+/obj/machinery/modular_computer/console/preset/curator,
+/turf/open/floor/carpet/nk006_hop,
+/area/station/nk006/specialist/rob)
 "Ct" = (
 /obj/structure/bed/double{
 	dir = 4
@@ -913,9 +992,8 @@
 /turf/open/floor/iron/white,
 /area/space)
 "Da" = (
-/obj/machinery/deepfryer,
 /turf/open/floor/iron/kitchen,
-/area/space)
+/area/station/nk006/specialist/rob)
 "Dc" = (
 /obj/item/storage/box/drinkingglasses,
 /obj/structure/table/wood,
@@ -934,6 +1012,10 @@
 /obj/item/flashlight/lamp,
 /turf/open/floor/carpet/nk006_any_violet,
 /area/space)
+"Ed" = (
+/obj/structure/sink/directional/east,
+/turf/open/floor/iron/white/small,
+/area/station/nk006/specialist/rob)
 "Eg" = (
 /obj/machinery/door/airlock/external,
 /turf/open/floor/iron,
@@ -944,12 +1026,23 @@
 	},
 /turf/open/floor/iron/white,
 /area/space)
+"Ev" = (
+/obj/machinery/chem_dispenser{
+	layer = 2.7
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/station/nk006/specialist/rob)
 "Ey" = (
 /obj/machinery/stasis{
 	dir = 4
 	},
 /turf/open/floor/iron/white,
 /area/space)
+"Ez" = (
+/obj/machinery/iv_drip,
+/obj/structure/closet/secure_closet/medical2,
+/turf/open/floor/iron/white/smooth_large,
+/area/station/nk006/specialist/rob)
 "EC" = (
 /obj/machinery/door/airlock/nk006/support/service,
 /turf/open/floor/iron/dark,
@@ -985,7 +1078,7 @@
 /area/space)
 "Fy" = (
 /turf/open/floor/iron/white/small,
-/area/space)
+/area/station/nk006/specialist/rob)
 "Fz" = (
 /obj/machinery/door/airlock/nk006/support/eng,
 /turf/open/floor/iron/dark/smooth_large,
@@ -995,9 +1088,8 @@
 /turf/open/floor/iron/white,
 /area/space)
 "FN" = (
-/obj/effect/spawner/liquids_spawner,
-/turf/open/floor/iron/pool,
-/area/space)
+/turf/open/floor/carpet/nk006_captain,
+/area/station/nk006/specialist/rob)
 "FV" = (
 /obj/structure/chair/comfy/lime{
 	dir = 8
@@ -1016,8 +1108,9 @@
 /obj/structure/chair/sofa/corp{
 	dir = 1
 	},
+/obj/machinery/light/directional/south,
 /turf/open/floor/wood/large,
-/area/space)
+/area/station/nk006/specialist/rob)
 "GD" = (
 /obj/structure/table/glass,
 /turf/open/floor/iron/white,
@@ -1029,6 +1122,10 @@
 "GF" = (
 /turf/open/floor/iron/pool,
 /area/space)
+"GI" = (
+/obj/machinery/chem_master,
+/turf/open/floor/iron/white/smooth_large,
+/area/station/nk006/specialist/rob)
 "GL" = (
 /obj/machinery/chem_master,
 /turf/open/floor/carpet/neon/simple/blue,
@@ -1059,9 +1156,9 @@
 /turf/open/floor/engine,
 /area/space)
 "Hp" = (
-/obj/structure/closet/cabinet,
-/turf/open/floor/carpet/nk006_captain,
-/area/space)
+/obj/machinery/light/floor,
+/turf/open/floor/wood/large,
+/area/station/nk006/specialist/rob)
 "HL" = (
 /obj/machinery/chem_dispenser,
 /turf/open/floor/carpet/neon/simple/blue,
@@ -1083,6 +1180,10 @@
 /obj/item/chair/stool/bar,
 /turf/open/floor/carpet/neon/simple/blue,
 /area/space)
+"Io" = (
+/obj/structure/bookcase/random/religion,
+/turf/open/floor/wood/large,
+/area/station/nk006/specialist/rob)
 "It" = (
 /obj/machinery/door/airlock/material,
 /turf/open/floor/iron/white,
@@ -1095,7 +1196,7 @@
 /area/space)
 "Ix" = (
 /turf/open/floor/carpet/nk006_rd,
-/area/space)
+/area/station/nk006/specialist/rob)
 "IG" = (
 /obj/structure/chair/comfy/teal{
 	dir = 1
@@ -1134,17 +1235,26 @@
 /turf/open/floor/carpet/nk006_any_lime,
 /area/space)
 "Kc" = (
-/obj/machinery/shower/directional/north,
-/turf/open/floor/iron/white/small,
-/area/space)
+/obj/machinery/computer/libraryconsole/bookmanagement,
+/obj/structure/table/wood/fancy/nk006_hop,
+/turf/open/floor/carpet/nk006_hop,
+/area/station/nk006/specialist/rob)
 "Kf" = (
 /obj/structure/chair/sofa/right,
 /turf/open/floor/iron/dark,
 /area/space)
+"Ki" = (
+/obj/structure/bookcase/random/reference,
+/turf/open/floor/wood/large,
+/area/station/nk006/specialist/rob)
 "Kp" = (
 /obj/structure/flora/grass/both/style_random,
 /turf/open/misc/snow,
 /area/space)
+"Ks" = (
+/obj/machinery/deepfryer,
+/turf/open/floor/iron/kitchen,
+/area/station/nk006/specialist/rob)
 "KA" = (
 /obj/structure/chair/sofa/corp/left{
 	dir = 4
@@ -1152,11 +1262,9 @@
 /turf/open/floor/iron/white,
 /area/space)
 "KB" = (
-/obj/structure/toilet{
-	dir = 8
-	},
-/turf/open/floor/iron/white/small,
-/area/space)
+/obj/structure/closet/cabinet,
+/turf/open/floor/carpet/nk006_captain,
+/area/station/nk006/specialist/rob)
 "KI" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/iron/white,
@@ -1197,6 +1305,10 @@
 /obj/machinery/computer/apc_control,
 /turf/open/floor/iron,
 /area/space)
+"LJ" = (
+/obj/machinery/door/airlock/nk006/support/hop/glass,
+/turf/open/floor/carpet/nk006_hop,
+/area/station/nk006/specialist/rob)
 "LS" = (
 /obj/machinery/vending/medical,
 /turf/open/floor/iron/white,
@@ -1263,7 +1375,7 @@
 "NK" = (
 /obj/machinery/door/airlock/nk006/specialist,
 /turf/open/floor/carpet/nk006_rd,
-/area/space)
+/area/station/nk006/specialist/rob)
 "NN" = (
 /obj/machinery/door/airlock/nk006/specialist/science,
 /turf/open/floor/iron/white,
@@ -1276,6 +1388,10 @@
 /obj/structure/sink,
 /turf/open/floor/carpet/neon/simple/blue,
 /area/space)
+"Om" = (
+/obj/machinery/light/dim/directional/south,
+/turf/open/floor/wood/large,
+/area/station/nk006/specialist/rob)
 "OU" = (
 /obj/machinery/door/airlock/nk006/command/captain,
 /turf/open/floor/carpet/nk006_captain,
@@ -1299,9 +1415,8 @@
 /turf/open/floor/iron/white/smooth_large,
 /area/space)
 "Pv" = (
-/obj/machinery/door/airlock/nk006/command,
-/turf/open/floor/carpet/nk006_captain,
-/area/space)
+/turf/open/floor/iron/white/smooth_large,
+/area/station/nk006/specialist/rob)
 "PD" = (
 /obj/structure/closet/secure_closet/personal/cabinet,
 /turf/open/floor/carpet/nk006_any_violet,
@@ -1321,6 +1436,20 @@
 /obj/structure/table/wood/fancy/nk006_any_lime,
 /turf/open/floor/carpet/nk006_any_lime,
 /area/space)
+"QL" = (
+/obj/structure/table,
+/obj/machinery/light/directional/north,
+/turf/open/floor/wood/large,
+/area/station/nk006/specialist/rob)
+"QR" = (
+/obj/structure/closet/secure_closet/medical3,
+/obj/item/defibrillator/loaded,
+/obj/item/storage/belt/medical{
+	pixel_y = 3
+	},
+/obj/item/clothing/glasses/hud/health,
+/turf/open/floor/iron/white/smooth_large,
+/area/station/nk006/specialist/rob)
 "QY" = (
 /obj/machinery/door/airlock/wood,
 /turf/open/floor/iron,
@@ -1332,6 +1461,10 @@
 	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/space)
+"Ri" = (
+/obj/machinery/libraryscanner,
+/turf/open/floor/wood/large,
+/area/station/nk006/specialist/rob)
 "Ro" = (
 /obj/machinery/shower/directional/north,
 /turf/open/floor/iron/white,
@@ -1345,15 +1478,13 @@
 /turf/open/floor/iron/dark,
 /area/space)
 "RR" = (
-/obj/structure/toilet{
-	dir = 1
-	},
-/turf/open/floor/iron/white/small,
-/area/space)
+/obj/structure/closet/cabinet,
+/turf/open/floor/carpet/nk006_ce,
+/area/station/nk006/specialist/rob)
 "RV" = (
 /obj/machinery/door/airlock/nk006/support,
 /turf/open/floor/carpet/nk006_ce,
-/area/space)
+/area/station/nk006/specialist/rob)
 "RW" = (
 /obj/structure/bookcase/random/fiction,
 /turf/open/space/basic,
@@ -1378,9 +1509,9 @@
 /turf/open/floor/iron/white,
 /area/space)
 "SX" = (
-/obj/structure/closet/secure_closet/freezer/kitchen,
+/obj/machinery/door/airlock/nk006/specialist,
 /turf/open/floor/iron/white/small,
-/area/space)
+/area/station/nk006/specialist/rob)
 "SY" = (
 /obj/structure/altar_of_gods,
 /obj/item/storage/book/bible,
@@ -1395,27 +1526,26 @@
 /obj/structure/toilet{
 	dir = 4
 	},
+/obj/machinery/light/directional/north,
 /turf/open/floor/iron/white/small,
-/area/space)
+/area/station/nk006/specialist/rob)
 "Tn" = (
 /obj/structure/flora/tree/pine/style_random,
 /turf/open/misc/snow,
 /area/space)
 "TE" = (
-/obj/structure/fans/tiny,
-/turf/open/floor/iron/kitchen,
-/area/space)
+/obj/structure/dresser,
+/turf/open/floor/carpet/nk006_captain,
+/area/station/nk006/specialist/rob)
 "TG" = (
 /obj/structure/sink/directional/north,
 /turf/open/floor/iron/white,
 /area/space)
 "TI" = (
-/obj/effect/spawner/liquids_spawner,
-/obj/structure/railing{
-	dir = 8
-	},
-/turf/open/floor/iron/pool,
-/area/space)
+/obj/structure/bed/double,
+/obj/item/bedsheet/nk006_captain/double,
+/turf/open/floor/carpet/nk006_captain,
+/area/station/nk006/specialist/rob)
 "TQ" = (
 /obj/machinery/door/airlock/public,
 /turf/open/floor/carpet/neon/simple/blue,
@@ -1476,7 +1606,7 @@
 /area/space)
 "Vw" = (
 /turf/open/floor/carpet/nk006_ce,
-/area/space)
+/area/station/nk006/specialist/rob)
 "Vy" = (
 /obj/structure/chair/comfy/brown{
 	dir = 1
@@ -1485,14 +1615,8 @@
 /area/space)
 "VK" = (
 /obj/structure/table,
-/obj/machinery/reagentgrinder{
-	pixel_x = 6;
-	pixel_y = 6
-	},
-/obj/item/kitchen/rollingpin,
-/obj/item/knife/kitchen,
 /turf/open/floor/iron/kitchen,
-/area/space)
+/area/station/nk006/specialist/rob)
 "VT" = (
 /turf/open/floor/carpet/nk006_hop,
 /area/space)
@@ -1532,7 +1656,11 @@
 /area/space)
 "Wu" = (
 /turf/closed/wall/mineral/titanium/interior,
-/area/space)
+/area/station/nk006/specialist/rob)
+"WC" = (
+/obj/machinery/chem_heater/withbuffer,
+/turf/open/floor/iron/white/smooth_large,
+/area/station/nk006/specialist/rob)
 "WM" = (
 /obj/machinery/door/airlock/nk006/support/eng/engine/teg,
 /turf/open/floor/engine,
@@ -1566,6 +1694,10 @@
 	},
 /turf/open/floor/iron/white,
 /area/space)
+"XM" = (
+/obj/machinery/door/airlock/nk006/specialist/cmo/glass,
+/turf/open/floor/iron/white/smooth_large,
+/area/station/nk006/specialist/rob)
 "XO" = (
 /turf/open/floor/iron,
 /area/space)
@@ -1635,7 +1767,7 @@
 "ZJ" = (
 /obj/structure/table/reinforced/plastitaniumglass,
 /turf/open/floor/wood/large,
-/area/space)
+/area/station/nk006/specialist/rob)
 "ZK" = (
 /obj/structure/chair/comfy/black,
 /turf/open/floor/iron/dark,
@@ -51877,8 +52009,8 @@ uv
 uv
 uv
 uv
-zN
-zN
+uv
+uv
 zN
 zN
 zN
@@ -52134,8 +52266,8 @@ uv
 uv
 uv
 uv
-zN
-zN
+uv
+uv
 zN
 zN
 zN
@@ -52380,10 +52512,6 @@ Ju
 Ju
 Ju
 Ju
-Ju
-zN
-uv
-uv
 Wu
 Wu
 Wu
@@ -52392,6 +52520,10 @@ Wu
 Wu
 Wu
 Wu
+Wu
+Wu
+Wu
+yX
 Wu
 Wu
 zN
@@ -52637,19 +52769,19 @@ Ju
 Ju
 Ju
 Ju
-Ju
-Ju
-uv
-uv
+Wu
+QR
+hY
+GI
 Wu
 ne
 Da
+Da
 fj
-fj
-Wu
-hF
-SX
-xU
+am
+vf
+vf
+vf
 Wu
 zN
 zN
@@ -52894,19 +53026,19 @@ Ju
 Ju
 Ju
 Ju
-Ju
-Ju
-uv
-uv
-nY
-nB
-nB
-nB
-nB
+Wu
+nF
+Pv
+Ev
+Wu
+Ks
+Da
+Da
+Da
 oG
-Fy
-Fy
-Fy
+vf
+vf
+vf
 Wu
 zN
 zN
@@ -53151,18 +53283,18 @@ Ju
 Ju
 Ju
 Ju
-Ju
-Ju
-uv
-uv
-TE
-nB
-nB
-nB
-fj
+Wu
+Ez
+Pv
+WC
+Wu
+kM
+Da
+Da
+VK
 Wu
 fB
-Fy
+dT
 xF
 Wu
 zN
@@ -53408,14 +53540,14 @@ Ju
 Ju
 Ju
 Ju
-Ju
-Ju
-uv
-uv
 Wu
-vW
-nB
-nB
+gk
+Pv
+Pv
+XM
+Da
+Da
+Da
 VK
 Wu
 Wu
@@ -53665,15 +53797,15 @@ Ju
 Ju
 Ju
 Ju
-Ju
-Ju
-uv
-uv
 Wu
+nq
+uN
+eu
 Wu
-to
-Wu
-Wu
+vf
+vf
+vf
+vf
 Wu
 ir
 rU
@@ -54182,7 +54314,7 @@ Ju
 Wu
 Td
 xI
-FN
+nt
 Wu
 mi
 vf
@@ -54441,12 +54573,12 @@ jI
 Fy
 co
 Wu
-pj
+QL
 ha
 vf
 yE
 Wu
-am
+Vw
 Vw
 Vw
 Wu
@@ -54703,9 +54835,9 @@ ha
 vf
 Gv
 Wu
-Wu
-cm
-Wu
+RR
+Vw
+Vw
 Wu
 zN
 zN
@@ -54960,9 +55092,9 @@ vf
 vf
 ib
 Wu
-eu
-Fy
-yX
+Wu
+Wu
+Wu
 Wu
 zN
 zN
@@ -55204,9 +55336,9 @@ Ih
 Ih
 Ih
 Ju
-Ju
-Ju
-Ju
+Fy
+Fy
+Fy
 Wu
 Ix
 Ix
@@ -55218,7 +55350,7 @@ vf
 ZJ
 Wu
 KB
-af
+FN
 FN
 Wu
 zN
@@ -55461,22 +55593,22 @@ Ih
 Ih
 Ih
 Ju
-Ju
-Ju
-Ju
+Fy
+Fy
+Fy
 Wu
 Ix
 Ix
 Ix
 Wu
-Wu
-Wu
-Pv
-Wu
-Wu
-Wu
-Wu
-Wu
+vf
+vf
+vf
+vf
+hF
+FN
+FN
+FN
 Wu
 zN
 zN
@@ -55718,22 +55850,22 @@ Ih
 Ih
 Ih
 Ju
-Ju
-Ju
-Ju
+Fy
+Fy
+Fy
+SX
+Ix
+Ix
+Ix
 Wu
-Ix
-Ix
-Ix
-Ix
 Wu
-Hp
-Wc
-Wc
-Wc
 Wu
-kD
-RR
+cm
+Wu
+Wu
+FN
+FN
+FN
 Wu
 zN
 Fn
@@ -55975,22 +56107,22 @@ Ih
 Ih
 Ih
 Ju
-Ju
-Ju
-Ju
-Wu
-Ix
-Ix
-Ix
-Ix
-Wu
-Wc
-Wc
-Wc
-Wc
-cm
 Fy
-Kc
+Fy
+Fy
+Wu
+Ix
+Ix
+Ix
+Wu
+Ed
+xI
+Fy
+ly
+Wu
+FN
+FN
+FN
 Wu
 zN
 zN
@@ -56232,22 +56364,22 @@ Ih
 Ih
 Ih
 Ju
-Ju
-Ju
-Ju
+Fy
+Fy
+Fy
 Wu
 je
 lL
 yp
-Ix
 Wu
-nq
-hn
+pk
+Fy
+Fy
 nt
-Wc
 Wu
+TE
 TI
-FN
+xp
 Wu
 zN
 zN
@@ -56490,7 +56622,7 @@ Ih
 Ih
 Ju
 Ju
-Ju
+to
 Ju
 Wu
 Wu
@@ -56747,7 +56879,7 @@ Ju
 Ju
 Ju
 Ju
-Ju
+to
 Ju
 zN
 zN
@@ -57004,7 +57136,7 @@ Ju
 Ju
 Ju
 Ju
-Ju
+to
 Ju
 Ju
 zN
@@ -57261,7 +57393,7 @@ Ju
 Ju
 Ju
 Ju
-Ju
+to
 Ju
 Ju
 zN
@@ -57514,15 +57646,15 @@ Ju
 Ju
 Ju
 Ju
-Ju
-Ju
-Ju
-Ju
-Ju
-Ju
-Ju
-zN
-zN
+nY
+nY
+nY
+nY
+fL
+nY
+nY
+nY
+nY
 zN
 zN
 zN
@@ -57771,15 +57903,15 @@ Ju
 Ju
 Ju
 Ju
-Ju
-Ju
-Ju
-Ju
-Ju
-Ju
-Ju
-zN
-zN
+nY
+Io
+vf
+ef
+vf
+xU
+xU
+xU
+nY
 zN
 zN
 zN
@@ -58028,15 +58160,15 @@ Ju
 Ju
 Ju
 Ju
-Ju
-Ju
-Ju
-Ju
-Ju
-Ju
-Ju
-zN
-zN
+nY
+Io
+vf
+vf
+vf
+vf
+vf
+Om
+nY
 zN
 zN
 zN
@@ -58285,15 +58417,15 @@ Ju
 Ju
 Ju
 Ju
-Ju
-Ju
-Ju
-Ju
-Ju
-Ju
-Ju
-zN
-zN
+nY
+xU
+Hp
+Ac
+Ac
+pB
+Ki
+Ki
+nY
 zN
 zN
 zN
@@ -58542,15 +58674,15 @@ Ju
 Ju
 Ju
 Ju
-Ju
-Ju
-Ju
-Ju
-Ju
-Ju
-Ju
-zN
-zN
+nY
+Io
+vf
+vf
+vf
+vf
+vf
+Om
+nY
 zN
 zN
 zN
@@ -58799,15 +58931,15 @@ Ju
 Ju
 Ju
 Ju
-Ju
-Ju
-Ju
-Ju
-Ju
-Ju
-Uf
-Uf
-Uf
+nY
+Io
+vf
+vW
+Ri
+tf
+tf
+tf
+nY
 Uf
 Uf
 Uf
@@ -59056,15 +59188,15 @@ Uf
 Uf
 Uf
 Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+nY
+nY
+LJ
+nY
+nY
+nY
+nY
+nY
+nY
 Uf
 Uf
 Uf
@@ -59313,11 +59445,11 @@ Uf
 Uf
 Uf
 Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+nY
+Kc
+kD
+BT
+nY
 Uf
 Uf
 Uf
@@ -59570,11 +59702,11 @@ Uf
 Uf
 Uf
 Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+nY
+kD
+kD
+af
+nY
 Uf
 Uf
 Uf
@@ -59827,11 +59959,11 @@ Uf
 Uf
 Uf
 Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+nY
+Cq
+kD
+vX
+nY
 Uf
 Uf
 Uf
@@ -60084,11 +60216,11 @@ Uf
 Uf
 Uf
 Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+nY
+nY
+nY
+nY
+nY
 Uf
 Uf
 Uf
