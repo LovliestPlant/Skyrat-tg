@@ -197,7 +197,7 @@
 	})
 "aO" = (
 /obj/structure/dresser,
-/turf/open/floor/carpet/nk006_rd,
+/turf/open/floor/carpet/nk006_any_violet,
 /area/station/nk006/specialist/rob{
 	name = "Casa de Ko"
 	})
@@ -324,10 +324,10 @@
 	has_gravity = 1
 	})
 "bp" = (
-/obj/machinery/door/airlock/nk006/command,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/carpet/nk006_captain,
+/obj/machinery/door/airlock/nk006/specialist,
+/turf/open/floor/carpet/nk006_any_lime,
 /area/station/nk006/specialist/rob{
 	name = "Casa de Ko"
 	})
@@ -434,7 +434,7 @@
 	has_gravity = 1
 	})
 "bL" = (
-/turf/open/floor/carpet/nk006_captain,
+/turf/open/floor/carpet/nk006_any_lime,
 /area/station/nk006/specialist/rob{
 	name = "Casa de Ko"
 	})
@@ -794,15 +794,15 @@
 	})
 "de" = (
 /obj/structure/chair/pillow_small{
-	icon_state = "pillowpile_small_cmd";
+	icon_state = "pillowpile_small_spt";
 	pillow1_color_changed = 1;
 	pillow2_color_changed = 1;
-	current_color = "cmd";
-	pillow1_color = "cmd";
-	pillow2_color = "cmd";
+	current_color = "spt";
+	pillow1_color = "spt";
+	pillow2_color = "spt";
 	transform = matrix()*0.75
 	},
-/turf/open/floor/carpet/nk006_captain,
+/turf/open/floor/carpet/nk006_any_lime,
 /area/station/nk006/specialist/rob{
 	name = "Casa de Ko"
 	})
@@ -955,7 +955,7 @@
 	})
 "dL" = (
 /obj/structure/closet/cabinet,
-/turf/open/floor/carpet/nk006_rd,
+/turf/open/floor/carpet/nk006_any_violet,
 /area/station/nk006/specialist/rob{
 	name = "Casa de Ko"
 	})
@@ -1327,7 +1327,11 @@
 	dir = 1
 	},
 /obj/structure/table/wood/fancy/nk006_hop,
-/obj/item/flashlight/lamp/green,
+/obj/item/flashlight/lamp/green{
+	pixel_x = 10;
+	pixel_y = 16;
+	layer = 3.1
+	},
 /turf/open/floor/carpet/nk006_hop,
 /area/station/nk006/support/srv/vip{
 	name = "Ranya's Library"
@@ -1381,12 +1385,12 @@
 /turf/closed/wall/r_wall,
 /area/station/science/research)
 "fo" = (
-/obj/structure/table/wood/fancy/nk006_captain,
 /obj/item/flashlight/lamp{
 	pixel_y = 8;
 	layer = 4
 	},
-/turf/open/floor/carpet/nk006_captain,
+/obj/structure/table/wood/fancy/nk006_any_lime,
+/turf/open/floor/carpet/nk006_any_lime,
 /area/station/nk006/specialist/rob{
 	name = "Casa de Ko"
 	})
@@ -1569,7 +1573,7 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
 	},
-/turf/open/floor/carpet/nk006_ce,
+/turf/open/floor/carpet/nk006_any_orange,
 /area/station/nk006/specialist/rob{
 	name = "Casa de Ko"
 	})
@@ -1892,6 +1896,18 @@
 	})
 "gS" = (
 /obj/structure/table,
+/obj/item/food/stewed_muli{
+	pixel_y = 16
+	},
+/obj/item/food/sirisai_flatbread,
+/obj/item/food/sirisai_wrap{
+	pixel_x = -5;
+	pixel_y = 5
+	},
+/obj/item/food/sirisai_wrap{
+	pixel_x = 9;
+	pixel_y = 5
+	},
 /turf/open/floor/iron/kitchen,
 /area/station/nk006/specialist/rob{
 	name = "Casa de Ko"
@@ -1910,7 +1926,7 @@
 /area/station/science/ordnance/burnchamber)
 "gW" = (
 /obj/structure/closet/cabinet,
-/turf/open/floor/carpet/nk006_ce,
+/turf/open/floor/carpet/nk006_any_orange,
 /area/station/nk006/specialist/rob{
 	name = "Casa de Ko"
 	})
@@ -1948,7 +1964,7 @@
 "hd" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/carpet/nk006_ce,
+/turf/open/floor/carpet/nk006_any_orange,
 /area/station/nk006/specialist/rob{
 	name = "Casa de Ko"
 	})
@@ -2276,7 +2292,7 @@
 /area/station/cargo/miningoffice)
 "it" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/carpet/nk006_ce,
+/turf/open/floor/carpet/nk006_any_orange,
 /area/station/nk006/specialist/rob{
 	name = "Casa de Ko"
 	})
@@ -3219,6 +3235,10 @@
 /obj/structure/table,
 /obj/machinery/light/directional/north,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/obj/item/food/lizard_surf_n_turf{
+	pixel_y = 8
+	},
+/obj/item/food/lizard_surf_n_turf,
 /turf/open/floor/wood/large,
 /area/station/nk006/specialist/rob{
 	name = "Casa de Ko"
@@ -3410,6 +3430,18 @@
 /area/station/science/ordnance/burnchamber)
 "ma" = (
 /obj/structure/table,
+/obj/item/food/kiri_curry{
+	pixel_x = -6;
+	pixel_y = 15
+	},
+/obj/item/food/kiri_curry{
+	pixel_x = 7;
+	pixel_y = 8
+	},
+/obj/item/food/kiri_curry{
+	pixel_x = -6;
+	pixel_y = 1
+	},
 /turf/open/floor/wood/large,
 /area/station/nk006/specialist/rob{
 	name = "Casa de Ko"
@@ -3428,7 +3460,7 @@
 /area/station/commons/dorms)
 "md" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
-/turf/open/floor/carpet/nk006_rd,
+/turf/open/floor/carpet/nk006_any_violet,
 /area/station/nk006/specialist/rob{
 	name = "Casa de Ko"
 	})
@@ -3910,11 +3942,11 @@
 	has_gravity = 1
 	})
 "nK" = (
-/obj/machinery/door/airlock/nk006/specialist,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
 /obj/structure/fans/tiny,
+/obj/machinery/door/airlock/nk006/command,
 /turf/open/floor/iron/white/small,
 /area/station/nk006/specialist/rob{
 	name = "Casa de Ko"
@@ -3972,7 +4004,7 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
 	},
-/turf/open/floor/carpet/nk006_rd,
+/turf/open/floor/carpet/nk006_any_violet,
 /area/station/nk006/specialist/rob{
 	name = "Casa de Ko"
 	})
@@ -4596,7 +4628,7 @@
 /area/icemoon/surface/outdoors/nospawn)
 "ql" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/carpet/nk006_captain,
+/turf/open/floor/carpet/nk006_any_lime,
 /area/station/nk006/specialist/rob{
 	name = "Casa de Ko"
 	})
@@ -4698,11 +4730,6 @@
 	})
 "qA" = (
 /obj/structure/closet/secure_closet/medical3,
-/obj/item/defibrillator/loaded,
-/obj/item/storage/belt/medical{
-	pixel_y = 3
-	},
-/obj/item/clothing/glasses/hud/health,
 /turf/open/floor/iron/white/smooth_large,
 /area/station/nk006/specialist/rob{
 	name = "Casa de Ko"
@@ -5316,6 +5343,9 @@
 /area/icemoon/underground/explored)
 "sD" = (
 /obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/flashlight/lamp/green{
+	pixel_y = 10
+	},
 /turf/open/floor/wood/large,
 /area/station/nk006/specialist/rob{
 	name = "Casa de Ko"
@@ -6365,7 +6395,7 @@
 	})
 "wt" = (
 /obj/structure/dresser,
-/turf/open/floor/carpet/nk006_captain,
+/turf/open/floor/carpet/nk006_any_lime,
 /area/station/nk006/specialist/rob{
 	name = "Casa de Ko"
 	})
@@ -6406,10 +6436,10 @@
 	name = "Birdhouse Lounge"
 	})
 "wA" = (
-/obj/machinery/door/airlock/nk006/support,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/carpet/nk006_ce,
+/obj/machinery/door/airlock/nk006/support,
+/turf/open/floor/carpet/nk006_any_orange,
 /area/station/nk006/specialist/rob{
 	name = "Casa de Ko"
 	})
@@ -6942,7 +6972,7 @@
 "yl" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/carpet/nk006_captain,
+/turf/open/floor/carpet/nk006_any_lime,
 /area/station/nk006/specialist/rob{
 	name = "Casa de Ko"
 	})
@@ -7281,12 +7311,12 @@
 /turf/open/floor/iron/white,
 /area/station/science/robotics/mechbay)
 "zq" = (
-/obj/structure/table/wood/fancy/nk006_ce,
 /obj/item/flashlight/lamp{
 	pixel_y = 8;
 	layer = 4
 	},
-/turf/open/floor/carpet/nk006_ce,
+/obj/structure/table/wood/fancy/nk006_any_orange,
+/turf/open/floor/carpet/nk006_any_orange,
 /area/station/nk006/specialist/rob{
 	name = "Casa de Ko"
 	})
@@ -7906,7 +7936,7 @@
 	})
 "BE" = (
 /obj/structure/dresser,
-/turf/open/floor/carpet/nk006_ce,
+/turf/open/floor/carpet/nk006_any_orange,
 /area/station/nk006/specialist/rob{
 	name = "Casa de Ko"
 	})
@@ -9339,7 +9369,8 @@
 /obj/machinery/oven,
 /obj/machinery/microwave{
 	pixel_y = 18;
-	pixel_x = -2
+	pixel_x = -2;
+	layer = 3
 	},
 /turf/open/floor/iron/kitchen,
 /area/station/nk006/specialist/rob{
@@ -9398,7 +9429,7 @@
 /area/station/science/ordnance)
 "GF" = (
 /obj/structure/closet/cabinet,
-/turf/open/floor/carpet/nk006_captain,
+/turf/open/floor/carpet/nk006_any_lime,
 /area/station/nk006/specialist/rob{
 	name = "Casa de Ko"
 	})
@@ -9610,7 +9641,7 @@
 	pillow2_color = "srv";
 	transform = matrix()*0.75
 	},
-/turf/open/floor/carpet/nk006_ce,
+/turf/open/floor/carpet/nk006_any_orange,
 /area/station/nk006/specialist/rob{
 	name = "Casa de Ko"
 	})
@@ -10013,11 +10044,11 @@
 /area/station/nk006/support/eng/engine/sm/chamber)
 "II" = (
 /obj/structure/bed/double,
-/obj/item/bedsheet/nk006_captain/double,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
 	},
-/turf/open/floor/carpet/nk006_captain,
+/obj/item/bedsheet/nk006_any_lime/double,
+/turf/open/floor/carpet/nk006_any_lime,
 /area/station/nk006/specialist/rob{
 	name = "Casa de Ko"
 	})
@@ -10100,11 +10131,11 @@
 	has_gravity = 1
 	})
 "IV" = (
-/obj/machinery/door/airlock/nk006/specialist,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
-/turf/open/floor/carpet/nk006_rd,
+/obj/machinery/door/airlock/nk006/command,
+/turf/open/floor/carpet/nk006_any_violet,
 /area/station/nk006/specialist/rob{
 	name = "Casa de Ko"
 	})
@@ -10722,15 +10753,15 @@
 	})
 "KX" = (
 /obj/structure/chair/pillow_small{
-	icon_state = "pillowpile_small_spt";
+	icon_state = "pillowpile_small_cmd";
 	pillow1_color_changed = 1;
 	pillow2_color_changed = 1;
-	current_color = "spt";
-	pillow1_color = "spt";
-	pillow2_color = "spt";
+	current_color = "cmd";
+	pillow1_color = "cmd";
+	pillow2_color = "cmd";
 	transform = matrix()*0.75
 	},
-/turf/open/floor/carpet/nk006_rd,
+/turf/open/floor/carpet/nk006_any_violet,
 /area/station/nk006/specialist/rob{
 	name = "Casa de Ko"
 	})
@@ -11064,7 +11095,7 @@
 /turf/open/floor/engine,
 /area/station/nk006/support/eng/engine/sm)
 "Mg" = (
-/turf/open/floor/carpet/nk006_ce,
+/turf/open/floor/carpet/nk006_any_orange,
 /area/station/nk006/specialist/rob{
 	name = "Casa de Ko"
 	})
@@ -12479,7 +12510,7 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 4
 	},
-/turf/open/floor/carpet/nk006_captain,
+/turf/open/floor/carpet/nk006_any_lime,
 /area/station/nk006/specialist/rob{
 	name = "Casa de Ko"
 	})
@@ -13077,13 +13108,13 @@
 /obj/structure/bed/double{
 	dir = 1
 	},
-/obj/item/bedsheet/nk006_ce/double{
-	dir = 1
-	},
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
 	},
-/turf/open/floor/carpet/nk006_ce,
+/obj/item/bedsheet/nk006_any_orange/double{
+	dir = 1
+	},
+/turf/open/floor/carpet/nk006_any_orange,
 /area/station/nk006/specialist/rob{
 	name = "Casa de Ko"
 	})
@@ -13584,7 +13615,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
-/turf/open/floor/carpet/nk006_rd,
+/turf/open/floor/carpet/nk006_any_violet,
 /area/station/nk006/specialist/rob{
 	name = "Casa de Ko"
 	})
@@ -13780,8 +13811,8 @@
 	})
 "Vk" = (
 /obj/structure/bed/double,
-/obj/item/bedsheet/nk006_rd/double,
-/turf/open/floor/carpet/nk006_rd,
+/obj/item/bedsheet/nk006_any_violet/double,
+/turf/open/floor/carpet/nk006_any_violet,
 /area/station/nk006/specialist/rob{
 	name = "Casa de Ko"
 	})
@@ -14188,7 +14219,7 @@
 /turf/open/floor/iron/kitchen/herringbone,
 /area/station/service/hydroponics/garden)
 "WA" = (
-/turf/open/floor/carpet/nk006_rd,
+/turf/open/floor/carpet/nk006_any_violet,
 /area/station/nk006/specialist/rob{
 	name = "Casa de Ko"
 	})
@@ -14699,12 +14730,12 @@
 	name = "Casa de Ko"
 	})
 "Yj" = (
-/obj/structure/table/wood/fancy/nk006_rd,
 /obj/item/flashlight/lamp{
 	pixel_y = 8;
 	layer = 4
 	},
-/turf/open/floor/carpet/nk006_rd,
+/obj/structure/table/wood/fancy/nk006_any_violet,
+/turf/open/floor/carpet/nk006_any_violet,
 /area/station/nk006/specialist/rob{
 	name = "Casa de Ko"
 	})
@@ -14718,7 +14749,7 @@
 "Yn" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/carpet/nk006_rd,
+/turf/open/floor/carpet/nk006_any_violet,
 /area/station/nk006/specialist/rob{
 	name = "Casa de Ko"
 	})
@@ -14840,6 +14871,25 @@
 /turf/open/floor/carpet/orange,
 /area/station/command/heads_quarters/hop{
 	has_gravity = 1
+	})
+"YF" = (
+/obj/structure/table,
+/obj/item/food/stuffed_muli_pod{
+	pixel_x = 4;
+	pixel_y = 8
+	},
+/obj/item/food/stuffed_muli_pod{
+	pixel_x = -5;
+	pixel_y = 8
+	},
+/obj/item/food/stuffed_muli_pod{
+	pixel_x = 1;
+	pixel_y = 11
+	},
+/obj/item/food/sweet_piru_noodles,
+/turf/open/floor/iron/kitchen,
+/area/station/nk006/specialist/rob{
+	name = "Casa de Ko"
 	})
 "YG" = (
 /obj/machinery/power/energy_accumulator/tesla_coil/anchored,
@@ -31165,7 +31215,7 @@ wm
 RJ
 jc
 dK
-gS
+YF
 wm
 NT
 gD
