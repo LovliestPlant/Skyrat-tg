@@ -1899,7 +1899,10 @@
 /obj/item/food/stewed_muli{
 	pixel_y = 16
 	},
-/obj/item/food/sirisai_flatbread,
+/obj/item/food/stewed_muli{
+	pixel_y = 10;
+	pixel_x = -5
+	},
 /obj/item/food/sirisai_wrap{
 	pixel_x = -5;
 	pixel_y = 5
@@ -1908,6 +1911,7 @@
 	pixel_x = 9;
 	pixel_y = 5
 	},
+/obj/item/food/sirisai_flatbread,
 /turf/open/floor/iron/kitchen,
 /area/station/nk006/specialist/rob{
 	name = "Casa de Ko"
@@ -3235,10 +3239,13 @@
 /obj/structure/table,
 /obj/machinery/light/directional/north,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
-/obj/item/food/lizard_surf_n_turf{
-	pixel_y = 8
-	},
 /obj/item/food/lizard_surf_n_turf,
+/obj/item/food/lizard_surf_n_turf{
+	pixel_y = 5
+	},
+/obj/item/food/lizard_surf_n_turf{
+	pixel_y = 10
+	},
 /turf/open/floor/wood/large,
 /area/station/nk006/specialist/rob{
 	name = "Casa de Ko"
@@ -4724,12 +4731,20 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
 	},
+/obj/machinery/rnd/production/protolathe/department/medical,
 /turf/open/floor/wood/large,
 /area/station/nk006/specialist/rob{
 	name = "Casa de Ko"
 	})
 "qA" = (
 /obj/structure/closet/secure_closet/medical3,
+/obj/item/storage/medkit/regular,
+/obj/item/storage/medkit/brute,
+/obj/item/storage/medkit/fire,
+/obj/item/storage/medkit/o2,
+/obj/item/storage/medkit/toxin,
+/obj/item/storage/medkit/advanced,
+/obj/item/storage/medkit/tactical,
 /turf/open/floor/iron/white/smooth_large,
 /area/station/nk006/specialist/rob{
 	name = "Casa de Ko"
@@ -5161,6 +5176,7 @@
 "rY" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/hallway/secondary/entry{
 	has_gravity = 1
@@ -10761,6 +10777,36 @@
 	pillow2_color = "cmd";
 	transform = matrix()*0.75
 	},
+/obj/item/toy/plush/skyrat/borbplushie{
+	attack_verb_simple = list("peep");
+	attack_verb_continuous = list("peeps");
+	name = "A Leathery Egg";
+	icon = 'icons/obj/food/egg.dmi';
+	icon_state = "egg";
+	inhand_icon_state = null;
+	lefthand_file = 'icons/mob/inhands/items/food_lefthand.dmi';
+	righthand_file = 'icons/mob/inhands/items/food_righthand.dmi';
+	color = "#91995b";
+	transform = matrix()*1.5;
+	desc = "A large, leathery egg.  You feel like its occupant is peeping at you, faintly.";
+	pixel_x = 5;
+	pixel_y = 2
+	},
+/obj/item/toy/plush/skyrat/borbplushie{
+	attack_verb_simple = list("peep");
+	attack_verb_continuous = list("peeps");
+	name = "A Leathery Egg";
+	icon = 'icons/obj/food/egg.dmi';
+	icon_state = "egg";
+	inhand_icon_state = null;
+	lefthand_file = 'icons/mob/inhands/items/food_lefthand.dmi';
+	righthand_file = 'icons/mob/inhands/items/food_righthand.dmi';
+	color = "#91795b";
+	transform = matrix()*1.5;
+	desc = "A large, leathery egg.  You feel like its occupant is peeping at you, faintly.";
+	pixel_y = -5;
+	pixel_x = -3
+	},
 /turf/open/floor/carpet/nk006_any_violet,
 /area/station/nk006/specialist/rob{
 	name = "Casa de Ko"
@@ -11386,6 +11432,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
 	},
+/obj/machinery/iv_drip,
 /turf/open/floor/iron/white/smooth_large,
 /area/station/nk006/specialist/rob{
 	name = "Casa de Ko"
@@ -12580,6 +12627,7 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 4
 	},
+/obj/structure/closet/secure_closet/chemical,
 /turf/open/floor/iron/white/smooth_large,
 /area/station/nk006/specialist/rob{
 	name = "Casa de Ko"
@@ -12886,8 +12934,8 @@
 	name = "Birdhouse Lounge"
 	})
 "Sl" = (
-/obj/machinery/iv_drip,
 /obj/structure/closet/secure_closet/medical2,
+/obj/machinery/anesthetic_machine,
 /turf/open/floor/iron/white/smooth_large,
 /area/station/nk006/specialist/rob{
 	name = "Casa de Ko"
@@ -27112,7 +27160,7 @@ bE
 As
 As
 As
-cb
+YO
 yf
 rY
 SJ
