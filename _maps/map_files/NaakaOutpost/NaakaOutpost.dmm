@@ -307,6 +307,15 @@
 /area/mine/xenoarch/living{
 	name = "Tchiko's Castle Lounge"
 	})
+"bm" = (
+/obj/structure/table,
+/obj/structure/sink/kitchen/directional/east,
+/obj/item/kitchen/rollingpin,
+/obj/item/knife/kitchen,
+/turf/open/floor/iron/kitchen,
+/area/station/nk006/specialist/rob{
+	name = "Casa de Ko"
+	})
 "bn" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -1800,7 +1809,9 @@
 /turf/open/floor/engine,
 /area/station/nk006/support/eng/engine/sm)
 "gD" = (
-/obj/structure/closet/secure_closet/freezer/fridge,
+/obj/structure/closet/secure_closet/freezer/fridge{
+	req_access = null
+	},
 /obj/machinery/light/directional/east,
 /turf/open/floor/wood/large,
 /area/station/nk006/specialist/rob{
@@ -4731,13 +4742,17 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
 	},
-/obj/machinery/rnd/production/protolathe/department/medical,
+/obj/structure/closet/secure_closet/medical1{
+	req_access = null
+	},
 /turf/open/floor/wood/large,
 /area/station/nk006/specialist/rob{
 	name = "Casa de Ko"
 	})
 "qA" = (
-/obj/structure/closet/secure_closet/medical3,
+/obj/structure/closet/secure_closet/medical3{
+	req_access = null
+	},
 /obj/item/storage/medkit/regular,
 /obj/item/storage/medkit/brute,
 /obj/item/storage/medkit/fire,
@@ -8874,7 +8889,9 @@
 /turf/closed/wall/r_wall,
 /area/station/nk006/support/eng/engine/sm/chamber)
 "EJ" = (
-/obj/structure/closet/secure_closet/freezer/kitchen,
+/obj/structure/closet/secure_closet/freezer/kitchen{
+	req_access = null
+	},
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
 	},
@@ -11629,7 +11646,9 @@
 /turf/open/floor/iron/white,
 /area/station/science/ordnance)
 "NT" = (
-/obj/structure/closet/secure_closet/freezer/meat,
+/obj/structure/closet/secure_closet/freezer/meat{
+	req_access = null
+	},
 /turf/open/floor/wood/large,
 /area/station/nk006/specialist/rob{
 	name = "Casa de Ko"
@@ -12627,7 +12646,9 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 4
 	},
-/obj/structure/closet/secure_closet/chemical,
+/obj/structure/closet/secure_closet/chemical{
+	req_access = null
+	},
 /turf/open/floor/iron/white/smooth_large,
 /area/station/nk006/specialist/rob{
 	name = "Casa de Ko"
@@ -12934,7 +12955,9 @@
 	name = "Birdhouse Lounge"
 	})
 "Sl" = (
-/obj/structure/closet/secure_closet/medical2,
+/obj/structure/closet/secure_closet/medical2{
+	req_access = null
+	},
 /obj/machinery/anesthetic_machine,
 /turf/open/floor/iron/white/smooth_large,
 /area/station/nk006/specialist/rob{
@@ -14395,7 +14418,7 @@
 	arc_shielded = 1
 	},
 /obj/machinery/light_switch/directional/south,
-/obj/structure/closet/secure_closet/medical1,
+/obj/machinery/rnd/production/protolathe/department/medical,
 /turf/open/floor/wood/large,
 /area/station/nk006/specialist/rob{
 	name = "Casa de Ko"
@@ -30748,8 +30771,8 @@ mN
 wm
 Gv
 in
-dK
 cO
+bm
 hv
 qz
 Uz
