@@ -435,6 +435,9 @@
 	arc_shielded = 1
 	},
 /obj/structure/cable,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
 /turf/open/floor/carpet/orange,
 /area/station/command/heads_quarters/ce)
 "bK" = (
@@ -664,6 +667,7 @@
 	})
 "cC" = (
 /obj/machinery/firealarm/directional/north,
+/obj/structure/closet/crate/freezer/blood,
 /turf/open/floor/iron/white,
 /area/station/medical/treatment_center{
 	has_gravity = 1
@@ -1031,6 +1035,8 @@
 	name = "CE Office"
 	},
 /obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/station/hallway/secondary/entry{
 	has_gravity = 1
@@ -1276,6 +1282,7 @@
 	})
 "eS" = (
 /obj/effect/spawner/random/engineering/material_rare,
+/obj/machinery/holopad/secure,
 /turf/open/floor/wood,
 /area/mine/storage{
 	name = "Birdhouse Tech Storage"
@@ -1649,6 +1656,12 @@
 /turf/open/floor/iron,
 /area/station/medical/chemistry{
 	has_gravity = 1
+	})
+"ge" = (
+/obj/machinery/holopad/secure,
+/turf/open/floor/iron/kitchen,
+/area/mine/xenoarch/living{
+	name = "Tchiko's Castle Lounge"
 	})
 "gf" = (
 /obj/structure/table,
@@ -2582,6 +2595,12 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/service/chapel)
+"jj" = (
+/obj/machinery/holopad/secure,
+/turf/open/floor/wood/large,
+/area/mine/xenoarch/living{
+	name = "Tchiko's Castle Lounge"
+	})
 "jl" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -3177,7 +3196,7 @@
 /obj/machinery/light_switch/directional/east,
 /obj/machinery/keycard_auth/directional/south,
 /obj/structure/bed/double,
-/obj/item/bedsheet/hop/double,
+/obj/item/bedsheet/nk006_any_lime/double,
 /turf/open/floor/carpet/orange,
 /area/station/command/heads_quarters/hop{
 	has_gravity = 1
@@ -3206,8 +3225,8 @@
 /obj/structure/bed{
 	dir = 4
 	},
-/obj/item/bedsheet/medical{
-	dir = 4
+/obj/item/bedsheet/nk006_cmo{
+	dir = 1
 	},
 /turf/open/floor/iron/dark,
 /area/station/medical/virology{
@@ -3782,6 +3801,7 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
 	},
+/obj/structure/closet/crate/freezer/surplus_limbs,
 /turf/open/floor/iron/white,
 /area/station/medical/morgue{
 	has_gravity = 1
@@ -4129,7 +4149,7 @@
 	})
 "oe" = (
 /obj/structure/cable,
-/obj/machinery/power/rad_collector,
+/obj/machinery/power/rad_collector/anchored,
 /turf/open/floor/engine,
 /area/station/nk006/support/eng/engine/sng)
 "of" = (
@@ -4410,6 +4430,12 @@
 /obj/machinery/light/directional/west,
 /turf/open/floor/engine,
 /area/station/nk006/support/eng/engine/teg)
+"pk" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/turf/closed/wall,
+/area/station/command/heads_quarters/ce)
 "pl" = (
 /turf/open/floor/plating/snowed,
 /area/station/nk006/specialist/rob{
@@ -4626,6 +4652,7 @@
 	has_gravity = 1
 	})
 "qf" = (
+/obj/machinery/holopad/secure,
 /turf/open/floor/wood/large,
 /area/mine/xenoarch/engineering{
 	name = "Tchiko's Castle Quarters"
@@ -4967,9 +4994,6 @@
 /obj/structure/bed/double{
 	dir = 1
 	},
-/obj/item/bedsheet/green/double{
-	dir = 1
-	},
 /obj/machinery/button/door/directional/west{
 	id = "Dorm2";
 	name = "Dormitory Door Lock";
@@ -4981,6 +5005,9 @@
 	id = "dorm2privacy";
 	name = "Dormitory Privacy Shutters";
 	pixel_y = 8
+	},
+/obj/item/bedsheet/nk006_any_lime/double{
+	dir = 1
 	},
 /turf/open/floor/carpet/green,
 /area/station/commons/dorms)
@@ -5512,6 +5539,7 @@
 /obj/effect/landmark/start/chief_engineer,
 /obj/machinery/holopad,
 /obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/carpet/orange,
 /area/station/command/heads_quarters/ce)
 "te" = (
@@ -5586,7 +5614,7 @@
 	has_gravity = 1
 	})
 "ts" = (
-/obj/structure/closet/secure_closet/medical2,
+/obj/machinery/anesthetic_machine,
 /turf/open/floor/iron/white,
 /area/station/medical/treatment_center{
 	has_gravity = 1
@@ -5718,6 +5746,13 @@
 /obj/structure/cable,
 /turf/open/floor/iron/white,
 /area/station/science/research)
+"tS" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/holopad/secure,
+/turf/open/floor/iron/white/smooth_large,
+/area/station/nk006/specialist/rob{
+	name = "Casa de Ko"
+	})
 "tV" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -5953,14 +5988,13 @@
 /turf/open/floor/iron/pool,
 /area/station/common/pool)
 "uG" = (
-/obj/item/bedsheet/ce/double{
-	dir = 1
-	},
 /obj/structure/bed/double{
 	dir = 1
 	},
 /obj/machinery/keycard_auth/directional/west,
-/mob/living/simple_animal/parrot/poly,
+/obj/item/bedsheet/nk006_ce/double{
+	dir = 1
+	},
 /turf/open/floor/carpet/orange,
 /area/station/command/heads_quarters/ce)
 "uH" = (
@@ -6122,13 +6156,14 @@
 	})
 "vp" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/holopad/secure,
 /turf/open/floor/carpet/nk006_hop,
 /area/station/nk006/support/srv/vip{
 	name = "Ranya's Library"
 	})
 "vq" = (
 /obj/structure/bed,
-/obj/item/bedsheet/medical,
+/obj/item/bedsheet/nk006_cmo,
 /turf/open/floor/iron/dark,
 /area/station/medical/virology{
 	has_gravity = 1
@@ -6509,14 +6544,14 @@
 /obj/structure/bed/double{
 	dir = 1
 	},
-/obj/item/bedsheet/qm/double{
-	dir = 1
-	},
 /obj/machinery/light/directional/west,
 /obj/machinery/computer/security/telescreen/vault{
 	pixel_x = -32
 	},
 /obj/effect/spawner/random/entertainment/money_large,
+/obj/item/bedsheet/nk006_qm/double{
+	dir = 1
+	},
 /turf/open/floor/carpet/orange,
 /area/station/command/heads_quarters/qm{
 	has_gravity = 1
@@ -7463,6 +7498,7 @@
 "zW" = (
 /obj/machinery/suit_storage_unit/ce,
 /obj/machinery/light/directional/north,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/carpet/orange,
 /area/station/command/heads_quarters/ce)
 "zX" = (
@@ -8532,6 +8568,7 @@
 /area/station/science/robotics/mechbay)
 "Dy" = (
 /obj/machinery/airalarm/directional/north,
+/obj/structure/closet/crate/freezer/blood,
 /turf/open/floor/iron/white,
 /area/station/medical/treatment_center{
 	has_gravity = 1
@@ -9149,7 +9186,7 @@
 /obj/machinery/light_switch/directional/east,
 /obj/machinery/keycard_auth/directional/south,
 /obj/structure/bed/double,
-/obj/item/bedsheet/hos/double,
+/obj/item/bedsheet/nk006_hos/double,
 /turf/open/floor/carpet/purple,
 /area/station/command/heads_quarters/hos{
 	has_gravity = 1
@@ -9361,7 +9398,6 @@
 /obj/structure/bed/double{
 	dir = 8
 	},
-/obj/item/bedsheet/purple/double,
 /obj/machinery/button/door/directional/east{
 	id = "Dorm3";
 	name = "Dormitory Door Lock";
@@ -9374,6 +9410,7 @@
 	name = "Dormitory Privacy Shutters";
 	pixel_y = 8
 	},
+/obj/item/bedsheet/nk006_any_violet/double,
 /turf/open/floor/carpet/purple,
 /area/station/commons/dorms)
 "Gr" = (
@@ -9388,7 +9425,7 @@
 /obj/structure/bed/double{
 	dir = 1
 	},
-/obj/item/bedsheet/cmo/double{
+/obj/item/bedsheet/nk006_cmo/double{
 	dir = 1
 	},
 /turf/open/floor/carpet/green,
@@ -9733,14 +9770,14 @@
 /obj/structure/bed/double{
 	dir = 1
 	},
-/obj/item/bedsheet/rd/double{
-	dir = 1
-	},
 /obj/machinery/power/apc/auto_name/directional/south{
 	arc_shielded = 1
 	},
 /obj/machinery/light_switch/directional/west,
 /obj/structure/cable,
+/obj/item/bedsheet/nk006_rd/double{
+	dir = 1
+	},
 /turf/open/floor/carpet/green,
 /area/station/command/heads_quarters/rd)
 "HG" = (
@@ -10593,9 +10630,6 @@
 /obj/structure/bed/double{
 	dir = 1
 	},
-/obj/item/bedsheet/orange/double{
-	dir = 1
-	},
 /obj/machinery/button/door/directional/west{
 	id = "Dorm1";
 	name = "Dormitory Door Lock";
@@ -10607,6 +10641,9 @@
 	id = "dorm1privacy";
 	name = "Dormitory Privacy Shutters";
 	pixel_y = 8
+	},
+/obj/item/bedsheet/nk006_any_orange/double{
+	dir = 1
 	},
 /turf/open/floor/carpet/orange,
 /area/station/commons/dorms)
@@ -12072,6 +12109,12 @@
 /turf/open/floor/wood/large,
 /area/mine/xenoarch/engineering{
 	name = "Tchiko's Castle Quarters"
+	})
+"Pq" = (
+/obj/machinery/holopad/secure,
+/turf/open/floor/iron/checker,
+/area/mine/cafeteria{
+	name = "Birdhouse Kitchen"
 	})
 "Pu" = (
 /obj/structure/flora/tree/pine/style_random,
@@ -13682,6 +13725,12 @@
 /area/station/engineering/atmos{
 	has_gravity = 1
 	})
+"UG" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/carpet/orange,
+/area/station/command/heads_quarters/ce)
 "UI" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -13969,7 +14018,7 @@
 /obj/structure/bed/double{
 	dir = 1
 	},
-/obj/item/bedsheet/captain/double{
+/obj/item/bedsheet/nk006_captain/double{
 	dir = 1
 	},
 /turf/open/floor/carpet/purple,
@@ -14049,6 +14098,7 @@
 	departmentType = 4;
 	name = "Chief Engineer's Requests Console"
 	},
+/obj/machinery/airalarm/directional/west,
 /turf/open/floor/carpet/orange,
 /area/station/command/heads_quarters/ce)
 "VM" = (
@@ -16447,7 +16497,7 @@ EX
 EX
 EX
 VY
-SY
+ge
 SY
 Jh
 JF
@@ -19017,7 +19067,7 @@ EX
 EX
 EX
 hT
-ai
+jj
 KR
 EL
 JF
@@ -27699,7 +27749,7 @@ Wx
 Av
 Av
 Av
-Av
+pk
 Ko
 dW
 eh
@@ -28213,9 +28263,9 @@ Wx
 Av
 zW
 tb
-Cb
+UG
 dZ
-IK
+TP
 eh
 QY
 Du
@@ -29483,7 +29533,7 @@ zy
 hL
 ZG
 ZP
-ZP
+Pq
 ZP
 On
 Wx
@@ -31280,7 +31330,7 @@ Wx
 Wx
 wm
 Sl
-WI
+tS
 iV
 wm
 RJ
