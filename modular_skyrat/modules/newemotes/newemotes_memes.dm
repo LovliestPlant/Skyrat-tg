@@ -49,3 +49,17 @@
 
 /datum/emote/living/carbon/snake_scream/lizzer/get_sound(mob/living/user)
 	return pick('modular_skyrat/modules/newemotes/sounds/lizzer_fucking_died.ogg')
+
+/datum/emote/living/carbon/snake_scream/haki
+	key = "voxagony"
+	key_third_person = "voxagonizes"
+
+/datum/emote/living/carbon/snake_scream/haki/get_sound(mob/living/user)
+	return pick('modular_skyrat/modules/newemotes/sounds/haki_fucking_died.ogg')
+
+/datum/emote/living/carbon/snake_scream/moff
+	key = "mothagony"
+	key_third_person = "mothagonizes"
+
+/datum/emote/living/carbon/snake_scream/moff/get_sound(mob/living/user)
+	return pick('modular_skyrat/modules/newemotes/sounds/moff_fucking_died.ogg')
