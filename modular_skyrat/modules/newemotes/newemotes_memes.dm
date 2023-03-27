@@ -42,3 +42,10 @@
 
 /datum/emote/living/carbon/snake_scream/teshi/get_sound(mob/living/user)
 	return pick('modular_skyrat/modules/newemotes/sounds/teshi_fucking_died.ogg')
+
+/datum/emote/living/carbon/snake_scream/lizzer
+	key = "lizagony"
+	key_third_person = "lizagonizes"
+
+/datum/emote/living/carbon/snake_scream/lizzer/get_sound(mob/living/user)
+	return pick('modular_skyrat/modules/newemotes/sounds/lizzer_fucking_died.ogg')

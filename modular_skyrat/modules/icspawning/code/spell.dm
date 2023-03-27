@@ -25,6 +25,7 @@
 	sparks.set_up(10, 1, user)
 	sparks.attach(user.loc)
 	sparks.start()
+	playsound(user.loc, 'modular_skyrat/modules/newemotes/sounds/vanishscream.ogg', 50, TRUE)
 
 	qdel(user)
 
