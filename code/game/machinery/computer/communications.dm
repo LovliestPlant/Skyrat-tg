@@ -1,6 +1,5 @@
 #define IMPORTANT_ACTION_COOLDOWN (60 SECONDS)
 #define EMERGENCY_ACCESS_COOLDOWN (30 SECONDS)
-#define MAX_STATUS_LINE_LENGTH 40
 
 #define STATE_BUYING_SHUTTLE "buying_shuttle"
 #define STATE_CHANGING_STATUS "changing_status"
@@ -130,7 +129,7 @@ GLOBAL_VAR_INIT(cops_arrived, FALSE)
 
 /obj/machinery/computer/communications/emag_act(mob/user, obj/item/card/emag/emag_card)
 	if(istype(emag_card, /obj/item/card/emag/battlecruiser))
-		if(!user.mind?.has_antag_datum(/datum/antagonist/traitor))
+		if(!IS_TRAITOR(user))
 			to_chat(user, span_danger("You get the feeling this is a bad idea."))
 			return
 		var/obj/item/card/emag/battlecruiser/caller_card = emag_card
@@ -233,14 +232,6 @@ GLOBAL_VAR_INIT(cops_arrived, FALSE)
 			if (!message_index)
 				return
 			LAZYREMOVE(messages, LAZYACCESS(messages, message_index))
-		/* SKYRAT EDIT REMOVAL START
-		if ("emergency_meeting")
-			if(!check_holidays(APRIL_FOOLS))
-				return
-			if (!authenticated_as_silicon_or_captain(usr))
-				return
-			emergency_meeting(usr)
-		*/ // SKYRAT EDIT REMOVAL END
 		if ("makePriorityAnnouncement")
 			if (!authenticated_as_silicon_or_captain(usr) && !syndicate)
 				return
@@ -468,10 +459,10 @@ GLOBAL_VAR_INIT(cops_arrived, FALSE)
 			if(!pre_911_check(usr))
 				return
 			calling_911(usr, "Marshals", EMERGENCY_RESPONSE_POLICE)
-		if ("callBreachControl")
+		if ("callTheCatmos")
 			if(!pre_911_check(usr))
 				return
-			calling_911(usr, "Breach Control", EMERGENCY_RESPONSE_ATMOS)
+			calling_911(usr, "Advanced Atmospherics", EMERGENCY_RESPONSE_ATMOS)
 		if ("callTheParameds")
 			if(!pre_911_check(usr))
 				return
@@ -489,6 +480,19 @@ GLOBAL_VAR_INIT(cops_arrived, FALSE)
 			call_911(EMERGENCY_RESPONSE_EMAG)
 			to_chat(usr, span_notice("Thank you for choosing Dogginos, [GLOB.pizza_order]!"))
 			playsound(src, 'sound/machines/terminal_prompt_confirm.ogg', 50, FALSE)
+		if("toggleEngOverride")
+			if(emergency_access_cooldown(usr)) //if were in cooldown, dont allow the following code
+				return
+			if (!authenticated_as_silicon_or_captain(usr))
+				return
+			if (GLOB.force_eng_override)
+				toggle_eng_override()
+				usr.log_message("disabled airlock engineering override.", LOG_GAME)
+				deadchat_broadcast(" disabled airlock engineering override at [span_name("[get_area_name(usr, TRUE)]")].", span_name("[usr.real_name]"), usr, message_type = DEADCHAT_ANNOUNCEMENT)
+			else
+				toggle_eng_override()
+				usr.log_message("enabled airlock engineering override.", LOG_GAME)
+				deadchat_broadcast(" enabled airlock engineering override at [span_name("[get_area_name(usr, TRUE)]")].", span_name("[usr.real_name]"), usr, message_type = DEADCHAT_ANNOUNCEMENT)
 		// SKYRAT EDIT ADDITION END
 /obj/machinery/computer/communications/proc/emergency_access_cooldown(mob/user)
 	if(toggle_uses == toggle_max_uses) //you have used up free uses already, do it one more time and start a cooldown
@@ -571,6 +575,7 @@ GLOBAL_VAR_INIT(cops_arrived, FALSE)
 				data["canSendToSectors"] = FALSE
 				data["canSetAlertLevel"] = FALSE
 				data["canToggleEmergencyAccess"] = FALSE
+				data["canToggleEngineeringOverride"] = FALSE //SKYRAT EDIT - Engineering Override
 				data["importantActionReady"] = COOLDOWN_FINISHED(src, important_action_cooldown)
 				data["shuttleCalled"] = FALSE
 				data["shuttleLastCalled"] = FALSE
@@ -602,7 +607,8 @@ GLOBAL_VAR_INIT(cops_arrived, FALSE)
 				if (authenticated_as_silicon_or_captain(user))
 					data["canToggleEmergencyAccess"] = TRUE
 					data["emergencyAccess"] = GLOB.emergency_access
-
+					data["canToggleEngineeringOverride"] = TRUE //SKYRAT EDIT - Engineering Override Toggle
+					data["engineeringOverride"] = GLOB.force_eng_override //SKYRAT EDIT - Engineering Override Toggle
 					data["alertLevelTick"] = alert_level_tick
 					data["canMakeAnnouncement"] = TRUE
 					data["canSetAlertLevel"] = issilicon(user) ? "NO_SWIPE_NEEDED" : "SWIPE_NEEDED"
@@ -759,31 +765,13 @@ GLOBAL_VAR_INIT(cops_arrived, FALSE)
 
 	return length(CONFIG_GET(keyed_list/cross_server)) > 0
 
-/**
- * Call an emergency meeting
- *
- * Comm Console wrapper for the Communications subsystem wrapper for the call_emergency_meeting world proc.
- * Checks to make sure the proc can be called, and handles relevant feedback, logging and timing.
- * See the SScommunications proc definition for more detail, in short, teleports the entire crew to
- * the bridge for a meetup. Should only really happen during april fools.
- * Arguments:
- * * user - Mob who called the meeting
- */
-/obj/machinery/computer/communications/proc/emergency_meeting(mob/living/user)
-	if(!SScommunications.can_make_emergency_meeting(user))
-		to_chat(user, span_alert("The emergency meeting button doesn't seem to work right now. Please stand by."))
-		return
-	SScommunications.emergency_meeting(user)
-	deadchat_broadcast(" called an emergency meeting from [span_name("[get_area_name(usr, TRUE)]")].", span_name("[user.real_name]"), user, message_type=DEADCHAT_ANNOUNCEMENT)
-
-
 /obj/machinery/computer/communications/proc/make_announcement(mob/living/user)
 	var/is_ai = issilicon(user)
 	if(!SScommunications.can_announce(user, is_ai))
 		to_chat(user, span_alert("Intercomms recharging. Please stand by."))
 		return
 	var/input = tgui_input_text(user, "Message to announce to the station crew", "Announcement")
-	if(!input || !user.canUseTopic(src, !issilicon(usr)))
+	if(!input || !user.can_perform_action(src, ALLOW_SILICON_REACH))
 		return
 	if(user.try_speak(input))
 		//Adds slurs and so on. Someone should make this use languages too.
@@ -999,3 +987,10 @@ GLOBAL_VAR_INIT(cops_arrived, FALSE)
 #undef STATE_CHANGING_STATUS
 #undef STATE_MAIN
 #undef STATE_MESSAGES
+
+//SKYRAT EDIT ADDITION
+#undef EMERGENCY_RESPONSE_POLICE
+#undef EMERGENCY_RESPONSE_ATMOS
+#undef EMERGENCY_RESPONSE_EMT
+#undef EMERGENCY_RESPONSE_EMAG
+//SKYRAT EDIT END

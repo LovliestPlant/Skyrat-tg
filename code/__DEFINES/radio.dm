@@ -90,6 +90,8 @@
 #define FREQ_SIGNALER 1457 // the default for new signalers
 #define FREQ_COMMON 1459 // Common comms frequency, dark green
 
+#define MIN_UNUSED_FREQ 1461 // Prevents rolling AI Private or Common
+
 #define MAX_FREQ 1489 // ------------------------------------------------------
 
 #define MAX_FREE_FREQ 1599 // -------------------------------------------------
@@ -112,10 +114,6 @@
 #define REQ_NORMAL_MESSAGE_PRIORITY 1
 #define REQ_HIGH_MESSAGE_PRIORITY 2
 #define REQ_EXTREME_MESSAGE_PRIORITY 3
-
-#define REQ_DEP_TYPE_ASSISTANCE (1<<0)
-#define REQ_DEP_TYPE_SUPPLIES (1<<1)
-#define REQ_DEP_TYPE_INFORMATION (1<<2)
 
 ///give this to can_receive to specify that there is no restriction on what z level this signal is sent to
 #define RADIO_NO_Z_LEVEL_RESTRICTION 0

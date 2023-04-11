@@ -21,17 +21,20 @@
 		var/our_view = hud.mymob?.client?.view || "15x15"
 		var/atom/movable/screen/movable/action_button/button = viewers[hud]
 		var/position = screen_loc_to_offset(button.screen_loc)
-		var/spells_iterated = 0
+		var/list/position_list = list()
+		for(var/possible_position in 1 to MAX_BLOODCHARGE)
+			position_list += possible_position
 		for(var/datum/action/innate/cult/blood_spell/blood_spell in spells)
-			spells_iterated += 1
 			if(blood_spell.positioned)
+				position_list.Remove(blood_spell.positioned)
 				continue
 			var/atom/movable/screen/movable/action_button/moving_button = blood_spell.viewers[hud]
 			if(!moving_button)
 				continue
-			var/our_x = position[1] + spells_iterated * world.icon_size // Offset any new buttons into our list
+			var/first_available_slot = position_list[1]
+			var/our_x = position[1] + first_available_slot * world.icon_size // Offset any new buttons into our list
 			hud.position_action(moving_button, offset_to_screen_loc(our_x, position[2], our_view))
-			blood_spell.positioned = TRUE
+			blood_spell.positioned = first_available_slot
 
 /datum/action/innate/cult/blood_magic/Activate()
 	var/rune = FALSE
@@ -413,6 +416,16 @@
 			var/old_color = target.color
 			target.color = rgb(0, 128, 0)
 			animate(target, color = old_color, time = 1 SECONDS, easing = EASE_IN)
+
+		// SKYRAT EDIT START
+		if(IS_CLOCK(target))
+			to_chat(user, span_warning("Some force greater than you intervenes! [target] is protected by the heretic Ratvar!"))
+			to_chat(target, span_warning("You are protected by your faith to Ratvar!"))
+			var/old_color = target.color
+			target.color = rgb(190, 135, 0)
+			animate(target, color = old_color, time = 1 SECONDS, easing = EASE_IN)
+		// SKYRAT EDIT END
+
 		else if(target.can_block_magic())
 			to_chat(user, span_warning("The spell had no effect!"))
 		else
