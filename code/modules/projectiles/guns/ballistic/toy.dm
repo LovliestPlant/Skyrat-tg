@@ -44,7 +44,7 @@
 	/*to_chat(M, span_notice("As you reskin [src] to [icon_state], it switches to inhand state [inhand_icon_state]."))*/
 
 /obj/item/gun/ballistic/automatic/pistol/toy/AltClick(mob/user)
-	if(unique_reskin && !current_skin && user.canUseTopic(src, be_close = TRUE, no_dexterity = TRUE))
+	if(unique_reskin)
 		reskin_obj(user)
 		update_overlays()
 	reskin_obj(user)
@@ -124,7 +124,7 @@
 	M.update_held_items()
 
 /obj/item/gun/ballistic/automatic/c20r/toy/AltClick(mob/user)
-	if(unique_reskin && !current_skin && user.canUseTopic(src, be_close = TRUE, no_dexterity = TRUE))
+	if(unique_reskin)
 		reskin_obj(user)
 		update_overlays()
 	reskin_obj(user)

@@ -5560,6 +5560,7 @@
 #include "modular_skyrat\modules\aesthetics\lights\code\lighting.dm"
 #include "modular_skyrat\modules\aesthetics\lightswitch\code\lightswitch.dm"
 #include "modular_skyrat\modules\aesthetics\morgue\code\morgue.dm"
+#include "modular_skyrat\modules\aesthetics\oldnewsurgery\oldnewsurgery.dm"
 #include "modular_skyrat\modules\aesthetics\plasticflaps\code\plasticflaps.dm"
 #include "modular_skyrat\modules\aesthetics\posters\posters.dm"
 #include "modular_skyrat\modules\aesthetics\rack\code\rack.dm"

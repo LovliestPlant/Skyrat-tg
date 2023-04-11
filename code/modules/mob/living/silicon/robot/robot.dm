@@ -304,7 +304,7 @@
 				. += "ALERT!  ALERT!  [occupant.name] is in hard crit - provide IMMEDIATE stabilizing agents!"
 			if(occupant.stat == DEAD)
 				. += "ALERT!  ALERT!  [occupant.name] has suffered medical death!  Provide immediate treatment and resuccitation!"
-			. += "Special types: [occupant.getCloneLoss()] clone/cell, [occupant.getOrganLoss(ORGAN_SLOT_BRAIN)] brain"
+			. += "Special types: [occupant.getCloneLoss()] clone/cell"
 
 /mob/living/silicon/robot/proc/alarm_triggered(datum/source, alarm_type, area/source_area)
 	SIGNAL_HANDLER
