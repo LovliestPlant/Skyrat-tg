@@ -17,7 +17,6 @@
 	w_class = WEIGHT_CLASS_TINY
 
 /obj/item/clothing/shoes/combat/debug
-	clothing_flags = NOSLIP
 	w_class = WEIGHT_CLASS_TINY
 
 /obj/item/storage/belt/utility/chief/full/debug
