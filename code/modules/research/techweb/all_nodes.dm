@@ -916,8 +916,9 @@
 	prereq_ids = list("base")
 	design_ids = list(
 		"paicard",
+		"mecha_camera",
+		"botnavbeacon",
 		"borg_upgrade_snacks", // SKYRAT ADDITION - BETTER BORG SNACK DISPENSORS
-		"mecha_camera"
 	)
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
 
@@ -1180,6 +1181,7 @@
 		"cargo",
 		"cargorequest",
 		"comconsole",
+		"time_clock_frame", //SKYRAT EDIT ADDITION - TIME CLOCKS
 		"crewconsole",
 		"idcard",
 		"libraryconsole",
@@ -2249,6 +2251,9 @@
 		"donksoft_refill",
 		"donksofttoyvendor",
 		"largecrossbow",
+		"mag_autorifle",
+		"mag_autorifle_ap",
+		"mag_autorifle_ic",
 		"rapidsyringe",
 		"suppressor",
 		"super_pointy_tape",
