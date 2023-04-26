@@ -438,11 +438,29 @@ suffix = "whiteshipruin_box.dmm"*/
 	name = "Waystation"
 	description = "A waytation for a backwater subsector of Spinward gets attacked by the syndicate due to bad luck."
 
+/datum/map_template/ruin/space/allamericandiner
+	id = "allamericandiner"
+	suffix = "allamericandiner.dmm"
+	name = "The All-American Diner"
+	description = "A mothballed \"Restaurant\" station of the popular \"The All-American Diner\" franchise."
+
+/datum/map_template/ruin/space/mimesvclowns
+	id = "mimesvclowns"
+	suffix = "mimesvclowns.dmm"
+	name = "Abandoned Mime Outpost"
+	description = "When you fight mimes, you better bring more than slips."
+
 /datum/map_template/ruin/space/transit_booth
 	id = "transit_booth"
 	suffix = "transit_booth.dmm"
 	name = "Transit Booth"
 	description = "Make sure to check out the duty-free store!"
+
+/datum/map_template/ruin/space/space_phonebooth
+	id = "Space_phonebooth"
+	suffix = "phonebooth.dmm"
+	name = "Space Phonebooth"
+	description = "A venture by nanotrasen to help popularize the use of holopads."
 
 /datum/map_template/ruin/space/the_outlet
 	id = "the_outlet"

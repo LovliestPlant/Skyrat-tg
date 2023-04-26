@@ -85,7 +85,7 @@
 		if(ispath(path, /datum/crafting_recipe/stack))
 			continue
 		var/datum/crafting_recipe/recipe = new path()
-		var/is_cooking = (recipe.category in GLOB.crafting_category_food)
+		var/is_cooking = ((recipe.category in GLOB.crafting_category_food) || (recipe.category in GLOB.crafting_category_food_skyrat)) // SKYRAT EDIT - Add skyrat food crafting category
 		recipe.reqs = sort_list(recipe.reqs, GLOBAL_PROC_REF(cmp_crafting_req_priority))
 		if(recipe.name != "" && recipe.result)
 			if(is_cooking)
@@ -247,6 +247,7 @@ GLOBAL_LIST_INIT(WALLITEMS_INTERIOR, typecacheof(list(
 	/obj/machinery/status_display,
 	/obj/machinery/ticket_machine,
 	/obj/machinery/turretid,
+	/obj/machinery/time_clock, //SKYRAT EDIT TIME CLOCK
 	/obj/machinery/barsign,
 	/obj/structure/extinguisher_cabinet,
 	/obj/structure/fireaxecabinet,
