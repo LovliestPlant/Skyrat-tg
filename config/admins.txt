@@ -36,3 +36,6 @@ krypandenej = Game Master
 Nightmeridh_warlord = Game Master
 IncorrigibleNan = Game Master
 Sandmoney = Game Master
+Segalowitz = Game Master
+Inithis = Game Master
+Sylvette = Game Master

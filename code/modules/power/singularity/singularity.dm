@@ -163,9 +163,9 @@
 		if(EXPLODE_LIGHT)
 			energy -= round(((energy + 1) / 4), 1)
 
-/obj/singularity/process(delta_time)
-	time_since_act += delta_time
-	time_since_rad += delta_time
+/obj/singularity/process(seconds_per_tick)
+	time_since_act += seconds_per_tick
+	time_since_rad += seconds_per_tick
 	
 	if(time_since_rad > 0.5) //pulse twice/sec
 		time_since_rad = 0
@@ -184,14 +184,14 @@
 	if(current_size >= STAGE_TWO)
 		if(prob(event_chance))
 			event()
-	dissipate(delta_time)
+	dissipate(seconds_per_tick)
 	check_energy()
 
-/obj/singularity/proc/dissipate(delta_time)
+/obj/singularity/proc/dissipate(seconds_per_tick)
 	if (!dissipate)
 		return
 
-	time_since_last_dissipiation += delta_time
+	time_since_last_dissipiation += seconds_per_tick
 
 	// Uses a while in case of especially long delta times
 	while (time_since_last_dissipiation >= dissipate_delay)
