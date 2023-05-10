@@ -63,3 +63,10 @@
 
 /datum/emote/living/carbon/snake_scream/moff/get_sound(mob/living/user)
 	return pick('modular_skyrat/modules/newemotes/sounds/moff_fucking_died.ogg')
+
+/datum/emote/living/carbon/snake_scream/scug
+	key = "sluggony"
+	key_third_person = "sluggonizes"
+
+/datum/emote/living/carbon/snake_scream/scug/get_sound(mob/living/user)
+	return pick('modular_skyrat/modules/newemotes/sounds/sluggony2.ogg')
