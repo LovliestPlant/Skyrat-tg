@@ -217,7 +217,19 @@ GLOBAL_VAR_INIT(observer_default_invisibility, INVISIBILITY_OBSERVER)
 		updatedir = 0 //stop updating the dir in case we want to show accessories with dirs on a ghost sprite without dirs
 		setDir(2 )//reset the dir to its default so the sprites all properly align up
 
-	if(ghost_accs == GHOST_ACCS_FULL && (icon_state in GLOB.ghost_forms_with_accessories_list)) //check if this form supports accessories and if the client wants to show them
+	var/has_body = 0
+	var/mob/living/carbon/human/body_human = null
+	if(mind && ghost_accs == GHOST_ACCS_FULL)
+		if(mind.current)
+			body_human = (ghost_accs == GHOST_ACCS_FULL ? mind.current : null)
+	if(body_human != null && ghost_accs == GHOST_ACCS_FULL)
+		icon_state = "none"
+		has_body = 1
+		appearance = (has_body == 1 ? body_human : appearance)
+		transform = null
+		alpha = 200
+
+	if(ghost_accs == GHOST_ACCS_FULL && (icon_state in GLOB.ghost_forms_with_accessories_list) && has_body == 0) //check if this form supports accessories and if the client wants to show them
 		var/datum/sprite_accessory/S
 		if(facial_hairstyle)
 			S = GLOB.facial_hairstyles_list[facial_hairstyle]
