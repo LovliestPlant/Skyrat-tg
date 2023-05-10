@@ -4,12 +4,13 @@
 /area/misc/survivalpod/singulo_box)
 "b" = (
 /obj/machinery/power/rad_collector,
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plating,
 /area/misc/survivalpod/singulo_box)
 "c" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/light/directional/east,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/misc/survivalpod/singulo_box)
 "d" = (
@@ -17,10 +18,10 @@
 	heat_proof = 1;
 	name = "Singularity Chamber"
 	},
-/obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/fans/tiny,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/misc/survivalpod/singulo_box)
 "e" = (
@@ -28,13 +29,14 @@
 /turf/open/floor/plating,
 /area/misc/survivalpod/singulo_box)
 "h" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable/layer1,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/misc/survivalpod/singulo_box)
 "i" = (
 /obj/machinery/power/smes/engineering,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/misc/survivalpod/singulo_box)
 "j" = (
@@ -42,26 +44,23 @@
 /turf/open/floor/plating,
 /area/misc/survivalpod/singulo_box)
 "k" = (
-/obj/structure/cable,
-/obj/machinery/power/apc/sm_apc/directional/west{
-	arc_shielded = 1;
-	pixel_y = -4
-	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/light_switch/directional/west{
 	pixel_y = 8
 	},
+/obj/structure/cable/layer1,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/misc/survivalpod/singulo_box)
 "l" = (
 /obj/machinery/power/emitter/welded{
 	dir = 4
 	},
-/obj/structure/cable,
 /obj/structure/window/reinforced/plasma/spawner{
 	dir = 8
 	},
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/misc/survivalpod/singulo_box)
 "m" = (
@@ -69,7 +68,7 @@
 /obj/structure/window/reinforced/plasma/spawner{
 	dir = 8
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plating,
 /area/misc/survivalpod/singulo_box)
 "n" = (
@@ -79,20 +78,22 @@
 /obj/structure/particle_accelerator/particle_emitter/left,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/misc/survivalpod/singulo_box)
 "p" = (
 /obj/machinery/power/terminal{
 	dir = 1
 	},
-/obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable/multilayer{
+	cable_layer = 1
+	},
 /turf/open/floor/plating,
 /area/misc/survivalpod/singulo_box)
 "q" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/power/rad_collector,
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/misc/survivalpod/singulo_box)
@@ -104,45 +105,49 @@
 /obj/structure/window/reinforced/plasma/spawner{
 	dir = 1
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plating,
 /area/misc/survivalpod/singulo_box)
 "s" = (
-/obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/light/directional/west,
+/obj/structure/cable/layer1,
 /turf/open/floor/plating,
 /area/misc/survivalpod/singulo_box)
 "t" = (
-/obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/light/floor,
+/obj/structure/cable/layer1,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/misc/survivalpod/singulo_box)
 "u" = (
 /obj/structure/particle_accelerator/particle_emitter/center,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/misc/survivalpod/singulo_box)
 "v" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/misc/survivalpod/singulo_box)
 "w" = (
 /obj/structure/particle_accelerator/particle_emitter/right,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/misc/survivalpod/singulo_box)
 "y" = (
 /obj/machinery/field/generator/anchored,
-/obj/structure/cable,
 /turf/open/indestructible/dark,
 /area/misc/survivalpod/singulo_box)
 "z" = (
 /obj/structure/tank_dispenser/plasma,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/misc/survivalpod/singulo_box)
 "A" = (
@@ -152,15 +157,10 @@
 /turf/open/floor/plating,
 /area/misc/survivalpod/singulo_box)
 "B" = (
-/obj/structure/cable,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
 	},
-/turf/open/floor/plating,
-/area/misc/survivalpod/singulo_box)
-"C" = (
 /obj/structure/cable,
-/obj/machinery/power/rad_collector,
 /turf/open/floor/plating,
 /area/misc/survivalpod/singulo_box)
 "D" = (
@@ -168,32 +168,35 @@
 /turf/open/floor/plating,
 /area/misc/survivalpod/singulo_box)
 "E" = (
-/obj/structure/cable,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
 	},
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/misc/survivalpod/singulo_box)
 "F" = (
-/obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable/layer1,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/misc/survivalpod/singulo_box)
 "G" = (
 /obj/machinery/particle_accelerator/control_box,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/misc/survivalpod/singulo_box)
 "H" = (
 /obj/structure/window/reinforced/plasma/spawner{
 	dir = 1
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plating,
 /area/misc/survivalpod/singulo_box)
 "I" = (
-/obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable/layer1,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/misc/survivalpod/singulo_box)
 "J" = (
@@ -204,7 +207,7 @@
 /obj/structure/window/reinforced/plasma/spawner{
 	dir = 1
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plating,
 /area/misc/survivalpod/singulo_box)
 "K" = (
@@ -214,6 +217,7 @@
 "L" = (
 /obj/machinery/power/smes/engineering,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/misc/survivalpod/singulo_box)
 "M" = (
@@ -221,7 +225,7 @@
 	dir = 4
 	},
 /obj/machinery/power/rad_collector,
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plating,
 /area/misc/survivalpod/singulo_box)
 "N" = (
@@ -230,11 +234,13 @@
 /area/misc/survivalpod/singulo_box)
 "O" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/misc/survivalpod/singulo_box)
 "Q" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/light/directional/west,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/misc/survivalpod/singulo_box)
 "S" = (
@@ -248,13 +254,16 @@
 /obj/machinery/power/terminal{
 	dir = 1
 	},
-/obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable/multilayer{
+	cable_layer = 1
+	},
 /turf/open/floor/plating,
 /area/misc/survivalpod/singulo_box)
 "V" = (
-/obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable/layer1,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/misc/survivalpod/singulo_box)
 "W" = (
@@ -262,7 +271,7 @@
 	dir = 8
 	},
 /obj/machinery/power/rad_collector,
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plating,
 /area/misc/survivalpod/singulo_box)
 "X" = (
@@ -270,23 +279,24 @@
 /obj/structure/window/reinforced/plasma/spawner{
 	dir = 4
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plating,
 /area/misc/survivalpod/singulo_box)
 "Y" = (
-/obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/light/directional/east,
+/obj/structure/cable/layer1,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/misc/survivalpod/singulo_box)
 "Z" = (
 /obj/machinery/power/emitter/welded{
 	dir = 8
 	},
-/obj/structure/cable,
 /obj/structure/window/reinforced/plasma/spawner{
 	dir = 4
 	},
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/misc/survivalpod/singulo_box)
 
@@ -328,7 +338,7 @@ n
 n
 z
 S
-C
+b
 q
 y
 a
@@ -346,7 +356,7 @@ n
 z
 S
 b
-h
+q
 a
 a
 a
@@ -360,10 +370,10 @@ n
 "}
 (5,1,1) = {"
 A
-j
-j
-b
 h
+h
+b
+q
 a
 a
 a
@@ -377,9 +387,9 @@ n
 "}
 (6,1,1) = {"
 H
-C
+b
 G
-S
+j
 o
 a
 a
@@ -411,9 +421,9 @@ D
 "}
 (8,1,1) = {"
 H
-C
-S
-S
+b
+j
+j
 w
 a
 a
@@ -428,10 +438,10 @@ D
 "}
 (9,1,1) = {"
 A
-j
-j
-b
 h
+h
+b
+q
 a
 a
 a
@@ -448,7 +458,7 @@ n
 z
 S
 b
-h
+q
 a
 a
 a
@@ -464,7 +474,7 @@ n
 n
 z
 S
-C
+b
 q
 y
 a

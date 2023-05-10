@@ -12,7 +12,6 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -54,6 +53,7 @@
 	piping_layer = 2
 	},
 /obj/effect/turf_decal/trimline/blue/filled/end,
+/obj/machinery/atmospherics/miner/oxygen,
 /turf/open/floor/engine/o2,
 /area/misc/survivalpod/atmosia_box)
 "q" = (
@@ -74,7 +74,6 @@
 /turf/closed/wall/r_wall,
 /area/misc/survivalpod/atmosia_box)
 "D" = (
-/obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/plating/airless,
 /area/misc/survivalpod/atmosia_box)
@@ -108,7 +107,6 @@
 	name = "Atmospherics"
 	},
 /obj/structure/fans/tiny,
-/obj/structure/cable,
 /turf/open/floor/plating,
 /area/misc/survivalpod/atmosia_box)
 "P" = (
@@ -117,7 +115,6 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
 	},
-/obj/structure/cable,
 /obj/effect/turf_decal/stripes/end{
 	dir = 8
 	},
@@ -187,6 +184,7 @@
 	piping_layer = 2
 	},
 /obj/effect/turf_decal/trimline/dark_red/filled/end,
+/obj/machinery/atmospherics/miner/nitrogen,
 /turf/open/floor/engine/n2,
 /area/misc/survivalpod/atmosia_box)
 
