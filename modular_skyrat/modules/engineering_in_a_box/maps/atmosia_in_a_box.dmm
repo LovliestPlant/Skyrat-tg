@@ -36,6 +36,7 @@
 "k" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/monitored/air_input,
 /obj/effect/turf_decal/trimline/white/filled/end,
+/obj/machinery/light/warm/directional/south,
 /turf/open/floor/engine/air,
 /area/misc/survivalpod/atmosia_box)
 "l" = (
@@ -167,6 +168,7 @@
 /obj/effect/turf_decal/stripes/end{
 	dir = 4
 	},
+/obj/machinery/light/warm/directional/east,
 /turf/open/floor/engine,
 /area/misc/survivalpod/atmosia_box)
 "U" = (
