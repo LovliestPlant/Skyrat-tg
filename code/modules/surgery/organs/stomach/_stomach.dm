@@ -1,5 +1,5 @@
-//The contant in the rate of reagent transfer on life ticks
-#define STOMACH_METABOLISM_CONSTANT 0.25
+//The contant in the rate of reagent transfer on life ticks.  NAAKASTATION EDIT: 0.025, down from 0.25.  1u nutriment = 20sec to metabolize, as it should be at minimum 0.025 (min for eff * max) + 0.025 (met constant) = 0.05
+#define STOMACH_METABOLISM_CONSTANT 0.025
 
 /obj/item/organ/internal/stomach
 	name = "stomach"
@@ -29,6 +29,8 @@
 
 	///The rate that the stomach will transfer reagents to the body
 	var/metabolism_efficiency = 0.05 // the lowest we should go is 0.025
+	
+	var/max_metabolism = 0.5 //maximum reagents metabolized per sec; this limits carboloading, if you will, by preventing the metabolization of every chem at once
 
 	var/operated = FALSE //whether the stomach's been repaired with surgery and can be fixed again or not
 
@@ -50,19 +52,22 @@
 			handle_hunger(humi, seconds_per_tick, times_fired)
 
 	var/mob/living/carbon/body = owner
+	
+	var/metabolism_remainder = max_metabolism // NAAKASTATION ADDITION
 
 	// digest food, sent all reagents that can metabolize to the body
 	for(var/datum/reagent/bit as anything in reagents.reagent_list)
 
 		// If the reagent does not metabolize then it will sit in the stomach
 		// This has an effect on items like plastic causing them to take up space in the stomach
-		if(bit.metabolization_rate <= 0)
+		if(bit.metabolization_rate <= 0 || metabolism_remainder <= 0)
 			continue
 
 		//Ensure that the the minimum is equal to the metabolization_rate of the reagent if it is higher then the STOMACH_METABOLISM_CONSTANT
 		var/rate_min = max(bit.metabolization_rate, STOMACH_METABOLISM_CONSTANT)
 		//Do not transfer over more then we have
 		var/amount_max = bit.volume
+		amount_max = min(amount_max, metabolism_remainder) // NAAKASTATION ADDITION
 
 		//If the reagent is part of the food reagents for the organ
 		//prevent all the reagents form being used leaving the food reagents
@@ -71,7 +76,7 @@
 			amount_max = max(amount_max - amount_food, 0)
 
 		// Transfer the amount of reagents based on volume with a min amount of 1u
-		var/amount = min((round(metabolism_efficiency * amount_max, 0.05) + rate_min) * seconds_per_tick, amount_max)
+		var/amount = min((round(metabolism_efficiency * amount_max, 0.025) + rate_min) * seconds_per_tick, amount_max)
 
 		if(amount <= 0)
 			continue
@@ -80,6 +85,9 @@
 		// this way the body is where all reagents that are processed and react
 		// the stomach manages how fast they are feed in a drip style
 		reagents.trans_id_to(body, bit.type, amount=amount)
+
+		//NAAKASTATION FINAL EDIT
+		metabolism_remainder = metabolism_remainder - (amount / seconds_per_tick) //reduce the metabolism remainder by the amount transferred
 
 	//Handle disgust
 	if(body)

@@ -181,8 +181,8 @@
 
 
 /atom/movable/screen/alert/fat
-	name = "Fat"
-	desc = "You ate too much food, lardass. Run around the station and lose some weight."
+	name = "Overweight"
+	desc = "You've gained excess weight.  You'll be slowed by your own heft if you don't work it off!" //NAAKASTATION EDIT: christ almgihty the fatphobia was real
 	icon_state = "fat"
 
 /atom/movable/screen/alert/hungry

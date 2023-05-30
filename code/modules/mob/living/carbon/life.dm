@@ -739,7 +739,7 @@
 ///////////
 
 /mob/living/carbon/get_fullness()
-	var/fullness = nutrition
+	var/fullness = 0 //NAAKASTATION EDIT: 0, down from nutrition value
 
 	var/obj/item/organ/internal/stomach/belly = get_organ_slot(ORGAN_SLOT_STOMACH)
 	if(!belly) //nothing to see here if we do not have a stomach
@@ -747,11 +747,12 @@
 
 	for(var/bile in belly.reagents.reagent_list)
 		var/datum/reagent/bits = bile
-		if(istype(bits, /datum/reagent/consumable))
+		/*if(istype(bits, /datum/reagent/consumable)) //NAAKASTATION REMOVAL: all reagents take up equal space
 			var/datum/reagent/consumable/goodbit = bile
 			fullness += goodbit.nutriment_factor * goodbit.volume / goodbit.metabolization_rate
-			continue
-		fullness += 0.6 * bits.volume / bits.metabolization_rate //not food takes up space
+			continue*/
+		//NAAKASTATION EDIT: 1 * volume, up from 0.6 * volume
+		fullness += 1 * bits.volume / bits.metabolization_rate //not food takes up space
 
 	return fullness
 
