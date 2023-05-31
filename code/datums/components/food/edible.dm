@@ -292,9 +292,9 @@ Behavior that's still missing from this component that original food items had t
 /// Normal time to forcefeed someone something
 #define EAT_TIME_FORCE_FEED (3 SECONDS)
 /// Multiplier for eat time if the eater has TRAIT_VORACIOUS
-#define EAT_TIME_VORACIOUS_MULT 0.65 // voracious folk eat 35% faster
+#define EAT_TIME_VORACIOUS_MULT 0.5 // voracious folk eat 35% faster - NAAKASTATION EDIT: made it 50% faster becuz lol
 /// Multiplier for how much longer it takes a voracious folk to eat while full
-#define EAT_TIME_VORACIOUS_FULL_MULT 4 // Takes at least 4 times as long to eat while full, so dorks cant just clear out the kitchen before they get robusted
+#define EAT_TIME_VORACIOUS_FULL_MULT 1.5 // Takes at least 4 times as long to eat while full, so dorks cant just clear out the kitchen before they get robusted - NAAKASTATION EDIT: reduced the nerf because it's ridiculously slow and ffs people don't grief with this quirk, TG y'al dum
 
 ///All the checks for the act of eating itself and
 /datum/component/edible/proc/TryToEat(mob/living/eater, mob/living/feeder)

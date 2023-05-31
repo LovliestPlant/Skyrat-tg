@@ -284,26 +284,30 @@
 	
 	var/full_tmp = get_fullness()
 	
-	if(full_tmp > 15)
-		msg += "[t_He] look[p_s()] sated.\n"
-	else if(full_tmp > 25)
-		msg += "[t_He] look[p_s()] well-fed.\n"
-	else if(full_tmp > 60)
-		msg += "[t_He] look[p_s()] stuffed.\n"
-	else if(full_tmp > 95)
-		msg += "[t_He] look[p_s()] more stuffed.\n"
-	else if(full_tmp > 120)
-		msg += "[t_He] look[p_s()] visibly stuffed, an obvious bump in [t_his] belly.\n"
-	else if(full_tmp > 150)
-		msg += "[t_He] look[p_s()] visibly stuffed, [t_his] belly is noticably distended.\n"
-	else if(full_tmp > 180)
-		msg += "[t_He] look[p_s()] visibly very stuffed, [t_his] belly is noticably quite distended.\n"
-	else if(full_tmp > 210)
-		msg += "[t_He] look[p_s()] visibly very stuffed, [t_his] belly is distended enough to look pregnant!\n"
-	else if(full_tmp > 240)
-		msg += "[t_He] look[p_s()] visibly extremely stuffed, [t_his] belly is distended enough to look pregnant!\n"
+	if(full_tmp > 800)
+		msg += "[t_He] look[p_s()] absolutely tremendously stuffed, [t_his] belly distended as if having eaten one [t_his] size!\n"
+	else if(full_tmp > 700)
+		msg += "[t_He] look[p_s()] absolutely tremendously stuffed, [t_his] belly distended as if expectant with triplets!\n"
+	else if(full_tmp > 600)
+		msg += "[t_He] look[p_s()] beyond stuffed, [t_his] belly distended as if expectant with twins!\n"
+	else if(full_tmp > 500)
+		msg += "[t_He] look[p_s()] beyond stuffed, [t_his] belly distended as if expectant & pregnant!\n"
+	else if(full_tmp > 450)
+		msg += "[t_He] look[p_s()] very stuffed, [t_his] belly quite round and heavy, as if midway through a pregnancy!\n"
+	else if(full_tmp > 400)
+		msg += "[t_He] look[p_s()] very stuffed, [t_his] belly looks round and heavy, as if early on in pregnancy!\n"
+	else if(full_tmp > 350)
+		msg += "[t_He] look[p_s()] quite stuffed, [t_his] belly quite noticably rounded.\n"
 	else if(full_tmp > 300)
-		msg += "[t_He] look[p_s()] visibly extremely stuffed, [t_his] belly is distended enough to look pregnant, maybe with twins!\n"
+		msg += "[t_He] look[p_s()] visibly stuffed, [t_his] belly is noticably distended.\n"
+	else if(full_tmp > 250)
+		msg += "[t_He] look[p_s()] visibly stuffed, an obvious bump in [t_his] belly.\n"
+	else if(full_tmp > 200)
+		msg += "[t_He] look[p_s()] stuffed.\n"
+	else if(full_tmp > 150)
+		msg += "[t_He] look[p_s()] well fed.\n"
+	else if(full_tmp > 100)
+		msg += "[t_He] look[p_s()] sated.\n"
 	
 	//here's our updated news- it DOES track fullness separately, but only for a select few situations and nowhere near our usual level of detail.  STILL.  it's enough to make it possible for gluttons like us to have some teasy fun
 	

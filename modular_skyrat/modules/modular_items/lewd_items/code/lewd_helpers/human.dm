@@ -300,6 +300,14 @@
 		return
 
 	var/icon_file = nipples?.worn_icon
+	//NAAKASTATION BESPOKE EDIT  BECAUSE I AM NOT TAKING THE TIME TO FIX THIS SHIT
+	if(dna.species.id == SPECIES_TESHARI)
+		//to_chat(src, "TESHI PEEP GANG")
+		if(nipples?.worn_icon_teshari)
+			//to_chat(src, "TESHI SPRITE GO BRRT")
+			icon_file = nipples.worn_icon_teshari
+			//to_chat(src, "EVALUATING: [(icon_file != nipples.worn_icon)] - this should be TRUE")
+	//END BESPOKE EDIT
 	var/mutable_appearance/nipples_overlay
 
 	if(!nipples_overlay)

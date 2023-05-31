@@ -6694,6 +6694,7 @@
 #include "modular_skyrat\modules\mutants\code\mutant_species.dm"
 #include "modular_skyrat\modules\mutants\code\mutant_techweb.dm"
 #include "modular_skyrat\modules\mutants\code\mutant_zombie_bodyparts.dm"
+#include "modular_skyrat\modules\naaka_nom_sys\equippable_belly.dm"
 #include "modular_skyrat\modules\nanotrasen_naval_command\code\clothing.dm"
 #include "modular_skyrat\modules\nanotrasen_naval_command\code\id_trims.dm"
 #include "modular_skyrat\modules\nanotrasen_naval_command\code\outfits.dm"

@@ -30,7 +30,7 @@
 	///The rate that the stomach will transfer reagents to the body
 	var/metabolism_efficiency = 0.05 // the lowest we should go is 0.025
 	
-	var/max_metabolism = 0.5 //maximum reagents metabolized per sec; this limits carboloading, if you will, by preventing the metabolization of every chem at once
+	var/max_metabolism = 0.25 //maximum reagents metabolized per sec; this limits carboloading, if you will, by preventing the metabolization of every chem at once
 
 	var/operated = FALSE //whether the stomach's been repaired with surgery and can be fixed again or not
 
@@ -76,7 +76,7 @@
 			amount_max = max(amount_max - amount_food, 0)
 
 		// Transfer the amount of reagents based on volume with a min amount of 1u
-		var/amount = min((round(metabolism_efficiency * amount_max, 0.025) + rate_min) * seconds_per_tick, amount_max)
+		var/amount = min((round(metabolism_efficiency * amount_max, 0.025) + rate_min) * seconds_per_tick, amount_max) / 4
 
 		if(amount <= 0)
 			continue

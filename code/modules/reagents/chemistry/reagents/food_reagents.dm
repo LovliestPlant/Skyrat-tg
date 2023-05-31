@@ -23,7 +23,7 @@
 	if(ishuman(M))
 		var/mob/living/carbon/human/H = M
 		if(!HAS_TRAIT(H, TRAIT_NOHUNGER))
-			H.adjust_nutrition(nutriment_factor * REM * seconds_per_tick)
+			H.adjust_nutrition(nutriment_factor * REM * seconds_per_tick * 0.4) //NAAKASTATION EDIT: nutriment is only 50% as effective now to make up for the changes to metabolism - otherwise the dripfeed of nutrition would still overload you to omega chumby
 	if(length(reagent_removal_skip_list))
 		return
 	holder.remove_reagent(type, metabolization_rate * seconds_per_tick)
