@@ -53,7 +53,7 @@
 	if(loc != user)
 		//to_chat(world, "loc mismatched, stopping process")
 		if(istype(nommed))
-			nommed.loc = user.loc
+			nommed.forceMove(drop_location())
 			nommed = null
 		STOP_PROCESSING(SSobj, src)
 
