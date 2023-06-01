@@ -751,8 +751,7 @@
 			var/datum/reagent/consumable/goodbit = bile
 			fullness += goodbit.nutriment_factor * goodbit.volume / goodbit.metabolization_rate
 			continue*/
-		//NAAKASTATION EDIT: 1 * volume, up from 0.6 * volume
-		fullness += 1 * bits.volume / bits.metabolization_rate //not food takes up space
+		fullness += 0.6 * bits.volume / bits.metabolization_rate //not food takes up space
 
 	return fullness
 
