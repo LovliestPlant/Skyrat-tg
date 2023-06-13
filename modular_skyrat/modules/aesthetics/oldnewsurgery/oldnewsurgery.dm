@@ -12,6 +12,7 @@
 
 /obj/item/bonesetter
 	icon = 'modular_skyrat/modules/aesthetics/oldnewsurgery/oldnewsurgery.dmi'
+	icon_state = "bonesetter" //idk why we need to do this, they just HAD to rename it
 
 /obj/item/blood_filter
 	icon = 'modular_skyrat/modules/aesthetics/oldnewsurgery/oldnewsurgery.dmi'
@@ -61,6 +62,11 @@
 	icon = 'modular_skyrat/modules/aesthetics/oldnewsurgery/oldnewsurgery.dmi'
 
 /obj/item/storage/medkit
+	icon = 'modular_skyrat/modules/aesthetics/oldnewsurgery/oldnewsurgery.dmi'
+	lefthand_file = 'modular_skyrat/modules/aesthetics/oldnewsurgery/oldnewsurgery_inhand_l.dmi'
+	righthand_file = 'modular_skyrat/modules/aesthetics/oldnewsurgery/oldnewsurgery_inhand_r.dmi'
+
+/obj/item/melee/baton/security/
 	icon = 'modular_skyrat/modules/aesthetics/oldnewsurgery/oldnewsurgery.dmi'
 	lefthand_file = 'modular_skyrat/modules/aesthetics/oldnewsurgery/oldnewsurgery_inhand_l.dmi'
 	righthand_file = 'modular_skyrat/modules/aesthetics/oldnewsurgery/oldnewsurgery_inhand_r.dmi'

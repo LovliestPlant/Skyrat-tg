@@ -14,16 +14,16 @@
 	if(!update_state)
 		switch(charging)
 			if(APC_NOT_CHARGING)
-				set_light_color(LIGHT_COLOR_INTENSE_RED)
+				set_light_color("#FF0000")
 			if(APC_CHARGING)
-				set_light_color(LIGHT_COLOR_ORANGE)
+				set_light_color("#FF6600")
 			if(APC_FULLY_CHARGED)
-				set_light_color(LIGHT_COLOR_ELECTRIC_CYAN)
+				set_light_color("#AAFF00")
 		set_light(light_on_range)
 		return TRUE
 
 	if(update_state & UPSTATE_BLUESCREEN)
-		set_light_color(LIGHT_COLOR_BLUE)
+		set_light_color("#0066FF")
 		set_light(light_on_range)
 		return TRUE
 
