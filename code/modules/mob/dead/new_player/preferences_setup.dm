@@ -71,9 +71,9 @@
 			available_hardcore_quirks -= picked_quirk
 			continue
 
-		if((initial(picked_quirk.quirk_flags) & QUIRK_MOODLET_BASED) && CONFIG_GET(flag/disable_human_mood)) //check for moodlet quirks
+		/*if((initial(picked_quirk.quirk_flags) & QUIRK_MOODLET_BASED) && CONFIG_GET(flag/disable_human_mood)) //check for moodlet quirks
 			available_hardcore_quirks -= picked_quirk
-			continue
+			continue*/
 
 		all_quirks += initial(picked_quirk.name)
 		quirk_budget -= available_hardcore_quirks[picked_quirk]
