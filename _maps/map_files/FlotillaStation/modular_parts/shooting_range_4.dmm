@@ -30,8 +30,10 @@
 /area/station/security/range)
 "fk" = (
 /obj/item/kirbyplants/random,
-/obj/machinery/airalarm/directional/east,
-/obj/effect/mapping_helpers/airalarm/nitrogen,
+/obj/machinery/airalarm/nitrogen{
+	dir = 4;
+	pixel_x = 24
+	},
 /turf/open/floor/iron/dark/nitrogen,
 /area/station/security/range)
 "gy" = (
@@ -63,8 +65,9 @@
 /turf/open/floor/iron/dark/nitrogen,
 /area/station/security/range)
 "hM" = (
-/obj/machinery/airalarm/directional/south,
-/obj/effect/mapping_helpers/airalarm/nitrogen,
+/obj/machinery/airalarm/nitrogen{
+	pixel_y = -24
+	},
 /turf/open/floor/iron/dark/nitrogen,
 /area/station/security/range)
 "iu" = (
@@ -107,23 +110,6 @@
 	dir = 5
 	},
 /turf/open/floor/plating/nitrogen,
-/area/station/security/range)
-"nE" = (
-/obj/structure/rack,
-/obj/item/gun/energy/laser/practice{
-	pixel_x = 2;
-	pixel_y = -2
-	},
-/obj/item/gun/energy/laser/practice{
-	pixel_x = 2;
-	pixel_y = 1
-	},
-/obj/item/gun/energy/laser/practice{
-	pixel_x = 2;
-	pixel_y = 5
-	},
-/obj/structure/sign/poster/official/safety_eye_protection/directional/north,
-/turf/open/floor/iron/dark/nitrogen,
 /area/station/security/range)
 "oS" = (
 /obj/structure/closet/crate/secure{
@@ -210,8 +196,10 @@
 /area/station/security/range)
 "Dg" = (
 /obj/item/kirbyplants/random,
-/obj/machinery/airalarm/directional/north,
-/obj/effect/mapping_helpers/airalarm/nitrogen,
+/obj/machinery/airalarm/nitrogen{
+	dir = 1;
+	pixel_y = 24
+	},
 /turf/open/floor/iron/dark/nitrogen,
 /area/station/security/range)
 "Dm" = (
@@ -400,7 +388,7 @@ vl
 ze
 vi
 Uw
-nE
+He
 vl
 vl
 vl

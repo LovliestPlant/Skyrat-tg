@@ -46,8 +46,9 @@
 /area/station/security/range)
 "r" = (
 /obj/machinery/dish_drive/bullet,
-/obj/machinery/airalarm/directional/south,
-/obj/effect/mapping_helpers/airalarm/nitrogen,
+/obj/machinery/airalarm/nitrogen{
+	pixel_y = -24
+	},
 /turf/open/floor/iron/dark/nitrogen,
 /area/station/security/range)
 "u" = (

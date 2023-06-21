@@ -182,8 +182,9 @@
 /turf/open/floor/iron/dark/nitrogen,
 /area/station/security/range)
 "B" = (
-/obj/machinery/airalarm/directional/south,
-/obj/effect/mapping_helpers/airalarm/nitrogen,
+/obj/machinery/airalarm/nitrogen{
+	pixel_y = -24
+	},
 /turf/open/floor/iron/dark/nitrogen,
 /area/station/security/range)
 "C" = (
@@ -198,7 +199,6 @@
 /turf/open/floor/iron/nitrogen,
 /area/station/security/range)
 "D" = (
-/obj/structure/sign/poster/official/help_others/directional/west,
 /obj/structure/reagent_dispensers/water_cooler,
 /turf/open/floor/iron/dark/nitrogen,
 /area/station/security/range)

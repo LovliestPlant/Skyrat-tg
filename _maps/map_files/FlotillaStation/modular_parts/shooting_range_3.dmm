@@ -175,8 +175,9 @@
 /obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 8
 	},
-/obj/machinery/airalarm/directional/south,
-/obj/effect/mapping_helpers/airalarm/nitrogen,
+/obj/machinery/airalarm/nitrogen{
+	pixel_y = -24
+	},
 /turf/open/floor/iron/dark/nitrogen,
 /area/station/security/range)
 "wx" = (

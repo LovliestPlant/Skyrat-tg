@@ -295,8 +295,10 @@
 /obj/effect/turf_decal/bot,
 /obj/item/screwdriver,
 /obj/effect/spawner/random/decoration/glowstick,
-/obj/machinery/airalarm/directional/east,
-/obj/effect/mapping_helpers/airalarm/nitrogen,
+/obj/machinery/airalarm/nitrogen{
+	dir = 4;
+	pixel_x = 24
+	},
 /turf/open/floor/plating/nitrogen,
 /area/station/security/range)
 "LO" = (
@@ -437,8 +439,10 @@
 "ZJ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
-/obj/machinery/airalarm/directional/east,
-/obj/effect/mapping_helpers/airalarm/nitrogen,
+/obj/machinery/airalarm/nitrogen{
+	dir = 4;
+	pixel_x = 24
+	},
 /turf/open/floor/plating/nitrogen,
 /area/station/security/range)
 
