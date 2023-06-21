@@ -40,3 +40,20 @@
 
 /obj/machinery/airalarm/away //general away mission access
 	req_access = list(ACCESS_AWAY_GENERAL)
+
+
+//SKYRAT EDIT START - [WILL BREAK ON NEXT UPDATE CONTACT LOVLIEST PLANT, I'LL PORT THE NEW HELPER]
+/obj/machinery/airalarm/nitrogen
+
+/obj/machinery/airalarm/nitrogen/Initialize(mapload)
+	. = ..()
+	var/list/meta_info = GLOB.meta_gas_info // shorthand
+	for(var/gas_path in meta_info)
+		if(ispath(gas_path, /datum/gas/oxygen))
+			tlv_collection[gas_path] = new /datum/tlv/dangerous
+		else if(ispath(gas_path, /datum/gas/carbon_dioxide))
+			tlv_collection[gas_path] = new /datum/tlv/carbon_dioxide
+		else if(meta_info[gas_path][META_GAS_DANGER])
+			tlv_collection[gas_path] = new /datum/tlv/dangerous
+		else
+			tlv_collection[gas_path] = new /datum/tlv/no_checks
