@@ -74,3 +74,8 @@ endmap
 #	minplayers 50
 #	votable
 #endmap
+
+map flotillastation
+	maxplayers 100
+	votable
+endmap
